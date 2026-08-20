@@ -1,0 +1,32 @@
+================================================================================
+DRUG REPURPOSING ENGINE - PIPELINE EXECUTION SUMMARY
+================================================================================
+
+Query: Metformin
+Timestamp: 20260820_164632
+
+RESULTS:
+--------------------------------------------------------------------------------
+Total Biomedical Entities Extracted: 15
+Total Relationships Discovered: 16
+Unique Relation Types: 14
+
+Nodes by Type:
+  - Chemical: 1
+  - Disease: 14
+
+Relationships Distribution:
+  - treats: 12
+  - inhibits: 1
+  - affects_efficacy_of: 2
+  - prevents: 1
+
+================================================================================
+OUTPUT FILES:
+--------------------------------------------------------------------------------
+  evidence_mapping: C:\Users\AMAL SUMESH\Desktop\Alfahm\Alfaham\backend\app\results\evidence_mapping.csv
+  statistics: C:\Users\AMAL SUMESH\Desktop\Alfahm\Alfaham\backend\app\results\graph_statistics.json
+  repurposing_opportunities: C:\Users\AMAL SUMESH\Desktop\Alfahm\Alfaham\backend\app\results\repurposing_opportunities.json
+  knowledge_graph_html: C:\Users\AMAL SUMESH\Desktop\Alfahm\Alfaham\backend\app\results\knowledge_graph.html
+  graph_data_json: C:\Users\AMAL SUMESH\Desktop\Alfahm\Alfaham\backend\app\results\graph_data.json
+================================================================================

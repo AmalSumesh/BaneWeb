@@ -1,0 +1,162 @@
+{
+  "nodes": [
+    {
+      "name": "metformin",
+      "type": "Chemical"
+    },
+    {
+      "name": "obesity",
+      "type": "Disease"
+    },
+    {
+      "name": "frailty",
+      "type": "Disease"
+    },
+    {
+      "name": "diabetes",
+      "type": "Disease"
+    },
+    {
+      "name": "breast cancer",
+      "type": "Disease"
+    },
+    {
+      "name": "cardiac fibrosis",
+      "type": "Disease"
+    },
+    {
+      "name": "pcos",
+      "type": "Disease"
+    },
+    {
+      "name": "glucose intolerance",
+      "type": "Disease"
+    },
+    {
+      "name": "myocardial ischemia and reperfusion injury",
+      "type": "Disease"
+    },
+    {
+      "name": "type 1 diabetes",
+      "type": "Disease"
+    },
+    {
+      "name": "hyperglycemia",
+      "type": "Disease"
+    },
+    {
+      "name": "abdominal aortic aneurysm",
+      "type": "Disease"
+    },
+    {
+      "name": "chronic rhinosinusitis",
+      "type": "Disease"
+    },
+    {
+      "name": "lung cancer",
+      "type": "Disease"
+    },
+    {
+      "name": "type 2 diabetes",
+      "type": "Disease"
+    }
+  ],
+  "edges": [
+    {
+      "source": "metformin",
+      "target": "obesity",
+      "relation": "treats",
+      "confidence": 0.9880560636520386
+    },
+    {
+      "source": "metformin",
+      "target": "obesity",
+      "relation": "treats",
+      "confidence": 0.9934855103492737
+    },
+    {
+      "source": "metformin",
+      "target": "frailty",
+      "relation": "treats",
+      "confidence": 0.9905363917350769
+    },
+    {
+      "source": "metformin",
+      "target": "frailty",
+      "relation": "treats",
+      "confidence": 0.9325709342956543
+    },
+    {
+      "source": "metformin",
+      "target": "diabetes",
+      "relation": "treats",
+      "confidence": 0.9003170728683472
+    },
+    {
+      "source": "metformin",
+      "target": "breast cancer",
+      "relation": "treats",
+      "confidence": 0.8487040400505066
+    },
+    {
+      "source": "metformin",
+      "target": "cardiac fibrosis",
+      "relation": "inhibits",
+      "confidence": 0.8844128251075745
+    },
+    {
+      "source": "metformin",
+      "target": "pcos",
+      "relation": "affects_efficacy_of",
+      "confidence": 0.7482094168663025
+    },
+    {
+      "source": "metformin",
+      "target": "glucose intolerance",
+      "relation": "treats",
+      "confidence": 0.9363960027694702
+    },
+    {
+      "source": "metformin",
+      "target": "myocardial ischemia and reperfusion injury",
+      "relation": "treats",
+      "confidence": 0.9406152367591858
+    },
+    {
+      "source": "metformin",
+      "target": "type 1 diabetes",
+      "relation": "treats",
+      "confidence": 0.989905059337616
+    },
+    {
+      "source": "metformin",
+      "target": "hyperglycemia",
+      "relation": "treats",
+      "confidence": 0.797653079032898
+    },
+    {
+      "source": "metformin",
+      "target": "abdominal aortic aneurysm",
+      "relation": "prevents",
+      "confidence": 0.9746763110160828
+    },
+    {
+      "source": "metformin",
+      "target": "chronic rhinosinusitis",
+      "relation": "treats",
+      "confidence": 0.9755503535270691
+    },
+    {
+      "source": "metformin",
+      "target": "lung cancer",
+      "relation": "affects_efficacy_of",
+      "confidence": 0.7442057132720947
+    },
+    {
+      "source": "metformin",
+      "target": "type 2 diabetes",
+      "relation": "treats",
+      "confidence": 0.7723366618156433
+    }
+  ]
+}

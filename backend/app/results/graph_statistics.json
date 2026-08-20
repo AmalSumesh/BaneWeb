@@ -1,0 +1,17 @@
+{
+  "query": "Metformin",
+  "timestamp": "20260820_164632",
+  "total_nodes": 15,
+  "total_edges": 16,
+  "unique_relations": 14,
+  "nodes_by_type": {
+    "Chemical": 1,
+    "Disease": 14
+  },
+  "relations_distribution": {
+    "treats": 12,
+    "inhibits": 1,
+    "affects_efficacy_of": 2,
+    "prevents": 1
+  }
+}
