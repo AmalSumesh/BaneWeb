@@ -1,63 +1,7 @@
 [
   {
-    "drug": "metformin",
-    "disease": "diabetes",
-    "signal_score": 76,
-    "evidence_rating": 4,
-    "novelty": "Known",
-    "connection_type": "direct",
-    "mechanistic_chain": [
-      {
-        "step": 1,
-        "from_node": "metformin",
-        "from_type": "Chemical",
-        "relation": "treats",
-        "to_node": "diabetes",
-        "to_type": "Disease",
-        "confidence": 0.9
-      }
-    ],
-    "score_breakdown": {
-      "overall_score": 76,
-      "mechanistic_evidence": 93,
-      "clinical_evidence": 75,
-      "literature_support": 82,
-      "novelty": 45,
-      "recent_activity": 85
-    },
-    "summary": "metformin is documented in clinical literature to treat diabetes."
-  },
-  {
-    "drug": "metformin",
-    "disease": "obesity",
-    "signal_score": 75,
-    "evidence_rating": 4,
-    "novelty": "Known",
-    "connection_type": "direct",
-    "mechanistic_chain": [
-      {
-        "step": 1,
-        "from_node": "metformin",
-        "from_type": "Chemical",
-        "relation": "treats",
-        "to_node": "obesity",
-        "to_type": "Disease",
-        "confidence": 0.993
-      }
-    ],
-    "score_breakdown": {
-      "overall_score": 75,
-      "mechanistic_evidence": 94,
-      "clinical_evidence": 70,
-      "literature_support": 78,
-      "novelty": 45,
-      "recent_activity": 85
-    },
-    "summary": "metformin is documented in clinical literature to treat obesity."
-  },
-  {
-    "drug": "metformin",
-    "disease": "glucose intolerance",
+    "drug": "paracetamol",
+    "disease": "low back pain",
     "signal_score": 72,
     "evidence_rating": 3,
     "novelty": "Known",
@@ -65,68 +9,12 @@
     "mechanistic_chain": [
       {
         "step": 1,
-        "from_node": "metformin",
+        "from_node": "paracetamol",
         "from_type": "Chemical",
         "relation": "treats",
-        "to_node": "glucose intolerance",
+        "to_node": "low back pain",
         "to_type": "Disease",
-        "confidence": 0.936
-      }
-    ],
-    "score_breakdown": {
-      "overall_score": 72,
-      "mechanistic_evidence": 93,
-      "clinical_evidence": 65,
-      "literature_support": 74,
-      "novelty": 45,
-      "recent_activity": 85
-    },
-    "summary": "metformin is documented in clinical literature to treat glucose intolerance."
-  },
-  {
-    "drug": "metformin",
-    "disease": "myocardial ischemia and reperfusion injury",
-    "signal_score": 72,
-    "evidence_rating": 3,
-    "novelty": "Known",
-    "connection_type": "direct",
-    "mechanistic_chain": [
-      {
-        "step": 1,
-        "from_node": "metformin",
-        "from_type": "Chemical",
-        "relation": "treats",
-        "to_node": "myocardial ischemia and reperfusion injury",
-        "to_type": "Disease",
-        "confidence": 0.941
-      }
-    ],
-    "score_breakdown": {
-      "overall_score": 72,
-      "mechanistic_evidence": 93,
-      "clinical_evidence": 65,
-      "literature_support": 74,
-      "novelty": 45,
-      "recent_activity": 85
-    },
-    "summary": "metformin is documented in clinical literature to treat myocardial ischemia and reperfusion injury."
-  },
-  {
-    "drug": "metformin",
-    "disease": "type 1 diabetes",
-    "signal_score": 72,
-    "evidence_rating": 3,
-    "novelty": "Known",
-    "connection_type": "direct",
-    "mechanistic_chain": [
-      {
-        "step": 1,
-        "from_node": "metformin",
-        "from_type": "Chemical",
-        "relation": "treats",
-        "to_node": "type 1 diabetes",
-        "to_type": "Disease",
-        "confidence": 0.99
+        "confidence": 0.994
       }
     ],
     "score_breakdown": {
@@ -137,67 +25,11 @@
       "novelty": 45,
       "recent_activity": 85
     },
-    "summary": "metformin is documented in clinical literature to treat type 1 diabetes."
+    "summary": "paracetamol is documented in clinical literature to treat low back pain."
   },
   {
-    "drug": "metformin",
-    "disease": "abdominal aortic aneurysm",
-    "signal_score": 72,
-    "evidence_rating": 3,
-    "novelty": "Known",
-    "connection_type": "direct",
-    "mechanistic_chain": [
-      {
-        "step": 1,
-        "from_node": "metformin",
-        "from_type": "Chemical",
-        "relation": "treats",
-        "to_node": "abdominal aortic aneurysm",
-        "to_type": "Disease",
-        "confidence": 0.975
-      }
-    ],
-    "score_breakdown": {
-      "overall_score": 72,
-      "mechanistic_evidence": 94,
-      "clinical_evidence": 65,
-      "literature_support": 74,
-      "novelty": 45,
-      "recent_activity": 85
-    },
-    "summary": "metformin is documented in clinical literature to treat abdominal aortic aneurysm."
-  },
-  {
-    "drug": "metformin",
-    "disease": "chronic rhinosinusitis",
-    "signal_score": 72,
-    "evidence_rating": 3,
-    "novelty": "Known",
-    "connection_type": "direct",
-    "mechanistic_chain": [
-      {
-        "step": 1,
-        "from_node": "metformin",
-        "from_type": "Chemical",
-        "relation": "treats",
-        "to_node": "chronic rhinosinusitis",
-        "to_type": "Disease",
-        "confidence": 0.976
-      }
-    ],
-    "score_breakdown": {
-      "overall_score": 72,
-      "mechanistic_evidence": 94,
-      "clinical_evidence": 65,
-      "literature_support": 74,
-      "novelty": 45,
-      "recent_activity": 85
-    },
-    "summary": "metformin is documented in clinical literature to treat chronic rhinosinusitis."
-  },
-  {
-    "drug": "metformin",
-    "disease": "breast cancer",
+    "drug": "paracetamol",
+    "disease": "overdose",
     "signal_score": 71,
     "evidence_rating": 3,
     "novelty": "Known",
@@ -205,40 +37,12 @@
     "mechanistic_chain": [
       {
         "step": 1,
-        "from_node": "metformin",
+        "from_node": "paracetamol",
         "from_type": "Chemical",
         "relation": "treats",
-        "to_node": "breast cancer",
+        "to_node": "overdose",
         "to_type": "Disease",
-        "confidence": 0.849
-      }
-    ],
-    "score_breakdown": {
-      "overall_score": 71,
-      "mechanistic_evidence": 91,
-      "clinical_evidence": 65,
-      "literature_support": 74,
-      "novelty": 45,
-      "recent_activity": 85
-    },
-    "summary": "metformin is documented in clinical literature to treat breast cancer."
-  },
-  {
-    "drug": "metformin",
-    "disease": "hyperglycemia",
-    "signal_score": 71,
-    "evidence_rating": 3,
-    "novelty": "Known",
-    "connection_type": "direct",
-    "mechanistic_chain": [
-      {
-        "step": 1,
-        "from_node": "metformin",
-        "from_type": "Chemical",
-        "relation": "treats",
-        "to_node": "hyperglycemia",
-        "to_type": "Disease",
-        "confidence": 0.798
+        "confidence": 0.753
       }
     ],
     "score_breakdown": {
@@ -249,34 +53,6 @@
       "novelty": 45,
       "recent_activity": 85
     },
-    "summary": "metformin is documented in clinical literature to treat hyperglycemia."
-  },
-  {
-    "drug": "metformin",
-    "disease": "type 2 diabetes",
-    "signal_score": 71,
-    "evidence_rating": 3,
-    "novelty": "Known",
-    "connection_type": "direct",
-    "mechanistic_chain": [
-      {
-        "step": 1,
-        "from_node": "metformin",
-        "from_type": "Chemical",
-        "relation": "treats",
-        "to_node": "type 2 diabetes",
-        "to_type": "Disease",
-        "confidence": 0.772
-      }
-    ],
-    "score_breakdown": {
-      "overall_score": 71,
-      "mechanistic_evidence": 90,
-      "clinical_evidence": 65,
-      "literature_support": 74,
-      "novelty": 45,
-      "recent_activity": 85
-    },
-    "summary": "metformin is documented in clinical literature to treat type 2 diabetes."
+    "summary": "paracetamol is documented in clinical literature to treat overdose."
   }
 ]

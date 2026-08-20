@@ -24,32 +24,61 @@ async def get_relevant_papers(
     import pandas as pd
     papers = []
 
-    if os.path.isfile(evidence_path):
-        df_ev = pd.read_csv(evidence_path).fillna("")
-        for idx, row in df_ev.iterrows():
-            title = row.get("title", "")
-            if not title:
-                continue
+    if os.path.isfile(evidence_path) and os.path.getsize(evidence_path) > 5:
+        try:
+            df_ev = pd.read_csv(evidence_path).fillna("")
+            if not df_ev.empty:
+                for idx, row in df_ev.iterrows():
+                    title = row.get("title", "")
+                    if not title:
+                        continue
 
-            rel = str(row.get("relation", "")).lower()
-            if "inhibits" in rel or "causes" in rel or "adverse" in rel:
-                cat = "contradicting"
-            elif "clinical" in title.lower() or "trial" in title.lower():
-                cat = "clinical"
-            else:
-                cat = "supporting"
+                    rel = str(row.get("relation", "")).lower()
+                    if "inhibits" in rel or "causes" in rel or "adverse" in rel:
+                        cat = "contradicting"
+                    elif "clinical" in str(title).lower() or "trial" in str(title).lower():
+                        cat = "clinical"
+                    else:
+                        cat = "supporting"
 
-            year = str(row.get("publication_date", "2024"))[:4]
-            papers.append({
-                "paper_id": row.get("paper_id", f"P_{idx}"),
-                "title": title,
-                "publication_year": year,
-                "journal": row.get("journal", "Biomedical Literature"),
-                "doi": row.get("doi", ""),
-                "pmid": row.get("pmid", ""),
-                "category": cat,
-                "evidence_snippet": row.get("evidence_text", ""),
-            })
+                    year = str(row.get("publication_date", "2024"))[:4]
+                    papers.append({
+                        "paper_id": str(row.get("paper_id", f"P_{idx}")),
+                        "title": str(title),
+                        "publication_year": year,
+                        "journal": str(row.get("journal", "Biomedical Literature")),
+                        "doi": str(row.get("doi", "")),
+                        "pmid": str(row.get("pmid", "")),
+                        "category": cat,
+                        "evidence_snippet": str(row.get("evidence_text", "")),
+                    })
+        except Exception:
+            papers = []
+
+    # Fallback to papers.csv in cache if evidence_mapping has no records
+    if not papers and os.path.isfile(cache_path) and os.path.getsize(cache_path) > 5:
+        try:
+            df_papers = pd.read_csv(cache_path).fillna("")
+            if not df_papers.empty:
+                for idx, row in df_papers.iterrows():
+                    title = row.get("title", "")
+                    if not title:
+                        continue
+                    abstract = str(row.get("abstract", ""))
+                    cat = "clinical" if ("clinical" in str(title).lower() or "trial" in str(title).lower()) else "supporting"
+                    year = str(row.get("publication_date", "2024"))[:4]
+                    papers.append({
+                        "paper_id": str(row.get("paper_id", f"P_{idx}")),
+                        "title": str(title),
+                        "publication_year": year,
+                        "journal": str(row.get("journal", "Biomedical Literature")),
+                        "doi": str(row.get("doi", "")),
+                        "pmid": str(row.get("pmid", "")),
+                        "category": cat,
+                        "evidence_snippet": abstract[:250] + "..." if len(abstract) > 250 else abstract,
+                    })
+        except Exception:
+            pass
 
     cat_filter = category.lower().strip()
     if cat_filter != "all":

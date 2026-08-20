@@ -109,10 +109,12 @@ def export_pipeline_results(
         try:
             from ingestion.pubchem import PubChemClient
             pubchem = PubChemClient()
-            # Extract primary drug name from query or first Chemical node
-            primary_drug = query
+            # Extract primary drug name from query or matching Chemical node
+            primary_drug = query.strip()
+            query_lower = query.lower()
             for n in nodes:
-                if n.get("type") == "Chemical":
+                node_name = str(n.get("name", "")).lower()
+                if n.get("type") == "Chemical" and (node_name in query_lower or query_lower in node_name):
                     primary_drug = n.get("name", query)
                     break
             drug_profile = pubchem.get_drug_overview(primary_drug)

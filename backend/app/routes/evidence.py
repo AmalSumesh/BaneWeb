@@ -16,17 +16,17 @@ async def get_evidence():
     Falls back to reading the CSV if present.
     """
     csv_path = os.path.join(RESULTS_DIR, "evidence_mapping.csv")
-    if not os.path.isfile(csv_path):
-        raise HTTPException(
-            status_code=404,
-            detail="Evidence mapping not found. Run the pipeline first.",
-        )
+    if not os.path.isfile(csv_path) or os.path.getsize(csv_path) <= 5:
+        return JSONResponse(content={"evidence": [], "total": 0})
 
     import pandas as pd
 
-    df = pd.read_csv(csv_path)
-    records = df.fillna("").to_dict(orient="records")
-    return JSONResponse(content={"evidence": records, "total": len(records)})
+    try:
+        df = pd.read_csv(csv_path)
+        records = df.fillna("").to_dict(orient="records") if not df.empty else []
+        return JSONResponse(content={"evidence": records, "total": len(records)})
+    except Exception:
+        return JSONResponse(content={"evidence": [], "total": 0})
 
 
 @router.post("/evidence/explain")
@@ -43,23 +43,27 @@ async def explain_evidence_rag(req: ExplainRequest):
     evidence_path = os.path.join(RESULTS_DIR, "evidence_mapping.csv")
     citations = []
 
-    if os.path.isfile(evidence_path):
-        import pandas as pd
-        df = pd.read_csv(evidence_path).fillna("")
-        for idx, row in df.iterrows():
-            title = row.get("title", "")
-            pmid = row.get("pmid", "")
-            doi = row.get("doi", "")
-            year = str(row.get("publication_date", "2024"))[:4]
-            if title:
-                citations.append({
-                    "id": idx + 1,
-                    "title": title,
-                    "year": year,
-                    "pmid": str(pmid) if pmid else None,
-                    "doi": str(doi) if doi else None,
-                    "summary": row.get("evidence_text", ""),
-                })
+    if os.path.isfile(evidence_path) and os.path.getsize(evidence_path) > 5:
+        try:
+            import pandas as pd
+            df = pd.read_csv(evidence_path).fillna("")
+            if not df.empty:
+                for idx, row in df.iterrows():
+                    title = row.get("title", "")
+                    pmid = row.get("pmid", "")
+                    doi = row.get("doi", "")
+                    year = str(row.get("publication_date", "2024"))[:4]
+                    if title:
+                        citations.append({
+                            "id": idx + 1,
+                            "title": title,
+                            "year": year,
+                            "pmid": str(pmid) if pmid else None,
+                            "doi": str(doi) if doi else None,
+                            "summary": row.get("evidence_text", ""),
+                        })
+        except Exception:
+            citations = []
 
     top_citations = citations[:4]
 

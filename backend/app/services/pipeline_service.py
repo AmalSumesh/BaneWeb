@@ -40,7 +40,20 @@ def get_pipeline_state() -> Dict[str, Any]:
 
 def is_pipeline_running() -> bool:
     """Check if a pipeline run is in progress."""
-    return _run_state.get("status") == RunStatus.RUNNING
+    if _run_state.get("status") != RunStatus.RUNNING:
+        return False
+    # If a run has been running for more than 180 seconds, consider it timed out
+    started = _run_state.get("started_at")
+    if started:
+        try:
+            start_dt = datetime.fromisoformat(started)
+            if (datetime.now() - start_dt).total_seconds() > 180:
+                _run_state["status"] = RunStatus.FAILED
+                _run_state["error"] = "Previous pipeline run timed out."
+                return False
+        except Exception:
+            pass
+    return True
 
 
 def set_pipeline_running(query: str) -> None:

@@ -66,9 +66,14 @@ async def regenerate_visualization(
     # Read evidence
     csv_path = os.path.join(RESULTS_DIR, "evidence_mapping.csv")
     evidence_list = []
-    if os.path.isfile(csv_path):
-        import pandas as pd
-        evidence_list = pd.read_csv(csv_path).fillna("").to_dict(orient="records")
+    if os.path.isfile(csv_path) and os.path.getsize(csv_path) > 5:
+        try:
+            import pandas as pd
+            df = pd.read_csv(csv_path)
+            if not df.empty:
+                evidence_list = df.fillna("").to_dict(orient="records")
+        except Exception:
+            evidence_list = []
 
     query_label = query or stats_data.get("query", "Biomedical Knowledge Exploration")
 

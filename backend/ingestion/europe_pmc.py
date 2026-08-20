@@ -36,7 +36,7 @@ class EuropePMCClient:
     (Europe PMC + NCBI PubMed fallback).
     """
 
-    def __init__(self, timeout: int = 30, max_retries: int = 3):
+    def __init__(self, timeout: int = 5, max_retries: int = 0):
         self.timeout = timeout
         self.max_retries = max_retries
         self.session = self._create_session()
@@ -48,9 +48,10 @@ class EuropePMCClient:
             "Accept": "application/json"
         })
         retry_strategy = Retry(
-            total=self.max_retries,
-            backoff_factor=1.0,
-            status_forcelist=[429, 500, 502, 503, 504],
+            total=0,
+            connect=0,
+            read=False,
+            status=0,
             raise_on_status=False
         )
         adapter = HTTPAdapter(max_retries=retry_strategy)

@@ -1,17 +1,15 @@
 {
-  "query": "Metformin",
-  "timestamp": "20260820_164632",
-  "total_nodes": 15,
-  "total_edges": 16,
-  "unique_relations": 14,
+  "query": "Paracetamol",
+  "timestamp": "20260820_220813",
+  "total_nodes": 9,
+  "total_edges": 8,
+  "unique_relations": 8,
   "nodes_by_type": {
     "Chemical": 1,
-    "Disease": 14
+    "Disease": 8
   },
   "relations_distribution": {
-    "treats": 12,
-    "inhibits": 1,
-    "affects_efficacy_of": 2,
-    "prevents": 1
+    "causes": 6,
+    "treats": 2
   }
 }

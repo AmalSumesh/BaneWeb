@@ -1,162 +1,90 @@
 {
   "nodes": [
     {
-      "name": "metformin",
+      "name": "paracetamol",
       "type": "Chemical"
     },
     {
-      "name": "obesity",
+      "name": "attention deficit hyperactivity disorder",
       "type": "Disease"
     },
     {
-      "name": "frailty",
+      "name": "overdose",
       "type": "Disease"
     },
     {
-      "name": "diabetes",
+      "name": "sjs",
       "type": "Disease"
     },
     {
-      "name": "breast cancer",
+      "name": "ten",
       "type": "Disease"
     },
     {
-      "name": "cardiac fibrosis",
+      "name": "agep",
       "type": "Disease"
     },
     {
-      "name": "pcos",
+      "name": "dress",
       "type": "Disease"
     },
     {
-      "name": "glucose intolerance",
+      "name": "low back pain",
       "type": "Disease"
     },
     {
-      "name": "myocardial ischemia and reperfusion injury",
-      "type": "Disease"
-    },
-    {
-      "name": "type 1 diabetes",
-      "type": "Disease"
-    },
-    {
-      "name": "hyperglycemia",
-      "type": "Disease"
-    },
-    {
-      "name": "abdominal aortic aneurysm",
-      "type": "Disease"
-    },
-    {
-      "name": "chronic rhinosinusitis",
-      "type": "Disease"
-    },
-    {
-      "name": "lung cancer",
-      "type": "Disease"
-    },
-    {
-      "name": "type 2 diabetes",
+      "name": "hypotension",
       "type": "Disease"
     }
   ],
   "edges": [
     {
-      "source": "metformin",
-      "target": "obesity",
+      "source": "paracetamol",
+      "target": "attention deficit hyperactivity disorder",
+      "relation": "causes",
+      "confidence": 0.8145806789398193
+    },
+    {
+      "source": "paracetamol",
+      "target": "overdose",
       "relation": "treats",
-      "confidence": 0.9880560636520386
+      "confidence": 0.7533189058303833
     },
     {
-      "source": "metformin",
-      "target": "obesity",
+      "source": "paracetamol",
+      "target": "sjs",
+      "relation": "causes",
+      "confidence": 0.991732120513916
+    },
+    {
+      "source": "paracetamol",
+      "target": "ten",
+      "relation": "causes",
+      "confidence": 0.9828348159790039
+    },
+    {
+      "source": "paracetamol",
+      "target": "agep",
+      "relation": "causes",
+      "confidence": 0.9803395867347717
+    },
+    {
+      "source": "paracetamol",
+      "target": "dress",
+      "relation": "causes",
+      "confidence": 0.61222904920578
+    },
+    {
+      "source": "paracetamol",
+      "target": "low back pain",
       "relation": "treats",
-      "confidence": 0.9934855103492737
+      "confidence": 0.9942079782485962
     },
     {
-      "source": "metformin",
-      "target": "frailty",
-      "relation": "treats",
-      "confidence": 0.9905363917350769
-    },
-    {
-      "source": "metformin",
-      "target": "frailty",
-      "relation": "treats",
-      "confidence": 0.9325709342956543
-    },
-    {
-      "source": "metformin",
-      "target": "diabetes",
-      "relation": "treats",
-      "confidence": 0.9003170728683472
-    },
-    {
-      "source": "metformin",
-      "target": "breast cancer",
-      "relation": "treats",
-      "confidence": 0.8487040400505066
-    },
-    {
-      "source": "metformin",
-      "target": "cardiac fibrosis",
-      "relation": "inhibits",
-      "confidence": 0.8844128251075745
-    },
-    {
-      "source": "metformin",
-      "target": "pcos",
-      "relation": "affects_efficacy_of",
-      "confidence": 0.7482094168663025
-    },
-    {
-      "source": "metformin",
-      "target": "glucose intolerance",
-      "relation": "treats",
-      "confidence": 0.9363960027694702
-    },
-    {
-      "source": "metformin",
-      "target": "myocardial ischemia and reperfusion injury",
-      "relation": "treats",
-      "confidence": 0.9406152367591858
-    },
-    {
-      "source": "metformin",
-      "target": "type 1 diabetes",
-      "relation": "treats",
-      "confidence": 0.989905059337616
-    },
-    {
-      "source": "metformin",
-      "target": "hyperglycemia",
-      "relation": "treats",
-      "confidence": 0.797653079032898
-    },
-    {
-      "source": "metformin",
-      "target": "abdominal aortic aneurysm",
-      "relation": "prevents",
-      "confidence": 0.9746763110160828
-    },
-    {
-      "source": "metformin",
-      "target": "chronic rhinosinusitis",
-      "relation": "treats",
-      "confidence": 0.9755503535270691
-    },
-    {
-      "source": "metformin",
-      "target": "lung cancer",
-      "relation": "affects_efficacy_of",
-      "confidence": 0.7442057132720947
-    },
-    {
-      "source": "metformin",
-      "target": "type 2 diabetes",
-      "relation": "treats",
-      "confidence": 0.7723366618156433
+      "source": "paracetamol",
+      "target": "hypotension",
+      "relation": "causes",
+      "confidence": 0.9952002763748169
     }
   ]
 }

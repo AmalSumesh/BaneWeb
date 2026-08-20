@@ -1,437 +1,517 @@
 paper_id,title,publication_date,doi,pmid,entity,entity_type,confidence,start,end
-42532077,Metformin added to lifestyle intervention for physical function in older adults with obesity (DEMFOS trial): a randomised controlled trial.,2027-07-01,10.1016/j.lanhl.2026.100883,42532077,metformin,Chemical,0.9984059929847717,0,9
-42532077,Metformin added to lifestyle intervention for physical function in older adults with obesity (DEMFOS trial): a randomised controlled trial.,2027-07-01,10.1016/j.lanhl.2026.100883,42532077,obesity,Disease,0.9892910122871399,85,92
-42532077,Metformin added to lifestyle intervention for physical function in older adults with obesity (DEMFOS trial): a randomised controlled trial.,2027-07-01,10.1016/j.lanhl.2026.100883,42532077,obesity,Disease,0.9906820058822632,150,157
-42532077,Metformin added to lifestyle intervention for physical function in older adults with obesity (DEMFOS trial): a randomised controlled trial.,2027-07-01,10.1016/j.lanhl.2026.100883,42532077,disability,Disease,0.9623609781265259,234,244
-42532077,Metformin added to lifestyle intervention for physical function in older adults with obesity (DEMFOS trial): a randomised controlled trial.,2027-07-01,10.1016/j.lanhl.2026.100883,42532077,metformin,Chemical,0.9983578324317932,312,321
-42532077,Metformin added to lifestyle intervention for physical function in older adults with obesity (DEMFOS trial): a randomised controlled trial.,2027-07-01,10.1016/j.lanhl.2026.100883,42532077,metformin,Chemical,0.9983450174331665,453,462
-42532077,Metformin added to lifestyle intervention for physical function in older adults with obesity (DEMFOS trial): a randomised controlled trial.,2027-07-01,10.1016/j.lanhl.2026.100883,42532077,obesity,Disease,0.9902987480163574,565,572
-42532077,Metformin added to lifestyle intervention for physical function in older adults with obesity (DEMFOS trial): a randomised controlled trial.,2027-07-01,10.1016/j.lanhl.2026.100883,42532077,metformin,Chemical,0.9981891512870789,608,617
-42532077,Metformin added to lifestyle intervention for physical function in older adults with obesity (DEMFOS trial): a randomised controlled trial.,2027-07-01,10.1016/j.lanhl.2026.100883,42532077,frailty,Disease,0.9931375980377197,627,634
-42532077,Metformin added to lifestyle intervention for physical function in older adults with obesity (DEMFOS trial): a randomised controlled trial.,2027-07-01,10.1016/j.lanhl.2026.100883,42532077,obese,Disease,0.9807643294334412,638,643
-42532077,Metformin added to lifestyle intervention for physical function in older adults with obesity (DEMFOS trial): a randomised controlled trial.,2027-07-01,10.1016/j.lanhl.2026.100883,42532077,obesity,Disease,0.9927737712860107,910,917
-42532077,Metformin added to lifestyle intervention for physical function in older adults with obesity (DEMFOS trial): a randomised controlled trial.,2027-07-01,10.1016/j.lanhl.2026.100883,42532077,metformin,Chemical,0.9980985522270203,1089,1098
-42532077,Metformin added to lifestyle intervention for physical function in older adults with obesity (DEMFOS trial): a randomised controlled trial.,2027-07-01,10.1016/j.lanhl.2026.100883,42532077,metformin,Chemical,0.9980854988098145,1143,1152
-42532077,Metformin added to lifestyle intervention for physical function in older adults with obesity (DEMFOS trial): a randomised controlled trial.,2027-07-01,10.1016/j.lanhl.2026.100883,42532077,obesity,Disease,0.9929584264755249,1735,1742
-42532077,Metformin added to lifestyle intervention for physical function in older adults with obesity (DEMFOS trial): a randomised controlled trial.,2027-07-01,10.1016/j.lanhl.2026.100883,42532077,metformin,Chemical,0.9983546137809753,1788,1797
-42532078,Adjunctive metformin for obesity and frailty in older people-puncturing inflated expectations?,2027-07-01,10.1016/j.lanhl.2026.100890,42532078,metformin,Chemical,0.9985606074333191,11,20
-42532078,Adjunctive metformin for obesity and frailty in older people-puncturing inflated expectations?,2027-07-01,10.1016/j.lanhl.2026.100890,42532078,obesity,Disease,0.9942637085914612,25,32
-42532078,Adjunctive metformin for obesity and frailty in older people-puncturing inflated expectations?,2027-07-01,10.1016/j.lanhl.2026.100890,42532078,frailty,Disease,0.992362380027771,37,44
-42532078,Adjunctive metformin for obesity and frailty in older people-puncturing inflated expectations?,2027-07-01,10.1016/j.lanhl.2026.100890,42532078,metformin,Chemical,0.9985851049423218,106,115
-42532078,Adjunctive metformin for obesity and frailty in older people-puncturing inflated expectations?,2027-07-01,10.1016/j.lanhl.2026.100890,42532078,obesity,Disease,0.9943314790725708,120,127
-42532078,Adjunctive metformin for obesity and frailty in older people-puncturing inflated expectations?,2027-07-01,10.1016/j.lanhl.2026.100890,42532078,frailty,Disease,0.9916626214981079,132,139
-PPR1294102,Randomized metformin and cognitive outcomes in the Diabetes Prevention Program Outcomes Study,2026-08-07,10.64898/2026.08.05.26359234,,metformin,Chemical,0.9983620047569275,11,20
-PPR1294102,Randomized metformin and cognitive outcomes in the Diabetes Prevention Program Outcomes Study,2026-08-07,10.64898/2026.08.05.26359234,,diabetes,Disease,0.8852533102035522,51,59
-PPR1294102,Randomized metformin and cognitive outcomes in the Diabetes Prevention Program Outcomes Study,2026-08-07,10.64898/2026.08.05.26359234,,metformin,Chemical,0.9984316229820251,114,123
-PPR1294102,Randomized metformin and cognitive outcomes in the Diabetes Prevention Program Outcomes Study,2026-08-07,10.64898/2026.08.05.26359234,,dementia,Disease,0.9960237741470337,146,154
-PPR1294102,Randomized metformin and cognitive outcomes in the Diabetes Prevention Program Outcomes Study,2026-08-07,10.64898/2026.08.05.26359234,,metformin,Chemical,0.998358428478241,273,282
-PPR1294102,Randomized metformin and cognitive outcomes in the Diabetes Prevention Program Outcomes Study,2026-08-07,10.64898/2026.08.05.26359234,,diabetes,Disease,0.9438202381134033,343,351
-PPR1294102,Randomized metformin and cognitive outcomes in the Diabetes Prevention Program Outcomes Study,2026-08-07,10.64898/2026.08.05.26359234,,cognitive impairment,Disease,0.9837901592254639,402,422
-PPR1294102,Randomized metformin and cognitive outcomes in the Diabetes Prevention Program Outcomes Study,2026-08-07,10.64898/2026.08.05.26359234,,type 2 diabetes,Disease,0.9901359677314758,665,680
-PPR1294102,Randomized metformin and cognitive outcomes in the Diabetes Prevention Program Outcomes Study,2026-08-07,10.64898/2026.08.05.26359234,,t2d,Disease,0.99234539270401,682,685
-PPR1294102,Randomized metformin and cognitive outcomes in the Diabetes Prevention Program Outcomes Study,2026-08-07,10.64898/2026.08.05.26359234,,metformin,Chemical,0.998369038105011,726,735
-PPR1294102,Randomized metformin and cognitive outcomes in the Diabetes Prevention Program Outcomes Study,2026-08-07,10.64898/2026.08.05.26359234,,metformin,Chemical,0.9984402060508728,802,811
-PPR1294102,Randomized metformin and cognitive outcomes in the Diabetes Prevention Program Outcomes Study,2026-08-07,10.64898/2026.08.05.26359234,,metformin,Chemical,0.9983661770820618,839,848
-PPR1294102,Randomized metformin and cognitive outcomes in the Diabetes Prevention Program Outcomes Study,2026-08-07,10.64898/2026.08.05.26359234,,cognitive impairment,Disease,0.9883385896682739,891,911
-PPR1294102,Randomized metformin and cognitive outcomes in the Diabetes Prevention Program Outcomes Study,2026-08-07,10.64898/2026.08.05.26359234,,metformin,Chemical,0.9983857870101929,1313,1322
-PPR1294102,Randomized metformin and cognitive outcomes in the Diabetes Prevention Program Outcomes Study,2026-08-07,10.64898/2026.08.05.26359234,,metformin,Chemical,0.9984394907951355,1361,1370
-PPR1294102,Randomized metformin and cognitive outcomes in the Diabetes Prevention Program Outcomes Study,2026-08-07,10.64898/2026.08.05.26359234,,metformin,Chemical,0.9979467988014221,1426,1435
-PPR1294102,Randomized metformin and cognitive outcomes in the Diabetes Prevention Program Outcomes Study,2026-08-07,10.64898/2026.08.05.26359234,,metformin,Chemical,0.9982602000236511,1502,1511
-PPR1294102,Randomized metformin and cognitive outcomes in the Diabetes Prevention Program Outcomes Study,2026-08-07,10.64898/2026.08.05.26359234,,diabetes,Disease,0.9960615038871765,1537,1545
-PPR1294102,Randomized metformin and cognitive outcomes in the Diabetes Prevention Program Outcomes Study,2026-08-07,10.64898/2026.08.05.26359234,,metformin,Chemical,0.9984664916992188,1556,1565
-PPR1294102,Randomized metformin and cognitive outcomes in the Diabetes Prevention Program Outcomes Study,2026-08-07,10.64898/2026.08.05.26359234,,metformin,Chemical,0.9983362555503845,1802,1811
-PPR1294102,Randomized metformin and cognitive outcomes in the Diabetes Prevention Program Outcomes Study,2026-08-07,10.64898/2026.08.05.26359234,,dementia,Disease,0.9959285855293274,1918,1926
-PPR1294102,Randomized metformin and cognitive outcomes in the Diabetes Prevention Program Outcomes Study,2026-08-07,10.64898/2026.08.05.26359234,,metformin,Chemical,0.998480498790741,2064,2073
-PPR1294102,Randomized metformin and cognitive outcomes in the Diabetes Prevention Program Outcomes Study,2026-08-07,10.64898/2026.08.05.26359234,,metformin,Chemical,0.9984577894210815,2235,2244
-PPR1294102,Randomized metformin and cognitive outcomes in the Diabetes Prevention Program Outcomes Study,2026-08-07,10.64898/2026.08.05.26359234,,dementia,Disease,0.9952844977378845,2292,2300
-PPR1294102,Randomized metformin and cognitive outcomes in the Diabetes Prevention Program Outcomes Study,2026-08-07,10.64898/2026.08.05.26359234,,t2d,Disease,0.9943355917930603,2366,2369
-PPR1294102,Randomized metformin and cognitive outcomes in the Diabetes Prevention Program Outcomes Study,2026-08-07,10.64898/2026.08.05.26359234,,dementia,Disease,0.9962265491485596,2422,2430
-PPR1294102,Randomized metformin and cognitive outcomes in the Diabetes Prevention Program Outcomes Study,2026-08-07,10.64898/2026.08.05.26359234,,dementia,Disease,0.9960960745811462,2464,2472
-PPR1294102,Randomized metformin and cognitive outcomes in the Diabetes Prevention Program Outcomes Study,2026-08-07,10.64898/2026.08.05.26359234,,metformin,Chemical,0.9985570311546326,2561,2570
-PPR1294102,Randomized metformin and cognitive outcomes in the Diabetes Prevention Program Outcomes Study,2026-08-07,10.64898/2026.08.05.26359234,,dementia,Disease,0.996425449848175,2604,2612
-PPR1294102,Randomized metformin and cognitive outcomes in the Diabetes Prevention Program Outcomes Study,2026-08-07,10.64898/2026.08.05.26359234,,cognitive impairment,Disease,0.9952009916305542,2617,2637
-PPR1294102,Randomized metformin and cognitive outcomes in the Diabetes Prevention Program Outcomes Study,2026-08-07,10.64898/2026.08.05.26359234,,metformin,Chemical,0.9985561966896057,2665,2674
-PPR1294102,Randomized metformin and cognitive outcomes in the Diabetes Prevention Program Outcomes Study,2026-08-07,10.64898/2026.08.05.26359234,,diabetes,Disease,0.9858238697052002,2682,2690
-PPR1294102,Randomized metformin and cognitive outcomes in the Diabetes Prevention Program Outcomes Study,2026-08-07,10.64898/2026.08.05.26359234,,dementia,Disease,0.9963570237159729,2746,2754
-PPR1294102,Randomized metformin and cognitive outcomes in the Diabetes Prevention Program Outcomes Study,2026-08-07,10.64898/2026.08.05.26359234,,diabetes,Disease,0.9280847311019897,2762,2770
-PPR1294102,Randomized metformin and cognitive outcomes in the Diabetes Prevention Program Outcomes Study,2026-08-07,10.64898/2026.08.05.26359234,,cognitive impairment,Disease,0.996553897857666,2934,2954
-PPR1294102,Randomized metformin and cognitive outcomes in the Diabetes Prevention Program Outcomes Study,2026-08-07,10.64898/2026.08.05.26359234,,metformin,Chemical,0.9985180497169495,3030,3039
-PPR1294102,Randomized metformin and cognitive outcomes in the Diabetes Prevention Program Outcomes Study,2026-08-07,10.64898/2026.08.05.26359234,,metformin,Chemical,0.9985761642456055,3134,3143
-PPR1294102,Randomized metformin and cognitive outcomes in the Diabetes Prevention Program Outcomes Study,2026-08-07,10.64898/2026.08.05.26359234,,dementia,Disease,0.9962679743766785,3179,3187
-42601004,Hippocampal Klotho Expression Is Associated with the Neuroprotective Effects of Metformin Against ICV-STZ-Induced Cognitive Deficits.,2026-08-14,10.1016/j.ejphar.2026.179245,42601004,metformin,Chemical,0.9982385635375977,80,89
-42601004,Hippocampal Klotho Expression Is Associated with the Neuroprotective Effects of Metformin Against ICV-STZ-Induced Cognitive Deficits.,2026-08-14,10.1016/j.ejphar.2026.179245,42601004,stz,Chemical,0.9961841702461243,102,105
-42601004,Hippocampal Klotho Expression Is Associated with the Neuroprotective Effects of Metformin Against ICV-STZ-Induced Cognitive Deficits.,2026-08-14,10.1016/j.ejphar.2026.179245,42601004,cognitive deficits,Disease,0.9870610237121582,114,132
-42601004,Hippocampal Klotho Expression Is Associated with the Neuroprotective Effects of Metformin Against ICV-STZ-Induced Cognitive Deficits.,2026-08-14,10.1016/j.ejphar.2026.179245,42601004,alzheimer ' s disease,Disease,0.9946305751800537,133,152
-42601004,Hippocampal Klotho Expression Is Associated with the Neuroprotective Effects of Metformin Against ICV-STZ-Induced Cognitive Deficits.,2026-08-14,10.1016/j.ejphar.2026.179245,42601004,ad,Disease,0.989981472492218,154,156
-42601004,Hippocampal Klotho Expression Is Associated with the Neuroprotective Effects of Metformin Against ICV-STZ-Induced Cognitive Deficits.,2026-08-14,10.1016/j.ejphar.2026.179245,42601004,cognitive decline,Disease,0.9801059365272522,190,207
-42601004,Hippocampal Klotho Expression Is Associated with the Neuroprotective Effects of Metformin Against ICV-STZ-Induced Cognitive Deficits.,2026-08-14,10.1016/j.ejphar.2026.179245,42601004,amyloid - β,Chemical,0.8784738183021545,209,218
-42601004,Hippocampal Klotho Expression Is Associated with the Neuroprotective Effects of Metformin Against ICV-STZ-Induced Cognitive Deficits.,2026-08-14,10.1016/j.ejphar.2026.179245,42601004,neuroinflammation,Disease,0.7686455845832825,260,277
-42601004,Hippocampal Klotho Expression Is Associated with the Neuroprotective Effects of Metformin Against ICV-STZ-Induced Cognitive Deficits.,2026-08-14,10.1016/j.ejphar.2026.179245,42601004,metabolic dysfunction,Disease,0.8838364481925964,304,325
-42601004,Hippocampal Klotho Expression Is Associated with the Neuroprotective Effects of Metformin Against ICV-STZ-Induced Cognitive Deficits.,2026-08-14,10.1016/j.ejphar.2026.179245,42601004,ad,Disease,0.9912915229797363,329,331
-42601004,Hippocampal Klotho Expression Is Associated with the Neuroprotective Effects of Metformin Against ICV-STZ-Induced Cognitive Deficits.,2026-08-14,10.1016/j.ejphar.2026.179245,42601004,metformin,Chemical,0.9980373978614807,376,385
-42601004,Hippocampal Klotho Expression Is Associated with the Neuroprotective Effects of Metformin Against ICV-STZ-Induced Cognitive Deficits.,2026-08-14,10.1016/j.ejphar.2026.179245,42601004,metformin,Chemical,0.9983119964599609,469,478
-42601004,Hippocampal Klotho Expression Is Associated with the Neuroprotective Effects of Metformin Against ICV-STZ-Induced Cognitive Deficits.,2026-08-14,10.1016/j.ejphar.2026.179245,42601004,streptozotocin,Chemical,0.9963332414627075,604,618
-42601004,Hippocampal Klotho Expression Is Associated with the Neuroprotective Effects of Metformin Against ICV-STZ-Induced Cognitive Deficits.,2026-08-14,10.1016/j.ejphar.2026.179245,42601004,stz,Chemical,0.9920367002487183,624,627
-42601004,Hippocampal Klotho Expression Is Associated with the Neuroprotective Effects of Metformin Against ICV-STZ-Induced Cognitive Deficits.,2026-08-14,10.1016/j.ejphar.2026.179245,42601004,ad,Disease,0.9925357103347778,642,644
-42601004,Hippocampal Klotho Expression Is Associated with the Neuroprotective Effects of Metformin Against ICV-STZ-Induced Cognitive Deficits.,2026-08-14,10.1016/j.ejphar.2026.179245,42601004,stz,Chemical,0.9495278000831604,699,702
-42601004,Hippocampal Klotho Expression Is Associated with the Neuroprotective Effects of Metformin Against ICV-STZ-Induced Cognitive Deficits.,2026-08-14,10.1016/j.ejphar.2026.179245,42601004,metformin,Chemical,0.9887151122093201,704,713
-42601004,Hippocampal Klotho Expression Is Associated with the Neuroprotective Effects of Metformin Against ICV-STZ-Induced Cognitive Deficits.,2026-08-14,10.1016/j.ejphar.2026.179245,42601004,stz,Chemical,0.7589355111122131,719,722
-42601004,Hippocampal Klotho Expression Is Associated with the Neuroprotective Effects of Metformin Against ICV-STZ-Induced Cognitive Deficits.,2026-08-14,10.1016/j.ejphar.2026.179245,42601004,metformin,Chemical,0.9936884045600891,723,732
-42601004,Hippocampal Klotho Expression Is Associated with the Neuroprotective Effects of Metformin Against ICV-STZ-Induced Cognitive Deficits.,2026-08-14,10.1016/j.ejphar.2026.179245,42601004,metformin,Chemical,0.9969357252120972,740,749
-42601004,Hippocampal Klotho Expression Is Associated with the Neuroprotective Effects of Metformin Against ICV-STZ-Induced Cognitive Deficits.,2026-08-14,10.1016/j.ejphar.2026.179245,42601004,stz,Chemical,0.9953687191009521,817,820
-42601004,Hippocampal Klotho Expression Is Associated with the Neuroprotective Effects of Metformin Against ICV-STZ-Induced Cognitive Deficits.,2026-08-14,10.1016/j.ejphar.2026.179245,42601004,stz,Chemical,0.9945131540298462,1033,1036
-42601004,Hippocampal Klotho Expression Is Associated with the Neuroprotective Effects of Metformin Against ICV-STZ-Induced Cognitive Deficits.,2026-08-14,10.1016/j.ejphar.2026.179245,42601004,cognitive impairment,Disease,0.9912301301956177,1045,1065
-42601004,Hippocampal Klotho Expression Is Associated with the Neuroprotective Effects of Metformin Against ICV-STZ-Induced Cognitive Deficits.,2026-08-14,10.1016/j.ejphar.2026.179245,42601004,neuronal loss,Disease,0.7116749286651611,1094,1107
-42601004,Hippocampal Klotho Expression Is Associated with the Neuroprotective Effects of Metformin Against ICV-STZ-Induced Cognitive Deficits.,2026-08-14,10.1016/j.ejphar.2026.179245,42601004,metformin,Chemical,0.9973469972610474,1183,1192
-42601004,Hippocampal Klotho Expression Is Associated with the Neuroprotective Effects of Metformin Against ICV-STZ-Induced Cognitive Deficits.,2026-08-14,10.1016/j.ejphar.2026.179245,42601004,metformin,Chemical,0.9934262037277222,1342,1351
-42601004,Hippocampal Klotho Expression Is Associated with the Neuroprotective Effects of Metformin Against ICV-STZ-Induced Cognitive Deficits.,2026-08-14,10.1016/j.ejphar.2026.179245,42601004,glucose,Chemical,0.9956623911857605,1649,1656
-42601004,Hippocampal Klotho Expression Is Associated with the Neuroprotective Effects of Metformin Against ICV-STZ-Induced Cognitive Deficits.,2026-08-14,10.1016/j.ejphar.2026.179245,42601004,metformin,Chemical,0.9984104633331299,1703,1712
-42601004,Hippocampal Klotho Expression Is Associated with the Neuroprotective Effects of Metformin Against ICV-STZ-Induced Cognitive Deficits.,2026-08-14,10.1016/j.ejphar.2026.179245,42601004,stz,Chemical,0.9973620772361755,1737,1740
-42601004,Hippocampal Klotho Expression Is Associated with the Neuroprotective Effects of Metformin Against ICV-STZ-Induced Cognitive Deficits.,2026-08-14,10.1016/j.ejphar.2026.179245,42601004,ad,Disease,0.9922717809677124,1749,1751
-42601004,Hippocampal Klotho Expression Is Associated with the Neuroprotective Effects of Metformin Against ICV-STZ-Induced Cognitive Deficits.,2026-08-14,10.1016/j.ejphar.2026.179245,42601004,cognitive deficits,Disease,0.9892141819000244,1771,1789
-42601004,Hippocampal Klotho Expression Is Associated with the Neuroprotective Effects of Metformin Against ICV-STZ-Induced Cognitive Deficits.,2026-08-14,10.1016/j.ejphar.2026.179245,42601004,metformin,Chemical,0.9983110427856445,1967,1976
-42601004,Hippocampal Klotho Expression Is Associated with the Neuroprotective Effects of Metformin Against ICV-STZ-Induced Cognitive Deficits.,2026-08-14,10.1016/j.ejphar.2026.179245,42601004,ad,Disease,0.9920845031738281,2039,2041
-42579881,Metformin at the convergence of aging and longevity.,2026-08-10,10.18632/aging.206407,42579881,metformin,Chemical,0.9983421564102173,0,9
-42579881,Metformin at the convergence of aging and longevity.,2026-08-10,10.18632/aging.206407,42579881,metformin,Chemical,0.9983329176902771,52,61
-42579881,Metformin at the convergence of aging and longevity.,2026-08-10,10.18632/aging.206407,42579881,type 2 diabetes,Disease,0.9905409812927246,101,116
-42579881,Metformin at the convergence of aging and longevity.,2026-08-10,10.18632/aging.206407,42579881,t2d ) mellitus,Disease,0.9909833073616028,118,131
-42579881,Metformin at the convergence of aging and longevity.,2026-08-10,10.18632/aging.206407,42579881,glucose,Chemical,0.9933597445487976,281,288
-42579881,Metformin at the convergence of aging and longevity.,2026-08-10,10.18632/aging.206407,42579881,metformin,Chemical,0.9983952641487122,297,306
-42579881,Metformin at the convergence of aging and longevity.,2026-08-10,10.18632/aging.206407,42579881,fatty acid,Chemical,0.7676902413368225,662,672
-42579881,Metformin at the convergence of aging and longevity.,2026-08-10,10.18632/aging.206407,42579881,metformin,Chemical,0.9984752535820007,871,880
-42579881,Metformin at the convergence of aging and longevity.,2026-08-10,10.18632/aging.206407,42579881,tame,Chemical,0.9899591207504272,882,886
-42579881,Metformin at the convergence of aging and longevity.,2026-08-10,10.18632/aging.206407,42579881,metformin,Chemical,0.9984546899795532,930,939
-42579881,Metformin at the convergence of aging and longevity.,2026-08-10,10.18632/aging.206407,42579881,age,Disease,0.8154395818710327,971,974
-42579881,Metformin at the convergence of aging and longevity.,2026-08-10,10.18632/aging.206407,42579881,diseases,Disease,0.7725412845611572,986,994
-42579881,Metformin at the convergence of aging and longevity.,2026-08-10,10.18632/aging.206407,42579881,metformin,Chemical,0.9984727501869202,1083,1092
-42579881,Metformin at the convergence of aging and longevity.,2026-08-10,10.18632/aging.206407,42579881,metformin,Chemical,0.9984612464904785,1253,1262
-42579881,Metformin at the convergence of aging and longevity.,2026-08-10,10.18632/aging.206407,42579881,aging,Disease,0.7510971426963806,1267,1272
-42528302,Impact of Metformin Use on Clinical and Pathological Outcomes in Breast Cancer Patients With Type 2 Diabetes.,2026-08-01,10.1002/cnr2.70631,42528302,metformin,Chemical,0.9980999827384949,10,19
-42528302,Impact of Metformin Use on Clinical and Pathological Outcomes in Breast Cancer Patients With Type 2 Diabetes.,2026-08-01,10.1002/cnr2.70631,42528302,breast cancer,Disease,0.9955474138259888,65,78
-42528302,Impact of Metformin Use on Clinical and Pathological Outcomes in Breast Cancer Patients With Type 2 Diabetes.,2026-08-01,10.1002/cnr2.70631,42528302,type 2 diabetes,Disease,0.9897710680961609,93,108
-42528302,Impact of Metformin Use on Clinical and Pathological Outcomes in Breast Cancer Patients With Type 2 Diabetes.,2026-08-01,10.1002/cnr2.70631,42528302,breast cancer,Disease,0.9951115846633911,120,133
-42528302,Impact of Metformin Use on Clinical and Pathological Outcomes in Breast Cancer Patients With Type 2 Diabetes.,2026-08-01,10.1002/cnr2.70631,42528302,type 2 diabetes mellitus,Disease,0.987697958946228,216,240
-42528302,Impact of Metformin Use on Clinical and Pathological Outcomes in Breast Cancer Patients With Type 2 Diabetes.,2026-08-01,10.1002/cnr2.70631,42528302,t2dm,Disease,0.9933932423591614,242,246
-42528302,Impact of Metformin Use on Clinical and Pathological Outcomes in Breast Cancer Patients With Type 2 Diabetes.,2026-08-01,10.1002/cnr2.70631,42528302,breast cancer,Disease,0.9953670501708984,294,307
-42528302,Impact of Metformin Use on Clinical and Pathological Outcomes in Breast Cancer Patients With Type 2 Diabetes.,2026-08-01,10.1002/cnr2.70631,42528302,metformin,Chemical,0.9977403879165649,342,351
-42528302,Impact of Metformin Use on Clinical and Pathological Outcomes in Breast Cancer Patients With Type 2 Diabetes.,2026-08-01,10.1002/cnr2.70631,42528302,metformin,Chemical,0.9981974959373474,480,489
-42528302,Impact of Metformin Use on Clinical and Pathological Outcomes in Breast Cancer Patients With Type 2 Diabetes.,2026-08-01,10.1002/cnr2.70631,42528302,breast cancer,Disease,0.9956271648406982,588,601
-42528302,Impact of Metformin Use on Clinical and Pathological Outcomes in Breast Cancer Patients With Type 2 Diabetes.,2026-08-01,10.1002/cnr2.70631,42528302,t2dm,Disease,0.9920400381088257,616,620
-42528302,Impact of Metformin Use on Clinical and Pathological Outcomes in Breast Cancer Patients With Type 2 Diabetes.,2026-08-01,10.1002/cnr2.70631,42528302,breast cancer,Disease,0.9960174560546875,727,740
-42528302,Impact of Metformin Use on Clinical and Pathological Outcomes in Breast Cancer Patients With Type 2 Diabetes.,2026-08-01,10.1002/cnr2.70631,42528302,t2dm,Disease,0.99210524559021,745,749
-42528302,Impact of Metformin Use on Clinical and Pathological Outcomes in Breast Cancer Patients With Type 2 Diabetes.,2026-08-01,10.1002/cnr2.70631,42528302,metformin,Chemical,0.9980670809745789,880,889
-42528302,Impact of Metformin Use on Clinical and Pathological Outcomes in Breast Cancer Patients With Type 2 Diabetes.,2026-08-01,10.1002/cnr2.70631,42528302,metformin,Chemical,0.9974014759063721,1255,1264
-42528302,Impact of Metformin Use on Clinical and Pathological Outcomes in Breast Cancer Patients With Type 2 Diabetes.,2026-08-01,10.1002/cnr2.70631,42528302,metformin,Chemical,0.9847464561462402,1287,1296
-42528302,Impact of Metformin Use on Clinical and Pathological Outcomes in Breast Cancer Patients With Type 2 Diabetes.,2026-08-01,10.1002/cnr2.70631,42528302,metformin,Chemical,0.9973317384719849,1395,1404
-42528302,Impact of Metformin Use on Clinical and Pathological Outcomes in Breast Cancer Patients With Type 2 Diabetes.,2026-08-01,10.1002/cnr2.70631,42528302,metformin,Chemical,0.9976243376731873,1510,1519
-42528302,Impact of Metformin Use on Clinical and Pathological Outcomes in Breast Cancer Patients With Type 2 Diabetes.,2026-08-01,10.1002/cnr2.70631,42528302,metformin,Chemical,0.9981495141983032,1553,1562
-42528302,Impact of Metformin Use on Clinical and Pathological Outcomes in Breast Cancer Patients With Type 2 Diabetes.,2026-08-01,10.1002/cnr2.70631,42528302,metformin,Chemical,0.9979988932609558,1925,1934
-42528302,Impact of Metformin Use on Clinical and Pathological Outcomes in Breast Cancer Patients With Type 2 Diabetes.,2026-08-01,10.1002/cnr2.70631,42528302,metformin,Chemical,0.9982401132583618,1999,2008
-42528302,Impact of Metformin Use on Clinical and Pathological Outcomes in Breast Cancer Patients With Type 2 Diabetes.,2026-08-01,10.1002/cnr2.70631,42528302,breast cancer,Disease,0.9955081939697266,2016,2029
-42528302,Impact of Metformin Use on Clinical and Pathological Outcomes in Breast Cancer Patients With Type 2 Diabetes.,2026-08-01,10.1002/cnr2.70631,42528302,t2dm,Disease,0.9948110580444336,2044,2048
-42528302,Impact of Metformin Use on Clinical and Pathological Outcomes in Breast Cancer Patients With Type 2 Diabetes.,2026-08-01,10.1002/cnr2.70631,42528302,metformin,Chemical,0.998428225517273,2195,2204
-42528302,Impact of Metformin Use on Clinical and Pathological Outcomes in Breast Cancer Patients With Type 2 Diabetes.,2026-08-01,10.1002/cnr2.70631,42528302,breast cancer,Disease,0.9953792095184326,2235,2248
-42587816,Metformin Inhibits Cardiac Fibroblast Differentiation by Promoting Fatty Acid β-Oxidation: Implications for Age-Associated Cardiac Fibrosis.,2026-08-04,10.3390/cells15151408,42587816,metformin,Chemical,0.9983365535736084,0,9
-42587816,Metformin Inhibits Cardiac Fibroblast Differentiation by Promoting Fatty Acid β-Oxidation: Implications for Age-Associated Cardiac Fibrosis.,2026-08-04,10.3390/cells15151408,42587816,cardiac fibrosis,Disease,0.8787198066711426,123,139
-42587816,Metformin Inhibits Cardiac Fibroblast Differentiation by Promoting Fatty Acid β-Oxidation: Implications for Age-Associated Cardiac Fibrosis.,2026-08-04,10.3390/cells15151408,42587816,cardiac fibrosis,Disease,0.9073339700698853,140,156
-42587816,Metformin Inhibits Cardiac Fibroblast Differentiation by Promoting Fatty Acid β-Oxidation: Implications for Age-Associated Cardiac Fibrosis.,2026-08-04,10.3390/cells15151408,42587816,cardiac remodeling,Disease,0.9295517206192017,187,205
-42587816,Metformin Inhibits Cardiac Fibroblast Differentiation by Promoting Fatty Acid β-Oxidation: Implications for Age-Associated Cardiac Fibrosis.,2026-08-04,10.3390/cells15151408,42587816,myocardial hypertrophy,Disease,0.9671543836593628,294,316
-42587816,Metformin Inhibits Cardiac Fibroblast Differentiation by Promoting Fatty Acid β-Oxidation: Implications for Age-Associated Cardiac Fibrosis.,2026-08-04,10.3390/cells15151408,42587816,cardiac dysfunction,Disease,0.9854962825775146,340,359
-42587816,Metformin Inhibits Cardiac Fibroblast Differentiation by Promoting Fatty Acid β-Oxidation: Implications for Age-Associated Cardiac Fibrosis.,2026-08-04,10.3390/cells15151408,42587816,metformin,Chemical,0.9982995390892029,511,520
-42587816,Metformin Inhibits Cardiac Fibroblast Differentiation by Promoting Fatty Acid β-Oxidation: Implications for Age-Associated Cardiac Fibrosis.,2026-08-04,10.3390/cells15151408,42587816,metformin,Chemical,0.9962077140808105,615,624
-42587816,Metformin Inhibits Cardiac Fibroblast Differentiation by Promoting Fatty Acid β-Oxidation: Implications for Age-Associated Cardiac Fibrosis.,2026-08-04,10.3390/cells15151408,42587816,oxygen,Chemical,0.9496679902076721,845,851
-42587816,Metformin Inhibits Cardiac Fibroblast Differentiation by Promoting Fatty Acid β-Oxidation: Implications for Age-Associated Cardiac Fibrosis.,2026-08-04,10.3390/cells15151408,42587816,carnitine,Chemical,0.9721269607543945,946,955
-42587816,Metformin Inhibits Cardiac Fibroblast Differentiation by Promoting Fatty Acid β-Oxidation: Implications for Age-Associated Cardiac Fibrosis.,2026-08-04,10.3390/cells15151408,42587816,etomoxir,Chemical,0.997217059135437,991,999
-42587816,Metformin Inhibits Cardiac Fibroblast Differentiation by Promoting Fatty Acid β-Oxidation: Implications for Age-Associated Cardiac Fibrosis.,2026-08-04,10.3390/cells15151408,42587816,metformin,Chemical,0.9980639815330505,1044,1053
-42587816,Metformin Inhibits Cardiac Fibroblast Differentiation by Promoting Fatty Acid β-Oxidation: Implications for Age-Associated Cardiac Fibrosis.,2026-08-04,10.3390/cells15151408,42587816,metformin,Chemical,0.997992753982544,1187,1196
-42587816,Metformin Inhibits Cardiac Fibroblast Differentiation by Promoting Fatty Acid β-Oxidation: Implications for Age-Associated Cardiac Fibrosis.,2026-08-04,10.3390/cells15151408,42587816,acetyl - coa,Chemical,0.9742509722709656,1225,1235
-42587816,Metformin Inhibits Cardiac Fibroblast Differentiation by Promoting Fatty Acid β-Oxidation: Implications for Age-Associated Cardiac Fibrosis.,2026-08-04,10.3390/cells15151408,42587816,malonyl - coa,Chemical,0.98728346824646,1258,1269
-42587816,Metformin Inhibits Cardiac Fibroblast Differentiation by Promoting Fatty Acid β-Oxidation: Implications for Age-Associated Cardiac Fibrosis.,2026-08-04,10.3390/cells15151408,42587816,fatty acid,Chemical,0.7600382566452026,1316,1326
-42587816,Metformin Inhibits Cardiac Fibroblast Differentiation by Promoting Fatty Acid β-Oxidation: Implications for Age-Associated Cardiac Fibrosis.,2026-08-04,10.3390/cells15151408,42587816,metformin,Chemical,0.9980958104133606,1401,1410
-42587816,Metformin Inhibits Cardiac Fibroblast Differentiation by Promoting Fatty Acid β-Oxidation: Implications for Age-Associated Cardiac Fibrosis.,2026-08-04,10.3390/cells15151408,42587816,metformin,Chemical,0.9983999133110046,1560,1569
-42587816,Metformin Inhibits Cardiac Fibroblast Differentiation by Promoting Fatty Acid β-Oxidation: Implications for Age-Associated Cardiac Fibrosis.,2026-08-04,10.3390/cells15151408,42587816,cardiovascular disease,Disease,0.9348667860031128,1821,1843
-42592843,Impact of Oral Contraceptives and Metformin on Advanced Lipid Phenotyping in PCOS.,2026-08-13,10.1093/ejendo/lvag149,42592843,oral contraceptives,Chemical,0.9928456544876099,10,29
-42592843,Impact of Oral Contraceptives and Metformin on Advanced Lipid Phenotyping in PCOS.,2026-08-13,10.1093/ejendo/lvag149,42592843,metformin,Chemical,0.9975588321685791,34,43
-42592843,Impact of Oral Contraceptives and Metformin on Advanced Lipid Phenotyping in PCOS.,2026-08-13,10.1093/ejendo/lvag149,42592843,pcos,Disease,0.9905469417572021,77,81
-42592843,Impact of Oral Contraceptives and Metformin on Advanced Lipid Phenotyping in PCOS.,2026-08-13,10.1093/ejendo/lvag149,42592843,oral contraceptives,Chemical,0.8904046416282654,99,118
-42592843,Impact of Oral Contraceptives and Metformin on Advanced Lipid Phenotyping in PCOS.,2026-08-13,10.1093/ejendo/lvag149,42592843,ocps,Chemical,0.9752769470214844,120,124
-42592843,Impact of Oral Contraceptives and Metformin on Advanced Lipid Phenotyping in PCOS.,2026-08-13,10.1093/ejendo/lvag149,42592843,metformin,Chemical,0.9977826476097107,130,139
-42592843,Impact of Oral Contraceptives and Metformin on Advanced Lipid Phenotyping in PCOS.,2026-08-13,10.1093/ejendo/lvag149,42592843,polycystic ovary syndrome,Disease,0.995380699634552,175,200
-42592843,Impact of Oral Contraceptives and Metformin on Advanced Lipid Phenotyping in PCOS.,2026-08-13,10.1093/ejendo/lvag149,42592843,pcos,Disease,0.9908267855644226,202,206
-42592843,Impact of Oral Contraceptives and Metformin on Advanced Lipid Phenotyping in PCOS.,2026-08-13,10.1093/ejendo/lvag149,42592843,dyslipidemia,Disease,0.9936550855636597,237,249
-42592843,Impact of Oral Contraceptives and Metformin on Advanced Lipid Phenotyping in PCOS.,2026-08-13,10.1093/ejendo/lvag149,42592843,cardiovascular disease,Disease,0.9881669878959656,254,276
-42592843,Impact of Oral Contraceptives and Metformin on Advanced Lipid Phenotyping in PCOS.,2026-08-13,10.1093/ejendo/lvag149,42592843,cvd,Disease,0.9785858392715454,278,281
-42592843,Impact of Oral Contraceptives and Metformin on Advanced Lipid Phenotyping in PCOS.,2026-08-13,10.1093/ejendo/lvag149,42592843,ocps,Chemical,0.9663702249526978,382,386
-42592843,Impact of Oral Contraceptives and Metformin on Advanced Lipid Phenotyping in PCOS.,2026-08-13,10.1093/ejendo/lvag149,42592843,metformin,Chemical,0.9974428415298462,391,400
-42592843,Impact of Oral Contraceptives and Metformin on Advanced Lipid Phenotyping in PCOS.,2026-08-13,10.1093/ejendo/lvag149,42592843,cholesterol,Chemical,0.9821325540542603,448,459
-42592843,Impact of Oral Contraceptives and Metformin on Advanced Lipid Phenotyping in PCOS.,2026-08-13,10.1093/ejendo/lvag149,42592843,pcos,Disease,0.8254480361938477,572,576
-42592843,Impact of Oral Contraceptives and Metformin on Advanced Lipid Phenotyping in PCOS.,2026-08-13,10.1093/ejendo/lvag149,42592843,hyperandrogenic,Disease,0.9623478055000305,709,724
-42592843,Impact of Oral Contraceptives and Metformin on Advanced Lipid Phenotyping in PCOS.,2026-08-13,10.1093/ejendo/lvag149,42592843,cholesterol,Chemical,0.9822540879249573,825,836
-42592843,Impact of Oral Contraceptives and Metformin on Advanced Lipid Phenotyping in PCOS.,2026-08-13,10.1093/ejendo/lvag149,42592843,metformin,Chemical,0.9976016879081726,889,898
-42592843,Impact of Oral Contraceptives and Metformin on Advanced Lipid Phenotyping in PCOS.,2026-08-13,10.1093/ejendo/lvag149,42592843,ocp,Chemical,0.9056946635246277,900,903
-42592843,Impact of Oral Contraceptives and Metformin on Advanced Lipid Phenotyping in PCOS.,2026-08-13,10.1093/ejendo/lvag149,42592843,ocp,Chemical,0.804149866104126,908,911
-42592843,Impact of Oral Contraceptives and Metformin on Advanced Lipid Phenotyping in PCOS.,2026-08-13,10.1093/ejendo/lvag149,42592843,metformin,Chemical,0.9969891905784607,914,923
-42592843,Impact of Oral Contraceptives and Metformin on Advanced Lipid Phenotyping in PCOS.,2026-08-13,10.1093/ejendo/lvag149,42592843,triglyceride,Chemical,0.7910964488983154,1024,1036
-42592843,Impact of Oral Contraceptives and Metformin on Advanced Lipid Phenotyping in PCOS.,2026-08-13,10.1093/ejendo/lvag149,42592843,metformin,Chemical,0.9963496923446655,1175,1184
-42592843,Impact of Oral Contraceptives and Metformin on Advanced Lipid Phenotyping in PCOS.,2026-08-13,10.1093/ejendo/lvag149,42592843,metformin,Chemical,0.9947969317436218,1240,1249
-42592843,Impact of Oral Contraceptives and Metformin on Advanced Lipid Phenotyping in PCOS.,2026-08-13,10.1093/ejendo/lvag149,42592843,pcos,Disease,0.9914876222610474,1519,1523
-42592843,Impact of Oral Contraceptives and Metformin on Advanced Lipid Phenotyping in PCOS.,2026-08-13,10.1093/ejendo/lvag149,42592843,ocp,Chemical,0.9311023950576782,1549,1552
-42592843,Impact of Oral Contraceptives and Metformin on Advanced Lipid Phenotyping in PCOS.,2026-08-13,10.1093/ejendo/lvag149,42592843,metformin,Chemical,0.997334897518158,1676,1685
-42592843,Impact of Oral Contraceptives and Metformin on Advanced Lipid Phenotyping in PCOS.,2026-08-13,10.1093/ejendo/lvag149,42592843,ocp,Chemical,0.9503026604652405,1761,1764
-42592843,Impact of Oral Contraceptives and Metformin on Advanced Lipid Phenotyping in PCOS.,2026-08-13,10.1093/ejendo/lvag149,42592843,pcos,Disease,0.99167799949646,1772,1776
-42307450,Weight-Lowering Drugs and Natural Female Fertility-A Systematic Review and Meta-Analysis.,2026-08-01,10.1111/cob.70092,42307450,overweight and obesity,Disease,0.8061880469322205,89,111
-42307450,Weight-Lowering Drugs and Natural Female Fertility-A Systematic Review and Meta-Analysis.,2026-08-01,10.1111/cob.70092,42307450,weight,Disease,0.712601363658905,230,236
-42307450,Weight-Lowering Drugs and Natural Female Fertility-A Systematic Review and Meta-Analysis.,2026-08-01,10.1111/cob.70092,42307450,overweight or obesity,Disease,0.9398384690284729,573,594
-42307450,Weight-Lowering Drugs and Natural Female Fertility-A Systematic Review and Meta-Analysis.,2026-08-01,10.1111/cob.70092,42307450,orlistat,Chemical,0.9963871836662292,967,975
-42307450,Weight-Lowering Drugs and Natural Female Fertility-A Systematic Review and Meta-Analysis.,2026-08-01,10.1111/cob.70092,42307450,semaglutide,Chemical,0.997871458530426,996,1007
-42307450,Weight-Lowering Drugs and Natural Female Fertility-A Systematic Review and Meta-Analysis.,2026-08-01,10.1111/cob.70092,42307450,orlistat,Chemical,0.9964300990104675,1024,1032
-42307450,Weight-Lowering Drugs and Natural Female Fertility-A Systematic Review and Meta-Analysis.,2026-08-01,10.1111/cob.70092,42307450,orlistat,Chemical,0.9970938563346863,1151,1159
-42307450,Weight-Lowering Drugs and Natural Female Fertility-A Systematic Review and Meta-Analysis.,2026-08-01,10.1111/cob.70092,42307450,metformin,Chemical,0.9979022741317749,1164,1173
-42307450,Weight-Lowering Drugs and Natural Female Fertility-A Systematic Review and Meta-Analysis.,2026-08-01,10.1111/cob.70092,42307450,orlistat,Chemical,0.9966256022453308,1315,1323
-42307450,Weight-Lowering Drugs and Natural Female Fertility-A Systematic Review and Meta-Analysis.,2026-08-01,10.1111/cob.70092,42307450,semaglutide,Chemical,0.9979491233825684,1419,1430
-42307450,Weight-Lowering Drugs and Natural Female Fertility-A Systematic Review and Meta-Analysis.,2026-08-01,10.1111/cob.70092,42307450,metformin,Chemical,0.9979614019393921,1434,1443
-42307450,Weight-Lowering Drugs and Natural Female Fertility-A Systematic Review and Meta-Analysis.,2026-08-01,10.1111/cob.70092,42307450,metformin,Chemical,0.9980584979057312,1485,1494
-PPR1288130,A Randomized Clinical Trial of Metformin to Reduce Frailty in Older Adults with Glucose Intolerance,2026-07-28,10.64898/2026.07.27.26359055,,metformin,Chemical,0.9981346130371094,31,40
-PPR1288130,A Randomized Clinical Trial of Metformin to Reduce Frailty in Older Adults with Glucose Intolerance,2026-07-28,10.64898/2026.07.27.26359055,,frailty,Disease,0.9838111996650696,51,58
-PPR1288130,A Randomized Clinical Trial of Metformin to Reduce Frailty in Older Adults with Glucose Intolerance,2026-07-28,10.64898/2026.07.27.26359055,,glucose intolerance,Disease,0.9910554885864258,80,99
-PPR1288130,A Randomized Clinical Trial of Metformin to Reduce Frailty in Older Adults with Glucose Intolerance,2026-07-28,10.64898/2026.07.27.26359055,,metformin,Chemical,0.9981721639633179,168,177
-PPR1288130,A Randomized Clinical Trial of Metformin to Reduce Frailty in Older Adults with Glucose Intolerance,2026-07-28,10.64898/2026.07.27.26359055,,frailty,Disease,0.9838497638702393,224,231
-PPR1288130,A Randomized Clinical Trial of Metformin to Reduce Frailty in Older Adults with Glucose Intolerance,2026-07-28,10.64898/2026.07.27.26359055,,metformin,Chemical,0.9980642199516296,260,269
-PPR1288130,A Randomized Clinical Trial of Metformin to Reduce Frailty in Older Adults with Glucose Intolerance,2026-07-28,10.64898/2026.07.27.26359055,,frailty,Disease,0.9421720504760742,278,285
-PPR1288130,A Randomized Clinical Trial of Metformin to Reduce Frailty in Older Adults with Glucose Intolerance,2026-07-28,10.64898/2026.07.27.26359055,,glucose intolerance,Disease,0.9909905195236206,338,357
-PPR1288130,A Randomized Clinical Trial of Metformin to Reduce Frailty in Older Adults with Glucose Intolerance,2026-07-28,10.64898/2026.07.27.26359055,,frail,Disease,0.716861367225647,402,407
-PPR1288130,A Randomized Clinical Trial of Metformin to Reduce Frailty in Older Adults with Glucose Intolerance,2026-07-28,10.64898/2026.07.27.26359055,,metformin,Chemical,0.9982178807258606,495,504
-PPR1288130,A Randomized Clinical Trial of Metformin to Reduce Frailty in Older Adults with Glucose Intolerance,2026-07-28,10.64898/2026.07.27.26359055,,metformin,Chemical,0.9981820583343506,630,639
-PPR1288130,A Randomized Clinical Trial of Metformin to Reduce Frailty in Older Adults with Glucose Intolerance,2026-07-28,10.64898/2026.07.27.26359055,,frailty,Disease,0.9685982465744019,702,709
-PPR1288130,A Randomized Clinical Trial of Metformin to Reduce Frailty in Older Adults with Glucose Intolerance,2026-07-28,10.64898/2026.07.27.26359055,,frailty,Disease,0.7489765286445618,797,804
-PPR1288130,A Randomized Clinical Trial of Metformin to Reduce Frailty in Older Adults with Glucose Intolerance,2026-07-28,10.64898/2026.07.27.26359055,,metformin,Chemical,0.9981725215911865,914,923
-PPR1288130,A Randomized Clinical Trial of Metformin to Reduce Frailty in Older Adults with Glucose Intolerance,2026-07-28,10.64898/2026.07.27.26359055,,frailty,Disease,0.8897342085838318,1043,1050
-PPR1288130,A Randomized Clinical Trial of Metformin to Reduce Frailty in Older Adults with Glucose Intolerance,2026-07-28,10.64898/2026.07.27.26359055,,metformin,Chemical,0.9981854557991028,1216,1225
-PPR1288130,A Randomized Clinical Trial of Metformin to Reduce Frailty in Older Adults with Glucose Intolerance,2026-07-28,10.64898/2026.07.27.26359055,,metformin,Chemical,0.9975394010543823,1438,1447
-PPR1288130,A Randomized Clinical Trial of Metformin to Reduce Frailty in Older Adults with Glucose Intolerance,2026-07-28,10.64898/2026.07.27.26359055,,metformin,Chemical,0.9981697797775269,1715,1724
-PPR1288130,A Randomized Clinical Trial of Metformin to Reduce Frailty in Older Adults with Glucose Intolerance,2026-07-28,10.64898/2026.07.27.26359055,,metformin,Chemical,0.9957518577575684,1888,1897
-PPR1288130,A Randomized Clinical Trial of Metformin to Reduce Frailty in Older Adults with Glucose Intolerance,2026-07-28,10.64898/2026.07.27.26359055,,metformin,Chemical,0.997982382774353,2029,2038
-PPR1288130,A Randomized Clinical Trial of Metformin to Reduce Frailty in Older Adults with Glucose Intolerance,2026-07-28,10.64898/2026.07.27.26359055,,metformin,Chemical,0.9981828331947327,2084,2093
-PPR1288130,A Randomized Clinical Trial of Metformin to Reduce Frailty in Older Adults with Glucose Intolerance,2026-07-28,10.64898/2026.07.27.26359055,,metformin,Chemical,0.9984622001647949,2341,2350
-PPR1288130,A Randomized Clinical Trial of Metformin to Reduce Frailty in Older Adults with Glucose Intolerance,2026-07-28,10.64898/2026.07.27.26359055,,frailty,Disease,0.9818187355995178,2371,2378
-PPR1288130,A Randomized Clinical Trial of Metformin to Reduce Frailty in Older Adults with Glucose Intolerance,2026-07-28,10.64898/2026.07.27.26359055,,glucose intolerance,Disease,0.9938809275627136,2528,2547
-PPR1288130,A Randomized Clinical Trial of Metformin to Reduce Frailty in Older Adults with Glucose Intolerance,2026-07-28,10.64898/2026.07.27.26359055,,prediabetes,Disease,0.9907374978065491,2549,2560
-PPR1288130,A Randomized Clinical Trial of Metformin to Reduce Frailty in Older Adults with Glucose Intolerance,2026-07-28,10.64898/2026.07.27.26359055,,metformin,Chemical,0.9984581470489502,2563,2572
-PPR1288130,A Randomized Clinical Trial of Metformin to Reduce Frailty in Older Adults with Glucose Intolerance,2026-07-28,10.64898/2026.07.27.26359055,,frailty,Disease,0.8178492188453674,2664,2671
-PPR1288130,A Randomized Clinical Trial of Metformin to Reduce Frailty in Older Adults with Glucose Intolerance,2026-07-28,10.64898/2026.07.27.26359055,,metformin,Chemical,0.9976639747619629,2682,2691
-PPR1288130,A Randomized Clinical Trial of Metformin to Reduce Frailty in Older Adults with Glucose Intolerance,2026-07-28,10.64898/2026.07.27.26359055,,metformin,Chemical,0.9984337687492371,2809,2818
-PPR1288130,A Randomized Clinical Trial of Metformin to Reduce Frailty in Older Adults with Glucose Intolerance,2026-07-28,10.64898/2026.07.27.26359055,,frailty,Disease,0.7075937986373901,2854,2861
-42570748,The effects of Metformin on myocardial ischemia and reperfusion injury in diabetic rats and its potential mechanism.,2026-08-08,10.1016/j.cellsig.2026.112802,42570748,metformin,Chemical,0.9984570741653442,15,24
-42570748,The effects of Metformin on myocardial ischemia and reperfusion injury in diabetic rats and its potential mechanism.,2026-08-08,10.1016/j.cellsig.2026.112802,42570748,myocardial ischemia and reperfusion injury,Disease,0.9839722514152527,28,70
-42570748,The effects of Metformin on myocardial ischemia and reperfusion injury in diabetic rats and its potential mechanism.,2026-08-08,10.1016/j.cellsig.2026.112802,42570748,diabetic,Disease,0.9858860969543457,74,82
-42570748,The effects of Metformin on myocardial ischemia and reperfusion injury in diabetic rats and its potential mechanism.,2026-08-08,10.1016/j.cellsig.2026.112802,42570748,diabetic cardiovascular disease,Disease,0.9790259003639221,116,147
-42570748,The effects of Metformin on myocardial ischemia and reperfusion injury in diabetic rats and its potential mechanism.,2026-08-08,10.1016/j.cellsig.2026.112802,42570748,diabetes,Disease,0.9940806031227112,204,212
-42570748,The effects of Metformin on myocardial ischemia and reperfusion injury in diabetic rats and its potential mechanism.,2026-08-08,10.1016/j.cellsig.2026.112802,42570748,metformin,Chemical,0.9983991980552673,386,395
-42570748,The effects of Metformin on myocardial ischemia and reperfusion injury in diabetic rats and its potential mechanism.,2026-08-08,10.1016/j.cellsig.2026.112802,42570748,glucose,Chemical,0.9948639273643494,464,471
-42570748,The effects of Metformin on myocardial ischemia and reperfusion injury in diabetic rats and its potential mechanism.,2026-08-08,10.1016/j.cellsig.2026.112802,42570748,metformin,Chemical,0.9984972476959229,646,655
-42570748,The effects of Metformin on myocardial ischemia and reperfusion injury in diabetic rats and its potential mechanism.,2026-08-08,10.1016/j.cellsig.2026.112802,42570748,myocardial ischemia - reperfusion injury,Disease,0.983683705329895,709,747
-42570748,The effects of Metformin on myocardial ischemia and reperfusion injury in diabetic rats and its potential mechanism.,2026-08-08,10.1016/j.cellsig.2026.112802,42570748,diabetic,Disease,0.9818748831748962,784,792
-42570748,The effects of Metformin on myocardial ischemia and reperfusion injury in diabetic rats and its potential mechanism.,2026-08-08,10.1016/j.cellsig.2026.112802,42570748,hyperglycemic,Disease,0.9216664433479309,813,826
-42570748,The effects of Metformin on myocardial ischemia and reperfusion injury in diabetic rats and its potential mechanism.,2026-08-08,10.1016/j.cellsig.2026.112802,42570748,metformin,Chemical,0.998434841632843,863,872
-42570748,The effects of Metformin on myocardial ischemia and reperfusion injury in diabetic rats and its potential mechanism.,2026-08-08,10.1016/j.cellsig.2026.112802,42570748,diabetes,Disease,0.9910396933555603,897,905
-42570748,The effects of Metformin on myocardial ischemia and reperfusion injury in diabetic rats and its potential mechanism.,2026-08-08,10.1016/j.cellsig.2026.112802,42570748,metformin,Chemical,0.9984269142150879,936,945
-42570748,The effects of Metformin on myocardial ischemia and reperfusion injury in diabetic rats and its potential mechanism.,2026-08-08,10.1016/j.cellsig.2026.112802,42570748,cardiac dysfunction,Disease,0.9869675636291504,982,1001
-42570748,The effects of Metformin on myocardial ischemia and reperfusion injury in diabetic rats and its potential mechanism.,2026-08-08,10.1016/j.cellsig.2026.112802,42570748,diabetic,Disease,0.9850661754608154,1059,1067
-42570748,The effects of Metformin on myocardial ischemia and reperfusion injury in diabetic rats and its potential mechanism.,2026-08-08,10.1016/j.cellsig.2026.112802,42570748,hyperglycemic,Disease,0.7210180163383484,1164,1177
-42570748,The effects of Metformin on myocardial ischemia and reperfusion injury in diabetic rats and its potential mechanism.,2026-08-08,10.1016/j.cellsig.2026.112802,42570748,metformin,Chemical,0.9981708526611328,1199,1208
-42570748,The effects of Metformin on myocardial ischemia and reperfusion injury in diabetic rats and its potential mechanism.,2026-08-08,10.1016/j.cellsig.2026.112802,42570748,compound c,Chemical,0.8846125602722168,1340,1350
-42570748,The effects of Metformin on myocardial ischemia and reperfusion injury in diabetic rats and its potential mechanism.,2026-08-08,10.1016/j.cellsig.2026.112802,42570748,metformin,Chemical,0.9982954859733582,1457,1466
-42570748,The effects of Metformin on myocardial ischemia and reperfusion injury in diabetic rats and its potential mechanism.,2026-08-08,10.1016/j.cellsig.2026.112802,42570748,myocardial ischemia - reperfusion injury,Disease,0.9861150979995728,1500,1538
-42570748,The effects of Metformin on myocardial ischemia and reperfusion injury in diabetic rats and its potential mechanism.,2026-08-08,10.1016/j.cellsig.2026.112802,42570748,miri,Disease,0.9801868796348572,1540,1544
-42570748,The effects of Metformin on myocardial ischemia and reperfusion injury in diabetic rats and its potential mechanism.,2026-08-08,10.1016/j.cellsig.2026.112802,42570748,amp,Chemical,0.8948370814323425,1568,1571
-42604858,Adjunctive metformin therapy in type 1 diabetes in pregnancy: insights from an Australian cohort.,2026-08-16,10.1111/imj.70607,42604858,metformin,Chemical,0.998561680316925,11,20
-42604858,Adjunctive metformin therapy in type 1 diabetes in pregnancy: insights from an Australian cohort.,2026-08-16,10.1111/imj.70607,42604858,type 1 diabetes,Disease,0.9930923581123352,32,47
-42604858,Adjunctive metformin therapy in type 1 diabetes in pregnancy: insights from an Australian cohort.,2026-08-16,10.1111/imj.70607,42604858,metformin,Chemical,0.9985300302505493,97,106
-42604858,Adjunctive metformin therapy in type 1 diabetes in pregnancy: insights from an Australian cohort.,2026-08-16,10.1111/imj.70607,42604858,type 1 diabetes mellitus,Disease,0.9945018887519836,182,206
-42604858,Adjunctive metformin therapy in type 1 diabetes in pregnancy: insights from an Australian cohort.,2026-08-16,10.1111/imj.70607,42604858,t1dm,Disease,0.9908319115638733,208,212
-42604858,Adjunctive metformin therapy in type 1 diabetes in pregnancy: insights from an Australian cohort.,2026-08-16,10.1111/imj.70607,42604858,metformin,Chemical,0.9985325336456299,288,297
-42604858,Adjunctive metformin therapy in type 1 diabetes in pregnancy: insights from an Australian cohort.,2026-08-16,10.1111/imj.70607,42604858,t1dm,Disease,0.9922415018081665,332,336
-42604858,Adjunctive metformin therapy in type 1 diabetes in pregnancy: insights from an Australian cohort.,2026-08-16,10.1111/imj.70607,42604858,metformin,Chemical,0.9985491633415222,438,447
-42604858,Adjunctive metformin therapy in type 1 diabetes in pregnancy: insights from an Australian cohort.,2026-08-16,10.1111/imj.70607,42604858,t1dm,Disease,0.9940664768218994,582,586
-42555357,The coordinated actions of metformin in the intestine and liver improves hyperglycemia.,2026-08-05,10.1016/j.celrep.2026.117791,42555357,metformin,Chemical,0.9984588623046875,27,36
-42555357,The coordinated actions of metformin in the intestine and liver improves hyperglycemia.,2026-08-05,10.1016/j.celrep.2026.117791,42555357,hyperglycemia,Disease,0.9939686059951782,73,86
-42555357,The coordinated actions of metformin in the intestine and liver improves hyperglycemia.,2026-08-05,10.1016/j.celrep.2026.117791,42555357,metformin,Chemical,0.997986912727356,87,96
-42555357,The coordinated actions of metformin in the intestine and liver improves hyperglycemia.,2026-08-05,10.1016/j.celrep.2026.117791,42555357,metformin,Chemical,0.9984297156333923,140,149
-42555357,The coordinated actions of metformin in the intestine and liver improves hyperglycemia.,2026-08-05,10.1016/j.celrep.2026.117791,42555357,metformin,Chemical,0.9984089732170105,291,300
-42555357,The coordinated actions of metformin in the intestine and liver improves hyperglycemia.,2026-08-05,10.1016/j.celrep.2026.117791,42555357,metformin,Chemical,0.9984104633331299,341,350
-42555357,The coordinated actions of metformin in the intestine and liver improves hyperglycemia.,2026-08-05,10.1016/j.celrep.2026.117791,42555357,metformin,Chemical,0.9982157945632935,400,409
-42555357,The coordinated actions of metformin in the intestine and liver improves hyperglycemia.,2026-08-05,10.1016/j.celrep.2026.117791,42555357,glucose,Chemical,0.9915735125541687,518,525
-42555357,The coordinated actions of metformin in the intestine and liver improves hyperglycemia.,2026-08-05,10.1016/j.celrep.2026.117791,42555357,metformin,Chemical,0.9983932375907898,621,630
-42555357,The coordinated actions of metformin in the intestine and liver improves hyperglycemia.,2026-08-05,10.1016/j.celrep.2026.117791,42555357,glucose,Chemical,0.9918333292007446,677,684
-42555357,The coordinated actions of metformin in the intestine and liver improves hyperglycemia.,2026-08-05,10.1016/j.celrep.2026.117791,42555357,lactate,Chemical,0.995144784450531,728,735
-42555357,The coordinated actions of metformin in the intestine and liver improves hyperglycemia.,2026-08-05,10.1016/j.celrep.2026.117791,42555357,lactate,Chemical,0.9949272871017456,799,806
-42555357,The coordinated actions of metformin in the intestine and liver improves hyperglycemia.,2026-08-05,10.1016/j.celrep.2026.117791,42555357,metformin,Chemical,0.9984779953956604,909,918
-42555357,The coordinated actions of metformin in the intestine and liver improves hyperglycemia.,2026-08-05,10.1016/j.celrep.2026.117791,42555357,lactate,Chemical,0.9958623647689819,1051,1058
-42555357,The coordinated actions of metformin in the intestine and liver improves hyperglycemia.,2026-08-05,10.1016/j.celrep.2026.117791,42555357,metformin,Chemical,0.9984520673751831,1120,1129
-42555357,The coordinated actions of metformin in the intestine and liver improves hyperglycemia.,2026-08-05,10.1016/j.celrep.2026.117791,42555357,hyperglycemia,Disease,0.9941216111183167,1165,1178
-42555357,The coordinated actions of metformin in the intestine and liver improves hyperglycemia.,2026-08-05,10.1016/j.celrep.2026.117791,42555357,diabetes and,Disease,0.7673099040985107,1182,1194
-42555357,The coordinated actions of metformin in the intestine and liver improves hyperglycemia.,2026-08-05,10.1016/j.celrep.2026.117791,42555357,obesity,Disease,0.7715818285942078,1195,1202
-PPR1296076,Comparative Effects of Metformin and Dienogest on PI3K/AKT Signaling in Experimental Endometriosis,2026-08-11,10.21203/rs.3.rs-10557372/v1,,metformin,Chemical,0.9979150891304016,23,32
-PPR1296076,Comparative Effects of Metformin and Dienogest on PI3K/AKT Signaling in Experimental Endometriosis,2026-08-11,10.21203/rs.3.rs-10557372/v1,,dienogest,Chemical,0.998207151889801,37,46
-PPR1296076,Comparative Effects of Metformin and Dienogest on PI3K/AKT Signaling in Experimental Endometriosis,2026-08-11,10.21203/rs.3.rs-10557372/v1,,endometriosis,Disease,0.9958459734916687,85,98
-PPR1296076,Comparative Effects of Metformin and Dienogest on PI3K/AKT Signaling in Experimental Endometriosis,2026-08-11,10.21203/rs.3.rs-10557372/v1,,metformin,Chemical,0.9979428648948669,159,168
-PPR1296076,Comparative Effects of Metformin and Dienogest on PI3K/AKT Signaling in Experimental Endometriosis,2026-08-11,10.21203/rs.3.rs-10557372/v1,,dienogest,Chemical,0.9982292056083679,173,182
-PPR1296076,Comparative Effects of Metformin and Dienogest on PI3K/AKT Signaling in Experimental Endometriosis,2026-08-11,10.21203/rs.3.rs-10557372/v1,,endometriosis,Disease,0.995672345161438,243,256
-PPR1296076,Comparative Effects of Metformin and Dienogest on PI3K/AKT Signaling in Experimental Endometriosis,2026-08-11,10.21203/rs.3.rs-10557372/v1,,endometriosis,Disease,0.9954537153244019,379,392
-PPR1296076,Comparative Effects of Metformin and Dienogest on PI3K/AKT Signaling in Experimental Endometriosis,2026-08-11,10.21203/rs.3.rs-10557372/v1,,dienogest,Chemical,0.9983057379722595,425,434
-PPR1296076,Comparative Effects of Metformin and Dienogest on PI3K/AKT Signaling in Experimental Endometriosis,2026-08-11,10.21203/rs.3.rs-10557372/v1,,metformin,Chemical,0.9978377223014832,455,464
-PPR1296076,Comparative Effects of Metformin and Dienogest on PI3K/AKT Signaling in Experimental Endometriosis,2026-08-11,10.21203/rs.3.rs-10557372/v1,,estradiol,Chemical,0.9928613305091858,704,713
-PPR1296076,Comparative Effects of Metformin and Dienogest on PI3K/AKT Signaling in Experimental Endometriosis,2026-08-11,10.21203/rs.3.rs-10557372/v1,,e2,Chemical,0.9849022030830383,715,717
-PPR1296076,Comparative Effects of Metformin and Dienogest on PI3K/AKT Signaling in Experimental Endometriosis,2026-08-11,10.21203/rs.3.rs-10557372/v1,,progesterone,Chemical,0.9866598844528198,720,732
-PPR1296076,Comparative Effects of Metformin and Dienogest on PI3K/AKT Signaling in Experimental Endometriosis,2026-08-11,10.21203/rs.3.rs-10557372/v1,,endometriotic,Disease,0.9874134659767151,817,830
-PPR1296076,Comparative Effects of Metformin and Dienogest on PI3K/AKT Signaling in Experimental Endometriosis,2026-08-11,10.21203/rs.3.rs-10557372/v1,,endometriosis,Disease,0.9954285621643066,959,972
-PPR1296076,Comparative Effects of Metformin and Dienogest on PI3K/AKT Signaling in Experimental Endometriosis,2026-08-11,10.21203/rs.3.rs-10557372/v1,,metformin,Chemical,0.9974293112754822,1045,1054
-PPR1296076,Comparative Effects of Metformin and Dienogest on PI3K/AKT Signaling in Experimental Endometriosis,2026-08-11,10.21203/rs.3.rs-10557372/v1,,dienogest,Chemical,0.9980158805847168,1121,1130
-PPR1296076,Comparative Effects of Metformin and Dienogest on PI3K/AKT Signaling in Experimental Endometriosis,2026-08-11,10.21203/rs.3.rs-10557372/v1,,e2,Chemical,0.9534289240837097,1164,1166
-PPR1296076,Comparative Effects of Metformin and Dienogest on PI3K/AKT Signaling in Experimental Endometriosis,2026-08-11,10.21203/rs.3.rs-10557372/v1,,metformin,Chemical,0.9970955848693848,1207,1216
-PPR1296076,Comparative Effects of Metformin and Dienogest on PI3K/AKT Signaling in Experimental Endometriosis,2026-08-11,10.21203/rs.3.rs-10557372/v1,,endometriosis,Disease,0.9958369731903076,1457,1470
-PPR1296076,Comparative Effects of Metformin and Dienogest on PI3K/AKT Signaling in Experimental Endometriosis,2026-08-11,10.21203/rs.3.rs-10557372/v1,,metformin,Chemical,0.9975797533988953,1619,1628
-PPR1296076,Comparative Effects of Metformin and Dienogest on PI3K/AKT Signaling in Experimental Endometriosis,2026-08-11,10.21203/rs.3.rs-10557372/v1,,metformin,Chemical,0.9977691173553467,1669,1678
-PPR1296076,Comparative Effects of Metformin and Dienogest on PI3K/AKT Signaling in Experimental Endometriosis,2026-08-11,10.21203/rs.3.rs-10557372/v1,,dienogest,Chemical,0.998181164264679,1683,1692
-PPR1296076,Comparative Effects of Metformin and Dienogest on PI3K/AKT Signaling in Experimental Endometriosis,2026-08-11,10.21203/rs.3.rs-10557372/v1,,endometriosis,Disease,0.9961236119270325,1717,1730
-PPR1296076,Comparative Effects of Metformin and Dienogest on PI3K/AKT Signaling in Experimental Endometriosis,2026-08-11,10.21203/rs.3.rs-10557372/v1,,metformin,Chemical,0.997488260269165,1817,1826
-PPR1289530,Metformin enhances differentiation and function of skeletal muscle in models of Facioscapulohumeral Muscular Dystrophy (FSHD),2026-07-31,10.64898/2026.07.30.736088,,metformin,Chemical,0.9984219074249268,0,9
-PPR1289530,Metformin enhances differentiation and function of skeletal muscle in models of Facioscapulohumeral Muscular Dystrophy (FSHD),2026-07-31,10.64898/2026.07.30.736088,,facioscapulohumeral muscular dystrophy,Disease,0.9945806860923767,80,118
-PPR1289530,Metformin enhances differentiation and function of skeletal muscle in models of Facioscapulohumeral Muscular Dystrophy (FSHD),2026-07-31,10.64898/2026.07.30.736088,,fshd,Disease,0.9879602193832397,120,124
-PPR1289530,Metformin enhances differentiation and function of skeletal muscle in models of Facioscapulohumeral Muscular Dystrophy (FSHD),2026-07-31,10.64898/2026.07.30.736088,,facioscapulohumeral muscular dystrophy,Disease,0.9648159742355347,126,164
-PPR1289530,Metformin enhances differentiation and function of skeletal muscle in models of Facioscapulohumeral Muscular Dystrophy (FSHD),2026-07-31,10.64898/2026.07.30.736088,,fshd,Disease,0.9904850125312805,166,170
-PPR1289530,Metformin enhances differentiation and function of skeletal muscle in models of Facioscapulohumeral Muscular Dystrophy (FSHD),2026-07-31,10.64898/2026.07.30.736088,,muscular dystrophies,Disease,0.9927691221237183,211,231
-PPR1289530,Metformin enhances differentiation and function of skeletal muscle in models of Facioscapulohumeral Muscular Dystrophy (FSHD),2026-07-31,10.64898/2026.07.30.736088,,fshd,Disease,0.9571506381034851,380,384
-PPR1289530,Metformin enhances differentiation and function of skeletal muscle in models of Facioscapulohumeral Muscular Dystrophy (FSHD),2026-07-31,10.64898/2026.07.30.736088,,metformin,Chemical,0.9982916712760925,463,472
-PPR1289530,Metformin enhances differentiation and function of skeletal muscle in models of Facioscapulohumeral Muscular Dystrophy (FSHD),2026-07-31,10.64898/2026.07.30.736088,,fshd,Disease,0.9781745672225952,537,541
-PPR1289530,Metformin enhances differentiation and function of skeletal muscle in models of Facioscapulohumeral Muscular Dystrophy (FSHD),2026-07-31,10.64898/2026.07.30.736088,,metformin,Chemical,0.9978671073913574,560,569
-PPR1289530,Metformin enhances differentiation and function of skeletal muscle in models of Facioscapulohumeral Muscular Dystrophy (FSHD),2026-07-31,10.64898/2026.07.30.736088,,fshd,Disease,0.9516725540161133,644,648
-PPR1289530,Metformin enhances differentiation and function of skeletal muscle in models of Facioscapulohumeral Muscular Dystrophy (FSHD),2026-07-31,10.64898/2026.07.30.736088,,metformin,Chemical,0.989701509475708,748,757
-PPR1289530,Metformin enhances differentiation and function of skeletal muscle in models of Facioscapulohumeral Muscular Dystrophy (FSHD),2026-07-31,10.64898/2026.07.30.736088,,fshd,Disease,0.9853311777114868,1050,1054
-PPR1289530,Metformin enhances differentiation and function of skeletal muscle in models of Facioscapulohumeral Muscular Dystrophy (FSHD),2026-07-31,10.64898/2026.07.30.736088,,metformin,Chemical,0.9982536435127258,1065,1074
-PPR1289530,Metformin enhances differentiation and function of skeletal muscle in models of Facioscapulohumeral Muscular Dystrophy (FSHD),2026-07-31,10.64898/2026.07.30.736088,,fshd,Disease,0.9762601852416992,1238,1242
-PPR1289530,Metformin enhances differentiation and function of skeletal muscle in models of Facioscapulohumeral Muscular Dystrophy (FSHD),2026-07-31,10.64898/2026.07.30.736088,,metformin,Chemical,0.9984670281410217,1264,1273
-PPR1289530,Metformin enhances differentiation and function of skeletal muscle in models of Facioscapulohumeral Muscular Dystrophy (FSHD),2026-07-31,10.64898/2026.07.30.736088,,fshd,Disease,0.9849733114242554,1321,1325
-PPR1289530,Metformin enhances differentiation and function of skeletal muscle in models of Facioscapulohumeral Muscular Dystrophy (FSHD),2026-07-31,10.64898/2026.07.30.736088,,metformin,Chemical,0.9984965324401855,1469,1478
-PPR1289530,Metformin enhances differentiation and function of skeletal muscle in models of Facioscapulohumeral Muscular Dystrophy (FSHD),2026-07-31,10.64898/2026.07.30.736088,,fshd,Disease,0.9877557754516602,1543,1547
-42487515,Evidence of a Protective Effect of Metformin on Abdominal Aortic Aneurysm Risk: Insights From an Observational Study and Mendelian Randomisation Analysis Using Putative Metformin Targets.,2026-07-23,10.1111/ahg.70049,42487515,metformin,Chemical,0.9983106851577759,35,44
-42487515,Evidence of a Protective Effect of Metformin on Abdominal Aortic Aneurysm Risk: Insights From an Observational Study and Mendelian Randomisation Analysis Using Putative Metformin Targets.,2026-07-23,10.1111/ahg.70049,42487515,abdominal aortic aneurysm,Disease,0.9902819991111755,48,73
-42487515,Evidence of a Protective Effect of Metformin on Abdominal Aortic Aneurysm Risk: Insights From an Observational Study and Mendelian Randomisation Analysis Using Putative Metformin Targets.,2026-07-23,10.1111/ahg.70049,42487515,metformin,Chemical,0.9969655871391296,169,178
-42487515,Evidence of a Protective Effect of Metformin on Abdominal Aortic Aneurysm Risk: Insights From an Observational Study and Mendelian Randomisation Analysis Using Putative Metformin Targets.,2026-07-23,10.1111/ahg.70049,42487515,abdominal aortic aneurysm,Disease,0.989898145198822,257,282
-42487515,Evidence of a Protective Effect of Metformin on Abdominal Aortic Aneurysm Risk: Insights From an Observational Study and Mendelian Randomisation Analysis Using Putative Metformin Targets.,2026-07-23,10.1111/ahg.70049,42487515,aaa,Disease,0.9869067668914795,284,287
-42487515,Evidence of a Protective Effect of Metformin on Abdominal Aortic Aneurysm Risk: Insights From an Observational Study and Mendelian Randomisation Analysis Using Putative Metformin Targets.,2026-07-23,10.1111/ahg.70049,42487515,aneurysm,Disease,0.9869611263275146,295,303
-42487515,Evidence of a Protective Effect of Metformin on Abdominal Aortic Aneurysm Risk: Insights From an Observational Study and Mendelian Randomisation Analysis Using Putative Metformin Targets.,2026-07-23,10.1111/ahg.70049,42487515,aortic rupture,Disease,0.9285287857055664,342,356
-42487515,Evidence of a Protective Effect of Metformin on Abdominal Aortic Aneurysm Risk: Insights From an Observational Study and Mendelian Randomisation Analysis Using Putative Metformin Targets.,2026-07-23,10.1111/ahg.70049,42487515,metformin,Chemical,0.9982472658157349,367,376
-42487515,Evidence of a Protective Effect of Metformin on Abdominal Aortic Aneurysm Risk: Insights From an Observational Study and Mendelian Randomisation Analysis Using Putative Metformin Targets.,2026-07-23,10.1111/ahg.70049,42487515,type 2 diabetes,Disease,0.9860224723815918,413,428
-42487515,Evidence of a Protective Effect of Metformin on Abdominal Aortic Aneurysm Risk: Insights From an Observational Study and Mendelian Randomisation Analysis Using Putative Metformin Targets.,2026-07-23,10.1111/ahg.70049,42487515,aaa,Disease,0.9882217049598694,474,477
-42487515,Evidence of a Protective Effect of Metformin on Abdominal Aortic Aneurysm Risk: Insights From an Observational Study and Mendelian Randomisation Analysis Using Putative Metformin Targets.,2026-07-23,10.1111/ahg.70049,42487515,metformin,Chemical,0.9981958270072937,577,586
-42487515,Evidence of a Protective Effect of Metformin on Abdominal Aortic Aneurysm Risk: Insights From an Observational Study and Mendelian Randomisation Analysis Using Putative Metformin Targets.,2026-07-23,10.1111/ahg.70049,42487515,aaa,Disease,0.9880087375640869,601,604
-42487515,Evidence of a Protective Effect of Metformin on Abdominal Aortic Aneurysm Risk: Insights From an Observational Study and Mendelian Randomisation Analysis Using Putative Metformin Targets.,2026-07-23,10.1111/ahg.70049,42487515,aaa,Disease,0.985663115978241,715,718
-42487515,Evidence of a Protective Effect of Metformin on Abdominal Aortic Aneurysm Risk: Insights From an Observational Study and Mendelian Randomisation Analysis Using Putative Metformin Targets.,2026-07-23,10.1111/ahg.70049,42487515,metformin,Chemical,0.9979099631309509,841,850
-42487515,Evidence of a Protective Effect of Metformin on Abdominal Aortic Aneurysm Risk: Insights From an Observational Study and Mendelian Randomisation Analysis Using Putative Metformin Targets.,2026-07-23,10.1111/ahg.70049,42487515,metformin,Chemical,0.9970890879631042,920,929
-42487515,Evidence of a Protective Effect of Metformin on Abdominal Aortic Aneurysm Risk: Insights From an Observational Study and Mendelian Randomisation Analysis Using Putative Metformin Targets.,2026-07-23,10.1111/ahg.70049,42487515,aaa,Disease,0.9840832352638245,1062,1065
-42487515,Evidence of a Protective Effect of Metformin on Abdominal Aortic Aneurysm Risk: Insights From an Observational Study and Mendelian Randomisation Analysis Using Putative Metformin Targets.,2026-07-23,10.1111/ahg.70049,42487515,metformin,Chemical,0.998195469379425,1235,1244
-42487515,Evidence of a Protective Effect of Metformin on Abdominal Aortic Aneurysm Risk: Insights From an Observational Study and Mendelian Randomisation Analysis Using Putative Metformin Targets.,2026-07-23,10.1111/ahg.70049,42487515,aaa,Disease,0.9900257587432861,1267,1270
-42487515,Evidence of a Protective Effect of Metformin on Abdominal Aortic Aneurysm Risk: Insights From an Observational Study and Mendelian Randomisation Analysis Using Putative Metformin Targets.,2026-07-23,10.1111/ahg.70049,42487515,aaa,Disease,0.9884166121482849,1417,1420
-42487515,Evidence of a Protective Effect of Metformin on Abdominal Aortic Aneurysm Risk: Insights From an Observational Study and Mendelian Randomisation Analysis Using Putative Metformin Targets.,2026-07-23,10.1111/ahg.70049,42487515,metformin,Chemical,0.9958330988883972,1529,1538
-42487515,Evidence of a Protective Effect of Metformin on Abdominal Aortic Aneurysm Risk: Insights From an Observational Study and Mendelian Randomisation Analysis Using Putative Metformin Targets.,2026-07-23,10.1111/ahg.70049,42487515,metformin,Chemical,0.99811851978302,1602,1611
-42487515,Evidence of a Protective Effect of Metformin on Abdominal Aortic Aneurysm Risk: Insights From an Observational Study and Mendelian Randomisation Analysis Using Putative Metformin Targets.,2026-07-23,10.1111/ahg.70049,42487515,metformin,Chemical,0.9959695339202881,1639,1648
-42487515,Evidence of a Protective Effect of Metformin on Abdominal Aortic Aneurysm Risk: Insights From an Observational Study and Mendelian Randomisation Analysis Using Putative Metformin Targets.,2026-07-23,10.1111/ahg.70049,42487515,metformin,Chemical,0.9982995390892029,1772,1781
-42487515,Evidence of a Protective Effect of Metformin on Abdominal Aortic Aneurysm Risk: Insights From an Observational Study and Mendelian Randomisation Analysis Using Putative Metformin Targets.,2026-07-23,10.1111/ahg.70049,42487515,aaa,Disease,0.99068284034729,1817,1820
-42487515,Evidence of a Protective Effect of Metformin on Abdominal Aortic Aneurysm Risk: Insights From an Observational Study and Mendelian Randomisation Analysis Using Putative Metformin Targets.,2026-07-23,10.1111/ahg.70049,42487515,metformin,Chemical,0.998345136642456,1968,1977
-42487515,Evidence of a Protective Effect of Metformin on Abdominal Aortic Aneurysm Risk: Insights From an Observational Study and Mendelian Randomisation Analysis Using Putative Metformin Targets.,2026-07-23,10.1111/ahg.70049,42487515,aneurysm,Disease,0.987082839012146,2000,2008
-42487515,Evidence of a Protective Effect of Metformin on Abdominal Aortic Aneurysm Risk: Insights From an Observational Study and Mendelian Randomisation Analysis Using Putative Metformin Targets.,2026-07-23,10.1111/ahg.70049,42487515,aaa,Disease,0.9910408854484558,2043,2046
-42595760,Metformin improves chronic rhinosinusitis with depressive-like behavior in mice by targeting TCF4 to inhibit the TLR4/NF-κB pathway.,2026-08-13,10.1038/s41598-026-51321-4,42595760,metformin,Chemical,0.9981985688209534,0,9
-42595760,Metformin improves chronic rhinosinusitis with depressive-like behavior in mice by targeting TCF4 to inhibit the TLR4/NF-κB pathway.,2026-08-13,10.1038/s41598-026-51321-4,42595760,chronic rhinosinusitis,Disease,0.9882411956787109,19,41
-42595760,Metformin improves chronic rhinosinusitis with depressive-like behavior in mice by targeting TCF4 to inhibit the TLR4/NF-κB pathway.,2026-08-13,10.1038/s41598-026-51321-4,42595760,depressive - like behavior,Disease,0.9648475050926208,47,71
-42595760,Metformin improves chronic rhinosinusitis with depressive-like behavior in mice by targeting TCF4 to inhibit the TLR4/NF-κB pathway.,2026-08-13,10.1038/s41598-026-51321-4,42595760,chronic rhinosinusitis,Disease,0.9912413358688354,132,154
-42595760,Metformin improves chronic rhinosinusitis with depressive-like behavior in mice by targeting TCF4 to inhibit the TLR4/NF-κB pathway.,2026-08-13,10.1038/s41598-026-51321-4,42595760,crs,Disease,0.9893561005592346,156,159
-42595760,Metformin improves chronic rhinosinusitis with depressive-like behavior in mice by targeting TCF4 to inhibit the TLR4/NF-κB pathway.,2026-08-13,10.1038/s41598-026-51321-4,42595760,depressive disorders,Disease,0.993815541267395,187,207
-42595760,Metformin improves chronic rhinosinusitis with depressive-like behavior in mice by targeting TCF4 to inhibit the TLR4/NF-κB pathway.,2026-08-13,10.1038/s41598-026-51321-4,42595760,crs,Disease,0.991621732711792,255,258
-42595760,Metformin improves chronic rhinosinusitis with depressive-like behavior in mice by targeting TCF4 to inhibit the TLR4/NF-κB pathway.,2026-08-13,10.1038/s41598-026-51321-4,42595760,depression - like behaviors,Disease,0.9736140966415405,264,289
-42595760,Metformin improves chronic rhinosinusitis with depressive-like behavior in mice by targeting TCF4 to inhibit the TLR4/NF-κB pathway.,2026-08-13,10.1038/s41598-026-51321-4,42595760,crsdb,Disease,0.9526780843734741,291,296
-42595760,Metformin improves chronic rhinosinusitis with depressive-like behavior in mice by targeting TCF4 to inhibit the TLR4/NF-κB pathway.,2026-08-13,10.1038/s41598-026-51321-4,42595760,crsdb,Disease,0.934975266456604,484,489
-42595760,Metformin improves chronic rhinosinusitis with depressive-like behavior in mice by targeting TCF4 to inhibit the TLR4/NF-κB pathway.,2026-08-13,10.1038/s41598-026-51321-4,42595760,metformin,Chemical,0.9979159235954285,816,825
-42595760,Metformin improves chronic rhinosinusitis with depressive-like behavior in mice by targeting TCF4 to inhibit the TLR4/NF-κB pathway.,2026-08-13,10.1038/s41598-026-51321-4,42595760,neuroinflammation,Disease,0.9593010544776917,978,995
-42595760,Metformin improves chronic rhinosinusitis with depressive-like behavior in mice by targeting TCF4 to inhibit the TLR4/NF-κB pathway.,2026-08-13,10.1038/s41598-026-51321-4,42595760,crsdb,Disease,0.9468242526054382,999,1004
-42595760,Metformin improves chronic rhinosinusitis with depressive-like behavior in mice by targeting TCF4 to inhibit the TLR4/NF-κB pathway.,2026-08-13,10.1038/s41598-026-51321-4,42595760,metformin,Chemical,0.9980835914611816,1019,1028
-42595760,Metformin improves chronic rhinosinusitis with depressive-like behavior in mice by targeting TCF4 to inhibit the TLR4/NF-κB pathway.,2026-08-13,10.1038/s41598-026-51321-4,42595760,crsdb,Disease,0.9411650896072388,1068,1073
-42595760,Metformin improves chronic rhinosinusitis with depressive-like behavior in mice by targeting TCF4 to inhibit the TLR4/NF-κB pathway.,2026-08-13,10.1038/s41598-026-51321-4,42595760,depression - like behaviors,Disease,0.9693262577056885,1151,1176
-42595760,Metformin improves chronic rhinosinusitis with depressive-like behavior in mice by targeting TCF4 to inhibit the TLR4/NF-κB pathway.,2026-08-13,10.1038/s41598-026-51321-4,42595760,cognitive deficits,Disease,0.9911829233169556,1178,1196
-42595760,Metformin improves chronic rhinosinusitis with depressive-like behavior in mice by targeting TCF4 to inhibit the TLR4/NF-κB pathway.,2026-08-13,10.1038/s41598-026-51321-4,42595760,nasal and hippocampal,Disease,0.7275239825248718,1213,1234
-42595760,Metformin improves chronic rhinosinusitis with depressive-like behavior in mice by targeting TCF4 to inhibit the TLR4/NF-κB pathway.,2026-08-13,10.1038/s41598-026-51321-4,42595760,inflammation,Disease,0.8518248200416565,1235,1247
-42595760,Metformin improves chronic rhinosinusitis with depressive-like behavior in mice by targeting TCF4 to inhibit the TLR4/NF-κB pathway.,2026-08-13,10.1038/s41598-026-51321-4,42595760,crsdb,Disease,0.931903600692749,1265,1270
-42595760,Metformin improves chronic rhinosinusitis with depressive-like behavior in mice by targeting TCF4 to inhibit the TLR4/NF-κB pathway.,2026-08-13,10.1038/s41598-026-51321-4,42595760,neuroinflammation,Disease,0.8149193525314331,1385,1402
-42595760,Metformin improves chronic rhinosinusitis with depressive-like behavior in mice by targeting TCF4 to inhibit the TLR4/NF-κB pathway.,2026-08-13,10.1038/s41598-026-51321-4,42595760,metformin,Chemical,0.998254120349884,1596,1605
-42595760,Metformin improves chronic rhinosinusitis with depressive-like behavior in mice by targeting TCF4 to inhibit the TLR4/NF-κB pathway.,2026-08-13,10.1038/s41598-026-51321-4,42595760,crsdb,Disease,0.9557851552963257,1749,1754
-42595760,Metformin improves chronic rhinosinusitis with depressive-like behavior in mice by targeting TCF4 to inhibit the TLR4/NF-κB pathway.,2026-08-13,10.1038/s41598-026-51321-4,42595760,metformin,Chemical,0.998212456703186,1790,1799
-42581008,Association Between Metformin Use and Risk of Lung Cancer in Patients With Type 2 Diabetes: A Systematic Review and Meta-Analysis.,2026-08-01,10.1002/cnr2.70651,42581008,metformin,Chemical,0.9984251260757446,20,29
-42581008,Association Between Metformin Use and Risk of Lung Cancer in Patients With Type 2 Diabetes: A Systematic Review and Meta-Analysis.,2026-08-01,10.1002/cnr2.70651,42581008,lung cancer,Disease,0.9948526620864868,46,57
-42581008,Association Between Metformin Use and Risk of Lung Cancer in Patients With Type 2 Diabetes: A Systematic Review and Meta-Analysis.,2026-08-01,10.1002/cnr2.70651,42581008,type 2 diabetes,Disease,0.9944356083869934,75,90
-42581008,Association Between Metformin Use and Risk of Lung Cancer in Patients With Type 2 Diabetes: A Systematic Review and Meta-Analysis.,2026-08-01,10.1002/cnr2.70651,42581008,lung cancer,Disease,0.9944707155227661,149,160
-42581008,Association Between Metformin Use and Risk of Lung Cancer in Patients With Type 2 Diabetes: A Systematic Review and Meta-Analysis.,2026-08-01,10.1002/cnr2.70651,42581008,cancer,Disease,0.9533164501190186,198,204
-42581008,Association Between Metformin Use and Risk of Lung Cancer in Patients With Type 2 Diabetes: A Systematic Review and Meta-Analysis.,2026-08-01,10.1002/cnr2.70651,42581008,type 2 diabetes mellitus,Disease,0.9905329942703247,233,257
-42581008,Association Between Metformin Use and Risk of Lung Cancer in Patients With Type 2 Diabetes: A Systematic Review and Meta-Analysis.,2026-08-01,10.1002/cnr2.70651,42581008,t2dm,Disease,0.992222249507904,259,263
-42581008,Association Between Metformin Use and Risk of Lung Cancer in Patients With Type 2 Diabetes: A Systematic Review and Meta-Analysis.,2026-08-01,10.1002/cnr2.70651,42581008,metformin,Chemical,0.9983518123626709,330,339
-42581008,Association Between Metformin Use and Risk of Lung Cancer in Patients With Type 2 Diabetes: A Systematic Review and Meta-Analysis.,2026-08-01,10.1002/cnr2.70651,42581008,metformin,Chemical,0.9984716773033142,483,492
-42581008,Association Between Metformin Use and Risk of Lung Cancer in Patients With Type 2 Diabetes: A Systematic Review and Meta-Analysis.,2026-08-01,10.1002/cnr2.70651,42581008,lung cancer,Disease,0.994698703289032,513,524
-42581008,Association Between Metformin Use and Risk of Lung Cancer in Patients With Type 2 Diabetes: A Systematic Review and Meta-Analysis.,2026-08-01,10.1002/cnr2.70651,42581008,t2dm,Disease,0.9939931035041809,542,546
-42581008,Association Between Metformin Use and Risk of Lung Cancer in Patients With Type 2 Diabetes: A Systematic Review and Meta-Analysis.,2026-08-01,10.1002/cnr2.70651,42581008,lung cancer,Disease,0.9947705268859863,1023,1034
-42581008,Association Between Metformin Use and Risk of Lung Cancer in Patients With Type 2 Diabetes: A Systematic Review and Meta-Analysis.,2026-08-01,10.1002/cnr2.70651,42581008,metformin,Chemical,0.9983684420585632,1046,1055
-42581008,Association Between Metformin Use and Risk of Lung Cancer in Patients With Type 2 Diabetes: A Systematic Review and Meta-Analysis.,2026-08-01,10.1002/cnr2.70651,42581008,lung cancer,Disease,0.9948296546936035,1288,1299
-42581008,Association Between Metformin Use and Risk of Lung Cancer in Patients With Type 2 Diabetes: A Systematic Review and Meta-Analysis.,2026-08-01,10.1002/cnr2.70651,42581008,metformin,Chemical,0.9984620809555054,1412,1421
-42581008,Association Between Metformin Use and Risk of Lung Cancer in Patients With Type 2 Diabetes: A Systematic Review and Meta-Analysis.,2026-08-01,10.1002/cnr2.70651,42581008,t2dm,Disease,0.9957724213600159,1446,1450
-42581008,Association Between Metformin Use and Risk of Lung Cancer in Patients With Type 2 Diabetes: A Systematic Review and Meta-Analysis.,2026-08-01,10.1002/cnr2.70651,42581008,lung cancer,Disease,0.9949350357055664,1459,1470
-42581008,Association Between Metformin Use and Risk of Lung Cancer in Patients With Type 2 Diabetes: A Systematic Review and Meta-Analysis.,2026-08-01,10.1002/cnr2.70651,42581008,metformin,Chemical,0.9985193610191345,1674,1683
-42581008,Association Between Metformin Use and Risk of Lung Cancer in Patients With Type 2 Diabetes: A Systematic Review and Meta-Analysis.,2026-08-01,10.1002/cnr2.70651,42581008,lung cancer,Disease,0.9939031600952148,1697,1708
-42560062,"The effect of metformin on the pharmacokinetics of rifampicin, isoniazid, and pyrazinamide in adults with tuberculosis.",2026-08-06,10.1128/aac.00748-26,42560062,metformin,Chemical,0.9982473850250244,14,23
-42560062,"The effect of metformin on the pharmacokinetics of rifampicin, isoniazid, and pyrazinamide in adults with tuberculosis.",2026-08-06,10.1128/aac.00748-26,42560062,rifampicin,Chemical,0.9981860518455505,51,61
-42560062,"The effect of metformin on the pharmacokinetics of rifampicin, isoniazid, and pyrazinamide in adults with tuberculosis.",2026-08-06,10.1128/aac.00748-26,42560062,isoniazid,Chemical,0.996515154838562,63,72
-42560062,"The effect of metformin on the pharmacokinetics of rifampicin, isoniazid, and pyrazinamide in adults with tuberculosis.",2026-08-06,10.1128/aac.00748-26,42560062,pyrazinamide,Chemical,0.996123731136322,78,90
-42560062,"The effect of metformin on the pharmacokinetics of rifampicin, isoniazid, and pyrazinamide in adults with tuberculosis.",2026-08-06,10.1128/aac.00748-26,42560062,tuberculosis,Disease,0.9928204417228699,106,118
-42560062,"The effect of metformin on the pharmacokinetics of rifampicin, isoniazid, and pyrazinamide in adults with tuberculosis.",2026-08-06,10.1128/aac.00748-26,42560062,metformin,Chemical,0.996669352054596,119,128
-42560062,"The effect of metformin on the pharmacokinetics of rifampicin, isoniazid, and pyrazinamide in adults with tuberculosis.",2026-08-06,10.1128/aac.00748-26,42560062,tuberculosis,Disease,0.9944239258766174,192,204
-42560062,"The effect of metformin on the pharmacokinetics of rifampicin, isoniazid, and pyrazinamide in adults with tuberculosis.",2026-08-06,10.1128/aac.00748-26,42560062,tb,Disease,0.9767640829086304,206,208
-42560062,"The effect of metformin on the pharmacokinetics of rifampicin, isoniazid, and pyrazinamide in adults with tuberculosis.",2026-08-06,10.1128/aac.00748-26,42560062,tb,Disease,0.936112105846405,248,250
-42560062,"The effect of metformin on the pharmacokinetics of rifampicin, isoniazid, and pyrazinamide in adults with tuberculosis.",2026-08-06,10.1128/aac.00748-26,42560062,metformin,Chemical,0.9981309771537781,323,332
-42560062,"The effect of metformin on the pharmacokinetics of rifampicin, isoniazid, and pyrazinamide in adults with tuberculosis.",2026-08-06,10.1128/aac.00748-26,42560062,tb,Disease,0.8818027377128601,351,353
-42560062,"The effect of metformin on the pharmacokinetics of rifampicin, isoniazid, and pyrazinamide in adults with tuberculosis.",2026-08-06,10.1128/aac.00748-26,42560062,hiv / tb - coinfected,Disease,0.7951135635375977,379,396
-42560062,"The effect of metformin on the pharmacokinetics of rifampicin, isoniazid, and pyrazinamide in adults with tuberculosis.",2026-08-06,10.1128/aac.00748-26,42560062,diabetes,Disease,0.9909542202949524,412,420
-42560062,"The effect of metformin on the pharmacokinetics of rifampicin, isoniazid, and pyrazinamide in adults with tuberculosis.",2026-08-06,10.1128/aac.00748-26,42560062,rifampicin,Chemical,0.9977325201034546,421,431
-42560062,"The effect of metformin on the pharmacokinetics of rifampicin, isoniazid, and pyrazinamide in adults with tuberculosis.",2026-08-06,10.1128/aac.00748-26,42560062,isoniazid,Chemical,0.9957056641578674,433,442
-42560062,"The effect of metformin on the pharmacokinetics of rifampicin, isoniazid, and pyrazinamide in adults with tuberculosis.",2026-08-06,10.1128/aac.00748-26,42560062,pyrazinamide,Chemical,0.9930738806724548,448,460
-42560062,"The effect of metformin on the pharmacokinetics of rifampicin, isoniazid, and pyrazinamide in adults with tuberculosis.",2026-08-06,10.1128/aac.00748-26,42560062,metformin,Chemical,0.9982746839523315,559,568
-42560062,"The effect of metformin on the pharmacokinetics of rifampicin, isoniazid, and pyrazinamide in adults with tuberculosis.",2026-08-06,10.1128/aac.00748-26,42560062,hiv - associated tb,Disease,0.939083456993103,620,637
-42560062,"The effect of metformin on the pharmacokinetics of rifampicin, isoniazid, and pyrazinamide in adults with tuberculosis.",2026-08-06,10.1128/aac.00748-26,42560062,dolutegravir,Chemical,0.9978313446044922,706,718
-42560062,"The effect of metformin on the pharmacokinetics of rifampicin, isoniazid, and pyrazinamide in adults with tuberculosis.",2026-08-06,10.1128/aac.00748-26,42560062,metformin,Chemical,0.9980623126029968,924,933
-42560062,"The effect of metformin on the pharmacokinetics of rifampicin, isoniazid, and pyrazinamide in adults with tuberculosis.",2026-08-06,10.1128/aac.00748-26,42560062,rifampicin,Chemical,0.9981092214584351,998,1008
-42560062,"The effect of metformin on the pharmacokinetics of rifampicin, isoniazid, and pyrazinamide in adults with tuberculosis.",2026-08-06,10.1128/aac.00748-26,42560062,pyrazinamide,Chemical,0.9962553977966309,1013,1025
-42560062,"The effect of metformin on the pharmacokinetics of rifampicin, isoniazid, and pyrazinamide in adults with tuberculosis.",2026-08-06,10.1128/aac.00748-26,42560062,isoniazid,Chemical,0.9975911378860474,1192,1201
-42560062,"The effect of metformin on the pharmacokinetics of rifampicin, isoniazid, and pyrazinamide in adults with tuberculosis.",2026-08-06,10.1128/aac.00748-26,42560062,metformin,Chemical,0.9964348077774048,1408,1417
-42560062,"The effect of metformin on the pharmacokinetics of rifampicin, isoniazid, and pyrazinamide in adults with tuberculosis.",2026-08-06,10.1128/aac.00748-26,42560062,isoniazid,Chemical,0.9979575872421265,1426,1435
-42560062,"The effect of metformin on the pharmacokinetics of rifampicin, isoniazid, and pyrazinamide in adults with tuberculosis.",2026-08-06,10.1128/aac.00748-26,42560062,pyrazinamide,Chemical,0.9979049563407898,1640,1652
-42560062,"The effect of metformin on the pharmacokinetics of rifampicin, isoniazid, and pyrazinamide in adults with tuberculosis.",2026-08-06,10.1128/aac.00748-26,42560062,diabetic,Disease,0.9528573155403137,1684,1692
-42560062,"The effect of metformin on the pharmacokinetics of rifampicin, isoniazid, and pyrazinamide in adults with tuberculosis.",2026-08-06,10.1128/aac.00748-26,42560062,metformin,Chemical,0.9980734586715698,1705,1714
-42560062,"The effect of metformin on the pharmacokinetics of rifampicin, isoniazid, and pyrazinamide in adults with tuberculosis.",2026-08-06,10.1128/aac.00748-26,42560062,isoniazid,Chemical,0.9981914162635803,1725,1734
-42560062,"The effect of metformin on the pharmacokinetics of rifampicin, isoniazid, and pyrazinamide in adults with tuberculosis.",2026-08-06,10.1128/aac.00748-26,42560062,rifampicin,Chemical,0.9971097111701965,1739,1749
-42560062,"The effect of metformin on the pharmacokinetics of rifampicin, isoniazid, and pyrazinamide in adults with tuberculosis.",2026-08-06,10.1128/aac.00748-26,42560062,rifampicin,Chemical,0.9982969164848328,1774,1784
-42560062,"The effect of metformin on the pharmacokinetics of rifampicin, isoniazid, and pyrazinamide in adults with tuberculosis.",2026-08-06,10.1128/aac.00748-26,42560062,rifampicin,Chemical,0.9981191754341125,1889,1899
-PPR1297632,Metformin modulates autophagy in heterozygous and CRISPR-edited  <i>TSC2</i>  primary fibroblasts,2026-08-11,10.64898/2026.08.11.743350,,metformin,Chemical,0.9975060820579529,0,9
-PPR1297632,Metformin modulates autophagy in heterozygous and CRISPR-edited  <i>TSC2</i>  primary fibroblasts,2026-08-11,10.64898/2026.08.11.743350,,tuberous sclerosis complex,Disease,0.993639349937439,109,135
-PPR1297632,Metformin modulates autophagy in heterozygous and CRISPR-edited  <i>TSC2</i>  primary fibroblasts,2026-08-11,10.64898/2026.08.11.743350,,tsc,Disease,0.9828161597251892,137,140
-PPR1297632,Metformin modulates autophagy in heterozygous and CRISPR-edited  <i>TSC2</i>  primary fibroblasts,2026-08-11,10.64898/2026.08.11.743350,,tsc,Disease,0.9713780283927917,269,272
-PPR1297632,Metformin modulates autophagy in heterozygous and CRISPR-edited  <i>TSC2</i>  primary fibroblasts,2026-08-11,10.64898/2026.08.11.743350,,metformin,Chemical,0.9975883960723877,516,525
-PPR1297632,Metformin modulates autophagy in heterozygous and CRISPR-edited  <i>TSC2</i>  primary fibroblasts,2026-08-11,10.64898/2026.08.11.743350,,rapamycin,Chemical,0.9879618287086487,938,947
-PPR1297632,Metformin modulates autophagy in heterozygous and CRISPR-edited  <i>TSC2</i>  primary fibroblasts,2026-08-11,10.64898/2026.08.11.743350,,metformin,Chemical,0.9967575669288635,955,964
-PPR1297632,Metformin modulates autophagy in heterozygous and CRISPR-edited  <i>TSC2</i>  primary fibroblasts,2026-08-11,10.64898/2026.08.11.743350,,bafilomycin a1,Chemical,0.9797140955924988,966,980
-PPR1297632,Metformin modulates autophagy in heterozygous and CRISPR-edited  <i>TSC2</i>  primary fibroblasts,2026-08-11,10.64898/2026.08.11.743350,,acr,Chemical,0.8333873748779297,1076,1079
-PPR1297632,Metformin modulates autophagy in heterozygous and CRISPR-edited  <i>TSC2</i>  primary fibroblasts,2026-08-11,10.64898/2026.08.11.743350,,acr,Chemical,0.7966163158416748,1215,1218
-PPR1297632,Metformin modulates autophagy in heterozygous and CRISPR-edited  <i>TSC2</i>  primary fibroblasts,2026-08-11,10.64898/2026.08.11.743350,,rapamycin,Chemical,0.9923020601272583,1321,1330
-PPR1297632,Metformin modulates autophagy in heterozygous and CRISPR-edited  <i>TSC2</i>  primary fibroblasts,2026-08-11,10.64898/2026.08.11.743350,,metformin,Chemical,0.9973906874656677,1335,1344
-PPR1297632,Metformin modulates autophagy in heterozygous and CRISPR-edited  <i>TSC2</i>  primary fibroblasts,2026-08-11,10.64898/2026.08.11.743350,,rapamycin,Chemical,0.9957570433616638,1540,1549
-PPR1297632,Metformin modulates autophagy in heterozygous and CRISPR-edited  <i>TSC2</i>  primary fibroblasts,2026-08-11,10.64898/2026.08.11.743350,,rapamycin,Chemical,0.9946818947792053,1731,1740
-PPR1297632,Metformin modulates autophagy in heterozygous and CRISPR-edited  <i>TSC2</i>  primary fibroblasts,2026-08-11,10.64898/2026.08.11.743350,,rapamycin,Chemical,0.9948623776435852,1762,1771
-PPR1297632,Metformin modulates autophagy in heterozygous and CRISPR-edited  <i>TSC2</i>  primary fibroblasts,2026-08-11,10.64898/2026.08.11.743350,,metformin,Chemical,0.9973651766777039,1798,1807
-PPR1297632,Metformin modulates autophagy in heterozygous and CRISPR-edited  <i>TSC2</i>  primary fibroblasts,2026-08-11,10.64898/2026.08.11.743350,,metformin,Chemical,0.9976897239685059,1856,1865
-PPR1297632,Metformin modulates autophagy in heterozygous and CRISPR-edited  <i>TSC2</i>  primary fibroblasts,2026-08-11,10.64898/2026.08.11.743350,,metformin,Chemical,0.9984801411628723,2183,2192
-PPR1297632,Metformin modulates autophagy in heterozygous and CRISPR-edited  <i>TSC2</i>  primary fibroblasts,2026-08-11,10.64898/2026.08.11.743350,,tsc,Disease,0.980834424495697,2355,2358
+MED-34681816,Paracetamol (Acetaminophen) and the Developing Brain.,2021,10.1007/s11356-021-14136-6,34681816,paracetamol,Chemical,0.9984475374221802,0,11
+MED-34681816,Paracetamol (Acetaminophen) and the Developing Brain.,2021,10.1007/s11356-021-14136-6,34681816,acetaminophen,Chemical,0.9983735084533691,13,26
+MED-34681816,Paracetamol (Acetaminophen) and the Developing Brain.,2021,10.1007/s11356-021-14136-6,34681816,paracetamol,Chemical,0.9984434247016907,53,64
+MED-34681816,Paracetamol (Acetaminophen) and the Developing Brain.,2021,10.1007/s11356-021-14136-6,34681816,fever,Disease,0.9948564767837524,91,96
+MED-34681816,Paracetamol (Acetaminophen) and the Developing Brain.,2021,10.1007/s11356-021-14136-6,34681816,pain,Disease,0.9940693378448486,101,105
+MED-34681816,Paracetamol (Acetaminophen) and the Developing Brain.,2021,10.1007/s11356-021-14136-6,34681816,attention deficit hyperactivity disorder,Disease,0.994168221950531,176,216
+MED-34681816,Paracetamol (Acetaminophen) and the Developing Brain.,2021,10.1007/s11356-021-14136-6,34681816,autism spectrum disorder,Disease,0.9957054257392883,221,245
+MED-34681816,Paracetamol (Acetaminophen) and the Developing Brain.,2021,10.1007/s11356-021-14136-6,34681816,paracetamol,Chemical,0.9985678195953369,415,426
+MED-34681816,Paracetamol (Acetaminophen) and the Developing Brain.,2021,10.1007/s11356-021-14136-6,34681816,paracetamol,Chemical,0.9985306262969971,705,716
+MED-34681816,Paracetamol (Acetaminophen) and the Developing Brain.,2021,10.1007/s11356-021-14136-6,34681816,paracetamol,Chemical,0.9984875917434692,744,755
+MED-34681816,Paracetamol (Acetaminophen) and the Developing Brain.,2021,10.1007/s11356-021-14136-6,34681816,paracetamol,Chemical,0.9985231757164001,936,947
+MED-34681816,Paracetamol (Acetaminophen) and the Developing Brain.,2021,10.1007/s11356-021-14136-6,34681816,paracetamol,Chemical,0.9984813332557678,1041,1052
+MED-34681816,Paracetamol (Acetaminophen) and the Developing Brain.,2021,10.1007/s11356-021-14136-6,34681816,prostaglandin,Chemical,0.9839615821838379,1098,1111
+MED-34681816,Paracetamol (Acetaminophen) and the Developing Brain.,2021,10.1007/s11356-021-14136-6,34681816,prostaglandin h2,Chemical,0.9555990099906921,1177,1193
+MED-7002186,Kinetics and metabolism of paracetamol and phenacetin.,1980,10.1111/j.1365-2125.1980.tb01812.x,7002186,paracetamol,Chemical,0.9981586337089539,27,38
+MED-7002186,Kinetics and metabolism of paracetamol and phenacetin.,1980,10.1111/j.1365-2125.1980.tb01812.x,7002186,phenacetin,Chemical,0.9980528950691223,43,53
+MED-7002186,Kinetics and metabolism of paracetamol and phenacetin.,1980,10.1111/j.1365-2125.1980.tb01812.x,7002186,paracetamol,Chemical,0.9981504082679749,87,98
+MED-7002186,Kinetics and metabolism of paracetamol and phenacetin.,1980,10.1111/j.1365-2125.1980.tb01812.x,7002186,paracetamol,Chemical,0.9982220530509949,219,230
+MED-7002186,Kinetics and metabolism of paracetamol and phenacetin.,1980,10.1111/j.1365-2125.1980.tb01812.x,7002186,mercapturic acid,Chemical,0.9895035028457642,427,443
+MED-7002186,Kinetics and metabolism of paracetamol and phenacetin.,1980,10.1111/j.1365-2125.1980.tb01812.x,7002186,cysteine,Chemical,0.9834170937538147,448,456
+MED-7002186,Kinetics and metabolism of paracetamol and phenacetin.,1980,10.1111/j.1365-2125.1980.tb01812.x,7002186,paracetamol,Chemical,0.9975760579109192,578,589
+MED-7002186,Kinetics and metabolism of paracetamol and phenacetin.,1980,10.1111/j.1365-2125.1980.tb01812.x,7002186,hepatotoxic,Disease,0.796660304069519,635,646
+MED-7002186,Kinetics and metabolism of paracetamol and phenacetin.,1980,10.1111/j.1365-2125.1980.tb01812.x,7002186,paracetamol,Chemical,0.9978850483894348,654,665
+MED-7002186,Kinetics and metabolism of paracetamol and phenacetin.,1980,10.1111/j.1365-2125.1980.tb01812.x,7002186,sulphate,Chemical,0.7150214910507202,717,725
+MED-7002186,Kinetics and metabolism of paracetamol and phenacetin.,1980,10.1111/j.1365-2125.1980.tb01812.x,7002186,mercapturic acid,Chemical,0.9884818196296692,782,798
+MED-7002186,Kinetics and metabolism of paracetamol and phenacetin.,1980,10.1111/j.1365-2125.1980.tb01812.x,7002186,cysteine,Chemical,0.9745940566062927,803,811
+MED-7002186,Kinetics and metabolism of paracetamol and phenacetin.,1980,10.1111/j.1365-2125.1980.tb01812.x,7002186,paracetamol,Chemical,0.99806147813797,861,872
+MED-7002186,Kinetics and metabolism of paracetamol and phenacetin.,1980,10.1111/j.1365-2125.1980.tb01812.x,7002186,phenacetin,Chemical,0.9981637001037598,1061,1071
+MED-7002186,Kinetics and metabolism of paracetamol and phenacetin.,1980,10.1111/j.1365-2125.1980.tb01812.x,7002186,paracetamol,Chemical,0.9964423775672913,1139,1150
+MED-7002186,Kinetics and metabolism of paracetamol and phenacetin.,1980,10.1111/j.1365-2125.1980.tb01812.x,7002186,toxicity,Disease,0.9937258362770081,1202,1210
+MED-15662292,Mechanism of action of paracetamol.,2005,10.1097/00045391-200501000-00008,15662292,paracetamol,Chemical,0.9980331063270569,23,34
+MED-15662292,Mechanism of action of paracetamol.,2005,10.1097/00045391-200501000-00008,15662292,paracetamol,Chemical,0.9974141120910645,35,46
+MED-15662292,Mechanism of action of paracetamol.,2005,10.1097/00045391-200501000-00008,15662292,acetaminophen,Chemical,0.9981752634048462,48,61
+MED-15662292,Mechanism of action of paracetamol.,2005,10.1097/00045391-200501000-00008,15662292,prostaglandins,Chemical,0.9601523280143738,130,144
+MED-15662292,Mechanism of action of paracetamol.,2005,10.1097/00045391-200501000-00008,15662292,pgs,Chemical,0.8573382496833801,146,149
+MED-15662292,Mechanism of action of paracetamol.,2005,10.1097/00045391-200501000-00008,15662292,paracetamol,Chemical,0.9981675148010254,183,194
+MED-15662292,Mechanism of action of paracetamol.,2005,10.1097/00045391-200501000-00008,15662292,paracetamol,Chemical,0.9977983236312866,269,280
+MED-15662292,Mechanism of action of paracetamol.,2005,10.1097/00045391-200501000-00008,15662292,paracetamol,Chemical,0.9981086254119873,367,378
+MED-15662292,Mechanism of action of paracetamol.,2005,10.1097/00045391-200501000-00008,15662292,inflammation,Disease,0.8626340627670288,401,413
+MED-15662292,Mechanism of action of paracetamol.,2005,10.1097/00045391-200501000-00008,15662292,rheumatoid arthritis,Disease,0.9935675859451294,417,437
+MED-15662292,Mechanism of action of paracetamol.,2005,10.1097/00045391-200501000-00008,15662292,swelling,Disease,0.9438057541847229,465,473
+MED-15662292,Mechanism of action of paracetamol.,2005,10.1097/00045391-200501000-00008,15662292,inflammation,Disease,0.9730747938156128,518,530
+MED-15662292,Mechanism of action of paracetamol.,2005,10.1097/00045391-200501000-00008,15662292,paracetamol,Chemical,0.9978647828102112,548,559
+MED-15662292,Mechanism of action of paracetamol.,2005,10.1097/00045391-200501000-00008,15662292,pg,Chemical,0.816710889339447,583,585
+MED-15662292,Mechanism of action of paracetamol.,2005,10.1097/00045391-200501000-00008,15662292,paracetamol,Chemical,0.9981716871261597,687,698
+MED-15662292,Mechanism of action of paracetamol.,2005,10.1097/00045391-200501000-00008,15662292,arachidonic acid,Chemical,0.9956361055374146,778,794
+MED-15662292,Mechanism of action of paracetamol.,2005,10.1097/00045391-200501000-00008,15662292,arachidonic acid,Chemical,0.9946362972259521,850,866
+MED-15662292,Mechanism of action of paracetamol.,2005,10.1097/00045391-200501000-00008,15662292,paracetamol,Chemical,0.9980583786964417,990,1001
+MED-15662292,Mechanism of action of paracetamol.,2005,10.1097/00045391-200501000-00008,15662292,paracetamol,Chemical,0.9980702996253967,1162,1173
+MED-15662292,Mechanism of action of paracetamol.,2005,10.1097/00045391-200501000-00008,15662292,paracetamol,Chemical,0.9980033040046692,1290,1301
+MED-15662292,Mechanism of action of paracetamol.,2005,10.1097/00045391-200501000-00008,15662292,paracetamol,Chemical,0.998178243637085,1476,1487
+MED-15662292,Mechanism of action of paracetamol.,2005,10.1097/00045391-200501000-00008,15662292,paracetamol,Chemical,0.9981462955474854,1646,1657
+MED-15662292,Mechanism of action of paracetamol.,2005,10.1097/00045391-200501000-00008,15662292,glutathione,Chemical,0.9919694066047668,1810,1821
+MED-15662292,Mechanism of action of paracetamol.,2005,10.1097/00045391-200501000-00008,15662292,pge,Chemical,0.9941043257713318,1853,1856
+MED-37683599,Paracetamol (acetaminophen) poisoning: The early years.,2024,10.1111/bcp.15903,37683599,paracetamol,Chemical,0.9979050159454346,0,11
+MED-37683599,Paracetamol (acetaminophen) poisoning: The early years.,2024,10.1111/bcp.15903,37683599,acetaminophen,Chemical,0.9980579018592834,13,26
+MED-37683599,Paracetamol (acetaminophen) poisoning: The early years.,2024,10.1111/bcp.15903,37683599,poisoning,Disease,0.9120782613754272,28,37
+MED-37683599,Paracetamol (acetaminophen) poisoning: The early years.,2024,10.1111/bcp.15903,37683599,paracetamol,Chemical,0.9982098340988159,55,66
+MED-37683599,Paracetamol (acetaminophen) poisoning: The early years.,2024,10.1111/bcp.15903,37683599,acetaminophen,Chemical,0.9979967474937439,68,81
+MED-37683599,Paracetamol (acetaminophen) poisoning: The early years.,2024,10.1111/bcp.15903,37683599,toxicity,Disease,0.9372444748878479,176,184
+MED-37683599,Paracetamol (acetaminophen) poisoning: The early years.,2024,10.1111/bcp.15903,37683599,acute,Disease,0.8046218156814575,297,302
+MED-37683599,Paracetamol (acetaminophen) poisoning: The early years.,2024,10.1111/bcp.15903,37683599,liver damage,Disease,0.7614137530326843,303,315
+MED-37683599,Paracetamol (acetaminophen) poisoning: The early years.,2024,10.1111/bcp.15903,37683599,of liver function,Disease,0.7093694806098938,409,426
+MED-37683599,Paracetamol (acetaminophen) poisoning: The early years.,2024,10.1111/bcp.15903,37683599,overdose,Disease,0.9311213493347168,468,476
+MED-37683599,Paracetamol (acetaminophen) poisoning: The early years.,2024,10.1111/bcp.15903,37683599,hepatotoxicity,Disease,0.9932131767272949,521,535
+MED-37683599,Paracetamol (acetaminophen) poisoning: The early years.,2024,10.1111/bcp.15903,37683599,paracetamol,Chemical,0.9981356859207153,554,565
+MED-37683599,Paracetamol (acetaminophen) poisoning: The early years.,2024,10.1111/bcp.15903,37683599,liver damage,Disease,0.9865232110023499,595,607
+MED-37683599,Paracetamol (acetaminophen) poisoning: The early years.,2024,10.1111/bcp.15903,37683599,paracetamol,Chemical,0.9980635046958923,877,888
+MED-37683599,Paracetamol (acetaminophen) poisoning: The early years.,2024,10.1111/bcp.15903,37683599,paracetamol,Chemical,0.9940142035484314,1003,1014
+MED-37683599,Paracetamol (acetaminophen) poisoning: The early years.,2024,10.1111/bcp.15903,37683599,hepatotoxicity,Disease,0.9901579022407532,1015,1029
+MED-37683599,Paracetamol (acetaminophen) poisoning: The early years.,2024,10.1111/bcp.15903,37683599,overdosage,Disease,0.7546725869178772,1068,1078
+MED-37683599,Paracetamol (acetaminophen) poisoning: The early years.,2024,10.1111/bcp.15903,37683599,cysteamine,Chemical,0.9981229305267334,1101,1111
+MED-37683599,Paracetamol (acetaminophen) poisoning: The early years.,2024,10.1111/bcp.15903,37683599,n - acetylcysteine,Chemical,0.9954465627670288,1178,1194
+MED-37683599,Paracetamol (acetaminophen) poisoning: The early years.,2024,10.1111/bcp.15903,37683599,paracetamol,Chemical,0.9722803235054016,1235,1246
+MED-37683599,Paracetamol (acetaminophen) poisoning: The early years.,2024,10.1111/bcp.15903,37683599,overdose,Disease,0.8975679278373718,1247,1255
+MED-37683599,Paracetamol (acetaminophen) poisoning: The early years.,2024,10.1111/bcp.15903,37683599,n - acetylcysteine,Chemical,0.9953094720840454,1332,1348
+MED-37683599,Paracetamol (acetaminophen) poisoning: The early years.,2024,10.1111/bcp.15903,37683599,anaphylactoid reactions,Disease,0.9734639525413513,1361,1384
+MED-37683599,Paracetamol (acetaminophen) poisoning: The early years.,2024,10.1111/bcp.15903,37683599,n - acetylcysteine,Chemical,0.995995044708252,1666,1682
+MED-37683599,Paracetamol (acetaminophen) poisoning: The early years.,2024,10.1111/bcp.15903,37683599,paracetamol,Chemical,0.9952443242073059,1979,1990
+MED-37683599,Paracetamol (acetaminophen) poisoning: The early years.,2024,10.1111/bcp.15903,37683599,hepatotoxicity,Disease,0.9954261183738708,2015,2029
+MED-37683599,Paracetamol (acetaminophen) poisoning: The early years.,2024,10.1111/bcp.15903,37683599,paracetamol,Chemical,0.996173083782196,2067,2078
+MED-37683599,Paracetamol (acetaminophen) poisoning: The early years.,2024,10.1111/bcp.15903,37683599,cysteine,Chemical,0.9969846606254578,2161,2169
+MED-37683599,Paracetamol (acetaminophen) poisoning: The early years.,2024,10.1111/bcp.15903,37683599,inorganic sulfate,Chemical,0.7391489744186401,2174,2191
+MED-37683599,Paracetamol (acetaminophen) poisoning: The early years.,2024,10.1111/bcp.15903,37683599,paracetamol,Chemical,0.9744880199432373,2247,2258
+MED-37683599,Paracetamol (acetaminophen) poisoning: The early years.,2024,10.1111/bcp.15903,37683599,poisoning,Disease,0.8464580178260803,2259,2268
+MED-29473717,Interventions for paracetamol (acetaminophen) overdose.,2018,10.1002/14651858.CD003328.pub2,29473717,paracetamol,Chemical,0.989661455154419,18,29
+MED-29473717,Interventions for paracetamol (acetaminophen) overdose.,2018,10.1002/14651858.CD003328.pub2,29473717,acetaminophen,Chemical,0.9963317513465881,31,44
+MED-29473717,Interventions for paracetamol (acetaminophen) overdose.,2018,10.1002/14651858.CD003328.pub2,29473717,overdose,Disease,0.9688069820404053,46,54
+MED-29473717,Interventions for paracetamol (acetaminophen) overdose.,2018,10.1002/14651858.CD003328.pub2,29473717,paracetamol,Chemical,0.99788898229599,55,66
+MED-29473717,Interventions for paracetamol (acetaminophen) overdose.,2018,10.1002/14651858.CD003328.pub2,29473717,acetaminophen,Chemical,0.996924102306366,68,81
+MED-29473717,Interventions for paracetamol (acetaminophen) overdose.,2018,10.1002/14651858.CD003328.pub2,29473717,paracetamol,Chemical,0.9978628754615784,147,158
+MED-29473717,Interventions for paracetamol (acetaminophen) overdose.,2018,10.1002/14651858.CD003328.pub2,29473717,overdose,Disease,0.9848030805587769,180,188
+MED-29473717,Interventions for paracetamol (acetaminophen) overdose.,2018,10.1002/14651858.CD003328.pub2,29473717,paracetamol,Chemical,0.9850532412528992,254,265
+MED-29473717,Interventions for paracetamol (acetaminophen) overdose.,2018,10.1002/14651858.CD003328.pub2,29473717,toxicity,Disease,0.904034435749054,266,274
+MED-29473717,Interventions for paracetamol (acetaminophen) overdose.,2018,10.1002/14651858.CD003328.pub2,29473717,acute liver injury,Disease,0.9601456522941589,296,314
+MED-29473717,Interventions for paracetamol (acetaminophen) overdose.,2018,10.1002/14651858.CD003328.pub2,29473717,paracetamol,Chemical,0.9608157873153687,356,367
+MED-29473717,Interventions for paracetamol (acetaminophen) overdose.,2018,10.1002/14651858.CD003328.pub2,29473717,poisoning,Disease,0.8980035781860352,368,377
+MED-29473717,Interventions for paracetamol (acetaminophen) overdose.,2018,10.1002/14651858.CD003328.pub2,29473717,paracetamol,Chemical,0.9976613521575928,483,494
+MED-29473717,Interventions for paracetamol (acetaminophen) overdose.,2018,10.1002/14651858.CD003328.pub2,29473717,paracetamol,Chemical,0.9977501034736633,557,568
+MED-29473717,Interventions for paracetamol (acetaminophen) overdose.,2018,10.1002/14651858.CD003328.pub2,29473717,paracetamol,Chemical,0.9777716398239136,720,731
+MED-29473717,Interventions for paracetamol (acetaminophen) overdose.,2018,10.1002/14651858.CD003328.pub2,29473717,overdosage,Disease,0.8503078818321228,732,742
+MED-29473717,Interventions for paracetamol (acetaminophen) overdose.,2018,10.1002/14651858.CD003328.pub2,29473717,overdose,Disease,0.9842084050178528,776,784
+MED-29473717,Interventions for paracetamol (acetaminophen) overdose.,2018,10.1002/14651858.CD003328.pub2,29473717,paracetamol,Chemical,0.9432899951934814,1441,1452
+MED-29473717,Interventions for paracetamol (acetaminophen) overdose.,2018,10.1002/14651858.CD003328.pub2,29473717,overdose,Disease,0.9679110050201416,1453,1461
+MED-29473717,Interventions for paracetamol (acetaminophen) overdose.,2018,10.1002/14651858.CD003328.pub2,29473717,ipecacuanha,Chemical,0.9960545301437378,1512,1523
+MED-29473717,Interventions for paracetamol (acetaminophen) overdose.,2018,10.1002/14651858.CD003328.pub2,29473717,acetylcysteine,Chemical,0.9978253245353699,2339,2353
+MED-29473717,Interventions for paracetamol (acetaminophen) overdose.,2018,10.1002/14651858.CD003328.pub2,29473717,paracetamol,Chemical,0.9973733425140381,2581,2592
+MED-29473717,Interventions for paracetamol (acetaminophen) overdose.,2018,10.1002/14651858.CD003328.pub2,29473717,methionine,Chemical,0.9977399110794067,2628,2638
+MED-29473717,Interventions for paracetamol (acetaminophen) overdose.,2018,10.1002/14651858.CD003328.pub2,29473717,cysteamine,Chemical,0.9972732663154602,2640,2650
+MED-29473717,Interventions for paracetamol (acetaminophen) overdose.,2018,10.1002/14651858.CD003328.pub2,29473717,dimercaprol,Chemical,0.9975875020027161,2652,2663
+MED-29473717,Interventions for paracetamol (acetaminophen) overdose.,2018,10.1002/14651858.CD003328.pub2,29473717,acetylcysteine,Chemical,0.9977687001228333,2668,2682
+MED-29473717,Interventions for paracetamol (acetaminophen) overdose.,2018,10.1002/14651858.CD003328.pub2,29473717,n - acetyl - p - benzoquinone imine,Chemical,0.9938995242118835,2837,2866
+MED-29473717,Interventions for paracetamol (acetaminophen) overdose.,2018,10.1002/14651858.CD003328.pub2,29473717,ipecacuanha,Chemical,0.9967855215072632,3357,3368
+MED-29473717,Interventions for paracetamol (acetaminophen) overdose.,2018,10.1002/14651858.CD003328.pub2,29473717,paracetamol,Chemical,0.9979876279830933,3644,3655
+MED-29473717,Interventions for paracetamol (acetaminophen) overdose.,2018,10.1002/14651858.CD003328.pub2,29473717,paracetamol,Chemical,0.9978406429290771,3717,3728
+MED-29473717,Interventions for paracetamol (acetaminophen) overdose.,2018,10.1002/14651858.CD003328.pub2,29473717,ipecacuanha,Chemical,0.9961587190628052,3853,3864
+MED-29473717,Interventions for paracetamol (acetaminophen) overdose.,2018,10.1002/14651858.CD003328.pub2,29473717,ipecacuanha,Chemical,0.996076762676239,3990,4001
+MED-29473717,Interventions for paracetamol (acetaminophen) overdose.,2018,10.1002/14651858.CD003328.pub2,29473717,ipecacuanha,Chemical,0.9962427020072937,4026,4037
+MED-29473717,Interventions for paracetamol (acetaminophen) overdose.,2018,10.1002/14651858.CD003328.pub2,29473717,paracetamol,Chemical,0.9977557063102722,4360,4371
+MED-29473717,Interventions for paracetamol (acetaminophen) overdose.,2018,10.1002/14651858.CD003328.pub2,29473717,paracetamol,Chemical,0.9975205063819885,4462,4473
+MED-29473717,Interventions for paracetamol (acetaminophen) overdose.,2018,10.1002/14651858.CD003328.pub2,29473717,acetylcysteine,Chemical,0.9976689219474792,4628,4642
+MED-29473717,Interventions for paracetamol (acetaminophen) overdose.,2018,10.1002/14651858.CD003328.pub2,29473717,dimercaprol,Chemical,0.9977474212646484,4721,4732
+MED-29473717,Interventions for paracetamol (acetaminophen) overdose.,2018,10.1002/14651858.CD003328.pub2,29473717,cysteamine,Chemical,0.9975367784500122,4736,4746
+MED-29473717,Interventions for paracetamol (acetaminophen) overdose.,2018,10.1002/14651858.CD003328.pub2,29473717,acetylcysteine,Chemical,0.9968708157539368,4747,4761
+MED-29473717,Interventions for paracetamol (acetaminophen) overdose.,2018,10.1002/14651858.CD003328.pub2,29473717,methionine,Chemical,0.9959012866020203,4777,4787
+MED-29473717,Interventions for paracetamol (acetaminophen) overdose.,2018,10.1002/14651858.CD003328.pub2,29473717,acetylcysteine,Chemical,0.9979729652404785,4851,4865
+MED-29473717,Interventions for paracetamol (acetaminophen) overdose.,2018,10.1002/14651858.CD003328.pub2,29473717,fulminant hepatic failure,Disease,0.9936836361885071,4902,4927
+MED-29473717,Interventions for paracetamol (acetaminophen) overdose.,2018,10.1002/14651858.CD003328.pub2,29473717,peto,Disease,0.9298125505447388,4929,4933
+MED-29473717,Interventions for paracetamol (acetaminophen) overdose.,2018,10.1002/14651858.CD003328.pub2,29473717,acetylcysteine,Chemical,0.9977640509605408,5025,5039
+MED-29473717,Interventions for paracetamol (acetaminophen) overdose.,2018,10.1002/14651858.CD003328.pub2,29473717,acetylcysteine,Chemical,0.9977083206176758,5117,5131
+MED-29473717,Interventions for paracetamol (acetaminophen) overdose.,2018,10.1002/14651858.CD003328.pub2,29473717,acetylcysteine,Chemical,0.9972374439239502,5296,5310
+MED-29473717,Interventions for paracetamol (acetaminophen) overdose.,2018,10.1002/14651858.CD003328.pub2,29473717,acetylcysteine,Chemical,0.9975605010986328,5335,5349
+MED-29473717,Interventions for paracetamol (acetaminophen) overdose.,2018,10.1002/14651858.CD003328.pub2,29473717,paracetamol,Chemical,0.9132047295570374,5790,5801
+MED-29473717,Interventions for paracetamol (acetaminophen) overdose.,2018,10.1002/14651858.CD003328.pub2,29473717,overdose,Disease,0.8168553113937378,5802,5810
+MED-29473717,Interventions for paracetamol (acetaminophen) overdose.,2018,10.1002/14651858.CD003328.pub2,29473717,paracetamol,Chemical,0.9892520308494568,6019,6030
+MED-29473717,Interventions for paracetamol (acetaminophen) overdose.,2018,10.1002/14651858.CD003328.pub2,29473717,acetylcysteine,Chemical,0.9953954219818115,6031,6045
+MED-29473717,Interventions for paracetamol (acetaminophen) overdose.,2018,10.1002/14651858.CD003328.pub2,29473717,toxicity,Disease,0.9890080690383911,6083,6091
+MED-29473717,Interventions for paracetamol (acetaminophen) overdose.,2018,10.1002/14651858.CD003328.pub2,29473717,liver failure,Disease,0.9947795867919922,6125,6138
+MED-29473717,Interventions for paracetamol (acetaminophen) overdose.,2018,10.1002/14651858.CD003328.pub2,29473717,paracetamol,Chemical,0.8918516635894775,6355,6366
+MED-29473717,Interventions for paracetamol (acetaminophen) overdose.,2018,10.1002/14651858.CD003328.pub2,29473717,poisoning,Disease,0.7779172658920288,6367,6376
+MED-29473717,Interventions for paracetamol (acetaminophen) overdose.,2018,10.1002/14651858.CD003328.pub2,29473717,acetylcysteine,Chemical,0.9974892139434814,6438,6452
+MED-29473717,Interventions for paracetamol (acetaminophen) overdose.,2018,10.1002/14651858.CD003328.pub2,29473717,acetylcysteine,Chemical,0.9976544380187988,6570,6584
+MED-35175416,Paracetamol (acetaminophen) use in infants and children was never shown to be safe for neurodevelopment: a systematic review with citation tracking.,2022,10.1007/s00431-022-04407-w,35175416,paracetamol,Chemical,0.9982763528823853,0,11
+MED-35175416,Paracetamol (acetaminophen) use in infants and children was never shown to be safe for neurodevelopment: a systematic review with citation tracking.,2022,10.1007/s00431-022-04407-w,35175416,acetaminophen,Chemical,0.997425377368927,13,26
+MED-35175416,Paracetamol (acetaminophen) use in infants and children was never shown to be safe for neurodevelopment: a systematic review with citation tracking.,2022,10.1007/s00431-022-04407-w,35175416,paracetamol,Chemical,0.9983044862747192,326,337
+MED-35175416,Paracetamol (acetaminophen) use in infants and children was never shown to be safe for neurodevelopment: a systematic review with citation tracking.,2022,10.1007/s00431-022-04407-w,35175416,acetaminophen,Chemical,0.9972280859947205,339,352
+MED-35175416,Paracetamol (acetaminophen) use in infants and children was never shown to be safe for neurodevelopment: a systematic review with citation tracking.,2022,10.1007/s00431-022-04407-w,35175416,neurodevelopmental problems,Disease,0.878240704536438,374,401
+MED-35175416,Paracetamol (acetaminophen) use in infants and children was never shown to be safe for neurodevelopment: a systematic review with citation tracking.,2022,10.1007/s00431-022-04407-w,35175416,paracetamol,Chemical,0.9982228875160217,514,525
+MED-35175416,Paracetamol (acetaminophen) use in infants and children was never shown to be safe for neurodevelopment: a systematic review with citation tracking.,2022,10.1007/s00431-022-04407-w,35175416,paracetamol,Chemical,0.9982272982597351,603,614
+MED-35175416,Paracetamol (acetaminophen) use in infants and children was never shown to be safe for neurodevelopment: a systematic review with citation tracking.,2022,10.1007/s00431-022-04407-w,35175416,paracetamol,Chemical,0.9980249404907227,768,779
+MED-35175416,Paracetamol (acetaminophen) use in infants and children was never shown to be safe for neurodevelopment: a systematic review with citation tracking.,2022,10.1007/s00431-022-04407-w,35175416,acetaminophen,Chemical,0.9981695413589478,785,798
+MED-35175416,Paracetamol (acetaminophen) use in infants and children was never shown to be safe for neurodevelopment: a systematic review with citation tracking.,2022,10.1007/s00431-022-04407-w,35175416,paracetamol,Chemical,0.9982593655586243,888,899
+MED-35175416,Paracetamol (acetaminophen) use in infants and children was never shown to be safe for neurodevelopment: a systematic review with citation tracking.,2022,10.1007/s00431-022-04407-w,35175416,paracetamol,Chemical,0.9982426166534424,1469,1480
+MED-35175416,Paracetamol (acetaminophen) use in infants and children was never shown to be safe for neurodevelopment: a systematic review with citation tracking.,2022,10.1007/s00431-022-04407-w,35175416,liver damage,Disease,0.9005943536758423,1503,1515
+MED-35175416,Paracetamol (acetaminophen) use in infants and children was never shown to be safe for neurodevelopment: a systematic review with citation tracking.,2022,10.1007/s00431-022-04407-w,35175416,paracetamol,Chemical,0.998121440410614,1577,1588
+MED-35175416,Paracetamol (acetaminophen) use in infants and children was never shown to be safe for neurodevelopment: a systematic review with citation tracking.,2022,10.1007/s00431-022-04407-w,35175416,acetaminophen,Chemical,0.9972053170204163,1590,1603
+MED-35175416,Paracetamol (acetaminophen) use in infants and children was never shown to be safe for neurodevelopment: a systematic review with citation tracking.,2022,10.1007/s00431-022-04407-w,35175416,paracetamol,Chemical,0.9982569813728333,1836,1847
+MED-35175416,Paracetamol (acetaminophen) use in infants and children was never shown to be safe for neurodevelopment: a systematic review with citation tracking.,2022,10.1007/s00431-022-04407-w,35175416,liver damage,Disease,0.9925963878631592,1866,1878
+MED-35175416,Paracetamol (acetaminophen) use in infants and children was never shown to be safe for neurodevelopment: a systematic review with citation tracking.,2022,10.1007/s00431-022-04407-w,35175416,paracetamol,Chemical,0.998051643371582,2059,2070
+MED-35175416,Paracetamol (acetaminophen) use in infants and children was never shown to be safe for neurodevelopment: a systematic review with citation tracking.,2022,10.1007/s00431-022-04407-w,35175416,toxicity,Disease,0.9855807423591614,2071,2079
+MED-35175416,Paracetamol (acetaminophen) use in infants and children was never shown to be safe for neurodevelopment: a systematic review with citation tracking.,2022,10.1007/s00431-022-04407-w,35175416,paracetamol,Chemical,0.9982702732086182,2236,2247
+MED-35175416,Paracetamol (acetaminophen) use in infants and children was never shown to be safe for neurodevelopment: a systematic review with citation tracking.,2022,10.1007/s00431-022-04407-w,35175416,paracetamol,Chemical,0.9982640147209167,2374,2385
+MED-35175416,Paracetamol (acetaminophen) use in infants and children was never shown to be safe for neurodevelopment: a systematic review with citation tracking.,2022,10.1007/s00431-022-04407-w,35175416,paracetamol,Chemical,0.9980554580688477,2565,2576
+MED-35175416,Paracetamol (acetaminophen) use in infants and children was never shown to be safe for neurodevelopment: a systematic review with citation tracking.,2022,10.1007/s00431-022-04407-w,35175416,paracetamol,Chemical,0.998539924621582,2855,2866
+MED-12749738,Tramadol/paracetamol.,2003,10.2165/00003495-200363110-00007,12749738,tramadol,Chemical,0.9971643686294556,0,8
+MED-12749738,Tramadol/paracetamol.,2003,10.2165/00003495-200363110-00007,12749738,paracetamol,Chemical,0.9958200454711914,9,20
+MED-12749738,Tramadol/paracetamol.,2003,10.2165/00003495-200363110-00007,12749738,tramadol,Chemical,0.9971796274185181,73,81
+MED-12749738,Tramadol/paracetamol.,2003,10.2165/00003495-200363110-00007,12749738,paracetamol,Chemical,0.9975799322128296,113,124
+MED-12749738,Tramadol/paracetamol.,2003,10.2165/00003495-200363110-00007,12749738,acetaminophen,Chemical,0.9964737296104431,126,139
+MED-12749738,Tramadol/paracetamol.,2003,10.2165/00003495-200363110-00007,12749738,acute pain,Disease,0.8067241907119751,256,266
+MED-12749738,Tramadol/paracetamol.,2003,10.2165/00003495-200363110-00007,12749738,chronic painful conditions,Disease,0.7596065402030945,282,308
+MED-12749738,Tramadol/paracetamol.,2003,10.2165/00003495-200363110-00007,12749738,pain,Disease,0.984872043132782,356,360
+MED-12749738,Tramadol/paracetamol.,2003,10.2165/00003495-200363110-00007,12749738,tramadol,Chemical,0.997022271156311,365,373
+MED-12749738,Tramadol/paracetamol.,2003,10.2165/00003495-200363110-00007,12749738,paracetamol,Chemical,0.9958827495574951,374,385
+MED-12749738,Tramadol/paracetamol.,2003,10.2165/00003495-200363110-00007,12749738,dental pain,Disease,0.9788275361061096,433,444
+MED-12749738,Tramadol/paracetamol.,2003,10.2165/00003495-200363110-00007,12749738,tramadol,Chemical,0.9971746206283569,527,535
+MED-12749738,Tramadol/paracetamol.,2003,10.2165/00003495-200363110-00007,12749738,postoperative dental pain,Disease,0.9799335598945618,624,649
+MED-12749738,Tramadol/paracetamol.,2003,10.2165/00003495-200363110-00007,12749738,tramadol,Chemical,0.9971061944961548,655,663
+MED-12749738,Tramadol/paracetamol.,2003,10.2165/00003495-200363110-00007,12749738,paracetamol,Chemical,0.9956887364387512,664,675
+MED-12749738,Tramadol/paracetamol.,2003,10.2165/00003495-200363110-00007,12749738,hydrocodone,Chemical,0.9974995255470276,728,739
+MED-12749738,Tramadol/paracetamol.,2003,10.2165/00003495-200363110-00007,12749738,paracetamol,Chemical,0.9929987192153931,740,751
+MED-12749738,Tramadol/paracetamol.,2003,10.2165/00003495-200363110-00007,12749738,tramadol,Chemical,0.997050404548645,811,819
+MED-12749738,Tramadol/paracetamol.,2003,10.2165/00003495-200363110-00007,12749738,paracetamol,Chemical,0.992932915687561,820,831
+MED-12749738,Tramadol/paracetamol.,2003,10.2165/00003495-200363110-00007,12749738,pain,Disease,0.9871734380722046,974,978
+MED-12749738,Tramadol/paracetamol.,2003,10.2165/00003495-200363110-00007,12749738,osteoarthritis flare pain,Disease,0.8493823409080505,1003,1028
+MED-12749738,Tramadol/paracetamol.,2003,10.2165/00003495-200363110-00007,12749738,tramadol,Chemical,0.9923736453056335,1029,1037
+MED-12749738,Tramadol/paracetamol.,2003,10.2165/00003495-200363110-00007,12749738,paracetamol,Chemical,0.9953010082244873,1038,1049
+MED-12749738,Tramadol/paracetamol.,2003,10.2165/00003495-200363110-00007,12749738,codeine,Chemical,0.997192919254303,1099,1106
+MED-12749738,Tramadol/paracetamol.,2003,10.2165/00003495-200363110-00007,12749738,paracetamol,Chemical,0.9918422698974609,1107,1118
+MED-12749738,Tramadol/paracetamol.,2003,10.2165/00003495-200363110-00007,12749738,chronic back pain,Disease,0.9814169406890869,1146,1163
+MED-40402381,Paracetamol: the potential therapeutic pathways defining its clinical use.,2025,10.1097/FBP.0b013e3283566065,40402381,paracetamol,Chemical,0.9978381991386414,0,11
+MED-40402381,Paracetamol: the potential therapeutic pathways defining its clinical use.,2025,10.1097/FBP.0b013e3283566065,40402381,paracetamol,Chemical,0.997687816619873,101,112
+MED-40402381,Paracetamol: the potential therapeutic pathways defining its clinical use.,2025,10.1097/FBP.0b013e3283566065,40402381,pain,Disease,0.9940542578697205,182,186
+MED-40402381,Paracetamol: the potential therapeutic pathways defining its clinical use.,2025,10.1097/FBP.0b013e3283566065,40402381,paracetamol,Chemical,0.9977535605430603,188,199
+MED-40402381,Paracetamol: the potential therapeutic pathways defining its clinical use.,2025,10.1097/FBP.0b013e3283566065,40402381,pain,Disease,0.9942545294761658,356,360
+MED-40402381,Paracetamol: the potential therapeutic pathways defining its clinical use.,2025,10.1097/FBP.0b013e3283566065,40402381,paracetamol,Chemical,0.9977282881736755,372,383
+MED-40402381,Paracetamol: the potential therapeutic pathways defining its clinical use.,2025,10.1097/FBP.0b013e3283566065,40402381,paracetamol,Chemical,0.9979415535926819,536,547
+MED-40402381,Paracetamol: the potential therapeutic pathways defining its clinical use.,2025,10.1097/FBP.0b013e3283566065,40402381,pain,Disease,0.9817818403244019,600,604
+MED-40402381,Paracetamol: the potential therapeutic pathways defining its clinical use.,2025,10.1097/FBP.0b013e3283566065,40402381,paracetamol,Chemical,0.9976671934127808,645,656
+MED-40402381,Paracetamol: the potential therapeutic pathways defining its clinical use.,2025,10.1097/FBP.0b013e3283566065,40402381,cannabinoid,Chemical,0.9874854683876038,713,724
+MED-40402381,Paracetamol: the potential therapeutic pathways defining its clinical use.,2025,10.1097/FBP.0b013e3283566065,40402381,n - arachidonoylphenolamine,Chemical,0.9955418705940247,844,869
+MED-40402381,Paracetamol: the potential therapeutic pathways defining its clinical use.,2025,10.1097/FBP.0b013e3283566065,40402381,am404,Chemical,0.9970537424087524,871,876
+MED-40402381,Paracetamol: the potential therapeutic pathways defining its clinical use.,2025,10.1097/FBP.0b013e3283566065,40402381,paracetamol,Chemical,0.9980125427246094,891,902
+MED-40402381,Paracetamol: the potential therapeutic pathways defining its clinical use.,2025,10.1097/FBP.0b013e3283566065,40402381,serotonin,Chemical,0.9975370168685913,913,922
+MED-40402381,Paracetamol: the potential therapeutic pathways defining its clinical use.,2025,10.1097/FBP.0b013e3283566065,40402381,serotonin,Chemical,0.9974108338356018,942,951
+MED-40402381,Paracetamol: the potential therapeutic pathways defining its clinical use.,2025,10.1097/FBP.0b013e3283566065,40402381,serotonin,Chemical,0.9971797466278076,974,983
+MED-40402381,Paracetamol: the potential therapeutic pathways defining its clinical use.,2025,10.1097/FBP.0b013e3283566065,40402381,serotonin,Chemical,0.9971340894699097,1002,1011
+MED-40402381,Paracetamol: the potential therapeutic pathways defining its clinical use.,2025,10.1097/FBP.0b013e3283566065,40402381,paracetamol,Chemical,0.9980422258377075,1166,1177
+MED-40402381,Paracetamol: the potential therapeutic pathways defining its clinical use.,2025,10.1097/FBP.0b013e3283566065,40402381,paracetamol,Chemical,0.9981173276901245,1236,1247
+MED-40402381,Paracetamol: the potential therapeutic pathways defining its clinical use.,2025,10.1097/FBP.0b013e3283566065,40402381,paracetamol,Chemical,0.9981726408004761,1345,1356
+MED-34455434,Paracetamol: unconventional uses of a well-known drug.,2021,10.1093/ijpp/riab058,34455434,paracetamol,Chemical,0.9981377124786377,0,11
+MED-34455434,Paracetamol: unconventional uses of a well-known drug.,2021,10.1093/ijpp/riab058,34455434,paracetamol,Chemical,0.9983198046684265,117,128
+MED-34455434,Paracetamol: unconventional uses of a well-known drug.,2021,10.1093/ijpp/riab058,34455434,paracetamol,Chemical,0.9982522130012512,278,289
+MED-34455434,Paracetamol: unconventional uses of a well-known drug.,2021,10.1093/ijpp/riab058,34455434,paracetamol,Chemical,0.9981538653373718,310,321
+MED-34455434,Paracetamol: unconventional uses of a well-known drug.,2021,10.1093/ijpp/riab058,34455434,paracetamol,Chemical,0.9980224370956421,356,367
+MED-34455434,Paracetamol: unconventional uses of a well-known drug.,2021,10.1093/ijpp/riab058,34455434,paracetamol,Chemical,0.9981257319450378,424,435
+MED-34455434,Paracetamol: unconventional uses of a well-known drug.,2021,10.1093/ijpp/riab058,34455434,paracetamol,Chemical,0.9980362057685852,465,476
+MED-34455434,Paracetamol: unconventional uses of a well-known drug.,2021,10.1093/ijpp/riab058,34455434,paracetamol,Chemical,0.9978259205818176,507,518
+MED-34455434,Paracetamol: unconventional uses of a well-known drug.,2021,10.1093/ijpp/riab058,34455434,paracetamol,Chemical,0.9982920289039612,736,747
+MED-34455434,Paracetamol: unconventional uses of a well-known drug.,2021,10.1093/ijpp/riab058,34455434,paracetamol,Chemical,0.998054027557373,846,857
+MED-34455434,Paracetamol: unconventional uses of a well-known drug.,2021,10.1093/ijpp/riab058,34455434,acetaminophen,Chemical,0.9970842003822327,859,872
+MED-34455434,Paracetamol: unconventional uses of a well-known drug.,2021,10.1093/ijpp/riab058,34455434,pain,Disease,0.9933270215988159,944,948
+MED-34455434,Paracetamol: unconventional uses of a well-known drug.,2021,10.1093/ijpp/riab058,34455434,fever,Disease,0.9818854928016663,953,958
+MED-34455434,Paracetamol: unconventional uses of a well-known drug.,2021,10.1093/ijpp/riab058,34455434,paracetamol,Chemical,0.9982022047042847,1060,1071
+MED-34455434,Paracetamol: unconventional uses of a well-known drug.,2021,10.1093/ijpp/riab058,34455434,paracetamol,Chemical,0.9982713460922241,1260,1271
+MED-3552585,Paracetamol and phenacetin.,1986,10.2165/00003495-198600324-00005,3552585,paracetamol,Chemical,0.9978122711181641,0,11
+MED-3552585,Paracetamol and phenacetin.,1986,10.2165/00003495-198600324-00005,3552585,phenacetin,Chemical,0.9977076649665833,16,26
+MED-3552585,Paracetamol and phenacetin.,1986,10.2165/00003495-198600324-00005,3552585,paracetamol,Chemical,0.997276246547699,67,78
+MED-3552585,Paracetamol and phenacetin.,1986,10.2165/00003495-198600324-00005,3552585,acetaminophen,Chemical,0.9977321624755859,80,93
+MED-3552585,Paracetamol and phenacetin.,1986,10.2165/00003495-198600324-00005,3552585,phenacetin,Chemical,0.9978951811790466,99,109
+MED-3552585,Paracetamol and phenacetin.,1986,10.2165/00003495-198600324-00005,3552585,paracetamol,Chemical,0.997356653213501,222,233
+MED-3552585,Paracetamol and phenacetin.,1986,10.2165/00003495-198600324-00005,3552585,phenacetin,Chemical,0.9976831078529358,261,271
+MED-3552585,Paracetamol and phenacetin.,1986,10.2165/00003495-198600324-00005,3552585,paracetamol,Chemical,0.9976757168769836,354,365
+MED-3552585,Paracetamol and phenacetin.,1986,10.2165/00003495-198600324-00005,3552585,aspirin,Chemical,0.9982709884643555,378,385
+MED-3552585,Paracetamol and phenacetin.,1986,10.2165/00003495-198600324-00005,3552585,paracetamol,Chemical,0.9976310729980469,529,540
+MED-3552585,Paracetamol and phenacetin.,1986,10.2165/00003495-198600324-00005,3552585,phenacetin,Chemical,0.997783899307251,598,608
+MED-3552585,Paracetamol and phenacetin.,1986,10.2165/00003495-198600324-00005,3552585,paracetamol,Chemical,0.9976565837860107,700,711
+MED-3552585,Paracetamol and phenacetin.,1986,10.2165/00003495-198600324-00005,3552585,phenacetin,Chemical,0.9977436661720276,716,726
+MED-3552585,Paracetamol and phenacetin.,1986,10.2165/00003495-198600324-00005,3552585,pain,Disease,0.993281364440918,797,801
+MED-3552585,Paracetamol and phenacetin.,1986,10.2165/00003495-198600324-00005,3552585,aspirin,Chemical,0.9980207681655884,858,865
+MED-3552585,Paracetamol and phenacetin.,1986,10.2165/00003495-198600324-00005,3552585,salicylates,Chemical,0.9148764610290527,878,889
+MED-3552585,Paracetamol and phenacetin.,1986,10.2165/00003495-198600324-00005,3552585,phenacetin,Chemical,0.9979237914085388,1004,1014
+MED-3552585,Paracetamol and phenacetin.,1986,10.2165/00003495-198600324-00005,3552585,paracetamol,Chemical,0.9973262548446655,1041,1052
+MED-3552585,Paracetamol and phenacetin.,1986,10.2165/00003495-198600324-00005,3552585,phenacetin,Chemical,0.9977638125419617,1077,1087
+MED-3552585,Paracetamol and phenacetin.,1986,10.2165/00003495-198600324-00005,3552585,paracetamol,Chemical,0.9977219700813293,1150,1161
+MED-3552585,Paracetamol and phenacetin.,1986,10.2165/00003495-198600324-00005,3552585,methaemoglobinaemia,Disease,0.975311279296875,1205,1224
+MED-3552585,Paracetamol and phenacetin.,1986,10.2165/00003495-198600324-00005,3552585,p - phenetidine,Chemical,0.9962838888168335,1256,1269
+MED-3552585,Paracetamol and phenacetin.,1986,10.2165/00003495-198600324-00005,3552585,paracetamol,Chemical,0.9981034994125366,1297,1308
+MED-3552585,Paracetamol and phenacetin.,1986,10.2165/00003495-198600324-00005,3552585,prostaglandin,Chemical,0.9068182110786438,1392,1405
+MED-3552585,Paracetamol and phenacetin.,1986,10.2165/00003495-198600324-00005,3552585,paracetamol,Chemical,0.9971593618392944,1653,1664
+MED-3552585,Paracetamol and phenacetin.,1986,10.2165/00003495-198600324-00005,3552585,aspirin,Chemical,0.9982408285140991,1720,1727
+MED-3552585,Paracetamol and phenacetin.,1986,10.2165/00003495-198600324-00005,3552585,paracetamol,Chemical,0.9981239438056946,1788,1799
+MED-3552585,Paracetamol and phenacetin.,1986,10.2165/00003495-198600324-00005,3552585,hepatotoxicity,Disease,0.9945003986358643,1803,1817
+MED-3552585,Paracetamol and phenacetin.,1986,10.2165/00003495-198600324-00005,3552585,paracetamol,Chemical,0.9974263310432434,2007,2018
+MED-3552585,Paracetamol and phenacetin.,1986,10.2165/00003495-198600324-00005,3552585,glutathione,Chemical,0.9734240174293518,2141,2152
+MED-3552585,Paracetamol and phenacetin.,1986,10.2165/00003495-198600324-00005,3552585,paracetamol,Chemical,0.9980623126029968,2166,2177
+MED-3552585,Paracetamol and phenacetin.,1986,10.2165/00003495-198600324-00005,3552585,glutathione,Chemical,0.98861163854599,2186,2197
+MED-3552585,Paracetamol and phenacetin.,1986,10.2165/00003495-198600324-00005,3552585,liver necrosis,Disease,0.8421459197998047,2328,2342
+MED-3552585,Paracetamol and phenacetin.,1986,10.2165/00003495-198600324-00005,3552585,glutathione,Chemical,0.9793670773506165,2343,2354
+MED-3552585,Paracetamol and phenacetin.,1986,10.2165/00003495-198600324-00005,3552585,n - acetylcysteine,Chemical,0.9956238865852356,2387,2403
+MED-3552585,Paracetamol and phenacetin.,1986,10.2165/00003495-198600324-00005,3552585,paracetamol,Chemical,0.9678510427474976,2451,2462
+MED-3552585,Paracetamol and phenacetin.,1986,10.2165/00003495-198600324-00005,3552585,overdose,Disease,0.8912222385406494,2463,2471
+MED-37151075,"Paracetamol (Acetaminophen)-associated SJS, TEN, AGEP, and DRESS Syndromes - A Narrative Review.",2024,10.2174/1574886318666230505144014,37151075,paracetamol,Chemical,0.9983024597167969,0,11
+MED-37151075,"Paracetamol (Acetaminophen)-associated SJS, TEN, AGEP, and DRESS Syndromes - A Narrative Review.",2024,10.2174/1574886318666230505144014,37151075,acetaminophen,Chemical,0.9976447224617004,13,26
+MED-37151075,"Paracetamol (Acetaminophen)-associated SJS, TEN, AGEP, and DRESS Syndromes - A Narrative Review.",2024,10.2174/1574886318666230505144014,37151075,sjs,Disease,0.9772313237190247,39,42
+MED-37151075,"Paracetamol (Acetaminophen)-associated SJS, TEN, AGEP, and DRESS Syndromes - A Narrative Review.",2024,10.2174/1574886318666230505144014,37151075,ten,Disease,0.8380544781684875,44,47
+MED-37151075,"Paracetamol (Acetaminophen)-associated SJS, TEN, AGEP, and DRESS Syndromes - A Narrative Review.",2024,10.2174/1574886318666230505144014,37151075,agep,Disease,0.957608699798584,49,53
+MED-37151075,"Paracetamol (Acetaminophen)-associated SJS, TEN, AGEP, and DRESS Syndromes - A Narrative Review.",2024,10.2174/1574886318666230505144014,37151075,dress,Disease,0.9876083731651306,59,64
+MED-37151075,"Paracetamol (Acetaminophen)-associated SJS, TEN, AGEP, and DRESS Syndromes - A Narrative Review.",2024,10.2174/1574886318666230505144014,37151075,paracetamol,Chemical,0.998290479183197,96,107
+MED-37151075,"Paracetamol (Acetaminophen)-associated SJS, TEN, AGEP, and DRESS Syndromes - A Narrative Review.",2024,10.2174/1574886318666230505144014,37151075,acetaminophen,Chemical,0.9978448152542114,109,122
+MED-37151075,"Paracetamol (Acetaminophen)-associated SJS, TEN, AGEP, and DRESS Syndromes - A Narrative Review.",2024,10.2174/1574886318666230505144014,37151075,pain,Disease,0.8896521329879761,202,206
+MED-37151075,"Paracetamol (Acetaminophen)-associated SJS, TEN, AGEP, and DRESS Syndromes - A Narrative Review.",2024,10.2174/1574886318666230505144014,37151075,paracetamol,Chemical,0.9979536533355713,232,243
+MED-37151075,"Paracetamol (Acetaminophen)-associated SJS, TEN, AGEP, and DRESS Syndromes - A Narrative Review.",2024,10.2174/1574886318666230505144014,37151075,fever,Disease,0.9917697906494141,289,294
+MED-37151075,"Paracetamol (Acetaminophen)-associated SJS, TEN, AGEP, and DRESS Syndromes - A Narrative Review.",2024,10.2174/1574886318666230505144014,37151075,pain,Disease,0.9948386549949646,437,441
+MED-37151075,"Paracetamol (Acetaminophen)-associated SJS, TEN, AGEP, and DRESS Syndromes - A Narrative Review.",2024,10.2174/1574886318666230505144014,37151075,sjs,Disease,0.9756824970245361,473,476
+MED-37151075,"Paracetamol (Acetaminophen)-associated SJS, TEN, AGEP, and DRESS Syndromes - A Narrative Review.",2024,10.2174/1574886318666230505144014,37151075,ten,Disease,0.7959495186805725,478,481
+MED-37151075,"Paracetamol (Acetaminophen)-associated SJS, TEN, AGEP, and DRESS Syndromes - A Narrative Review.",2024,10.2174/1574886318666230505144014,37151075,sjs /,Disease,0.8346980214118958,483,487
+MED-37151075,"Paracetamol (Acetaminophen)-associated SJS, TEN, AGEP, and DRESS Syndromes - A Narrative Review.",2024,10.2174/1574886318666230505144014,37151075,agep,Disease,0.9411612749099731,500,504
+MED-37151075,"Paracetamol (Acetaminophen)-associated SJS, TEN, AGEP, and DRESS Syndromes - A Narrative Review.",2024,10.2174/1574886318666230505144014,37151075,dress,Disease,0.9872516393661499,510,515
+MED-37151075,"Paracetamol (Acetaminophen)-associated SJS, TEN, AGEP, and DRESS Syndromes - A Narrative Review.",2024,10.2174/1574886318666230505144014,37151075,paracetamol,Chemical,0.9983037710189819,553,564
+MED-37151075,"Paracetamol (Acetaminophen)-associated SJS, TEN, AGEP, and DRESS Syndromes - A Narrative Review.",2024,10.2174/1574886318666230505144014,37151075,paracetamol,Chemical,0.9981141090393066,568,579
+MED-37151075,"Paracetamol (Acetaminophen)-associated SJS, TEN, AGEP, and DRESS Syndromes - A Narrative Review.",2024,10.2174/1574886318666230505144014,37151075,paracetamol,Chemical,0.9982321858406067,639,650
+MED-37151075,"Paracetamol (Acetaminophen)-associated SJS, TEN, AGEP, and DRESS Syndromes - A Narrative Review.",2024,10.2174/1574886318666230505144014,37151075,sjs,Disease,0.9799319505691528,662,665
+MED-37151075,"Paracetamol (Acetaminophen)-associated SJS, TEN, AGEP, and DRESS Syndromes - A Narrative Review.",2024,10.2174/1574886318666230505144014,37151075,ten,Disease,0.7701820731163025,667,670
+MED-37151075,"Paracetamol (Acetaminophen)-associated SJS, TEN, AGEP, and DRESS Syndromes - A Narrative Review.",2024,10.2174/1574886318666230505144014,37151075,agep,Disease,0.9456694722175598,672,676
+MED-37151075,"Paracetamol (Acetaminophen)-associated SJS, TEN, AGEP, and DRESS Syndromes - A Narrative Review.",2024,10.2174/1574886318666230505144014,37151075,dress,Disease,0.9856876730918884,682,687
+MED-37151075,"Paracetamol (Acetaminophen)-associated SJS, TEN, AGEP, and DRESS Syndromes - A Narrative Review.",2024,10.2174/1574886318666230505144014,37151075,stevens - johnson syndrome,Disease,0.9943834543228149,853,877
+MED-37151075,"Paracetamol (Acetaminophen)-associated SJS, TEN, AGEP, and DRESS Syndromes - A Narrative Review.",2024,10.2174/1574886318666230505144014,37151075,acetaminophen,Chemical,0.9982779026031494,879,892
+MED-37151075,"Paracetamol (Acetaminophen)-associated SJS, TEN, AGEP, and DRESS Syndromes - A Narrative Review.",2024,10.2174/1574886318666230505144014,37151075,paracetamol,Chemical,0.9980629086494446,894,905
+MED-37151075,"Paracetamol (Acetaminophen)-associated SJS, TEN, AGEP, and DRESS Syndromes - A Narrative Review.",2024,10.2174/1574886318666230505144014,37151075,toxic epidermal necrolysis,Disease,0.9892240166664124,907,933
+MED-37151075,"Paracetamol (Acetaminophen)-associated SJS, TEN, AGEP, and DRESS Syndromes - A Narrative Review.",2024,10.2174/1574886318666230505144014,37151075,acute generalized exanthematous pustulosis,Disease,0.934621274471283,935,977
+MED-37151075,"Paracetamol (Acetaminophen)-associated SJS, TEN, AGEP, and DRESS Syndromes - A Narrative Review.",2024,10.2174/1574886318666230505144014,37151075,drug reaction with,Disease,0.7274565100669861,979,997
+MED-37151075,"Paracetamol (Acetaminophen)-associated SJS, TEN, AGEP, and DRESS Syndromes - A Narrative Review.",2024,10.2174/1574886318666230505144014,37151075,eosinophilia,Disease,0.90750652551651,998,1010
+MED-37151075,"Paracetamol (Acetaminophen)-associated SJS, TEN, AGEP, and DRESS Syndromes - A Narrative Review.",2024,10.2174/1574886318666230505144014,37151075,paracetamol,Chemical,0.9982380867004395,1037,1048
+MED-37151075,"Paracetamol (Acetaminophen)-associated SJS, TEN, AGEP, and DRESS Syndromes - A Narrative Review.",2024,10.2174/1574886318666230505144014,37151075,sjs,Disease,0.9841015338897705,1060,1063
+MED-37151075,"Paracetamol (Acetaminophen)-associated SJS, TEN, AGEP, and DRESS Syndromes - A Narrative Review.",2024,10.2174/1574886318666230505144014,37151075,ten,Disease,0.7379134297370911,1065,1068
+MED-37151075,"Paracetamol (Acetaminophen)-associated SJS, TEN, AGEP, and DRESS Syndromes - A Narrative Review.",2024,10.2174/1574886318666230505144014,37151075,sjs / ten,Disease,0.8304112553596497,1070,1077
+MED-37151075,"Paracetamol (Acetaminophen)-associated SJS, TEN, AGEP, and DRESS Syndromes - A Narrative Review.",2024,10.2174/1574886318666230505144014,37151075,agep,Disease,0.9488477110862732,1087,1091
+MED-37151075,"Paracetamol (Acetaminophen)-associated SJS, TEN, AGEP, and DRESS Syndromes - A Narrative Review.",2024,10.2174/1574886318666230505144014,37151075,dress,Disease,0.9875726699829102,1097,1102
+MED-37151075,"Paracetamol (Acetaminophen)-associated SJS, TEN, AGEP, and DRESS Syndromes - A Narrative Review.",2024,10.2174/1574886318666230505144014,37151075,hypersensitivity skin reactions,Disease,0.9297106862068176,1191,1222
+MED-37151075,"Paracetamol (Acetaminophen)-associated SJS, TEN, AGEP, and DRESS Syndromes - A Narrative Review.",2024,10.2174/1574886318666230505144014,37151075,paracetamol,Chemical,0.9983659386634827,1375,1386
+MED-37151075,"Paracetamol (Acetaminophen)-associated SJS, TEN, AGEP, and DRESS Syndromes - A Narrative Review.",2024,10.2174/1574886318666230505144014,37151075,hypersensitivity,Disease,0.9867604970932007,1398,1414
+MED-37151075,"Paracetamol (Acetaminophen)-associated SJS, TEN, AGEP, and DRESS Syndromes - A Narrative Review.",2024,10.2174/1574886318666230505144014,37151075,skin rash,Disease,0.9863858222961426,1508,1517
+MED-37151075,"Paracetamol (Acetaminophen)-associated SJS, TEN, AGEP, and DRESS Syndromes - A Narrative Review.",2024,10.2174/1574886318666230505144014,37151075,hypersensitivity reaction,Disease,0.885555624961853,1527,1552
+MED-37151075,"Paracetamol (Acetaminophen)-associated SJS, TEN, AGEP, and DRESS Syndromes - A Narrative Review.",2024,10.2174/1574886318666230505144014,37151075,paracetamol,Chemical,0.9983514547348022,1566,1577
+MED-7753607,[Paracetamol poisoning].,1995,,7753607,paracetamol,Chemical,0.9791275858879089,1,12
+MED-7753607,[Paracetamol poisoning].,1995,,7753607,paracetamol,Chemical,0.9982365369796753,42,53
+MED-7753607,[Paracetamol poisoning].,1995,,7753607,acetaminophen,Chemical,0.9981694221496582,55,68
+MED-7753607,[Paracetamol poisoning].,1995,,7753607,paracetamol,Chemical,0.997896671295166,120,131
+MED-7753607,[Paracetamol poisoning].,1995,,7753607,paracetamol,Chemical,0.9981005787849426,187,198
+MED-7753607,[Paracetamol poisoning].,1995,,7753607,acetylsalicylic acid,Chemical,0.9973848462104797,298,318
+MED-7753607,[Paracetamol poisoning].,1995,,7753607,paracetamol,Chemical,0.9980144500732422,369,380
+MED-7753607,[Paracetamol poisoning].,1995,,7753607,paracetamol,Chemical,0.9980341792106628,427,438
+MED-7753607,[Paracetamol poisoning].,1995,,7753607,phosphate,Chemical,0.9971357583999634,481,490
+MED-7753607,[Paracetamol poisoning].,1995,,7753607,lactate,Chemical,0.9964865446090698,495,502
+MED-7753607,[Paracetamol poisoning].,1995,,7753607,paracetamol,Chemical,0.9910019040107727,534,545
+MED-7753607,[Paracetamol poisoning].,1995,,7753607,liver disfunction,Disease,0.7682964205741882,577,594
+MED-7753607,[Paracetamol poisoning].,1995,,7753607,liver failure,Disease,0.978987455368042,616,629
+MED-7753607,[Paracetamol poisoning].,1995,,7753607,alcoholics,Disease,0.8976600170135498,701,711
+MED-7753607,[Paracetamol poisoning].,1995,,7753607,liver damage,Disease,0.9894007444381714,739,751
+MED-7753607,[Paracetamol poisoning].,1995,,7753607,paracetamol,Chemical,0.9979618787765503,772,783
+MED-7753607,[Paracetamol poisoning].,1995,,7753607,intoxication,Disease,0.8943896889686584,815,827
+MED-7753607,[Paracetamol poisoning].,1995,,7753607,paracetamol,Chemical,0.9979255199432373,833,844
+MED-7753607,[Paracetamol poisoning].,1995,,7753607,n - acetylcysteine,Chemical,0.9946721196174622,876,892
+MED-7753607,[Paracetamol poisoning].,1995,,7753607,n - acetylcysteine,Chemical,0.992409348487854,902,918
+MED-7753607,[Paracetamol poisoning].,1995,,7753607,paracetamol,Chemical,0.9977173805236816,977,988
+MED-7753607,[Paracetamol poisoning].,1995,,7753607,n - acetylcysteine,Chemical,0.9932535886764526,1055,1071
+MED-7753607,[Paracetamol poisoning].,1995,,7753607,paracetamol,Chemical,0.9979281425476074,1120,1131
+MED-7753607,[Paracetamol poisoning].,1995,,7753607,paracetamol,Chemical,0.9978887438774109,1184,1195
+MED-7753607,[Paracetamol poisoning].,1995,,7753607,paracetamol,Chemical,0.9976010918617249,1320,1331
+MED-7753607,[Paracetamol poisoning].,1995,,7753607,paracetamol,Chemical,0.9973358511924744,1376,1387
+MED-7753607,[Paracetamol poisoning].,1995,,7753607,paracetamol,Chemical,0.9875446557998657,1472,1483
+MED-7753607,[Paracetamol poisoning].,1995,,7753607,death,Disease,0.9693584442138672,1518,1523
+MED-7753607,[Paracetamol poisoning].,1995,,7753607,paracetamol,Chemical,0.9712144136428833,1534,1545
+MED-7753607,[Paracetamol poisoning].,1995,,7753607,paracetamol,Chemical,0.9798428416252136,1669,1680
+MED-7753607,[Paracetamol poisoning].,1995,,7753607,alcoholics,Disease,0.9674410820007324,1789,1799
+MED-32878493,Paracetamol for low back pain: the state of the research field.,2020,10.1080/17512433.2020.1817738,32878493,paracetamol,Chemical,0.9982751607894897,0,11
+MED-32878493,Paracetamol for low back pain: the state of the research field.,2020,10.1080/17512433.2020.1817738,32878493,low back pain,Disease,0.995456874370575,16,29
+MED-32878493,Paracetamol for low back pain: the state of the research field.,2020,10.1080/17512433.2020.1817738,32878493,paracetamol,Chemical,0.9981895089149475,63,74
+MED-32878493,Paracetamol for low back pain: the state of the research field.,2020,10.1080/17512433.2020.1817738,32878493,low back pain,Disease,0.9958176016807556,137,150
+MED-32878493,Paracetamol for low back pain: the state of the research field.,2020,10.1080/17512433.2020.1817738,32878493,paracetamol,Chemical,0.9983861446380615,283,294
+MED-32878493,Paracetamol for low back pain: the state of the research field.,2020,10.1080/17512433.2020.1817738,32878493,low back pain,Disease,0.9954161643981934,348,361
+MED-32878493,Paracetamol for low back pain: the state of the research field.,2020,10.1080/17512433.2020.1817738,32878493,paracetamol,Chemical,0.9983804225921631,414,425
+MED-32878493,Paracetamol for low back pain: the state of the research field.,2020,10.1080/17512433.2020.1817738,32878493,paracetamol,Chemical,0.9982262253761292,653,664
+MED-32878493,Paracetamol for low back pain: the state of the research field.,2020,10.1080/17512433.2020.1817738,32878493,low back pain,Disease,0.9573368430137634,723,736
+MED-32878493,Paracetamol for low back pain: the state of the research field.,2020,10.1080/17512433.2020.1817738,32878493,back pain,Disease,0.8098292350769043,783,792
+MED-32878493,Paracetamol for low back pain: the state of the research field.,2020,10.1080/17512433.2020.1817738,32878493,paracetamol,Chemical,0.9982782602310181,838,849
+MED-32878493,Paracetamol for low back pain: the state of the research field.,2020,10.1080/17512433.2020.1817738,32878493,paracetamol,Chemical,0.9983229041099548,964,975
+MED-32878493,Paracetamol for low back pain: the state of the research field.,2020,10.1080/17512433.2020.1817738,32878493,chronic back pain,Disease,0.7214300632476807,990,1007
+MED-32878493,Paracetamol for low back pain: the state of the research field.,2020,10.1080/17512433.2020.1817738,32878493,paracetamol,Chemical,0.9977914094924927,1046,1057
+MED-32878493,Paracetamol for low back pain: the state of the research field.,2020,10.1080/17512433.2020.1817738,32878493,back pain,Disease,0.9949671030044556,1116,1125
+MED-32878493,Paracetamol for low back pain: the state of the research field.,2020,10.1080/17512433.2020.1817738,32878493,low back pain,Disease,0.9955320358276367,1238,1251
+MED-19192939,Intravenous paracetamol (acetaminophen).,2009,10.2165/00003495-200969010-00007,19192939,paracetamol,Chemical,0.9982064962387085,12,23
+MED-19192939,Intravenous paracetamol (acetaminophen).,2009,10.2165/00003495-200969010-00007,19192939,acetaminophen,Chemical,0.9974096417427063,25,38
+MED-19192939,Intravenous paracetamol (acetaminophen).,2009,10.2165/00003495-200969010-00007,19192939,paracetamol,Chemical,0.9980941414833069,52,63
+MED-19192939,Intravenous paracetamol (acetaminophen).,2009,10.2165/00003495-200969010-00007,19192939,acetaminophen,Chemical,0.99834144115448,83,96
+MED-19192939,Intravenous paracetamol (acetaminophen).,2009,10.2165/00003495-200969010-00007,19192939,pain,Disease,0.9943792223930359,208,212
+MED-19192939,Intravenous paracetamol (acetaminophen).,2009,10.2165/00003495-200969010-00007,19192939,fever,Disease,0.9776583909988403,217,222
+MED-19192939,Intravenous paracetamol (acetaminophen).,2009,10.2165/00003495-200969010-00007,19192939,paracetamol,Chemical,0.9980282187461853,319,330
+MED-19192939,Intravenous paracetamol (acetaminophen).,2009,10.2165/00003495-200969010-00007,19192939,paracetamol,Chemical,0.9980043768882751,587,598
+MED-19192939,Intravenous paracetamol (acetaminophen).,2009,10.2165/00003495-200969010-00007,19192939,propacetamol,Chemical,0.9976323843002319,674,686
+MED-19192939,Intravenous paracetamol (acetaminophen).,2009,10.2165/00003495-200969010-00007,19192939,paracetamol,Chemical,0.9979850053787231,802,813
+MED-19192939,Intravenous paracetamol (acetaminophen).,2009,10.2165/00003495-200969010-00007,19192939,propacetamol,Chemical,0.9976545572280884,861,873
+MED-19192939,Intravenous paracetamol (acetaminophen).,2009,10.2165/00003495-200969010-00007,19192939,pain,Disease,0.9937649965286255,904,908
+MED-19192939,Intravenous paracetamol (acetaminophen).,2009,10.2165/00003495-200969010-00007,19192939,pethidine,Chemical,0.9981136322021484,978,987
+MED-19192939,Intravenous paracetamol (acetaminophen).,2009,10.2165/00003495-200969010-00007,19192939,infection,Disease,0.9499151110649109,1125,1134
+MED-19192939,Intravenous paracetamol (acetaminophen).,2009,10.2165/00003495-200969010-00007,19192939,fever,Disease,0.8457135558128357,1143,1148
+MED-19192939,Intravenous paracetamol (acetaminophen).,2009,10.2165/00003495-200969010-00007,19192939,paracetamol,Chemical,0.9979413151741028,1162,1173
+MED-19192939,Intravenous paracetamol (acetaminophen).,2009,10.2165/00003495-200969010-00007,19192939,propacetamol,Chemical,0.9978756308555603,1232,1244
+MED-19192939,Intravenous paracetamol (acetaminophen).,2009,10.2165/00003495-200969010-00007,19192939,paracetamol,Chemical,0.9979242086410522,1299,1310
+MED-19192939,Intravenous paracetamol (acetaminophen).,2009,10.2165/00003495-200969010-00007,19192939,paracetamol,Chemical,0.9983408451080322,1487,1498
+MED-15733027,Tolerability of paracetamol.,2005,10.2165/00002018-200528030-00004,15733027,paracetamol,Chemical,0.998478353023529,16,27
+MED-15733027,Tolerability of paracetamol.,2005,10.2165/00002018-200528030-00004,15733027,paracetamol,Chemical,0.9984984397888184,79,90
+MED-15733027,Tolerability of paracetamol.,2005,10.2165/00002018-200528030-00004,15733027,acetaminophen,Chemical,0.9981861710548401,92,105
+MED-15733027,Tolerability of paracetamol.,2005,10.2165/00002018-200528030-00004,15733027,paracetamol,Chemical,0.9985061287879944,190,201
+MED-15733027,Tolerability of paracetamol.,2005,10.2165/00002018-200528030-00004,15733027,hepatotoxicity,Disease,0.9965611100196838,209,223
+MED-15733027,Tolerability of paracetamol.,2005,10.2165/00002018-200528030-00004,15733027,overdose,Disease,0.870586633682251,233,241
+MED-15733027,Tolerability of paracetamol.,2005,10.2165/00002018-200528030-00004,15733027,hepatotoxicity,Disease,0.9959301352500916,242,256
+MED-15733027,Tolerability of paracetamol.,2005,10.2165/00002018-200528030-00004,15733027,toxicity,Disease,0.9923878908157349,369,377
+MED-15733027,Tolerability of paracetamol.,2005,10.2165/00002018-200528030-00004,15733027,overdose,Disease,0.7843058705329895,412,420
+MED-15733027,Tolerability of paracetamol.,2005,10.2165/00002018-200528030-00004,15733027,paracetamol,Chemical,0.9985212683677673,490,501
+MED-15733027,Tolerability of paracetamol.,2005,10.2165/00002018-200528030-00004,15733027,hepatotoxicity,Disease,0.996394693851471,527,541
+MED-15733027,Tolerability of paracetamol.,2005,10.2165/00002018-200528030-00004,15733027,alcohol,Chemical,0.9982547163963318,594,601
+MED-15733027,Tolerability of paracetamol.,2005,10.2165/00002018-200528030-00004,15733027,paracetamol,Chemical,0.9984182119369507,645,656
+MED-15733027,Tolerability of paracetamol.,2005,10.2165/00002018-200528030-00004,15733027,perforations,Disease,0.7519943714141846,852,864
+MED-15733027,Tolerability of paracetamol.,2005,10.2165/00002018-200528030-00004,15733027,ulcer,Disease,0.983031153678894,866,871
+MED-15733027,Tolerability of paracetamol.,2005,10.2165/00002018-200528030-00004,15733027,bleeding,Disease,0.9214479923248291,875,883
+MED-15733027,Tolerability of paracetamol.,2005,10.2165/00002018-200528030-00004,15733027,paracetamol,Chemical,0.9984185695648193,961,972
+MED-15733027,Tolerability of paracetamol.,2005,10.2165/00002018-200528030-00004,15733027,gastrointestinal toxicity,Disease,0.9883203506469727,977,1002
+MED-15733027,Tolerability of paracetamol.,2005,10.2165/00002018-200528030-00004,15733027,chronic renal disease,Disease,0.9921929240226746,1020,1041
+MED-15733027,Tolerability of paracetamol.,2005,10.2165/00002018-200528030-00004,15733027,asthma,Disease,0.9936062097549438,1046,1052
+MED-15733027,Tolerability of paracetamol.,2005,10.2165/00002018-200528030-00004,15733027,paracetamol,Chemical,0.9982327222824097,1196,1207
+MED-15733027,Tolerability of paracetamol.,2005,10.2165/00002018-200528030-00004,15733027,paracetamol,Chemical,0.9982268214225769,1248,1259
+MED-15733027,Tolerability of paracetamol.,2005,10.2165/00002018-200528030-00004,15733027,paracetamol,Chemical,0.9982975125312805,1331,1342
+MED-15733027,Tolerability of paracetamol.,2005,10.2165/00002018-200528030-00004,15733027,paracetamol,Chemical,0.9981951117515564,1381,1392
+MED-15733027,Tolerability of paracetamol.,2005,10.2165/00002018-200528030-00004,15733027,hypersensitivity reactions,Disease,0.88251131772995,1416,1442
+MED-15733027,Tolerability of paracetamol.,2005,10.2165/00002018-200528030-00004,15733027,urticaria,Disease,0.9958899021148682,1462,1471
+MED-15733027,Tolerability of paracetamol.,2005,10.2165/00002018-200528030-00004,15733027,paracetamol,Chemical,0.9981095790863037,1502,1513
+MED-28752572,Effect of paracetamol on semen quality.,2018,10.1111/and.12874,28752572,paracetamol,Chemical,0.9983718991279602,10,21
+MED-28752572,Effect of paracetamol on semen quality.,2018,10.1111/and.12874,28752572,paracetamol,Chemical,0.9983696341514587,107,118
+MED-28752572,Effect of paracetamol on semen quality.,2018,10.1111/and.12874,28752572,acetaminophen,Chemical,0.9982150793075562,131,144
+MED-28752572,Effect of paracetamol on semen quality.,2018,10.1111/and.12874,28752572,male infertility,Disease,0.9884843826293945,240,256
+MED-28752572,Effect of paracetamol on semen quality.,2018,10.1111/and.12874,28752572,paracetamol,Chemical,0.9983721375465393,337,348
+MED-28752572,Effect of paracetamol on semen quality.,2018,10.1111/and.12874,28752572,male factor infertility,Disease,0.9817172884941101,379,402
+MED-28752572,Effect of paracetamol on semen quality.,2018,10.1111/and.12874,28752572,paracetamol,Chemical,0.9981864094734192,526,537
+MED-28752572,Effect of paracetamol on semen quality.,2018,10.1111/and.12874,28752572,acetaminophen,Chemical,0.998406708240509,544,557
+MED-28752572,Effect of paracetamol on semen quality.,2018,10.1111/and.12874,28752572,paracetamol,Chemical,0.9984071850776672,639,650
+MED-28752572,Effect of paracetamol on semen quality.,2018,10.1111/and.12874,28752572,paracetamol,Chemical,0.9984057545661926,790,801
+MED-28752572,Effect of paracetamol on semen quality.,2018,10.1111/and.12874,28752572,testosterone,Chemical,0.9972397089004517,844,856
+MED-28752572,Effect of paracetamol on semen quality.,2018,10.1111/and.12874,28752572,nitric oxide,Chemical,0.9774589538574219,942,954
+MED-28752572,Effect of paracetamol on semen quality.,2018,10.1111/and.12874,28752572,prostaglandin,Chemical,0.9851458072662354,981,994
+MED-10759684,"Paracetamol, alcohol and the liver.",2000,10.1046/j.1365-2125.2000.00167.x,10759684,paracetamol,Chemical,0.9980477094650269,0,11
+MED-10759684,"Paracetamol, alcohol and the liver.",2000,10.1046/j.1365-2125.2000.00167.x,10759684,alcohol,Chemical,0.9974048733711243,13,20
+MED-10759684,"Paracetamol, alcohol and the liver.",2000,10.1046/j.1365-2125.2000.00167.x,10759684,alcoholics,Disease,0.8386482000350952,62,72
+MED-10759684,"Paracetamol, alcohol and the liver.",2000,10.1046/j.1365-2125.2000.00167.x,10759684,paracetamol,Chemical,0.9977948665618896,98,109
+MED-10759684,"Paracetamol, alcohol and the liver.",2000,10.1046/j.1365-2125.2000.00167.x,10759684,acetaminophen,Chemical,0.9953638315200806,111,124
+MED-10759684,"Paracetamol, alcohol and the liver.",2000,10.1046/j.1365-2125.2000.00167.x,10759684,hepatotoxicity,Disease,0.9912630319595337,126,140
+MED-10759684,"Paracetamol, alcohol and the liver.",2000,10.1046/j.1365-2125.2000.00167.x,10759684,ethanol,Chemical,0.9979063272476196,296,303
+MED-10759684,"Paracetamol, alcohol and the liver.",2000,10.1046/j.1365-2125.2000.00167.x,10759684,paracetamol,Chemical,0.9978365302085876,356,367
+MED-10759684,"Paracetamol, alcohol and the liver.",2000,10.1046/j.1365-2125.2000.00167.x,10759684,liver damage,Disease,0.9911307692527771,452,464
+MED-10759684,"Paracetamol, alcohol and the liver.",2000,10.1046/j.1365-2125.2000.00167.x,10759684,alcoholics,Disease,0.9438436031341553,521,531
+MED-10759684,"Paracetamol, alcohol and the liver.",2000,10.1046/j.1365-2125.2000.00167.x,10759684,alcoholic,Disease,0.9841976761817932,537,546
+MED-10759684,"Paracetamol, alcohol and the liver.",2000,10.1046/j.1365-2125.2000.00167.x,10759684,liver damage,Disease,0.9937199354171753,573,585
+MED-10759684,"Paracetamol, alcohol and the liver.",2000,10.1046/j.1365-2125.2000.00167.x,10759684,paracetamol,Chemical,0.998134434223175,599,610
+MED-10759684,"Paracetamol, alcohol and the liver.",2000,10.1046/j.1365-2125.2000.00167.x,10759684,paracetamol,Chemical,0.9977412223815918,753,764
+MED-10759684,"Paracetamol, alcohol and the liver.",2000,10.1046/j.1365-2125.2000.00167.x,10759684,alcohol,Chemical,0.9961966276168823,765,772
+MED-10759684,"Paracetamol, alcohol and the liver.",2000,10.1046/j.1365-2125.2000.00167.x,10759684,liver damage,Disease,0.9860581159591675,795,807
+MED-10759684,"Paracetamol, alcohol and the liver.",2000,10.1046/j.1365-2125.2000.00167.x,10759684,paracetamol,Chemical,0.9979494214057922,856,867
+MED-10759684,"Paracetamol, alcohol and the liver.",2000,10.1046/j.1365-2125.2000.00167.x,10759684,alcoholic,Disease,0.9327716827392578,902,911
+MED-10759684,"Paracetamol, alcohol and the liver.",2000,10.1046/j.1365-2125.2000.00167.x,10759684,paracetamol,Chemical,0.9976575374603271,916,927
+MED-10759684,"Paracetamol, alcohol and the liver.",2000,10.1046/j.1365-2125.2000.00167.x,10759684,alcohol,Chemical,0.9964566826820374,928,935
+MED-10759684,"Paracetamol, alcohol and the liver.",2000,10.1046/j.1365-2125.2000.00167.x,10759684,ethanol,Chemical,0.9978201389312744,978,985
+MED-10759684,"Paracetamol, alcohol and the liver.",2000,10.1046/j.1365-2125.2000.00167.x,10759684,ethanol,Chemical,0.9976115226745605,1028,1035
+MED-10759684,"Paracetamol, alcohol and the liver.",2000,10.1046/j.1365-2125.2000.00167.x,10759684,paracetamol,Chemical,0.9924144148826599,1097,1108
+MED-10759684,"Paracetamol, alcohol and the liver.",2000,10.1046/j.1365-2125.2000.00167.x,10759684,hepatotoxicity,Disease,0.9904939532279968,1109,1123
+MED-10759684,"Paracetamol, alcohol and the liver.",2000,10.1046/j.1365-2125.2000.00167.x,10759684,ethanol,Chemical,0.9977586269378662,1137,1144
+MED-10759684,"Paracetamol, alcohol and the liver.",2000,10.1046/j.1365-2125.2000.00167.x,10759684,paracetamol,Chemical,0.9973713159561157,1231,1242
+MED-10759684,"Paracetamol, alcohol and the liver.",2000,10.1046/j.1365-2125.2000.00167.x,10759684,alcohol,Chemical,0.9970209002494812,1269,1276
+MED-10759684,"Paracetamol, alcohol and the liver.",2000,10.1046/j.1365-2125.2000.00167.x,10759684,paracetamol,Chemical,0.997316300868988,1448,1459
+MED-10759684,"Paracetamol, alcohol and the liver.",2000,10.1046/j.1365-2125.2000.00167.x,10759684,paracetamol,Chemical,0.9979321956634521,1464,1475
+MED-10759684,"Paracetamol, alcohol and the liver.",2000,10.1046/j.1365-2125.2000.00167.x,10759684,ethanol,Chemical,0.9973602890968323,1476,1483
+MED-10759684,"Paracetamol, alcohol and the liver.",2000,10.1046/j.1365-2125.2000.00167.x,10759684,paracetamol,Chemical,0.9973155856132507,1657,1668
+MED-10759684,"Paracetamol, alcohol and the liver.",2000,10.1046/j.1365-2125.2000.00167.x,10759684,ethanol,Chemical,0.9977526068687439,1682,1689
+MED-10759684,"Paracetamol, alcohol and the liver.",2000,10.1046/j.1365-2125.2000.00167.x,10759684,paracetamol,Chemical,0.9972905516624451,1727,1738
+MED-10759684,"Paracetamol, alcohol and the liver.",2000,10.1046/j.1365-2125.2000.00167.x,10759684,liver damage,Disease,0.9934369325637817,1785,1797
+MED-10759684,"Paracetamol, alcohol and the liver.",2000,10.1046/j.1365-2125.2000.00167.x,10759684,ethanol,Chemical,0.9975724816322327,1897,1904
+MED-10759684,"Paracetamol, alcohol and the liver.",2000,10.1046/j.1365-2125.2000.00167.x,10759684,ethanol,Chemical,0.9980687499046326,1946,1953
+MED-10759684,"Paracetamol, alcohol and the liver.",2000,10.1046/j.1365-2125.2000.00167.x,10759684,paracetamol,Chemical,0.9974809288978577,1958,1969
+MED-10759684,"Paracetamol, alcohol and the liver.",2000,10.1046/j.1365-2125.2000.00167.x,10759684,paracetamol,Chemical,0.9904187321662903,2037,2048
+MED-10759684,"Paracetamol, alcohol and the liver.",2000,10.1046/j.1365-2125.2000.00167.x,10759684,hepatotoxicity,Disease,0.9912611842155457,2049,2063
+MED-10759684,"Paracetamol, alcohol and the liver.",2000,10.1046/j.1365-2125.2000.00167.x,10759684,alcoholics,Disease,0.8610512018203735,2088,2098
+MED-10759684,"Paracetamol, alcohol and the liver.",2000,10.1046/j.1365-2125.2000.00167.x,10759684,alcohol,Chemical,0.9974316954612732,2146,2153
+MED-10759684,"Paracetamol, alcohol and the liver.",2000,10.1046/j.1365-2125.2000.00167.x,10759684,paracetamol,Chemical,0.9921728372573853,2197,2208
+MED-10759684,"Paracetamol, alcohol and the liver.",2000,10.1046/j.1365-2125.2000.00167.x,10759684,paracetamol,Chemical,0.9977265000343323,2285,2296
+MED-10759684,"Paracetamol, alcohol and the liver.",2000,10.1046/j.1365-2125.2000.00167.x,10759684,alcohol,Chemical,0.9971557855606079,2494,2501
+MED-10759684,"Paracetamol, alcohol and the liver.",2000,10.1046/j.1365-2125.2000.00167.x,10759684,paracetamol,Chemical,0.9937549829483032,2528,2539
+MED-10759684,"Paracetamol, alcohol and the liver.",2000,10.1046/j.1365-2125.2000.00167.x,10759684,hepatotoxicity,Disease,0.991854190826416,2540,2554
+MED-10759684,"Paracetamol, alcohol and the liver.",2000,10.1046/j.1365-2125.2000.00167.x,10759684,glutathione,Chemical,0.9831304550170898,2584,2595
+MED-34102027,A narrative review of paracetamol-induced hypotension: Keeping the patient safe.,2022,10.24953/sturkjped.2016.05.016,34102027,paracetamol,Chemical,0.9984070658683777,22,33
+MED-34102027,A narrative review of paracetamol-induced hypotension: Keeping the patient safe.,2022,10.24953/sturkjped.2016.05.016,34102027,hypotension,Disease,0.9964863061904907,42,53
+MED-34102027,A narrative review of paracetamol-induced hypotension: Keeping the patient safe.,2022,10.24953/sturkjped.2016.05.016,34102027,paracetamol,Chemical,0.9984495639801025,129,140
+MED-34102027,A narrative review of paracetamol-induced hypotension: Keeping the patient safe.,2022,10.24953/sturkjped.2016.05.016,34102027,hypotension,Disease,0.9961788654327393,149,160
+MED-34102027,A narrative review of paracetamol-induced hypotension: Keeping the patient safe.,2022,10.24953/sturkjped.2016.05.016,34102027,acetaminophen,Chemical,0.9984111785888672,386,399
+MED-34102027,A narrative review of paracetamol-induced hypotension: Keeping the patient safe.,2022,10.24953/sturkjped.2016.05.016,34102027,hypotension,Disease,0.9965234398841858,406,417
+MED-34102027,A narrative review of paracetamol-induced hypotension: Keeping the patient safe.,2022,10.24953/sturkjped.2016.05.016,34102027,paracetamol,Chemical,0.997965931892395,453,464
+MED-34102027,A narrative review of paracetamol-induced hypotension: Keeping the patient safe.,2022,10.24953/sturkjped.2016.05.016,34102027,propacetamol,Chemical,0.9973688125610352,468,480
+MED-34102027,A narrative review of paracetamol-induced hypotension: Keeping the patient safe.,2022,10.24953/sturkjped.2016.05.016,34102027,low blood pressure,Disease,0.9752695560455322,484,502
+MED-34102027,A narrative review of paracetamol-induced hypotension: Keeping the patient safe.,2022,10.24953/sturkjped.2016.05.016,34102027,fever,Disease,0.9954409599304199,506,511
+MED-34102027,A narrative review of paracetamol-induced hypotension: Keeping the patient safe.,2022,10.24953/sturkjped.2016.05.016,34102027,sepsis,Disease,0.9947898387908936,515,521
+MED-34102027,A narrative review of paracetamol-induced hypotension: Keeping the patient safe.,2022,10.24953/sturkjped.2016.05.016,34102027,shock,Disease,0.9951818585395813,529,534
+MED-34102027,A narrative review of paracetamol-induced hypotension: Keeping the patient safe.,2022,10.24953/sturkjped.2016.05.016,34102027,paracetamol,Chemical,0.9985175728797913,608,619
+MED-34102027,A narrative review of paracetamol-induced hypotension: Keeping the patient safe.,2022,10.24953/sturkjped.2016.05.016,34102027,paracetamol,Chemical,0.9984991550445557,715,726
+MED-34102027,A narrative review of paracetamol-induced hypotension: Keeping the patient safe.,2022,10.24953/sturkjped.2016.05.016,34102027,febrile,Disease,0.9520716667175293,883,890
+MED-34102027,A narrative review of paracetamol-induced hypotension: Keeping the patient safe.,2022,10.24953/sturkjped.2016.05.016,34102027,critically ill,Disease,0.9297870397567749,891,905
+MED-34102027,A narrative review of paracetamol-induced hypotension: Keeping the patient safe.,2022,10.24953/sturkjped.2016.05.016,34102027,paracetamol,Chemical,0.9984903335571289,939,950
+MED-12517240,Paracetamol and asthma.,2003,10.1517/14656566.4.1.13,12517240,paracetamol,Chemical,0.99843829870224,0,11
+MED-12517240,Paracetamol and asthma.,2003,10.1517/14656566.4.1.13,12517240,asthma,Disease,0.9329938888549805,16,22
+MED-12517240,Paracetamol and asthma.,2003,10.1517/14656566.4.1.13,12517240,paracetamol,Chemical,0.9980853796005249,23,34
+MED-12517240,Paracetamol and asthma.,2003,10.1517/14656566.4.1.13,12517240,acetaminophen,Chemical,0.9981226325035095,36,49
+MED-12517240,Paracetamol and asthma.,2003,10.1517/14656566.4.1.13,12517240,paracetamol,Chemical,0.9984859824180603,222,233
+MED-12517240,Paracetamol and asthma.,2003,10.1517/14656566.4.1.13,12517240,asthma,Disease,0.9925073981285095,238,244
+MED-12517240,Paracetamol and asthma.,2003,10.1517/14656566.4.1.13,12517240,paracetamol,Chemical,0.9981427192687988,247,258
+MED-12517240,Paracetamol and asthma.,2003,10.1517/14656566.4.1.13,12517240,bronchospasm,Disease,0.9943423271179199,282,294
+MED-12517240,Paracetamol and asthma.,2003,10.1517/14656566.4.1.13,12517240,asthma,Disease,0.9918072819709778,353,359
+MED-12517240,Paracetamol and asthma.,2003,10.1517/14656566.4.1.13,12517240,paracetamol,Chemical,0.9981404542922974,407,418
+MED-12517240,Paracetamol and asthma.,2003,10.1517/14656566.4.1.13,12517240,paracetamol,Chemical,0.9973326921463013,419,430
+MED-12517240,Paracetamol and asthma.,2003,10.1517/14656566.4.1.13,12517240,bronchospasm,Disease,0.9941747188568115,568,580
+MED-12517240,Paracetamol and asthma.,2003,10.1517/14656566.4.1.13,12517240,aspirin,Chemical,0.9976904392242432,586,593
+MED-12517240,Paracetamol and asthma.,2003,10.1517/14656566.4.1.13,12517240,paracetamol,Chemical,0.9982629418373108,680,691
+MED-12517240,Paracetamol and asthma.,2003,10.1517/14656566.4.1.13,12517240,aspirin,Chemical,0.9984222650527954,724,731
+MED-12517240,Paracetamol and asthma.,2003,10.1517/14656566.4.1.13,12517240,paracetamol,Chemical,0.9984422326087952,989,1000
+MED-12517240,Paracetamol and asthma.,2003,10.1517/14656566.4.1.13,12517240,asthma,Disease,0.9943550825119019,1046,1052
+MED-24374658,Paracetamol: a focus for the general pediatrician.,2014,10.1007/s00431-013-2239-5,24374658,paracetamol,Chemical,0.9983723759651184,0,11
+MED-24374658,Paracetamol: a focus for the general pediatrician.,2014,10.1007/s00431-013-2239-5,24374658,paracetamol,Chemical,0.9981473684310913,50,61
+MED-24374658,Paracetamol: a focus for the general pediatrician.,2014,10.1007/s00431-013-2239-5,24374658,acetaminophen,Chemical,0.9979494214057922,63,76
+MED-24374658,Paracetamol: a focus for the general pediatrician.,2014,10.1007/s00431-013-2239-5,24374658,pain,Disease,0.9944095015525818,148,152
+MED-24374658,Paracetamol: a focus for the general pediatrician.,2014,10.1007/s00431-013-2239-5,24374658,fever,Disease,0.9795528054237366,157,162
+MED-24374658,Paracetamol: a focus for the general pediatrician.,2014,10.1007/s00431-013-2239-5,24374658,paracetamol,Chemical,0.9981166124343872,341,352
+MED-24374658,Paracetamol: a focus for the general pediatrician.,2014,10.1007/s00431-013-2239-5,24374658,paracetamol,Chemical,0.9983313679695129,453,464
+MED-24374658,Paracetamol: a focus for the general pediatrician.,2014,10.1007/s00431-013-2239-5,24374658,pain,Disease,0.9944025874137878,494,498
+MED-24374658,Paracetamol: a focus for the general pediatrician.,2014,10.1007/s00431-013-2239-5,24374658,fever,Disease,0.987726628780365,502,507
+MED-24374658,Paracetamol: a focus for the general pediatrician.,2014,10.1007/s00431-013-2239-5,24374658,fever,Disease,0.9949712753295898,584,589
+MED-24374658,Paracetamol: a focus for the general pediatrician.,2014,10.1007/s00431-013-2239-5,24374658,pain,Disease,0.9890018701553345,612,616
+MED-24374658,Paracetamol: a focus for the general pediatrician.,2014,10.1007/s00431-013-2239-5,24374658,paracetamol,Chemical,0.9981799125671387,628,639
+MED-24374658,Paracetamol: a focus for the general pediatrician.,2014,10.1007/s00431-013-2239-5,24374658,paracetamol,Chemical,0.9978200197219849,774,785
+MED-24374658,Paracetamol: a focus for the general pediatrician.,2014,10.1007/s00431-013-2239-5,24374658,toxicity,Disease,0.9957711100578308,786,794
+MED-24374658,Paracetamol: a focus for the general pediatrician.,2014,10.1007/s00431-013-2239-5,24374658,overdose,Disease,0.9319345951080322,862,870
+MED-24374658,Paracetamol: a focus for the general pediatrician.,2014,10.1007/s00431-013-2239-5,24374658,paracetamol,Chemical,0.9971296191215515,926,937
+MED-24374658,Paracetamol: a focus for the general pediatrician.,2014,10.1007/s00431-013-2239-5,24374658,toxicity,Disease,0.9952895641326904,938,946
+MED-24374658,Paracetamol: a focus for the general pediatrician.,2014,10.1007/s00431-013-2239-5,24374658,n - acetyl - p - benzo - quinone imine,Chemical,0.9949887990951538,954,984
+MED-24374658,Paracetamol: a focus for the general pediatrician.,2014,10.1007/s00431-013-2239-5,24374658,napqi,Chemical,0.9974067211151123,986,991
+MED-24374658,Paracetamol: a focus for the general pediatrician.,2014,10.1007/s00431-013-2239-5,24374658,paracetamol,Chemical,0.998123824596405,1017,1028
+MED-24374658,Paracetamol: a focus for the general pediatrician.,2014,10.1007/s00431-013-2239-5,24374658,paracetamol,Chemical,0.9980111122131348,1094,1105
+MED-24374658,Paracetamol: a focus for the general pediatrician.,2014,10.1007/s00431-013-2239-5,24374658,toxicity,Disease,0.9949973821640015,1261,1269
+MED-24374658,Paracetamol: a focus for the general pediatrician.,2014,10.1007/s00431-013-2239-5,24374658,paracetamol,Chemical,0.9983855485916138,1393,1404
+MED-24374658,Paracetamol: a focus for the general pediatrician.,2014,10.1007/s00431-013-2239-5,24374658,toxicity,Disease,0.995137631893158,1552,1560

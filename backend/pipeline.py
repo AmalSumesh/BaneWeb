@@ -192,6 +192,10 @@ class DrugRepurposingPipeline:
         logger.info("STARTING DRUG REPURPOSING PIPELINE")
         logger.info("=" * 80 + "\n")
 
+        # Reset per-run components so previous queries do not leak into the current run
+        self.knowledge_graph = BiomedicalKnowledgeGraph()
+        self.evidence_mapper = EvidenceMapper()
+
         self._query_keywords = parse_query_keywords(query)
         logger.info(f"Query keywords: {self._query_keywords}")
 
