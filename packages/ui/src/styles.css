@@ -1,0 +1,36 @@
+/* Light theme defaults — mirrored in apps/web globals.css */
+:root,
+[data-theme="light"] {
+  --color-background: #f7f4ef;
+  --color-background-elevated: #fffcf7;
+  --color-background-subtle: #f0ebe3;
+  --color-foreground: #1c1917;
+  --color-foreground-muted: #57534e;
+  --color-muted: #78716c;
+  --color-border: #e7e0d5;
+  --color-border-subtle: #ede8df;
+  --color-accent: #3d6b9e;
+  --color-accent-muted: #2d5078;
+  --color-accent-glow: rgba(61, 107, 158, 0.1);
+  --color-signal: #4a8f7c;
+  --color-biological: #5a8778;
+  --font-sans: "IBM Plex Sans", system-ui, sans-serif;
+  --font-display: "Instrument Serif", Georgia, serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+}
+
+[data-theme="dark"] {
+  --color-background: #07070a;
+  --color-background-elevated: #0d0d11;
+  --color-background-subtle: #111116;
+  --color-foreground: #e8e8ec;
+  --color-foreground-muted: #a8a8b0;
+  --color-muted: #5c5c66;
+  --color-border: #1c1c22;
+  --color-border-subtle: #141418;
+  --color-accent: #5b8def;
+  --color-accent-muted: #3d5f99;
+  --color-accent-glow: rgba(91, 141, 239, 0.15);
+  --color-signal: #7eb8a8;
+  --color-biological: #6b9e8f;
+}
