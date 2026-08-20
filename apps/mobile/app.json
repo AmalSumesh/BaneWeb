@@ -1,0 +1,25 @@
+{
+  "expo": {
+    "name": "Biotech Arbitrage",
+    "slug": "biotech-arbitrage",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "biotech-arbitrage",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.biotecharbitrage.mobile"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0a0a0b"
+      },
+      "package": "com.biotecharbitrage.mobile"
+    },
+    "plugins": ["expo-router"],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
