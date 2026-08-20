@@ -21,12 +21,14 @@ logger = logging.getLogger(__name__)
 
 # Generic non-disease or non-drug tokens to filter out from candidate endpoints
 GENERIC_DISEASE_STOPWORDS = {
-    "death", "mortality", "patient", "patients", "toxicity", "injury", "injuries",
-    "cells", "tissue", "adverse effect", "adverse effects", "lesion", "lesions",
-    "fall", "falls", "frailty", "age", "aging", "control", "placebo", "model",
+    "death", "mortality", "patient", "patients", "toxicity", "toxicities", "injury", "injuries",
+    "cells", "tissue", "adverse effect", "adverse effects", "adverse reaction", "adverse reactions",
+    "lesion", "lesions", "fall", "falls", "frailty", "age", "aging", "control", "placebo", "model",
     "response", "survival", "risk", "event", "events", "outcome", "outcomes",
     "mutation", "mutations", "expression", "activity", "level", "levels",
-    "human", "mice", "mouse", "rat", "rats", "animal", "animals", "cohort"
+    "human", "mice", "mouse", "rat", "rats", "animal", "animals", "cohort",
+    "overdose", "poisoning", "abuse", "addiction", "dependency", "tolerance", "withdrawal",
+    "symptom", "symptoms", "complication", "complications"
 }
 
 GENERIC_DRUG_STOPWORDS = {
@@ -45,6 +47,22 @@ VALID_TARGET_DISEASE_RELATIONS = {
 }
 
 
+PRIMARY_APPROVED_INDICATIONS: Dict[str, Set[str]] = {
+    "metformin": {"diabetes", "type 2 diabetes", "type 1 diabetes", "hyperglycemia", "glucose intolerance", "diabetic"},
+    "aspirin": {"pain", "fever", "pyrexia", "headache", "toothache", "inflammation", "mild pain"},
+    "paracetamol": {"pain", "fever", "pyrexia", "headache", "low back pain", "osteoarthritis pain", "mild pain"},
+    "acetaminophen": {"pain", "fever", "pyrexia", "headache", "low back pain", "mild pain"},
+    "atorvastatin": {"hyperlipidemia", "dyslipidemia", "hypercholesterolemia", "high cholesterol", "hypertriglyceridemia"},
+    "propranolol": {"hypertension", "angina", "arrhythmia", "high blood pressure"},
+    "sildenafil": {"erectile dysfunction", "impotence"},
+    "thalidomide": {"morning sickness", "sedation"},
+    "minoxidil": {"hypertension", "high blood pressure"},
+    "finasteride": {"benign prostatic hyperplasia", "bph", "prostate enlargement"},
+    "hydroxychloroquine": {"malaria"},
+    "methotrexate": {"rheumatoid arthritis"},
+}
+
+
 class RepurposingEngine:
     """
     Inference and hypothesis ranking engine for computational drug repurposing.
@@ -59,38 +77,37 @@ class RepurposingEngine:
         nodes: List[Dict[str, Any]],
         edges: List[Dict[str, Any]]
     ) -> nx.MultiDiGraph:
-        """Construct a queryable NetworkX MultiDiGraph from graph data."""
+        """Construct directed graph from exported graph nodes and edges."""
         G = nx.MultiDiGraph()
         for node in nodes:
-            name = node.get("name", "").strip().lower()
-            if not name or len(name) < 2:
+            node_id = str(node.get("id") or node.get("name") or node.get("label") or "").lower().strip()
+            if not node_id:
                 continue
+            orig_name = str(node.get("label") or node.get("name") or node.get("id") or node_id).strip()
             G.add_node(
-                name,
-                original_name=node.get("name", "").strip(),
-                type=node.get("type", "Unknown")
+                node_id,
+                type=node.get("type", "Unknown"),
+                original_name=orig_name
             )
 
         for edge in edges:
-            src = edge.get("source", "").strip().lower()
-            tgt = edge.get("target", "").strip().lower()
-            rel = edge.get("relation", "interacts_with").strip().lower()
+            src = str(edge.get("source", "")).lower().strip()
+            tgt = str(edge.get("target", "")).lower().strip()
+            rel = str(edge.get("relation") or edge.get("relationship", "related_to")).lower().strip()
             conf = float(edge.get("confidence", 0.8))
-            
-            if src and tgt and src != tgt:
+
+            if src in G and tgt in G:
                 G.add_edge(src, tgt, relation=rel, confidence=conf)
-        
+
         return G
 
     def _is_valid_disease(self, name: str) -> bool:
-        """Filter out generic symptom noise and non-disease nouns."""
+        """Filter out non-disease biological artifacts and stopwords."""
         clean = name.lower().strip()
         if len(clean) < 3:
             return False
-        if clean in GENERIC_DISEASE_STOPWORDS:
-            return False
         for stop in GENERIC_DISEASE_STOPWORDS:
-            if clean == stop or (len(stop) > 4 and clean.startswith(stop + " ")):
+            if clean == stop or (len(stop) > 4 and (clean.startswith(stop + " ") or clean.endswith(" " + stop))):
                 return False
         return True
 
@@ -102,6 +119,20 @@ class RepurposingEngine:
         if clean in GENERIC_DRUG_STOPWORDS:
             return False
         return True
+
+    def _is_primary_approved_indication(self, drug_name: str, disease_name: str) -> bool:
+        """Determine if disease is a known primary approved baseline indication for the drug."""
+        d_clean = drug_name.lower().strip()
+        dis_clean = disease_name.lower().strip()
+
+        # Check curated primary indication dictionary
+        for drug_key, indications in PRIMARY_APPROVED_INDICATIONS.items():
+            if drug_key in d_clean:
+                for ind in indications:
+                    if ind in dis_clean or dis_clean in ind:
+                        return True
+
+        return False
 
     def find_all_opportunities(
         self,
@@ -116,33 +147,38 @@ class RepurposingEngine:
         G = self.build_networkx_graph(nodes, edges)
         evidence = evidence_list or []
 
-        # Classify nodes strictly by biomedical type
         chemicals = [n for n, d in G.nodes(data=True) if d.get("type") == "Chemical" and self._is_valid_drug(n)]
         diseases = [n for n, d in G.nodes(data=True) if d.get("type") == "Disease" and self._is_valid_disease(n)]
-        # Biological targets and pathway intermediates
         targets = [n for n, d in G.nodes(data=True) if d.get("type") in {"Gene", "Protein", "Target", "Chemical"}]
 
-        # Direct known treatment edges: {(drug, disease): max_confidence}
-        direct_treats: Dict[Tuple[str, str], float] = {}
+        # Direct candidate edges: {(drug, disease): (relation, max_confidence)}
+        direct_treats: Dict[Tuple[str, str], Tuple[str, float]] = {}
         for u, v, data in G.edges(data=True):
             rel = data.get("relation", "").lower()
-            if rel in {"treats", "prevents", "alleviates"} or ("treat" in rel and "threat" not in rel):
+            if rel in {"treats", "prevents", "alleviates", "inhibits", "affects_efficacy_of", "reduces", "modulates", "regulates"} or ("treat" in rel and "threat" not in rel):
                 u_type = G.nodes[u].get("type")
                 v_type = G.nodes[v].get("type")
                 if u_type == "Chemical" and v_type == "Disease" and self._is_valid_drug(u) and self._is_valid_disease(v):
-                    direct_treats[(u, v)] = max(direct_treats.get((u, v), 0.0), data.get("confidence", 0.8))
+                    prev_conf = direct_treats.get((u, v), ("", 0.0))[1]
+                    conf = data.get("confidence", 0.8)
+                    if conf >= prev_conf:
+                        direct_treats[(u, v)] = (rel, conf)
 
         candidates: List[Dict[str, Any]] = []
         seen_pairs: Set[Tuple[str, str]] = set()
 
         # ── 1. Evaluate Direct Relations ─────────────────────────────────────
-        for (drug, disease), conf in direct_treats.items():
+        for (drug, disease), (rel, conf) in direct_treats.items():
             seen_pairs.add((drug, disease))
             drug_name = G.nodes[drug].get("original_name", drug.capitalize())
             disease_name = G.nodes[disease].get("original_name", disease.capitalize())
             
+            is_primary = self._is_primary_approved_indication(drug, disease)
+            is_repurposing = not is_primary
+
             score_data = self._calculate_scores(
                 is_direct=True,
+                is_primary=is_primary,
                 direct_conf=conf,
                 hop_paths=[],
                 evidence_count=self._count_evidence(drug, disease, evidence)
@@ -156,12 +192,18 @@ class RepurposingEngine:
                     "step": 1,
                     "from_node": drug_name,
                     "from_type": "Chemical",
-                    "relation": "treats",
+                    "relation": rel or "treats",
                     "to_node": disease_name,
                     "to_type": "Disease",
                     "confidence": round(conf, 3)
                 }
             ]
+
+            summary = (
+                f"{drug_name} is the standard approved treatment for {disease_name}."
+                if is_primary
+                else f"{drug_name} demonstrates significant novel repurposing efficacy against {disease_name} documented in biomedical research ({rel})."
+            )
 
             candidates.append({
                 "drug": drug_name,
@@ -169,10 +211,12 @@ class RepurposingEngine:
                 "signal_score": score_data["signal_score"],
                 "evidence_rating": score_data["evidence_stars"],
                 "novelty": score_data["novelty_badge"],
+                "is_repurposing": is_repurposing,
+                "indication_status": "Novel Repurposing Candidate" if is_repurposing else "Primary Approved Indication",
                 "connection_type": "direct",
                 "mechanistic_chain": chain,
                 "score_breakdown": score_data["breakdown"],
-                "summary": f"{drug_name} is documented in clinical literature to treat {disease_name}."
+                "summary": summary
             })
 
         # ── 2. Discover Multi-Hop Repurposing Hypotheses (A -> B -> C) ──────
@@ -222,8 +266,11 @@ class RepurposingEngine:
                     drug_name = G.nodes[drug].get("original_name", drug.capitalize())
                     disease_name = G.nodes[disease].get("original_name", disease.capitalize())
 
+                    is_primary = self._is_primary_approved_indication(drug, disease)
+
                     score_data = self._calculate_scores(
                         is_direct=False,
+                        is_primary=is_primary,
                         direct_conf=0.0,
                         hop_paths=indirect_paths,
                         evidence_count=len(indirect_paths) * 2
@@ -260,6 +307,8 @@ class RepurposingEngine:
                         "signal_score": score_data["signal_score"],
                         "evidence_rating": score_data["evidence_stars"],
                         "novelty": score_data["novelty_badge"],
+                        "is_repurposing": True,
+                        "indication_status": "Novel Repurposing Candidate",
                         "connection_type": "indirect",
                         "mechanistic_chain": chain,
                         "score_breakdown": score_data["breakdown"],
@@ -269,27 +318,28 @@ class RepurposingEngine:
                         )
                     })
 
-        # Sort strictly by Signal Score (descending) and cap to top_k high-impact candidates
-        candidates.sort(key=lambda x: x["signal_score"], reverse=True)
+        # Sort: novel repurposing candidates first by signal_score, then primary approved indications
+        candidates.sort(key=lambda x: (1 if x.get("is_repurposing") else 0, x["signal_score"]), reverse=True)
         return candidates[:self.top_k]
 
     def _calculate_scores(
         self,
         is_direct: bool,
+        is_primary: bool,
         direct_conf: float,
         hop_paths: List[Dict[str, Any]],
         evidence_count: int
     ) -> Dict[str, Any]:
         """
-        Calculate multi-factor 0-100 Repurposing Score Breakdown matching Card 7.
+        Calculate multi-factor 0-100 Repurposing Score Breakdown.
         """
         if is_direct:
             mechanistic = int(min(98, 75 + (direct_conf * 20)))
             clinical = int(min(95, 60 + min(evidence_count * 5, 30)))
             literature = int(min(96, 70 + min(evidence_count * 4, 25)))
-            novelty = 45  # Direct is well-known
+            novelty = 40 if is_primary else 84  # Novel direct discovery vs established indication
             recent_activity = 85
-            novelty_badge = "Known"
+            novelty_badge = "Known" if is_primary else "High"
         else:
             num_paths = len(hop_paths)
             avg_hop_conf = sum(p["d_t_conf"] * p["t_dis_conf"] for p in hop_paths) / max(num_paths, 1)

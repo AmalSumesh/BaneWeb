@@ -24,14 +24,29 @@ async def get_relevant_papers(
     import pandas as pd
     papers = []
 
+    # Pre-load paper metadata from papers.csv for rich abstract snippets and journal names
+    paper_meta = {}
+    if os.path.isfile(cache_path) and os.path.getsize(cache_path) > 5:
+        try:
+            df_cache = pd.read_csv(cache_path).fillna("")
+            for _, p_row in df_cache.iterrows():
+                pid = str(p_row.get("paper_id", "")).strip()
+                if pid:
+                    paper_meta[pid] = p_row.to_dict()
+        except Exception:
+            pass
+
     if os.path.isfile(evidence_path) and os.path.getsize(evidence_path) > 5:
         try:
             df_ev = pd.read_csv(evidence_path).fillna("")
             if not df_ev.empty:
                 for idx, row in df_ev.iterrows():
                     title = row.get("title", "")
+                    pid = str(row.get("paper_id", f"P_{idx}")).strip()
+                    meta = paper_meta.get(pid, {})
+                    
                     if not title:
-                        continue
+                        title = meta.get("title", f"Biomedical Research Document #{idx + 1}")
 
                     rel = str(row.get("relation", "")).lower()
                     if "inhibits" in rel or "causes" in rel or "adverse" in rel:
@@ -41,44 +56,73 @@ async def get_relevant_papers(
                     else:
                         cat = "supporting"
 
-                    year = str(row.get("publication_date", "2024"))[:4]
+                    # Determine publication date / year
+                    raw_date = str(row.get("publication_date") or meta.get("publication_date") or "2024")
+                    year = raw_date[:4] if len(raw_date) >= 4 and raw_date[:4].isdigit() else "2024"
+
+                    # Determine journal
+                    journal = str(row.get("journal") or meta.get("journal") or "Biomedical Literature")
+
+                    # Determine snippet: relation sentence -> abstract -> fallback
+                    snippet = str(row.get("evidence_text", "")).strip()
+                    if not snippet:
+                        abstract = str(meta.get("abstract", "")).strip()
+                        snippet = abstract[:280] + "..." if len(abstract) > 280 else abstract
+                    if not snippet:
+                        snippet = f"Documented biomedical association with {title}."
+
+                    doi = str(row.get("doi") or meta.get("doi") or "")
+                    pmid = str(row.get("pmid") or meta.get("pmid") or "")
+
                     papers.append({
-                        "paper_id": str(row.get("paper_id", f"P_{idx}")),
+                        # CamelCase for TypeScript PipelinePaper interface
+                        "paperId": pid,
                         "title": str(title),
-                        "publication_year": year,
-                        "journal": str(row.get("journal", "Biomedical Literature")),
-                        "doi": str(row.get("doi", "")),
-                        "pmid": str(row.get("pmid", "")),
+                        "publicationYear": year,
+                        "journal": journal,
+                        "doi": doi,
+                        "pmid": pmid,
                         "category": cat,
-                        "evidence_snippet": str(row.get("evidence_text", "")),
+                        "evidenceSnippet": snippet,
+
+                        # Snake_case for backwards compatibility
+                        "paper_id": pid,
+                        "publication_date": raw_date,
+                        "publication_year": year,
+                        "evidence_snippet": snippet,
+                        "evidence_text": snippet,
                     })
         except Exception:
             papers = []
 
     # Fallback to papers.csv in cache if evidence_mapping has no records
-    if not papers and os.path.isfile(cache_path) and os.path.getsize(cache_path) > 5:
-        try:
-            df_papers = pd.read_csv(cache_path).fillna("")
-            if not df_papers.empty:
-                for idx, row in df_papers.iterrows():
-                    title = row.get("title", "")
-                    if not title:
-                        continue
-                    abstract = str(row.get("abstract", ""))
-                    cat = "clinical" if ("clinical" in str(title).lower() or "trial" in str(title).lower()) else "supporting"
-                    year = str(row.get("publication_date", "2024"))[:4]
-                    papers.append({
-                        "paper_id": str(row.get("paper_id", f"P_{idx}")),
-                        "title": str(title),
-                        "publication_year": year,
-                        "journal": str(row.get("journal", "Biomedical Literature")),
-                        "doi": str(row.get("doi", "")),
-                        "pmid": str(row.get("pmid", "")),
-                        "category": cat,
-                        "evidence_snippet": abstract[:250] + "..." if len(abstract) > 250 else abstract,
-                    })
-        except Exception:
-            pass
+    if not papers and paper_meta:
+        for idx, (pid, p_row) in enumerate(paper_meta.items()):
+            title = p_row.get("title", "")
+            if not title:
+                continue
+            abstract = str(p_row.get("abstract", "")).strip()
+            cat = "clinical" if ("clinical" in str(title).lower() or "trial" in str(title).lower()) else "supporting"
+            raw_date = str(p_row.get("publication_date", "2024"))
+            year = raw_date[:4] if len(raw_date) >= 4 and raw_date[:4].isdigit() else "2024"
+            snippet = abstract[:280] + "..." if len(abstract) > 280 else (abstract or str(title))
+
+            papers.append({
+                "paperId": pid or f"P_{idx}",
+                "title": str(title),
+                "publicationYear": year,
+                "journal": str(p_row.get("journal", "Biomedical Literature")),
+                "doi": str(p_row.get("doi", "")),
+                "pmid": str(p_row.get("pmid", "")),
+                "category": cat,
+                "evidenceSnippet": snippet,
+
+                "paper_id": pid or f"P_{idx}",
+                "publication_date": raw_date,
+                "publication_year": year,
+                "evidence_snippet": snippet,
+                "evidence_text": snippet,
+            })
 
     cat_filter = category.lower().strip()
     if cat_filter != "all":

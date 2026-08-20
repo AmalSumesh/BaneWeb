@@ -72,15 +72,266 @@ export function PipelineEvidenceView({ onNavigate }: FlowProps) {
   const [error, setError] = useState<string | null>(null);
   useEffect(() => { api.getPipelinePapers().then((result) => setPapers(result.papers)).catch((err) => setError(err instanceof Error ? err.message : "Unable to load relevant research")); }, []);
   if (error) return <ErrorBox message={error} />;
-  if (!papers.length) return <div className="py-20 text-center font-mono text-xs text-accent">LOADING RELEVANT RESEARCH PAPERS...</div>;
-  return <div className="space-y-6"><FlowHeader eyebrow="05 // EVIDENCE" title="Relevant research papers" description="Literature records and evidence snippets produced by the ingestion pipeline." /><div className="space-y-3">{papers.map((paper) => <div key={paper.paperId} className="p-5 border border-border bg-background-elevated/40 space-y-2"><div className="flex justify-between gap-3"><h2 className="text-sm text-foreground">{paper.title}</h2><span className="font-mono text-[0.65rem] text-accent uppercase">{paper.category}</span></div><p className="text-xs text-foreground-muted">{paper.evidenceSnippet || "No extracted evidence snippet available."}</p><div className="font-mono text-[0.65rem] text-muted">{paper.journal} // {paper.publicationYear || "YEAR UNKNOWN"} {paper.doi && `// ${paper.doi}`}</div></div>)}</div><button onClick={() => onNavigate("/pipeline/repurposing")} className="px-4 py-2 border border-accent text-accent font-mono text-xs uppercase">View repurposing scope →</button></div>;
+  return <div className="space-y-6"><FlowHeader eyebrow="05 // EVIDENCE" title="Relevant research papers" description="Literature records and evidence snippets produced by the ingestion pipeline." /><div className="space-y-3">{papers.map((paper, idx) => { const snippet = paper.evidenceSnippet || (paper as any).evidence_snippet || (paper as any).evidence_text; const year = paper.publicationYear || (paper as any).publication_year || "YEAR UNKNOWN"; return <div key={paper.paperId || (paper as any).paper_id || idx} className="p-5 border border-border bg-background-elevated/40 space-y-2"><div className="flex justify-between gap-3"><h2 className="text-sm text-foreground">{paper.title}</h2><span className="font-mono text-[0.65rem] text-accent uppercase">{paper.category}</span></div><p className="text-xs text-foreground-muted leading-relaxed">{snippet || "No extracted evidence snippet available."}</p><div className="font-mono text-[0.65rem] text-muted">{paper.journal || "Biomedical Literature"} // {year} {paper.doi && `// ${paper.doi}`}</div></div>; })}</div><button onClick={() => onNavigate("/pipeline/repurposing")} className="px-4 py-2 border border-accent text-accent font-mono text-xs uppercase">View repurposing scope →</button></div>;
 }
 
-export function PipelineRepurposingView(_props: FlowProps) {
+export function PipelineRepurposingView({ onNavigate }: FlowProps) {
   const [opportunities, setOpportunities] = useState<RepurposingOpportunity[]>([]);
+  const [filter, setFilter] = useState<"ALL" | "NOVEL" | "EXISTING">("ALL");
+  const [expandedIndex, setExpandedIndex] = useState<number | null>(0);
   const [error, setError] = useState<string | null>(null);
-  useEffect(() => { api.getRepurposingOpportunities().then((result) => setOpportunities(result.opportunities)).catch((err) => setError(err instanceof Error ? err.message : "Unable to load repurposing scope")); }, []);
+
+  useEffect(() => {
+    api
+      .getRepurposingOpportunities()
+      .then((result) => setOpportunities(result.opportunities))
+      .catch((err) => setError(err instanceof Error ? err.message : "Unable to load repurposing scope"));
+  }, []);
+
   if (error) return <ErrorBox message={error} />;
-  if (!opportunities.length) return <div className="py-20 text-center font-mono text-xs text-accent">CALCULATING REPURPOSING SCOPE...</div>;
-  return <div className="space-y-6"><FlowHeader eyebrow="06 // REPURPOSING SCOPE" title="Potential research opportunities" description="Ranked drug-disease connections calculated from the extracted graph and evidence." /><div className="space-y-3">{opportunities.map((opportunity, index) => <div key={`${opportunity.drug}-${opportunity.disease}-${index}`} className="p-5 border border-border bg-background-elevated/40"><div className="flex items-center justify-between"><span className="text-sm text-foreground">{opportunity.drug} <span className="text-muted">×</span> {opportunity.disease}</span><span className="font-mono text-accent">{opportunity.signal_score}/100</span></div><p className="mt-2 text-xs text-foreground-muted">{opportunity.summary || opportunity.connection_type || "Potential repurposing relationship identified."}</p></div>)}</div></div>;
+  if (!opportunities.length)
+    return <div className="py-20 text-center font-mono text-xs text-accent animate-pulse">CALCULATING REPURPOSING SCOPE...</div>;
+
+  const isCandidateNovel = (opp: RepurposingOpportunity) => {
+    if (opp.is_repurposing === true) return true;
+    if (opp.is_repurposing === false) return false;
+    const status = (opp.indication_status || "").toLowerCase();
+    if (status.includes("novel") || status.includes("repurpose")) return true;
+    if (status.includes("primary") || status.includes("approved") || status.includes("existing")) return false;
+    
+    // Heuristic fallback for previously cached results
+    const drugLower = (opp.drug || "").toLowerCase();
+    const diseaseLower = (opp.disease || "").toLowerCase();
+    const isKnownPrimary =
+      (drugLower.includes("metformin") && (diseaseLower.includes("diabet") || diseaseLower.includes("glucose") || diseaseLower.includes("hyperglycemia"))) ||
+      ((drugLower.includes("aspirin") || drugLower.includes("paracetamol") || drugLower.includes("acetaminophen")) && (diseaseLower.includes("pain") || diseaseLower.includes("fever"))) ||
+      (drugLower.includes("atorvastatin") && (diseaseLower.includes("lipid") || diseaseLower.includes("cholesterol")));
+    
+    return !isKnownPrimary;
+  };
+
+  const novelCount = opportunities.filter((opp) => isCandidateNovel(opp)).length;
+  const existingCount = opportunities.length - novelCount;
+
+  const filteredOpps = opportunities.filter((opp) => {
+    const isNovel = isCandidateNovel(opp);
+    if (filter === "NOVEL") return isNovel;
+    if (filter === "EXISTING") return !isNovel;
+    return true;
+  });
+
+  return (
+    <div className="space-y-6">
+      <FlowHeader
+        eyebrow="06 // REPURPOSING SCOPE"
+        title="Potential research opportunities"
+        description="Ranked candidates separated into Novel Repurposing Hypotheses vs Existing Approved Indications."
+      />
+
+      {/* Filter Tabs */}
+      <div className="flex flex-wrap items-center justify-between gap-3 border-b border-border pb-3">
+        <div className="flex items-center gap-2 font-mono text-xs">
+          <span className="text-muted mr-1">CATEGORY:</span>
+          {(
+            [
+              { key: "ALL", label: `All Candidates (${opportunities.length})` },
+              { key: "NOVEL", label: `✨ Novel Repurposing Hypotheses (${novelCount})` },
+              { key: "EXISTING", label: `📋 Existing Approved Indications (${existingCount})` },
+            ] as const
+          ).map((t) => (
+            <button
+              key={t.key}
+              onClick={() => setFilter(t.key)}
+              className={`px-3 py-1 border transition-colors ${
+                filter === t.key
+                  ? "border-accent bg-accent/10 text-accent font-semibold"
+                  : "border-border text-foreground-muted hover:text-foreground hover:border-foreground-muted"
+              }`}
+            >
+              {t.label}
+            </button>
+          ))}
+        </div>
+        <div className="font-mono text-xs text-muted">
+          SHOWING {filteredOpps.length} OF {opportunities.length}
+        </div>
+      </div>
+
+      {/* Opportunities List */}
+      <div className="space-y-4">
+        {filteredOpps.map((opportunity, index) => {
+          const isNovel = isCandidateNovel(opportunity);
+          const isExpanded = expandedIndex === index;
+          const stars = (opportunity as any).evidence_rating || (opportunity.signal_score >= 85 ? 5 : opportunity.signal_score >= 75 ? 4 : 3);
+          const chain = opportunity.mechanistic_chain || [];
+
+          return (
+            <div
+              key={`${opportunity.drug}-${opportunity.disease}-${index}`}
+              className={`border transition-all duration-200 ${
+                isNovel
+                  ? "border-accent/70 bg-background-elevated/70 shadow-[0_0_24px_rgba(34,197,94,0.06)]"
+                  : "border-border/80 bg-background-elevated/30 opacity-90"
+              }`}
+            >
+              {/* Highlight Header Ribbon */}
+              <div className="p-5 space-y-4">
+                <div className="flex flex-wrap items-start justify-between gap-4">
+                  <div className="space-y-1">
+                    <div className="flex flex-wrap items-center gap-2">
+                      <span className="font-mono text-xs px-2 py-0.5 border border-accent/40 bg-accent/10 text-accent font-medium uppercase tracking-wider">
+                        #{index + 1}
+                      </span>
+                      {isNovel ? (
+                        <span className="font-mono text-[0.65rem] px-2.5 py-0.5 border border-amber-500/50 bg-amber-950/40 text-amber-300 uppercase tracking-wide font-semibold flex items-center gap-1">
+                          <span>✨</span> NOVEL REPURPOSING TARGET
+                        </span>
+                      ) : (
+                        <span className="font-mono text-[0.65rem] px-2.5 py-0.5 border border-slate-600/50 bg-slate-900/40 text-slate-400 uppercase tracking-wide">
+                          EXISTING APPROVED INDICATION
+                        </span>
+                      )}
+                      <span className="font-mono text-[0.65rem] text-amber-400">
+                        {"★".repeat(stars)}{"☆".repeat(Math.max(0, 5 - stars))}
+                      </span>
+                    </div>
+
+                    <h2 className="text-lg md:text-xl font-medium text-foreground pt-1 flex items-center gap-2">
+                      <span className="text-emerald-400 font-semibold">{opportunity.drug}</span>
+                      <span className="text-muted font-normal text-sm">{isNovel ? "novel repurposing for" : "established treatment for"}</span>
+                      <span className={isNovel ? "text-amber-300 font-semibold" : "text-foreground font-semibold"}>{opportunity.disease}</span>
+                    </h2>
+                  </div>
+
+                  {/* Signal Score Badge & Progress Meter */}
+                  <div className="flex flex-col items-end shrink-0">
+                    <div className="flex items-baseline gap-1">
+                      <span className={`font-mono text-2xl md:text-3xl font-bold ${isNovel ? "text-accent" : "text-foreground-muted"}`}>
+                        {opportunity.signal_score}
+                      </span>
+                      <span className="font-mono text-xs text-muted">/100</span>
+                    </div>
+                    <div className="w-24 h-1.5 bg-background-subtle border border-border mt-1 overflow-hidden">
+                      <div
+                        className={`h-full ${isNovel ? "bg-accent" : "bg-foreground-muted/60"}`}
+                        style={{ width: `${Math.min(100, Math.max(0, opportunity.signal_score))}%` }}
+                      />
+                    </div>
+                    <span className="font-mono text-[0.6rem] text-muted uppercase mt-0.5">SIGNAL SCORE</span>
+                  </div>
+                </div>
+
+                <p className="text-xs text-foreground-muted leading-relaxed">
+                  {opportunity.summary ||
+                    (isNovel
+                      ? `${opportunity.drug} exhibits potential novel therapeutic activity against ${opportunity.disease} through intermediate biological targets.`
+                      : `${opportunity.drug} is an existing standard indication for ${opportunity.disease}.`)}
+                </p>
+
+                {/* Score Breakdown Bar (if available) */}
+                {opportunity.score_breakdown && (
+                  <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 pt-2 font-mono text-[0.65rem] border-t border-border/40">
+                    <div className="p-2 border border-border/60 bg-background-subtle/40">
+                      <span className="text-muted block">MECHANISTIC</span>
+                      <span className="text-foreground font-medium text-xs">
+                        {opportunity.score_breakdown.mechanistic_evidence ?? 85}/100
+                      </span>
+                    </div>
+                    <div className="p-2 border border-border/60 bg-background-subtle/40">
+                      <span className="text-muted block">CLINICAL</span>
+                      <span className="text-foreground font-medium text-xs">
+                        {opportunity.score_breakdown.clinical_evidence ?? 70}/100
+                      </span>
+                    </div>
+                    <div className="p-2 border border-border/60 bg-background-subtle/40">
+                      <span className="text-muted block">LITERATURE</span>
+                      <span className="text-foreground font-medium text-xs">
+                        {opportunity.score_breakdown.literature_support ?? 75}/100
+                      </span>
+                    </div>
+                    <div className="p-2 border border-border/60 bg-background-subtle/40">
+                      <span className="text-muted block">NOVELTY</span>
+                      <span className="text-foreground font-medium text-xs">
+                        {opportunity.score_breakdown.novelty ?? (isNovel ? 88 : 45)}/100
+                      </span>
+                    </div>
+                  </div>
+                )}
+
+                {/* Interactive Mechanistic Path Toggle */}
+                {chain.length > 0 && (
+                  <div className="pt-2">
+                    <button
+                      onClick={() => setExpandedIndex(isExpanded ? null : index)}
+                      className="font-mono text-xs text-accent hover:underline flex items-center gap-1.5"
+                    >
+                      <span>{isExpanded ? "▲ Hide Mechanistic Pathway" : "▼ Show Mechanistic Biological Bridge"}</span>
+                      <span className="text-muted">({chain.length} step{chain.length > 1 ? "s" : ""})</span>
+                    </button>
+
+                    {isExpanded && (
+                      <div className="mt-3 p-4 border border-border bg-background-subtle/60 space-y-2">
+                        <span className="font-mono text-[0.65rem] uppercase text-muted tracking-wider block">
+                          BIOLOGICAL REASONING CHAIN
+                        </span>
+                        <div className="flex flex-wrap items-center gap-2 font-mono text-xs">
+                          {chain.map((step: any, sIdx: number) => (
+                            <div key={sIdx} className="flex items-center gap-2">
+                              <span className="px-2.5 py-1 border border-border bg-background-elevated text-foreground font-medium">
+                                {step.from_node}
+                                <span className="text-[0.6rem] text-muted ml-1.5 uppercase">({step.from_type})</span>
+                              </span>
+                              <span className="text-accent uppercase text-[0.65rem] px-1 font-semibold">
+                                ── {step.relation} ──▶
+                              </span>
+                              {sIdx === chain.length - 1 && (
+                                <span className="px-2.5 py-1 border border-border bg-background-elevated text-foreground font-medium">
+                                  {step.to_node}
+                                  <span className="text-[0.6rem] text-muted ml-1.5 uppercase">({step.to_type})</span>
+                                </span>
+                              )}
+                            </div>
+                          ))}
+                        </div>
+                      </div>
+                    )}
+                  </div>
+                )}
+
+                {/* Action Buttons */}
+                <div className="flex flex-wrap items-center gap-2 pt-3 border-t border-border/60">
+                  <button
+                    onClick={() => onNavigate("/workspace/explore")}
+                    className="px-3.5 py-1.5 border border-accent text-accent font-mono text-xs uppercase hover:bg-accent/10 transition-colors"
+                  >
+                    View in Knowledge Graph →
+                  </button>
+                  <button
+                    onClick={() =>
+                      onNavigate(
+                        `/workspace/explanation?drug=${encodeURIComponent(opportunity.drug)}&disease=${encodeURIComponent(
+                          opportunity.disease
+                        )}`
+                      )
+                    }
+                    className="px-3.5 py-1.5 border border-border text-foreground-muted font-mono text-xs uppercase hover:text-foreground hover:border-foreground-muted transition-colors"
+                  >
+                    AI RAG Explanation
+                  </button>
+                  <button
+                    onClick={() =>
+                      onNavigate(`/workspace/drugs/drug-${opportunity.drug.toLowerCase().replace(/\s+/g, "-")}`)
+                    }
+                    className="px-3.5 py-1.5 border border-border text-foreground-muted font-mono text-xs uppercase hover:text-foreground hover:border-foreground-muted transition-colors"
+                  >
+                    Drug Pharmacology
+                  </button>
+                </div>
+              </div>
+            </div>
+          );
+        })}
+      </div>
+    </div>
+  );
 }

@@ -1,517 +1,299 @@
 paper_id,title,publication_date,doi,pmid,entity,entity_type,confidence,start,end
-MED-34681816,Paracetamol (Acetaminophen) and the Developing Brain.,2021,10.1007/s11356-021-14136-6,34681816,paracetamol,Chemical,0.9984475374221802,0,11
-MED-34681816,Paracetamol (Acetaminophen) and the Developing Brain.,2021,10.1007/s11356-021-14136-6,34681816,acetaminophen,Chemical,0.9983735084533691,13,26
-MED-34681816,Paracetamol (Acetaminophen) and the Developing Brain.,2021,10.1007/s11356-021-14136-6,34681816,paracetamol,Chemical,0.9984434247016907,53,64
-MED-34681816,Paracetamol (Acetaminophen) and the Developing Brain.,2021,10.1007/s11356-021-14136-6,34681816,fever,Disease,0.9948564767837524,91,96
-MED-34681816,Paracetamol (Acetaminophen) and the Developing Brain.,2021,10.1007/s11356-021-14136-6,34681816,pain,Disease,0.9940693378448486,101,105
-MED-34681816,Paracetamol (Acetaminophen) and the Developing Brain.,2021,10.1007/s11356-021-14136-6,34681816,attention deficit hyperactivity disorder,Disease,0.994168221950531,176,216
-MED-34681816,Paracetamol (Acetaminophen) and the Developing Brain.,2021,10.1007/s11356-021-14136-6,34681816,autism spectrum disorder,Disease,0.9957054257392883,221,245
-MED-34681816,Paracetamol (Acetaminophen) and the Developing Brain.,2021,10.1007/s11356-021-14136-6,34681816,paracetamol,Chemical,0.9985678195953369,415,426
-MED-34681816,Paracetamol (Acetaminophen) and the Developing Brain.,2021,10.1007/s11356-021-14136-6,34681816,paracetamol,Chemical,0.9985306262969971,705,716
-MED-34681816,Paracetamol (Acetaminophen) and the Developing Brain.,2021,10.1007/s11356-021-14136-6,34681816,paracetamol,Chemical,0.9984875917434692,744,755
-MED-34681816,Paracetamol (Acetaminophen) and the Developing Brain.,2021,10.1007/s11356-021-14136-6,34681816,paracetamol,Chemical,0.9985231757164001,936,947
-MED-34681816,Paracetamol (Acetaminophen) and the Developing Brain.,2021,10.1007/s11356-021-14136-6,34681816,paracetamol,Chemical,0.9984813332557678,1041,1052
-MED-34681816,Paracetamol (Acetaminophen) and the Developing Brain.,2021,10.1007/s11356-021-14136-6,34681816,prostaglandin,Chemical,0.9839615821838379,1098,1111
-MED-34681816,Paracetamol (Acetaminophen) and the Developing Brain.,2021,10.1007/s11356-021-14136-6,34681816,prostaglandin h2,Chemical,0.9555990099906921,1177,1193
-MED-7002186,Kinetics and metabolism of paracetamol and phenacetin.,1980,10.1111/j.1365-2125.1980.tb01812.x,7002186,paracetamol,Chemical,0.9981586337089539,27,38
-MED-7002186,Kinetics and metabolism of paracetamol and phenacetin.,1980,10.1111/j.1365-2125.1980.tb01812.x,7002186,phenacetin,Chemical,0.9980528950691223,43,53
-MED-7002186,Kinetics and metabolism of paracetamol and phenacetin.,1980,10.1111/j.1365-2125.1980.tb01812.x,7002186,paracetamol,Chemical,0.9981504082679749,87,98
-MED-7002186,Kinetics and metabolism of paracetamol and phenacetin.,1980,10.1111/j.1365-2125.1980.tb01812.x,7002186,paracetamol,Chemical,0.9982220530509949,219,230
-MED-7002186,Kinetics and metabolism of paracetamol and phenacetin.,1980,10.1111/j.1365-2125.1980.tb01812.x,7002186,mercapturic acid,Chemical,0.9895035028457642,427,443
-MED-7002186,Kinetics and metabolism of paracetamol and phenacetin.,1980,10.1111/j.1365-2125.1980.tb01812.x,7002186,cysteine,Chemical,0.9834170937538147,448,456
-MED-7002186,Kinetics and metabolism of paracetamol and phenacetin.,1980,10.1111/j.1365-2125.1980.tb01812.x,7002186,paracetamol,Chemical,0.9975760579109192,578,589
-MED-7002186,Kinetics and metabolism of paracetamol and phenacetin.,1980,10.1111/j.1365-2125.1980.tb01812.x,7002186,hepatotoxic,Disease,0.796660304069519,635,646
-MED-7002186,Kinetics and metabolism of paracetamol and phenacetin.,1980,10.1111/j.1365-2125.1980.tb01812.x,7002186,paracetamol,Chemical,0.9978850483894348,654,665
-MED-7002186,Kinetics and metabolism of paracetamol and phenacetin.,1980,10.1111/j.1365-2125.1980.tb01812.x,7002186,sulphate,Chemical,0.7150214910507202,717,725
-MED-7002186,Kinetics and metabolism of paracetamol and phenacetin.,1980,10.1111/j.1365-2125.1980.tb01812.x,7002186,mercapturic acid,Chemical,0.9884818196296692,782,798
-MED-7002186,Kinetics and metabolism of paracetamol and phenacetin.,1980,10.1111/j.1365-2125.1980.tb01812.x,7002186,cysteine,Chemical,0.9745940566062927,803,811
-MED-7002186,Kinetics and metabolism of paracetamol and phenacetin.,1980,10.1111/j.1365-2125.1980.tb01812.x,7002186,paracetamol,Chemical,0.99806147813797,861,872
-MED-7002186,Kinetics and metabolism of paracetamol and phenacetin.,1980,10.1111/j.1365-2125.1980.tb01812.x,7002186,phenacetin,Chemical,0.9981637001037598,1061,1071
-MED-7002186,Kinetics and metabolism of paracetamol and phenacetin.,1980,10.1111/j.1365-2125.1980.tb01812.x,7002186,paracetamol,Chemical,0.9964423775672913,1139,1150
-MED-7002186,Kinetics and metabolism of paracetamol and phenacetin.,1980,10.1111/j.1365-2125.1980.tb01812.x,7002186,toxicity,Disease,0.9937258362770081,1202,1210
-MED-15662292,Mechanism of action of paracetamol.,2005,10.1097/00045391-200501000-00008,15662292,paracetamol,Chemical,0.9980331063270569,23,34
-MED-15662292,Mechanism of action of paracetamol.,2005,10.1097/00045391-200501000-00008,15662292,paracetamol,Chemical,0.9974141120910645,35,46
-MED-15662292,Mechanism of action of paracetamol.,2005,10.1097/00045391-200501000-00008,15662292,acetaminophen,Chemical,0.9981752634048462,48,61
-MED-15662292,Mechanism of action of paracetamol.,2005,10.1097/00045391-200501000-00008,15662292,prostaglandins,Chemical,0.9601523280143738,130,144
-MED-15662292,Mechanism of action of paracetamol.,2005,10.1097/00045391-200501000-00008,15662292,pgs,Chemical,0.8573382496833801,146,149
-MED-15662292,Mechanism of action of paracetamol.,2005,10.1097/00045391-200501000-00008,15662292,paracetamol,Chemical,0.9981675148010254,183,194
-MED-15662292,Mechanism of action of paracetamol.,2005,10.1097/00045391-200501000-00008,15662292,paracetamol,Chemical,0.9977983236312866,269,280
-MED-15662292,Mechanism of action of paracetamol.,2005,10.1097/00045391-200501000-00008,15662292,paracetamol,Chemical,0.9981086254119873,367,378
-MED-15662292,Mechanism of action of paracetamol.,2005,10.1097/00045391-200501000-00008,15662292,inflammation,Disease,0.8626340627670288,401,413
-MED-15662292,Mechanism of action of paracetamol.,2005,10.1097/00045391-200501000-00008,15662292,rheumatoid arthritis,Disease,0.9935675859451294,417,437
-MED-15662292,Mechanism of action of paracetamol.,2005,10.1097/00045391-200501000-00008,15662292,swelling,Disease,0.9438057541847229,465,473
-MED-15662292,Mechanism of action of paracetamol.,2005,10.1097/00045391-200501000-00008,15662292,inflammation,Disease,0.9730747938156128,518,530
-MED-15662292,Mechanism of action of paracetamol.,2005,10.1097/00045391-200501000-00008,15662292,paracetamol,Chemical,0.9978647828102112,548,559
-MED-15662292,Mechanism of action of paracetamol.,2005,10.1097/00045391-200501000-00008,15662292,pg,Chemical,0.816710889339447,583,585
-MED-15662292,Mechanism of action of paracetamol.,2005,10.1097/00045391-200501000-00008,15662292,paracetamol,Chemical,0.9981716871261597,687,698
-MED-15662292,Mechanism of action of paracetamol.,2005,10.1097/00045391-200501000-00008,15662292,arachidonic acid,Chemical,0.9956361055374146,778,794
-MED-15662292,Mechanism of action of paracetamol.,2005,10.1097/00045391-200501000-00008,15662292,arachidonic acid,Chemical,0.9946362972259521,850,866
-MED-15662292,Mechanism of action of paracetamol.,2005,10.1097/00045391-200501000-00008,15662292,paracetamol,Chemical,0.9980583786964417,990,1001
-MED-15662292,Mechanism of action of paracetamol.,2005,10.1097/00045391-200501000-00008,15662292,paracetamol,Chemical,0.9980702996253967,1162,1173
-MED-15662292,Mechanism of action of paracetamol.,2005,10.1097/00045391-200501000-00008,15662292,paracetamol,Chemical,0.9980033040046692,1290,1301
-MED-15662292,Mechanism of action of paracetamol.,2005,10.1097/00045391-200501000-00008,15662292,paracetamol,Chemical,0.998178243637085,1476,1487
-MED-15662292,Mechanism of action of paracetamol.,2005,10.1097/00045391-200501000-00008,15662292,paracetamol,Chemical,0.9981462955474854,1646,1657
-MED-15662292,Mechanism of action of paracetamol.,2005,10.1097/00045391-200501000-00008,15662292,glutathione,Chemical,0.9919694066047668,1810,1821
-MED-15662292,Mechanism of action of paracetamol.,2005,10.1097/00045391-200501000-00008,15662292,pge,Chemical,0.9941043257713318,1853,1856
-MED-37683599,Paracetamol (acetaminophen) poisoning: The early years.,2024,10.1111/bcp.15903,37683599,paracetamol,Chemical,0.9979050159454346,0,11
-MED-37683599,Paracetamol (acetaminophen) poisoning: The early years.,2024,10.1111/bcp.15903,37683599,acetaminophen,Chemical,0.9980579018592834,13,26
-MED-37683599,Paracetamol (acetaminophen) poisoning: The early years.,2024,10.1111/bcp.15903,37683599,poisoning,Disease,0.9120782613754272,28,37
-MED-37683599,Paracetamol (acetaminophen) poisoning: The early years.,2024,10.1111/bcp.15903,37683599,paracetamol,Chemical,0.9982098340988159,55,66
-MED-37683599,Paracetamol (acetaminophen) poisoning: The early years.,2024,10.1111/bcp.15903,37683599,acetaminophen,Chemical,0.9979967474937439,68,81
-MED-37683599,Paracetamol (acetaminophen) poisoning: The early years.,2024,10.1111/bcp.15903,37683599,toxicity,Disease,0.9372444748878479,176,184
-MED-37683599,Paracetamol (acetaminophen) poisoning: The early years.,2024,10.1111/bcp.15903,37683599,acute,Disease,0.8046218156814575,297,302
-MED-37683599,Paracetamol (acetaminophen) poisoning: The early years.,2024,10.1111/bcp.15903,37683599,liver damage,Disease,0.7614137530326843,303,315
-MED-37683599,Paracetamol (acetaminophen) poisoning: The early years.,2024,10.1111/bcp.15903,37683599,of liver function,Disease,0.7093694806098938,409,426
-MED-37683599,Paracetamol (acetaminophen) poisoning: The early years.,2024,10.1111/bcp.15903,37683599,overdose,Disease,0.9311213493347168,468,476
-MED-37683599,Paracetamol (acetaminophen) poisoning: The early years.,2024,10.1111/bcp.15903,37683599,hepatotoxicity,Disease,0.9932131767272949,521,535
-MED-37683599,Paracetamol (acetaminophen) poisoning: The early years.,2024,10.1111/bcp.15903,37683599,paracetamol,Chemical,0.9981356859207153,554,565
-MED-37683599,Paracetamol (acetaminophen) poisoning: The early years.,2024,10.1111/bcp.15903,37683599,liver damage,Disease,0.9865232110023499,595,607
-MED-37683599,Paracetamol (acetaminophen) poisoning: The early years.,2024,10.1111/bcp.15903,37683599,paracetamol,Chemical,0.9980635046958923,877,888
-MED-37683599,Paracetamol (acetaminophen) poisoning: The early years.,2024,10.1111/bcp.15903,37683599,paracetamol,Chemical,0.9940142035484314,1003,1014
-MED-37683599,Paracetamol (acetaminophen) poisoning: The early years.,2024,10.1111/bcp.15903,37683599,hepatotoxicity,Disease,0.9901579022407532,1015,1029
-MED-37683599,Paracetamol (acetaminophen) poisoning: The early years.,2024,10.1111/bcp.15903,37683599,overdosage,Disease,0.7546725869178772,1068,1078
-MED-37683599,Paracetamol (acetaminophen) poisoning: The early years.,2024,10.1111/bcp.15903,37683599,cysteamine,Chemical,0.9981229305267334,1101,1111
-MED-37683599,Paracetamol (acetaminophen) poisoning: The early years.,2024,10.1111/bcp.15903,37683599,n - acetylcysteine,Chemical,0.9954465627670288,1178,1194
-MED-37683599,Paracetamol (acetaminophen) poisoning: The early years.,2024,10.1111/bcp.15903,37683599,paracetamol,Chemical,0.9722803235054016,1235,1246
-MED-37683599,Paracetamol (acetaminophen) poisoning: The early years.,2024,10.1111/bcp.15903,37683599,overdose,Disease,0.8975679278373718,1247,1255
-MED-37683599,Paracetamol (acetaminophen) poisoning: The early years.,2024,10.1111/bcp.15903,37683599,n - acetylcysteine,Chemical,0.9953094720840454,1332,1348
-MED-37683599,Paracetamol (acetaminophen) poisoning: The early years.,2024,10.1111/bcp.15903,37683599,anaphylactoid reactions,Disease,0.9734639525413513,1361,1384
-MED-37683599,Paracetamol (acetaminophen) poisoning: The early years.,2024,10.1111/bcp.15903,37683599,n - acetylcysteine,Chemical,0.995995044708252,1666,1682
-MED-37683599,Paracetamol (acetaminophen) poisoning: The early years.,2024,10.1111/bcp.15903,37683599,paracetamol,Chemical,0.9952443242073059,1979,1990
-MED-37683599,Paracetamol (acetaminophen) poisoning: The early years.,2024,10.1111/bcp.15903,37683599,hepatotoxicity,Disease,0.9954261183738708,2015,2029
-MED-37683599,Paracetamol (acetaminophen) poisoning: The early years.,2024,10.1111/bcp.15903,37683599,paracetamol,Chemical,0.996173083782196,2067,2078
-MED-37683599,Paracetamol (acetaminophen) poisoning: The early years.,2024,10.1111/bcp.15903,37683599,cysteine,Chemical,0.9969846606254578,2161,2169
-MED-37683599,Paracetamol (acetaminophen) poisoning: The early years.,2024,10.1111/bcp.15903,37683599,inorganic sulfate,Chemical,0.7391489744186401,2174,2191
-MED-37683599,Paracetamol (acetaminophen) poisoning: The early years.,2024,10.1111/bcp.15903,37683599,paracetamol,Chemical,0.9744880199432373,2247,2258
-MED-37683599,Paracetamol (acetaminophen) poisoning: The early years.,2024,10.1111/bcp.15903,37683599,poisoning,Disease,0.8464580178260803,2259,2268
-MED-29473717,Interventions for paracetamol (acetaminophen) overdose.,2018,10.1002/14651858.CD003328.pub2,29473717,paracetamol,Chemical,0.989661455154419,18,29
-MED-29473717,Interventions for paracetamol (acetaminophen) overdose.,2018,10.1002/14651858.CD003328.pub2,29473717,acetaminophen,Chemical,0.9963317513465881,31,44
-MED-29473717,Interventions for paracetamol (acetaminophen) overdose.,2018,10.1002/14651858.CD003328.pub2,29473717,overdose,Disease,0.9688069820404053,46,54
-MED-29473717,Interventions for paracetamol (acetaminophen) overdose.,2018,10.1002/14651858.CD003328.pub2,29473717,paracetamol,Chemical,0.99788898229599,55,66
-MED-29473717,Interventions for paracetamol (acetaminophen) overdose.,2018,10.1002/14651858.CD003328.pub2,29473717,acetaminophen,Chemical,0.996924102306366,68,81
-MED-29473717,Interventions for paracetamol (acetaminophen) overdose.,2018,10.1002/14651858.CD003328.pub2,29473717,paracetamol,Chemical,0.9978628754615784,147,158
-MED-29473717,Interventions for paracetamol (acetaminophen) overdose.,2018,10.1002/14651858.CD003328.pub2,29473717,overdose,Disease,0.9848030805587769,180,188
-MED-29473717,Interventions for paracetamol (acetaminophen) overdose.,2018,10.1002/14651858.CD003328.pub2,29473717,paracetamol,Chemical,0.9850532412528992,254,265
-MED-29473717,Interventions for paracetamol (acetaminophen) overdose.,2018,10.1002/14651858.CD003328.pub2,29473717,toxicity,Disease,0.904034435749054,266,274
-MED-29473717,Interventions for paracetamol (acetaminophen) overdose.,2018,10.1002/14651858.CD003328.pub2,29473717,acute liver injury,Disease,0.9601456522941589,296,314
-MED-29473717,Interventions for paracetamol (acetaminophen) overdose.,2018,10.1002/14651858.CD003328.pub2,29473717,paracetamol,Chemical,0.9608157873153687,356,367
-MED-29473717,Interventions for paracetamol (acetaminophen) overdose.,2018,10.1002/14651858.CD003328.pub2,29473717,poisoning,Disease,0.8980035781860352,368,377
-MED-29473717,Interventions for paracetamol (acetaminophen) overdose.,2018,10.1002/14651858.CD003328.pub2,29473717,paracetamol,Chemical,0.9976613521575928,483,494
-MED-29473717,Interventions for paracetamol (acetaminophen) overdose.,2018,10.1002/14651858.CD003328.pub2,29473717,paracetamol,Chemical,0.9977501034736633,557,568
-MED-29473717,Interventions for paracetamol (acetaminophen) overdose.,2018,10.1002/14651858.CD003328.pub2,29473717,paracetamol,Chemical,0.9777716398239136,720,731
-MED-29473717,Interventions for paracetamol (acetaminophen) overdose.,2018,10.1002/14651858.CD003328.pub2,29473717,overdosage,Disease,0.8503078818321228,732,742
-MED-29473717,Interventions for paracetamol (acetaminophen) overdose.,2018,10.1002/14651858.CD003328.pub2,29473717,overdose,Disease,0.9842084050178528,776,784
-MED-29473717,Interventions for paracetamol (acetaminophen) overdose.,2018,10.1002/14651858.CD003328.pub2,29473717,paracetamol,Chemical,0.9432899951934814,1441,1452
-MED-29473717,Interventions for paracetamol (acetaminophen) overdose.,2018,10.1002/14651858.CD003328.pub2,29473717,overdose,Disease,0.9679110050201416,1453,1461
-MED-29473717,Interventions for paracetamol (acetaminophen) overdose.,2018,10.1002/14651858.CD003328.pub2,29473717,ipecacuanha,Chemical,0.9960545301437378,1512,1523
-MED-29473717,Interventions for paracetamol (acetaminophen) overdose.,2018,10.1002/14651858.CD003328.pub2,29473717,acetylcysteine,Chemical,0.9978253245353699,2339,2353
-MED-29473717,Interventions for paracetamol (acetaminophen) overdose.,2018,10.1002/14651858.CD003328.pub2,29473717,paracetamol,Chemical,0.9973733425140381,2581,2592
-MED-29473717,Interventions for paracetamol (acetaminophen) overdose.,2018,10.1002/14651858.CD003328.pub2,29473717,methionine,Chemical,0.9977399110794067,2628,2638
-MED-29473717,Interventions for paracetamol (acetaminophen) overdose.,2018,10.1002/14651858.CD003328.pub2,29473717,cysteamine,Chemical,0.9972732663154602,2640,2650
-MED-29473717,Interventions for paracetamol (acetaminophen) overdose.,2018,10.1002/14651858.CD003328.pub2,29473717,dimercaprol,Chemical,0.9975875020027161,2652,2663
-MED-29473717,Interventions for paracetamol (acetaminophen) overdose.,2018,10.1002/14651858.CD003328.pub2,29473717,acetylcysteine,Chemical,0.9977687001228333,2668,2682
-MED-29473717,Interventions for paracetamol (acetaminophen) overdose.,2018,10.1002/14651858.CD003328.pub2,29473717,n - acetyl - p - benzoquinone imine,Chemical,0.9938995242118835,2837,2866
-MED-29473717,Interventions for paracetamol (acetaminophen) overdose.,2018,10.1002/14651858.CD003328.pub2,29473717,ipecacuanha,Chemical,0.9967855215072632,3357,3368
-MED-29473717,Interventions for paracetamol (acetaminophen) overdose.,2018,10.1002/14651858.CD003328.pub2,29473717,paracetamol,Chemical,0.9979876279830933,3644,3655
-MED-29473717,Interventions for paracetamol (acetaminophen) overdose.,2018,10.1002/14651858.CD003328.pub2,29473717,paracetamol,Chemical,0.9978406429290771,3717,3728
-MED-29473717,Interventions for paracetamol (acetaminophen) overdose.,2018,10.1002/14651858.CD003328.pub2,29473717,ipecacuanha,Chemical,0.9961587190628052,3853,3864
-MED-29473717,Interventions for paracetamol (acetaminophen) overdose.,2018,10.1002/14651858.CD003328.pub2,29473717,ipecacuanha,Chemical,0.996076762676239,3990,4001
-MED-29473717,Interventions for paracetamol (acetaminophen) overdose.,2018,10.1002/14651858.CD003328.pub2,29473717,ipecacuanha,Chemical,0.9962427020072937,4026,4037
-MED-29473717,Interventions for paracetamol (acetaminophen) overdose.,2018,10.1002/14651858.CD003328.pub2,29473717,paracetamol,Chemical,0.9977557063102722,4360,4371
-MED-29473717,Interventions for paracetamol (acetaminophen) overdose.,2018,10.1002/14651858.CD003328.pub2,29473717,paracetamol,Chemical,0.9975205063819885,4462,4473
-MED-29473717,Interventions for paracetamol (acetaminophen) overdose.,2018,10.1002/14651858.CD003328.pub2,29473717,acetylcysteine,Chemical,0.9976689219474792,4628,4642
-MED-29473717,Interventions for paracetamol (acetaminophen) overdose.,2018,10.1002/14651858.CD003328.pub2,29473717,dimercaprol,Chemical,0.9977474212646484,4721,4732
-MED-29473717,Interventions for paracetamol (acetaminophen) overdose.,2018,10.1002/14651858.CD003328.pub2,29473717,cysteamine,Chemical,0.9975367784500122,4736,4746
-MED-29473717,Interventions for paracetamol (acetaminophen) overdose.,2018,10.1002/14651858.CD003328.pub2,29473717,acetylcysteine,Chemical,0.9968708157539368,4747,4761
-MED-29473717,Interventions for paracetamol (acetaminophen) overdose.,2018,10.1002/14651858.CD003328.pub2,29473717,methionine,Chemical,0.9959012866020203,4777,4787
-MED-29473717,Interventions for paracetamol (acetaminophen) overdose.,2018,10.1002/14651858.CD003328.pub2,29473717,acetylcysteine,Chemical,0.9979729652404785,4851,4865
-MED-29473717,Interventions for paracetamol (acetaminophen) overdose.,2018,10.1002/14651858.CD003328.pub2,29473717,fulminant hepatic failure,Disease,0.9936836361885071,4902,4927
-MED-29473717,Interventions for paracetamol (acetaminophen) overdose.,2018,10.1002/14651858.CD003328.pub2,29473717,peto,Disease,0.9298125505447388,4929,4933
-MED-29473717,Interventions for paracetamol (acetaminophen) overdose.,2018,10.1002/14651858.CD003328.pub2,29473717,acetylcysteine,Chemical,0.9977640509605408,5025,5039
-MED-29473717,Interventions for paracetamol (acetaminophen) overdose.,2018,10.1002/14651858.CD003328.pub2,29473717,acetylcysteine,Chemical,0.9977083206176758,5117,5131
-MED-29473717,Interventions for paracetamol (acetaminophen) overdose.,2018,10.1002/14651858.CD003328.pub2,29473717,acetylcysteine,Chemical,0.9972374439239502,5296,5310
-MED-29473717,Interventions for paracetamol (acetaminophen) overdose.,2018,10.1002/14651858.CD003328.pub2,29473717,acetylcysteine,Chemical,0.9975605010986328,5335,5349
-MED-29473717,Interventions for paracetamol (acetaminophen) overdose.,2018,10.1002/14651858.CD003328.pub2,29473717,paracetamol,Chemical,0.9132047295570374,5790,5801
-MED-29473717,Interventions for paracetamol (acetaminophen) overdose.,2018,10.1002/14651858.CD003328.pub2,29473717,overdose,Disease,0.8168553113937378,5802,5810
-MED-29473717,Interventions for paracetamol (acetaminophen) overdose.,2018,10.1002/14651858.CD003328.pub2,29473717,paracetamol,Chemical,0.9892520308494568,6019,6030
-MED-29473717,Interventions for paracetamol (acetaminophen) overdose.,2018,10.1002/14651858.CD003328.pub2,29473717,acetylcysteine,Chemical,0.9953954219818115,6031,6045
-MED-29473717,Interventions for paracetamol (acetaminophen) overdose.,2018,10.1002/14651858.CD003328.pub2,29473717,toxicity,Disease,0.9890080690383911,6083,6091
-MED-29473717,Interventions for paracetamol (acetaminophen) overdose.,2018,10.1002/14651858.CD003328.pub2,29473717,liver failure,Disease,0.9947795867919922,6125,6138
-MED-29473717,Interventions for paracetamol (acetaminophen) overdose.,2018,10.1002/14651858.CD003328.pub2,29473717,paracetamol,Chemical,0.8918516635894775,6355,6366
-MED-29473717,Interventions for paracetamol (acetaminophen) overdose.,2018,10.1002/14651858.CD003328.pub2,29473717,poisoning,Disease,0.7779172658920288,6367,6376
-MED-29473717,Interventions for paracetamol (acetaminophen) overdose.,2018,10.1002/14651858.CD003328.pub2,29473717,acetylcysteine,Chemical,0.9974892139434814,6438,6452
-MED-29473717,Interventions for paracetamol (acetaminophen) overdose.,2018,10.1002/14651858.CD003328.pub2,29473717,acetylcysteine,Chemical,0.9976544380187988,6570,6584
-MED-35175416,Paracetamol (acetaminophen) use in infants and children was never shown to be safe for neurodevelopment: a systematic review with citation tracking.,2022,10.1007/s00431-022-04407-w,35175416,paracetamol,Chemical,0.9982763528823853,0,11
-MED-35175416,Paracetamol (acetaminophen) use in infants and children was never shown to be safe for neurodevelopment: a systematic review with citation tracking.,2022,10.1007/s00431-022-04407-w,35175416,acetaminophen,Chemical,0.997425377368927,13,26
-MED-35175416,Paracetamol (acetaminophen) use in infants and children was never shown to be safe for neurodevelopment: a systematic review with citation tracking.,2022,10.1007/s00431-022-04407-w,35175416,paracetamol,Chemical,0.9983044862747192,326,337
-MED-35175416,Paracetamol (acetaminophen) use in infants and children was never shown to be safe for neurodevelopment: a systematic review with citation tracking.,2022,10.1007/s00431-022-04407-w,35175416,acetaminophen,Chemical,0.9972280859947205,339,352
-MED-35175416,Paracetamol (acetaminophen) use in infants and children was never shown to be safe for neurodevelopment: a systematic review with citation tracking.,2022,10.1007/s00431-022-04407-w,35175416,neurodevelopmental problems,Disease,0.878240704536438,374,401
-MED-35175416,Paracetamol (acetaminophen) use in infants and children was never shown to be safe for neurodevelopment: a systematic review with citation tracking.,2022,10.1007/s00431-022-04407-w,35175416,paracetamol,Chemical,0.9982228875160217,514,525
-MED-35175416,Paracetamol (acetaminophen) use in infants and children was never shown to be safe for neurodevelopment: a systematic review with citation tracking.,2022,10.1007/s00431-022-04407-w,35175416,paracetamol,Chemical,0.9982272982597351,603,614
-MED-35175416,Paracetamol (acetaminophen) use in infants and children was never shown to be safe for neurodevelopment: a systematic review with citation tracking.,2022,10.1007/s00431-022-04407-w,35175416,paracetamol,Chemical,0.9980249404907227,768,779
-MED-35175416,Paracetamol (acetaminophen) use in infants and children was never shown to be safe for neurodevelopment: a systematic review with citation tracking.,2022,10.1007/s00431-022-04407-w,35175416,acetaminophen,Chemical,0.9981695413589478,785,798
-MED-35175416,Paracetamol (acetaminophen) use in infants and children was never shown to be safe for neurodevelopment: a systematic review with citation tracking.,2022,10.1007/s00431-022-04407-w,35175416,paracetamol,Chemical,0.9982593655586243,888,899
-MED-35175416,Paracetamol (acetaminophen) use in infants and children was never shown to be safe for neurodevelopment: a systematic review with citation tracking.,2022,10.1007/s00431-022-04407-w,35175416,paracetamol,Chemical,0.9982426166534424,1469,1480
-MED-35175416,Paracetamol (acetaminophen) use in infants and children was never shown to be safe for neurodevelopment: a systematic review with citation tracking.,2022,10.1007/s00431-022-04407-w,35175416,liver damage,Disease,0.9005943536758423,1503,1515
-MED-35175416,Paracetamol (acetaminophen) use in infants and children was never shown to be safe for neurodevelopment: a systematic review with citation tracking.,2022,10.1007/s00431-022-04407-w,35175416,paracetamol,Chemical,0.998121440410614,1577,1588
-MED-35175416,Paracetamol (acetaminophen) use in infants and children was never shown to be safe for neurodevelopment: a systematic review with citation tracking.,2022,10.1007/s00431-022-04407-w,35175416,acetaminophen,Chemical,0.9972053170204163,1590,1603
-MED-35175416,Paracetamol (acetaminophen) use in infants and children was never shown to be safe for neurodevelopment: a systematic review with citation tracking.,2022,10.1007/s00431-022-04407-w,35175416,paracetamol,Chemical,0.9982569813728333,1836,1847
-MED-35175416,Paracetamol (acetaminophen) use in infants and children was never shown to be safe for neurodevelopment: a systematic review with citation tracking.,2022,10.1007/s00431-022-04407-w,35175416,liver damage,Disease,0.9925963878631592,1866,1878
-MED-35175416,Paracetamol (acetaminophen) use in infants and children was never shown to be safe for neurodevelopment: a systematic review with citation tracking.,2022,10.1007/s00431-022-04407-w,35175416,paracetamol,Chemical,0.998051643371582,2059,2070
-MED-35175416,Paracetamol (acetaminophen) use in infants and children was never shown to be safe for neurodevelopment: a systematic review with citation tracking.,2022,10.1007/s00431-022-04407-w,35175416,toxicity,Disease,0.9855807423591614,2071,2079
-MED-35175416,Paracetamol (acetaminophen) use in infants and children was never shown to be safe for neurodevelopment: a systematic review with citation tracking.,2022,10.1007/s00431-022-04407-w,35175416,paracetamol,Chemical,0.9982702732086182,2236,2247
-MED-35175416,Paracetamol (acetaminophen) use in infants and children was never shown to be safe for neurodevelopment: a systematic review with citation tracking.,2022,10.1007/s00431-022-04407-w,35175416,paracetamol,Chemical,0.9982640147209167,2374,2385
-MED-35175416,Paracetamol (acetaminophen) use in infants and children was never shown to be safe for neurodevelopment: a systematic review with citation tracking.,2022,10.1007/s00431-022-04407-w,35175416,paracetamol,Chemical,0.9980554580688477,2565,2576
-MED-35175416,Paracetamol (acetaminophen) use in infants and children was never shown to be safe for neurodevelopment: a systematic review with citation tracking.,2022,10.1007/s00431-022-04407-w,35175416,paracetamol,Chemical,0.998539924621582,2855,2866
-MED-12749738,Tramadol/paracetamol.,2003,10.2165/00003495-200363110-00007,12749738,tramadol,Chemical,0.9971643686294556,0,8
-MED-12749738,Tramadol/paracetamol.,2003,10.2165/00003495-200363110-00007,12749738,paracetamol,Chemical,0.9958200454711914,9,20
-MED-12749738,Tramadol/paracetamol.,2003,10.2165/00003495-200363110-00007,12749738,tramadol,Chemical,0.9971796274185181,73,81
-MED-12749738,Tramadol/paracetamol.,2003,10.2165/00003495-200363110-00007,12749738,paracetamol,Chemical,0.9975799322128296,113,124
-MED-12749738,Tramadol/paracetamol.,2003,10.2165/00003495-200363110-00007,12749738,acetaminophen,Chemical,0.9964737296104431,126,139
-MED-12749738,Tramadol/paracetamol.,2003,10.2165/00003495-200363110-00007,12749738,acute pain,Disease,0.8067241907119751,256,266
-MED-12749738,Tramadol/paracetamol.,2003,10.2165/00003495-200363110-00007,12749738,chronic painful conditions,Disease,0.7596065402030945,282,308
-MED-12749738,Tramadol/paracetamol.,2003,10.2165/00003495-200363110-00007,12749738,pain,Disease,0.984872043132782,356,360
-MED-12749738,Tramadol/paracetamol.,2003,10.2165/00003495-200363110-00007,12749738,tramadol,Chemical,0.997022271156311,365,373
-MED-12749738,Tramadol/paracetamol.,2003,10.2165/00003495-200363110-00007,12749738,paracetamol,Chemical,0.9958827495574951,374,385
-MED-12749738,Tramadol/paracetamol.,2003,10.2165/00003495-200363110-00007,12749738,dental pain,Disease,0.9788275361061096,433,444
-MED-12749738,Tramadol/paracetamol.,2003,10.2165/00003495-200363110-00007,12749738,tramadol,Chemical,0.9971746206283569,527,535
-MED-12749738,Tramadol/paracetamol.,2003,10.2165/00003495-200363110-00007,12749738,postoperative dental pain,Disease,0.9799335598945618,624,649
-MED-12749738,Tramadol/paracetamol.,2003,10.2165/00003495-200363110-00007,12749738,tramadol,Chemical,0.9971061944961548,655,663
-MED-12749738,Tramadol/paracetamol.,2003,10.2165/00003495-200363110-00007,12749738,paracetamol,Chemical,0.9956887364387512,664,675
-MED-12749738,Tramadol/paracetamol.,2003,10.2165/00003495-200363110-00007,12749738,hydrocodone,Chemical,0.9974995255470276,728,739
-MED-12749738,Tramadol/paracetamol.,2003,10.2165/00003495-200363110-00007,12749738,paracetamol,Chemical,0.9929987192153931,740,751
-MED-12749738,Tramadol/paracetamol.,2003,10.2165/00003495-200363110-00007,12749738,tramadol,Chemical,0.997050404548645,811,819
-MED-12749738,Tramadol/paracetamol.,2003,10.2165/00003495-200363110-00007,12749738,paracetamol,Chemical,0.992932915687561,820,831
-MED-12749738,Tramadol/paracetamol.,2003,10.2165/00003495-200363110-00007,12749738,pain,Disease,0.9871734380722046,974,978
-MED-12749738,Tramadol/paracetamol.,2003,10.2165/00003495-200363110-00007,12749738,osteoarthritis flare pain,Disease,0.8493823409080505,1003,1028
-MED-12749738,Tramadol/paracetamol.,2003,10.2165/00003495-200363110-00007,12749738,tramadol,Chemical,0.9923736453056335,1029,1037
-MED-12749738,Tramadol/paracetamol.,2003,10.2165/00003495-200363110-00007,12749738,paracetamol,Chemical,0.9953010082244873,1038,1049
-MED-12749738,Tramadol/paracetamol.,2003,10.2165/00003495-200363110-00007,12749738,codeine,Chemical,0.997192919254303,1099,1106
-MED-12749738,Tramadol/paracetamol.,2003,10.2165/00003495-200363110-00007,12749738,paracetamol,Chemical,0.9918422698974609,1107,1118
-MED-12749738,Tramadol/paracetamol.,2003,10.2165/00003495-200363110-00007,12749738,chronic back pain,Disease,0.9814169406890869,1146,1163
-MED-40402381,Paracetamol: the potential therapeutic pathways defining its clinical use.,2025,10.1097/FBP.0b013e3283566065,40402381,paracetamol,Chemical,0.9978381991386414,0,11
-MED-40402381,Paracetamol: the potential therapeutic pathways defining its clinical use.,2025,10.1097/FBP.0b013e3283566065,40402381,paracetamol,Chemical,0.997687816619873,101,112
-MED-40402381,Paracetamol: the potential therapeutic pathways defining its clinical use.,2025,10.1097/FBP.0b013e3283566065,40402381,pain,Disease,0.9940542578697205,182,186
-MED-40402381,Paracetamol: the potential therapeutic pathways defining its clinical use.,2025,10.1097/FBP.0b013e3283566065,40402381,paracetamol,Chemical,0.9977535605430603,188,199
-MED-40402381,Paracetamol: the potential therapeutic pathways defining its clinical use.,2025,10.1097/FBP.0b013e3283566065,40402381,pain,Disease,0.9942545294761658,356,360
-MED-40402381,Paracetamol: the potential therapeutic pathways defining its clinical use.,2025,10.1097/FBP.0b013e3283566065,40402381,paracetamol,Chemical,0.9977282881736755,372,383
-MED-40402381,Paracetamol: the potential therapeutic pathways defining its clinical use.,2025,10.1097/FBP.0b013e3283566065,40402381,paracetamol,Chemical,0.9979415535926819,536,547
-MED-40402381,Paracetamol: the potential therapeutic pathways defining its clinical use.,2025,10.1097/FBP.0b013e3283566065,40402381,pain,Disease,0.9817818403244019,600,604
-MED-40402381,Paracetamol: the potential therapeutic pathways defining its clinical use.,2025,10.1097/FBP.0b013e3283566065,40402381,paracetamol,Chemical,0.9976671934127808,645,656
-MED-40402381,Paracetamol: the potential therapeutic pathways defining its clinical use.,2025,10.1097/FBP.0b013e3283566065,40402381,cannabinoid,Chemical,0.9874854683876038,713,724
-MED-40402381,Paracetamol: the potential therapeutic pathways defining its clinical use.,2025,10.1097/FBP.0b013e3283566065,40402381,n - arachidonoylphenolamine,Chemical,0.9955418705940247,844,869
-MED-40402381,Paracetamol: the potential therapeutic pathways defining its clinical use.,2025,10.1097/FBP.0b013e3283566065,40402381,am404,Chemical,0.9970537424087524,871,876
-MED-40402381,Paracetamol: the potential therapeutic pathways defining its clinical use.,2025,10.1097/FBP.0b013e3283566065,40402381,paracetamol,Chemical,0.9980125427246094,891,902
-MED-40402381,Paracetamol: the potential therapeutic pathways defining its clinical use.,2025,10.1097/FBP.0b013e3283566065,40402381,serotonin,Chemical,0.9975370168685913,913,922
-MED-40402381,Paracetamol: the potential therapeutic pathways defining its clinical use.,2025,10.1097/FBP.0b013e3283566065,40402381,serotonin,Chemical,0.9974108338356018,942,951
-MED-40402381,Paracetamol: the potential therapeutic pathways defining its clinical use.,2025,10.1097/FBP.0b013e3283566065,40402381,serotonin,Chemical,0.9971797466278076,974,983
-MED-40402381,Paracetamol: the potential therapeutic pathways defining its clinical use.,2025,10.1097/FBP.0b013e3283566065,40402381,serotonin,Chemical,0.9971340894699097,1002,1011
-MED-40402381,Paracetamol: the potential therapeutic pathways defining its clinical use.,2025,10.1097/FBP.0b013e3283566065,40402381,paracetamol,Chemical,0.9980422258377075,1166,1177
-MED-40402381,Paracetamol: the potential therapeutic pathways defining its clinical use.,2025,10.1097/FBP.0b013e3283566065,40402381,paracetamol,Chemical,0.9981173276901245,1236,1247
-MED-40402381,Paracetamol: the potential therapeutic pathways defining its clinical use.,2025,10.1097/FBP.0b013e3283566065,40402381,paracetamol,Chemical,0.9981726408004761,1345,1356
-MED-34455434,Paracetamol: unconventional uses of a well-known drug.,2021,10.1093/ijpp/riab058,34455434,paracetamol,Chemical,0.9981377124786377,0,11
-MED-34455434,Paracetamol: unconventional uses of a well-known drug.,2021,10.1093/ijpp/riab058,34455434,paracetamol,Chemical,0.9983198046684265,117,128
-MED-34455434,Paracetamol: unconventional uses of a well-known drug.,2021,10.1093/ijpp/riab058,34455434,paracetamol,Chemical,0.9982522130012512,278,289
-MED-34455434,Paracetamol: unconventional uses of a well-known drug.,2021,10.1093/ijpp/riab058,34455434,paracetamol,Chemical,0.9981538653373718,310,321
-MED-34455434,Paracetamol: unconventional uses of a well-known drug.,2021,10.1093/ijpp/riab058,34455434,paracetamol,Chemical,0.9980224370956421,356,367
-MED-34455434,Paracetamol: unconventional uses of a well-known drug.,2021,10.1093/ijpp/riab058,34455434,paracetamol,Chemical,0.9981257319450378,424,435
-MED-34455434,Paracetamol: unconventional uses of a well-known drug.,2021,10.1093/ijpp/riab058,34455434,paracetamol,Chemical,0.9980362057685852,465,476
-MED-34455434,Paracetamol: unconventional uses of a well-known drug.,2021,10.1093/ijpp/riab058,34455434,paracetamol,Chemical,0.9978259205818176,507,518
-MED-34455434,Paracetamol: unconventional uses of a well-known drug.,2021,10.1093/ijpp/riab058,34455434,paracetamol,Chemical,0.9982920289039612,736,747
-MED-34455434,Paracetamol: unconventional uses of a well-known drug.,2021,10.1093/ijpp/riab058,34455434,paracetamol,Chemical,0.998054027557373,846,857
-MED-34455434,Paracetamol: unconventional uses of a well-known drug.,2021,10.1093/ijpp/riab058,34455434,acetaminophen,Chemical,0.9970842003822327,859,872
-MED-34455434,Paracetamol: unconventional uses of a well-known drug.,2021,10.1093/ijpp/riab058,34455434,pain,Disease,0.9933270215988159,944,948
-MED-34455434,Paracetamol: unconventional uses of a well-known drug.,2021,10.1093/ijpp/riab058,34455434,fever,Disease,0.9818854928016663,953,958
-MED-34455434,Paracetamol: unconventional uses of a well-known drug.,2021,10.1093/ijpp/riab058,34455434,paracetamol,Chemical,0.9982022047042847,1060,1071
-MED-34455434,Paracetamol: unconventional uses of a well-known drug.,2021,10.1093/ijpp/riab058,34455434,paracetamol,Chemical,0.9982713460922241,1260,1271
-MED-3552585,Paracetamol and phenacetin.,1986,10.2165/00003495-198600324-00005,3552585,paracetamol,Chemical,0.9978122711181641,0,11
-MED-3552585,Paracetamol and phenacetin.,1986,10.2165/00003495-198600324-00005,3552585,phenacetin,Chemical,0.9977076649665833,16,26
-MED-3552585,Paracetamol and phenacetin.,1986,10.2165/00003495-198600324-00005,3552585,paracetamol,Chemical,0.997276246547699,67,78
-MED-3552585,Paracetamol and phenacetin.,1986,10.2165/00003495-198600324-00005,3552585,acetaminophen,Chemical,0.9977321624755859,80,93
-MED-3552585,Paracetamol and phenacetin.,1986,10.2165/00003495-198600324-00005,3552585,phenacetin,Chemical,0.9978951811790466,99,109
-MED-3552585,Paracetamol and phenacetin.,1986,10.2165/00003495-198600324-00005,3552585,paracetamol,Chemical,0.997356653213501,222,233
-MED-3552585,Paracetamol and phenacetin.,1986,10.2165/00003495-198600324-00005,3552585,phenacetin,Chemical,0.9976831078529358,261,271
-MED-3552585,Paracetamol and phenacetin.,1986,10.2165/00003495-198600324-00005,3552585,paracetamol,Chemical,0.9976757168769836,354,365
-MED-3552585,Paracetamol and phenacetin.,1986,10.2165/00003495-198600324-00005,3552585,aspirin,Chemical,0.9982709884643555,378,385
-MED-3552585,Paracetamol and phenacetin.,1986,10.2165/00003495-198600324-00005,3552585,paracetamol,Chemical,0.9976310729980469,529,540
-MED-3552585,Paracetamol and phenacetin.,1986,10.2165/00003495-198600324-00005,3552585,phenacetin,Chemical,0.997783899307251,598,608
-MED-3552585,Paracetamol and phenacetin.,1986,10.2165/00003495-198600324-00005,3552585,paracetamol,Chemical,0.9976565837860107,700,711
-MED-3552585,Paracetamol and phenacetin.,1986,10.2165/00003495-198600324-00005,3552585,phenacetin,Chemical,0.9977436661720276,716,726
-MED-3552585,Paracetamol and phenacetin.,1986,10.2165/00003495-198600324-00005,3552585,pain,Disease,0.993281364440918,797,801
-MED-3552585,Paracetamol and phenacetin.,1986,10.2165/00003495-198600324-00005,3552585,aspirin,Chemical,0.9980207681655884,858,865
-MED-3552585,Paracetamol and phenacetin.,1986,10.2165/00003495-198600324-00005,3552585,salicylates,Chemical,0.9148764610290527,878,889
-MED-3552585,Paracetamol and phenacetin.,1986,10.2165/00003495-198600324-00005,3552585,phenacetin,Chemical,0.9979237914085388,1004,1014
-MED-3552585,Paracetamol and phenacetin.,1986,10.2165/00003495-198600324-00005,3552585,paracetamol,Chemical,0.9973262548446655,1041,1052
-MED-3552585,Paracetamol and phenacetin.,1986,10.2165/00003495-198600324-00005,3552585,phenacetin,Chemical,0.9977638125419617,1077,1087
-MED-3552585,Paracetamol and phenacetin.,1986,10.2165/00003495-198600324-00005,3552585,paracetamol,Chemical,0.9977219700813293,1150,1161
-MED-3552585,Paracetamol and phenacetin.,1986,10.2165/00003495-198600324-00005,3552585,methaemoglobinaemia,Disease,0.975311279296875,1205,1224
-MED-3552585,Paracetamol and phenacetin.,1986,10.2165/00003495-198600324-00005,3552585,p - phenetidine,Chemical,0.9962838888168335,1256,1269
-MED-3552585,Paracetamol and phenacetin.,1986,10.2165/00003495-198600324-00005,3552585,paracetamol,Chemical,0.9981034994125366,1297,1308
-MED-3552585,Paracetamol and phenacetin.,1986,10.2165/00003495-198600324-00005,3552585,prostaglandin,Chemical,0.9068182110786438,1392,1405
-MED-3552585,Paracetamol and phenacetin.,1986,10.2165/00003495-198600324-00005,3552585,paracetamol,Chemical,0.9971593618392944,1653,1664
-MED-3552585,Paracetamol and phenacetin.,1986,10.2165/00003495-198600324-00005,3552585,aspirin,Chemical,0.9982408285140991,1720,1727
-MED-3552585,Paracetamol and phenacetin.,1986,10.2165/00003495-198600324-00005,3552585,paracetamol,Chemical,0.9981239438056946,1788,1799
-MED-3552585,Paracetamol and phenacetin.,1986,10.2165/00003495-198600324-00005,3552585,hepatotoxicity,Disease,0.9945003986358643,1803,1817
-MED-3552585,Paracetamol and phenacetin.,1986,10.2165/00003495-198600324-00005,3552585,paracetamol,Chemical,0.9974263310432434,2007,2018
-MED-3552585,Paracetamol and phenacetin.,1986,10.2165/00003495-198600324-00005,3552585,glutathione,Chemical,0.9734240174293518,2141,2152
-MED-3552585,Paracetamol and phenacetin.,1986,10.2165/00003495-198600324-00005,3552585,paracetamol,Chemical,0.9980623126029968,2166,2177
-MED-3552585,Paracetamol and phenacetin.,1986,10.2165/00003495-198600324-00005,3552585,glutathione,Chemical,0.98861163854599,2186,2197
-MED-3552585,Paracetamol and phenacetin.,1986,10.2165/00003495-198600324-00005,3552585,liver necrosis,Disease,0.8421459197998047,2328,2342
-MED-3552585,Paracetamol and phenacetin.,1986,10.2165/00003495-198600324-00005,3552585,glutathione,Chemical,0.9793670773506165,2343,2354
-MED-3552585,Paracetamol and phenacetin.,1986,10.2165/00003495-198600324-00005,3552585,n - acetylcysteine,Chemical,0.9956238865852356,2387,2403
-MED-3552585,Paracetamol and phenacetin.,1986,10.2165/00003495-198600324-00005,3552585,paracetamol,Chemical,0.9678510427474976,2451,2462
-MED-3552585,Paracetamol and phenacetin.,1986,10.2165/00003495-198600324-00005,3552585,overdose,Disease,0.8912222385406494,2463,2471
-MED-37151075,"Paracetamol (Acetaminophen)-associated SJS, TEN, AGEP, and DRESS Syndromes - A Narrative Review.",2024,10.2174/1574886318666230505144014,37151075,paracetamol,Chemical,0.9983024597167969,0,11
-MED-37151075,"Paracetamol (Acetaminophen)-associated SJS, TEN, AGEP, and DRESS Syndromes - A Narrative Review.",2024,10.2174/1574886318666230505144014,37151075,acetaminophen,Chemical,0.9976447224617004,13,26
-MED-37151075,"Paracetamol (Acetaminophen)-associated SJS, TEN, AGEP, and DRESS Syndromes - A Narrative Review.",2024,10.2174/1574886318666230505144014,37151075,sjs,Disease,0.9772313237190247,39,42
-MED-37151075,"Paracetamol (Acetaminophen)-associated SJS, TEN, AGEP, and DRESS Syndromes - A Narrative Review.",2024,10.2174/1574886318666230505144014,37151075,ten,Disease,0.8380544781684875,44,47
-MED-37151075,"Paracetamol (Acetaminophen)-associated SJS, TEN, AGEP, and DRESS Syndromes - A Narrative Review.",2024,10.2174/1574886318666230505144014,37151075,agep,Disease,0.957608699798584,49,53
-MED-37151075,"Paracetamol (Acetaminophen)-associated SJS, TEN, AGEP, and DRESS Syndromes - A Narrative Review.",2024,10.2174/1574886318666230505144014,37151075,dress,Disease,0.9876083731651306,59,64
-MED-37151075,"Paracetamol (Acetaminophen)-associated SJS, TEN, AGEP, and DRESS Syndromes - A Narrative Review.",2024,10.2174/1574886318666230505144014,37151075,paracetamol,Chemical,0.998290479183197,96,107
-MED-37151075,"Paracetamol (Acetaminophen)-associated SJS, TEN, AGEP, and DRESS Syndromes - A Narrative Review.",2024,10.2174/1574886318666230505144014,37151075,acetaminophen,Chemical,0.9978448152542114,109,122
-MED-37151075,"Paracetamol (Acetaminophen)-associated SJS, TEN, AGEP, and DRESS Syndromes - A Narrative Review.",2024,10.2174/1574886318666230505144014,37151075,pain,Disease,0.8896521329879761,202,206
-MED-37151075,"Paracetamol (Acetaminophen)-associated SJS, TEN, AGEP, and DRESS Syndromes - A Narrative Review.",2024,10.2174/1574886318666230505144014,37151075,paracetamol,Chemical,0.9979536533355713,232,243
-MED-37151075,"Paracetamol (Acetaminophen)-associated SJS, TEN, AGEP, and DRESS Syndromes - A Narrative Review.",2024,10.2174/1574886318666230505144014,37151075,fever,Disease,0.9917697906494141,289,294
-MED-37151075,"Paracetamol (Acetaminophen)-associated SJS, TEN, AGEP, and DRESS Syndromes - A Narrative Review.",2024,10.2174/1574886318666230505144014,37151075,pain,Disease,0.9948386549949646,437,441
-MED-37151075,"Paracetamol (Acetaminophen)-associated SJS, TEN, AGEP, and DRESS Syndromes - A Narrative Review.",2024,10.2174/1574886318666230505144014,37151075,sjs,Disease,0.9756824970245361,473,476
-MED-37151075,"Paracetamol (Acetaminophen)-associated SJS, TEN, AGEP, and DRESS Syndromes - A Narrative Review.",2024,10.2174/1574886318666230505144014,37151075,ten,Disease,0.7959495186805725,478,481
-MED-37151075,"Paracetamol (Acetaminophen)-associated SJS, TEN, AGEP, and DRESS Syndromes - A Narrative Review.",2024,10.2174/1574886318666230505144014,37151075,sjs /,Disease,0.8346980214118958,483,487
-MED-37151075,"Paracetamol (Acetaminophen)-associated SJS, TEN, AGEP, and DRESS Syndromes - A Narrative Review.",2024,10.2174/1574886318666230505144014,37151075,agep,Disease,0.9411612749099731,500,504
-MED-37151075,"Paracetamol (Acetaminophen)-associated SJS, TEN, AGEP, and DRESS Syndromes - A Narrative Review.",2024,10.2174/1574886318666230505144014,37151075,dress,Disease,0.9872516393661499,510,515
-MED-37151075,"Paracetamol (Acetaminophen)-associated SJS, TEN, AGEP, and DRESS Syndromes - A Narrative Review.",2024,10.2174/1574886318666230505144014,37151075,paracetamol,Chemical,0.9983037710189819,553,564
-MED-37151075,"Paracetamol (Acetaminophen)-associated SJS, TEN, AGEP, and DRESS Syndromes - A Narrative Review.",2024,10.2174/1574886318666230505144014,37151075,paracetamol,Chemical,0.9981141090393066,568,579
-MED-37151075,"Paracetamol (Acetaminophen)-associated SJS, TEN, AGEP, and DRESS Syndromes - A Narrative Review.",2024,10.2174/1574886318666230505144014,37151075,paracetamol,Chemical,0.9982321858406067,639,650
-MED-37151075,"Paracetamol (Acetaminophen)-associated SJS, TEN, AGEP, and DRESS Syndromes - A Narrative Review.",2024,10.2174/1574886318666230505144014,37151075,sjs,Disease,0.9799319505691528,662,665
-MED-37151075,"Paracetamol (Acetaminophen)-associated SJS, TEN, AGEP, and DRESS Syndromes - A Narrative Review.",2024,10.2174/1574886318666230505144014,37151075,ten,Disease,0.7701820731163025,667,670
-MED-37151075,"Paracetamol (Acetaminophen)-associated SJS, TEN, AGEP, and DRESS Syndromes - A Narrative Review.",2024,10.2174/1574886318666230505144014,37151075,agep,Disease,0.9456694722175598,672,676
-MED-37151075,"Paracetamol (Acetaminophen)-associated SJS, TEN, AGEP, and DRESS Syndromes - A Narrative Review.",2024,10.2174/1574886318666230505144014,37151075,dress,Disease,0.9856876730918884,682,687
-MED-37151075,"Paracetamol (Acetaminophen)-associated SJS, TEN, AGEP, and DRESS Syndromes - A Narrative Review.",2024,10.2174/1574886318666230505144014,37151075,stevens - johnson syndrome,Disease,0.9943834543228149,853,877
-MED-37151075,"Paracetamol (Acetaminophen)-associated SJS, TEN, AGEP, and DRESS Syndromes - A Narrative Review.",2024,10.2174/1574886318666230505144014,37151075,acetaminophen,Chemical,0.9982779026031494,879,892
-MED-37151075,"Paracetamol (Acetaminophen)-associated SJS, TEN, AGEP, and DRESS Syndromes - A Narrative Review.",2024,10.2174/1574886318666230505144014,37151075,paracetamol,Chemical,0.9980629086494446,894,905
-MED-37151075,"Paracetamol (Acetaminophen)-associated SJS, TEN, AGEP, and DRESS Syndromes - A Narrative Review.",2024,10.2174/1574886318666230505144014,37151075,toxic epidermal necrolysis,Disease,0.9892240166664124,907,933
-MED-37151075,"Paracetamol (Acetaminophen)-associated SJS, TEN, AGEP, and DRESS Syndromes - A Narrative Review.",2024,10.2174/1574886318666230505144014,37151075,acute generalized exanthematous pustulosis,Disease,0.934621274471283,935,977
-MED-37151075,"Paracetamol (Acetaminophen)-associated SJS, TEN, AGEP, and DRESS Syndromes - A Narrative Review.",2024,10.2174/1574886318666230505144014,37151075,drug reaction with,Disease,0.7274565100669861,979,997
-MED-37151075,"Paracetamol (Acetaminophen)-associated SJS, TEN, AGEP, and DRESS Syndromes - A Narrative Review.",2024,10.2174/1574886318666230505144014,37151075,eosinophilia,Disease,0.90750652551651,998,1010
-MED-37151075,"Paracetamol (Acetaminophen)-associated SJS, TEN, AGEP, and DRESS Syndromes - A Narrative Review.",2024,10.2174/1574886318666230505144014,37151075,paracetamol,Chemical,0.9982380867004395,1037,1048
-MED-37151075,"Paracetamol (Acetaminophen)-associated SJS, TEN, AGEP, and DRESS Syndromes - A Narrative Review.",2024,10.2174/1574886318666230505144014,37151075,sjs,Disease,0.9841015338897705,1060,1063
-MED-37151075,"Paracetamol (Acetaminophen)-associated SJS, TEN, AGEP, and DRESS Syndromes - A Narrative Review.",2024,10.2174/1574886318666230505144014,37151075,ten,Disease,0.7379134297370911,1065,1068
-MED-37151075,"Paracetamol (Acetaminophen)-associated SJS, TEN, AGEP, and DRESS Syndromes - A Narrative Review.",2024,10.2174/1574886318666230505144014,37151075,sjs / ten,Disease,0.8304112553596497,1070,1077
-MED-37151075,"Paracetamol (Acetaminophen)-associated SJS, TEN, AGEP, and DRESS Syndromes - A Narrative Review.",2024,10.2174/1574886318666230505144014,37151075,agep,Disease,0.9488477110862732,1087,1091
-MED-37151075,"Paracetamol (Acetaminophen)-associated SJS, TEN, AGEP, and DRESS Syndromes - A Narrative Review.",2024,10.2174/1574886318666230505144014,37151075,dress,Disease,0.9875726699829102,1097,1102
-MED-37151075,"Paracetamol (Acetaminophen)-associated SJS, TEN, AGEP, and DRESS Syndromes - A Narrative Review.",2024,10.2174/1574886318666230505144014,37151075,hypersensitivity skin reactions,Disease,0.9297106862068176,1191,1222
-MED-37151075,"Paracetamol (Acetaminophen)-associated SJS, TEN, AGEP, and DRESS Syndromes - A Narrative Review.",2024,10.2174/1574886318666230505144014,37151075,paracetamol,Chemical,0.9983659386634827,1375,1386
-MED-37151075,"Paracetamol (Acetaminophen)-associated SJS, TEN, AGEP, and DRESS Syndromes - A Narrative Review.",2024,10.2174/1574886318666230505144014,37151075,hypersensitivity,Disease,0.9867604970932007,1398,1414
-MED-37151075,"Paracetamol (Acetaminophen)-associated SJS, TEN, AGEP, and DRESS Syndromes - A Narrative Review.",2024,10.2174/1574886318666230505144014,37151075,skin rash,Disease,0.9863858222961426,1508,1517
-MED-37151075,"Paracetamol (Acetaminophen)-associated SJS, TEN, AGEP, and DRESS Syndromes - A Narrative Review.",2024,10.2174/1574886318666230505144014,37151075,hypersensitivity reaction,Disease,0.885555624961853,1527,1552
-MED-37151075,"Paracetamol (Acetaminophen)-associated SJS, TEN, AGEP, and DRESS Syndromes - A Narrative Review.",2024,10.2174/1574886318666230505144014,37151075,paracetamol,Chemical,0.9983514547348022,1566,1577
-MED-7753607,[Paracetamol poisoning].,1995,,7753607,paracetamol,Chemical,0.9791275858879089,1,12
-MED-7753607,[Paracetamol poisoning].,1995,,7753607,paracetamol,Chemical,0.9982365369796753,42,53
-MED-7753607,[Paracetamol poisoning].,1995,,7753607,acetaminophen,Chemical,0.9981694221496582,55,68
-MED-7753607,[Paracetamol poisoning].,1995,,7753607,paracetamol,Chemical,0.997896671295166,120,131
-MED-7753607,[Paracetamol poisoning].,1995,,7753607,paracetamol,Chemical,0.9981005787849426,187,198
-MED-7753607,[Paracetamol poisoning].,1995,,7753607,acetylsalicylic acid,Chemical,0.9973848462104797,298,318
-MED-7753607,[Paracetamol poisoning].,1995,,7753607,paracetamol,Chemical,0.9980144500732422,369,380
-MED-7753607,[Paracetamol poisoning].,1995,,7753607,paracetamol,Chemical,0.9980341792106628,427,438
-MED-7753607,[Paracetamol poisoning].,1995,,7753607,phosphate,Chemical,0.9971357583999634,481,490
-MED-7753607,[Paracetamol poisoning].,1995,,7753607,lactate,Chemical,0.9964865446090698,495,502
-MED-7753607,[Paracetamol poisoning].,1995,,7753607,paracetamol,Chemical,0.9910019040107727,534,545
-MED-7753607,[Paracetamol poisoning].,1995,,7753607,liver disfunction,Disease,0.7682964205741882,577,594
-MED-7753607,[Paracetamol poisoning].,1995,,7753607,liver failure,Disease,0.978987455368042,616,629
-MED-7753607,[Paracetamol poisoning].,1995,,7753607,alcoholics,Disease,0.8976600170135498,701,711
-MED-7753607,[Paracetamol poisoning].,1995,,7753607,liver damage,Disease,0.9894007444381714,739,751
-MED-7753607,[Paracetamol poisoning].,1995,,7753607,paracetamol,Chemical,0.9979618787765503,772,783
-MED-7753607,[Paracetamol poisoning].,1995,,7753607,intoxication,Disease,0.8943896889686584,815,827
-MED-7753607,[Paracetamol poisoning].,1995,,7753607,paracetamol,Chemical,0.9979255199432373,833,844
-MED-7753607,[Paracetamol poisoning].,1995,,7753607,n - acetylcysteine,Chemical,0.9946721196174622,876,892
-MED-7753607,[Paracetamol poisoning].,1995,,7753607,n - acetylcysteine,Chemical,0.992409348487854,902,918
-MED-7753607,[Paracetamol poisoning].,1995,,7753607,paracetamol,Chemical,0.9977173805236816,977,988
-MED-7753607,[Paracetamol poisoning].,1995,,7753607,n - acetylcysteine,Chemical,0.9932535886764526,1055,1071
-MED-7753607,[Paracetamol poisoning].,1995,,7753607,paracetamol,Chemical,0.9979281425476074,1120,1131
-MED-7753607,[Paracetamol poisoning].,1995,,7753607,paracetamol,Chemical,0.9978887438774109,1184,1195
-MED-7753607,[Paracetamol poisoning].,1995,,7753607,paracetamol,Chemical,0.9976010918617249,1320,1331
-MED-7753607,[Paracetamol poisoning].,1995,,7753607,paracetamol,Chemical,0.9973358511924744,1376,1387
-MED-7753607,[Paracetamol poisoning].,1995,,7753607,paracetamol,Chemical,0.9875446557998657,1472,1483
-MED-7753607,[Paracetamol poisoning].,1995,,7753607,death,Disease,0.9693584442138672,1518,1523
-MED-7753607,[Paracetamol poisoning].,1995,,7753607,paracetamol,Chemical,0.9712144136428833,1534,1545
-MED-7753607,[Paracetamol poisoning].,1995,,7753607,paracetamol,Chemical,0.9798428416252136,1669,1680
-MED-7753607,[Paracetamol poisoning].,1995,,7753607,alcoholics,Disease,0.9674410820007324,1789,1799
-MED-32878493,Paracetamol for low back pain: the state of the research field.,2020,10.1080/17512433.2020.1817738,32878493,paracetamol,Chemical,0.9982751607894897,0,11
-MED-32878493,Paracetamol for low back pain: the state of the research field.,2020,10.1080/17512433.2020.1817738,32878493,low back pain,Disease,0.995456874370575,16,29
-MED-32878493,Paracetamol for low back pain: the state of the research field.,2020,10.1080/17512433.2020.1817738,32878493,paracetamol,Chemical,0.9981895089149475,63,74
-MED-32878493,Paracetamol for low back pain: the state of the research field.,2020,10.1080/17512433.2020.1817738,32878493,low back pain,Disease,0.9958176016807556,137,150
-MED-32878493,Paracetamol for low back pain: the state of the research field.,2020,10.1080/17512433.2020.1817738,32878493,paracetamol,Chemical,0.9983861446380615,283,294
-MED-32878493,Paracetamol for low back pain: the state of the research field.,2020,10.1080/17512433.2020.1817738,32878493,low back pain,Disease,0.9954161643981934,348,361
-MED-32878493,Paracetamol for low back pain: the state of the research field.,2020,10.1080/17512433.2020.1817738,32878493,paracetamol,Chemical,0.9983804225921631,414,425
-MED-32878493,Paracetamol for low back pain: the state of the research field.,2020,10.1080/17512433.2020.1817738,32878493,paracetamol,Chemical,0.9982262253761292,653,664
-MED-32878493,Paracetamol for low back pain: the state of the research field.,2020,10.1080/17512433.2020.1817738,32878493,low back pain,Disease,0.9573368430137634,723,736
-MED-32878493,Paracetamol for low back pain: the state of the research field.,2020,10.1080/17512433.2020.1817738,32878493,back pain,Disease,0.8098292350769043,783,792
-MED-32878493,Paracetamol for low back pain: the state of the research field.,2020,10.1080/17512433.2020.1817738,32878493,paracetamol,Chemical,0.9982782602310181,838,849
-MED-32878493,Paracetamol for low back pain: the state of the research field.,2020,10.1080/17512433.2020.1817738,32878493,paracetamol,Chemical,0.9983229041099548,964,975
-MED-32878493,Paracetamol for low back pain: the state of the research field.,2020,10.1080/17512433.2020.1817738,32878493,chronic back pain,Disease,0.7214300632476807,990,1007
-MED-32878493,Paracetamol for low back pain: the state of the research field.,2020,10.1080/17512433.2020.1817738,32878493,paracetamol,Chemical,0.9977914094924927,1046,1057
-MED-32878493,Paracetamol for low back pain: the state of the research field.,2020,10.1080/17512433.2020.1817738,32878493,back pain,Disease,0.9949671030044556,1116,1125
-MED-32878493,Paracetamol for low back pain: the state of the research field.,2020,10.1080/17512433.2020.1817738,32878493,low back pain,Disease,0.9955320358276367,1238,1251
-MED-19192939,Intravenous paracetamol (acetaminophen).,2009,10.2165/00003495-200969010-00007,19192939,paracetamol,Chemical,0.9982064962387085,12,23
-MED-19192939,Intravenous paracetamol (acetaminophen).,2009,10.2165/00003495-200969010-00007,19192939,acetaminophen,Chemical,0.9974096417427063,25,38
-MED-19192939,Intravenous paracetamol (acetaminophen).,2009,10.2165/00003495-200969010-00007,19192939,paracetamol,Chemical,0.9980941414833069,52,63
-MED-19192939,Intravenous paracetamol (acetaminophen).,2009,10.2165/00003495-200969010-00007,19192939,acetaminophen,Chemical,0.99834144115448,83,96
-MED-19192939,Intravenous paracetamol (acetaminophen).,2009,10.2165/00003495-200969010-00007,19192939,pain,Disease,0.9943792223930359,208,212
-MED-19192939,Intravenous paracetamol (acetaminophen).,2009,10.2165/00003495-200969010-00007,19192939,fever,Disease,0.9776583909988403,217,222
-MED-19192939,Intravenous paracetamol (acetaminophen).,2009,10.2165/00003495-200969010-00007,19192939,paracetamol,Chemical,0.9980282187461853,319,330
-MED-19192939,Intravenous paracetamol (acetaminophen).,2009,10.2165/00003495-200969010-00007,19192939,paracetamol,Chemical,0.9980043768882751,587,598
-MED-19192939,Intravenous paracetamol (acetaminophen).,2009,10.2165/00003495-200969010-00007,19192939,propacetamol,Chemical,0.9976323843002319,674,686
-MED-19192939,Intravenous paracetamol (acetaminophen).,2009,10.2165/00003495-200969010-00007,19192939,paracetamol,Chemical,0.9979850053787231,802,813
-MED-19192939,Intravenous paracetamol (acetaminophen).,2009,10.2165/00003495-200969010-00007,19192939,propacetamol,Chemical,0.9976545572280884,861,873
-MED-19192939,Intravenous paracetamol (acetaminophen).,2009,10.2165/00003495-200969010-00007,19192939,pain,Disease,0.9937649965286255,904,908
-MED-19192939,Intravenous paracetamol (acetaminophen).,2009,10.2165/00003495-200969010-00007,19192939,pethidine,Chemical,0.9981136322021484,978,987
-MED-19192939,Intravenous paracetamol (acetaminophen).,2009,10.2165/00003495-200969010-00007,19192939,infection,Disease,0.9499151110649109,1125,1134
-MED-19192939,Intravenous paracetamol (acetaminophen).,2009,10.2165/00003495-200969010-00007,19192939,fever,Disease,0.8457135558128357,1143,1148
-MED-19192939,Intravenous paracetamol (acetaminophen).,2009,10.2165/00003495-200969010-00007,19192939,paracetamol,Chemical,0.9979413151741028,1162,1173
-MED-19192939,Intravenous paracetamol (acetaminophen).,2009,10.2165/00003495-200969010-00007,19192939,propacetamol,Chemical,0.9978756308555603,1232,1244
-MED-19192939,Intravenous paracetamol (acetaminophen).,2009,10.2165/00003495-200969010-00007,19192939,paracetamol,Chemical,0.9979242086410522,1299,1310
-MED-19192939,Intravenous paracetamol (acetaminophen).,2009,10.2165/00003495-200969010-00007,19192939,paracetamol,Chemical,0.9983408451080322,1487,1498
-MED-15733027,Tolerability of paracetamol.,2005,10.2165/00002018-200528030-00004,15733027,paracetamol,Chemical,0.998478353023529,16,27
-MED-15733027,Tolerability of paracetamol.,2005,10.2165/00002018-200528030-00004,15733027,paracetamol,Chemical,0.9984984397888184,79,90
-MED-15733027,Tolerability of paracetamol.,2005,10.2165/00002018-200528030-00004,15733027,acetaminophen,Chemical,0.9981861710548401,92,105
-MED-15733027,Tolerability of paracetamol.,2005,10.2165/00002018-200528030-00004,15733027,paracetamol,Chemical,0.9985061287879944,190,201
-MED-15733027,Tolerability of paracetamol.,2005,10.2165/00002018-200528030-00004,15733027,hepatotoxicity,Disease,0.9965611100196838,209,223
-MED-15733027,Tolerability of paracetamol.,2005,10.2165/00002018-200528030-00004,15733027,overdose,Disease,0.870586633682251,233,241
-MED-15733027,Tolerability of paracetamol.,2005,10.2165/00002018-200528030-00004,15733027,hepatotoxicity,Disease,0.9959301352500916,242,256
-MED-15733027,Tolerability of paracetamol.,2005,10.2165/00002018-200528030-00004,15733027,toxicity,Disease,0.9923878908157349,369,377
-MED-15733027,Tolerability of paracetamol.,2005,10.2165/00002018-200528030-00004,15733027,overdose,Disease,0.7843058705329895,412,420
-MED-15733027,Tolerability of paracetamol.,2005,10.2165/00002018-200528030-00004,15733027,paracetamol,Chemical,0.9985212683677673,490,501
-MED-15733027,Tolerability of paracetamol.,2005,10.2165/00002018-200528030-00004,15733027,hepatotoxicity,Disease,0.996394693851471,527,541
-MED-15733027,Tolerability of paracetamol.,2005,10.2165/00002018-200528030-00004,15733027,alcohol,Chemical,0.9982547163963318,594,601
-MED-15733027,Tolerability of paracetamol.,2005,10.2165/00002018-200528030-00004,15733027,paracetamol,Chemical,0.9984182119369507,645,656
-MED-15733027,Tolerability of paracetamol.,2005,10.2165/00002018-200528030-00004,15733027,perforations,Disease,0.7519943714141846,852,864
-MED-15733027,Tolerability of paracetamol.,2005,10.2165/00002018-200528030-00004,15733027,ulcer,Disease,0.983031153678894,866,871
-MED-15733027,Tolerability of paracetamol.,2005,10.2165/00002018-200528030-00004,15733027,bleeding,Disease,0.9214479923248291,875,883
-MED-15733027,Tolerability of paracetamol.,2005,10.2165/00002018-200528030-00004,15733027,paracetamol,Chemical,0.9984185695648193,961,972
-MED-15733027,Tolerability of paracetamol.,2005,10.2165/00002018-200528030-00004,15733027,gastrointestinal toxicity,Disease,0.9883203506469727,977,1002
-MED-15733027,Tolerability of paracetamol.,2005,10.2165/00002018-200528030-00004,15733027,chronic renal disease,Disease,0.9921929240226746,1020,1041
-MED-15733027,Tolerability of paracetamol.,2005,10.2165/00002018-200528030-00004,15733027,asthma,Disease,0.9936062097549438,1046,1052
-MED-15733027,Tolerability of paracetamol.,2005,10.2165/00002018-200528030-00004,15733027,paracetamol,Chemical,0.9982327222824097,1196,1207
-MED-15733027,Tolerability of paracetamol.,2005,10.2165/00002018-200528030-00004,15733027,paracetamol,Chemical,0.9982268214225769,1248,1259
-MED-15733027,Tolerability of paracetamol.,2005,10.2165/00002018-200528030-00004,15733027,paracetamol,Chemical,0.9982975125312805,1331,1342
-MED-15733027,Tolerability of paracetamol.,2005,10.2165/00002018-200528030-00004,15733027,paracetamol,Chemical,0.9981951117515564,1381,1392
-MED-15733027,Tolerability of paracetamol.,2005,10.2165/00002018-200528030-00004,15733027,hypersensitivity reactions,Disease,0.88251131772995,1416,1442
-MED-15733027,Tolerability of paracetamol.,2005,10.2165/00002018-200528030-00004,15733027,urticaria,Disease,0.9958899021148682,1462,1471
-MED-15733027,Tolerability of paracetamol.,2005,10.2165/00002018-200528030-00004,15733027,paracetamol,Chemical,0.9981095790863037,1502,1513
-MED-28752572,Effect of paracetamol on semen quality.,2018,10.1111/and.12874,28752572,paracetamol,Chemical,0.9983718991279602,10,21
-MED-28752572,Effect of paracetamol on semen quality.,2018,10.1111/and.12874,28752572,paracetamol,Chemical,0.9983696341514587,107,118
-MED-28752572,Effect of paracetamol on semen quality.,2018,10.1111/and.12874,28752572,acetaminophen,Chemical,0.9982150793075562,131,144
-MED-28752572,Effect of paracetamol on semen quality.,2018,10.1111/and.12874,28752572,male infertility,Disease,0.9884843826293945,240,256
-MED-28752572,Effect of paracetamol on semen quality.,2018,10.1111/and.12874,28752572,paracetamol,Chemical,0.9983721375465393,337,348
-MED-28752572,Effect of paracetamol on semen quality.,2018,10.1111/and.12874,28752572,male factor infertility,Disease,0.9817172884941101,379,402
-MED-28752572,Effect of paracetamol on semen quality.,2018,10.1111/and.12874,28752572,paracetamol,Chemical,0.9981864094734192,526,537
-MED-28752572,Effect of paracetamol on semen quality.,2018,10.1111/and.12874,28752572,acetaminophen,Chemical,0.998406708240509,544,557
-MED-28752572,Effect of paracetamol on semen quality.,2018,10.1111/and.12874,28752572,paracetamol,Chemical,0.9984071850776672,639,650
-MED-28752572,Effect of paracetamol on semen quality.,2018,10.1111/and.12874,28752572,paracetamol,Chemical,0.9984057545661926,790,801
-MED-28752572,Effect of paracetamol on semen quality.,2018,10.1111/and.12874,28752572,testosterone,Chemical,0.9972397089004517,844,856
-MED-28752572,Effect of paracetamol on semen quality.,2018,10.1111/and.12874,28752572,nitric oxide,Chemical,0.9774589538574219,942,954
-MED-28752572,Effect of paracetamol on semen quality.,2018,10.1111/and.12874,28752572,prostaglandin,Chemical,0.9851458072662354,981,994
-MED-10759684,"Paracetamol, alcohol and the liver.",2000,10.1046/j.1365-2125.2000.00167.x,10759684,paracetamol,Chemical,0.9980477094650269,0,11
-MED-10759684,"Paracetamol, alcohol and the liver.",2000,10.1046/j.1365-2125.2000.00167.x,10759684,alcohol,Chemical,0.9974048733711243,13,20
-MED-10759684,"Paracetamol, alcohol and the liver.",2000,10.1046/j.1365-2125.2000.00167.x,10759684,alcoholics,Disease,0.8386482000350952,62,72
-MED-10759684,"Paracetamol, alcohol and the liver.",2000,10.1046/j.1365-2125.2000.00167.x,10759684,paracetamol,Chemical,0.9977948665618896,98,109
-MED-10759684,"Paracetamol, alcohol and the liver.",2000,10.1046/j.1365-2125.2000.00167.x,10759684,acetaminophen,Chemical,0.9953638315200806,111,124
-MED-10759684,"Paracetamol, alcohol and the liver.",2000,10.1046/j.1365-2125.2000.00167.x,10759684,hepatotoxicity,Disease,0.9912630319595337,126,140
-MED-10759684,"Paracetamol, alcohol and the liver.",2000,10.1046/j.1365-2125.2000.00167.x,10759684,ethanol,Chemical,0.9979063272476196,296,303
-MED-10759684,"Paracetamol, alcohol and the liver.",2000,10.1046/j.1365-2125.2000.00167.x,10759684,paracetamol,Chemical,0.9978365302085876,356,367
-MED-10759684,"Paracetamol, alcohol and the liver.",2000,10.1046/j.1365-2125.2000.00167.x,10759684,liver damage,Disease,0.9911307692527771,452,464
-MED-10759684,"Paracetamol, alcohol and the liver.",2000,10.1046/j.1365-2125.2000.00167.x,10759684,alcoholics,Disease,0.9438436031341553,521,531
-MED-10759684,"Paracetamol, alcohol and the liver.",2000,10.1046/j.1365-2125.2000.00167.x,10759684,alcoholic,Disease,0.9841976761817932,537,546
-MED-10759684,"Paracetamol, alcohol and the liver.",2000,10.1046/j.1365-2125.2000.00167.x,10759684,liver damage,Disease,0.9937199354171753,573,585
-MED-10759684,"Paracetamol, alcohol and the liver.",2000,10.1046/j.1365-2125.2000.00167.x,10759684,paracetamol,Chemical,0.998134434223175,599,610
-MED-10759684,"Paracetamol, alcohol and the liver.",2000,10.1046/j.1365-2125.2000.00167.x,10759684,paracetamol,Chemical,0.9977412223815918,753,764
-MED-10759684,"Paracetamol, alcohol and the liver.",2000,10.1046/j.1365-2125.2000.00167.x,10759684,alcohol,Chemical,0.9961966276168823,765,772
-MED-10759684,"Paracetamol, alcohol and the liver.",2000,10.1046/j.1365-2125.2000.00167.x,10759684,liver damage,Disease,0.9860581159591675,795,807
-MED-10759684,"Paracetamol, alcohol and the liver.",2000,10.1046/j.1365-2125.2000.00167.x,10759684,paracetamol,Chemical,0.9979494214057922,856,867
-MED-10759684,"Paracetamol, alcohol and the liver.",2000,10.1046/j.1365-2125.2000.00167.x,10759684,alcoholic,Disease,0.9327716827392578,902,911
-MED-10759684,"Paracetamol, alcohol and the liver.",2000,10.1046/j.1365-2125.2000.00167.x,10759684,paracetamol,Chemical,0.9976575374603271,916,927
-MED-10759684,"Paracetamol, alcohol and the liver.",2000,10.1046/j.1365-2125.2000.00167.x,10759684,alcohol,Chemical,0.9964566826820374,928,935
-MED-10759684,"Paracetamol, alcohol and the liver.",2000,10.1046/j.1365-2125.2000.00167.x,10759684,ethanol,Chemical,0.9978201389312744,978,985
-MED-10759684,"Paracetamol, alcohol and the liver.",2000,10.1046/j.1365-2125.2000.00167.x,10759684,ethanol,Chemical,0.9976115226745605,1028,1035
-MED-10759684,"Paracetamol, alcohol and the liver.",2000,10.1046/j.1365-2125.2000.00167.x,10759684,paracetamol,Chemical,0.9924144148826599,1097,1108
-MED-10759684,"Paracetamol, alcohol and the liver.",2000,10.1046/j.1365-2125.2000.00167.x,10759684,hepatotoxicity,Disease,0.9904939532279968,1109,1123
-MED-10759684,"Paracetamol, alcohol and the liver.",2000,10.1046/j.1365-2125.2000.00167.x,10759684,ethanol,Chemical,0.9977586269378662,1137,1144
-MED-10759684,"Paracetamol, alcohol and the liver.",2000,10.1046/j.1365-2125.2000.00167.x,10759684,paracetamol,Chemical,0.9973713159561157,1231,1242
-MED-10759684,"Paracetamol, alcohol and the liver.",2000,10.1046/j.1365-2125.2000.00167.x,10759684,alcohol,Chemical,0.9970209002494812,1269,1276
-MED-10759684,"Paracetamol, alcohol and the liver.",2000,10.1046/j.1365-2125.2000.00167.x,10759684,paracetamol,Chemical,0.997316300868988,1448,1459
-MED-10759684,"Paracetamol, alcohol and the liver.",2000,10.1046/j.1365-2125.2000.00167.x,10759684,paracetamol,Chemical,0.9979321956634521,1464,1475
-MED-10759684,"Paracetamol, alcohol and the liver.",2000,10.1046/j.1365-2125.2000.00167.x,10759684,ethanol,Chemical,0.9973602890968323,1476,1483
-MED-10759684,"Paracetamol, alcohol and the liver.",2000,10.1046/j.1365-2125.2000.00167.x,10759684,paracetamol,Chemical,0.9973155856132507,1657,1668
-MED-10759684,"Paracetamol, alcohol and the liver.",2000,10.1046/j.1365-2125.2000.00167.x,10759684,ethanol,Chemical,0.9977526068687439,1682,1689
-MED-10759684,"Paracetamol, alcohol and the liver.",2000,10.1046/j.1365-2125.2000.00167.x,10759684,paracetamol,Chemical,0.9972905516624451,1727,1738
-MED-10759684,"Paracetamol, alcohol and the liver.",2000,10.1046/j.1365-2125.2000.00167.x,10759684,liver damage,Disease,0.9934369325637817,1785,1797
-MED-10759684,"Paracetamol, alcohol and the liver.",2000,10.1046/j.1365-2125.2000.00167.x,10759684,ethanol,Chemical,0.9975724816322327,1897,1904
-MED-10759684,"Paracetamol, alcohol and the liver.",2000,10.1046/j.1365-2125.2000.00167.x,10759684,ethanol,Chemical,0.9980687499046326,1946,1953
-MED-10759684,"Paracetamol, alcohol and the liver.",2000,10.1046/j.1365-2125.2000.00167.x,10759684,paracetamol,Chemical,0.9974809288978577,1958,1969
-MED-10759684,"Paracetamol, alcohol and the liver.",2000,10.1046/j.1365-2125.2000.00167.x,10759684,paracetamol,Chemical,0.9904187321662903,2037,2048
-MED-10759684,"Paracetamol, alcohol and the liver.",2000,10.1046/j.1365-2125.2000.00167.x,10759684,hepatotoxicity,Disease,0.9912611842155457,2049,2063
-MED-10759684,"Paracetamol, alcohol and the liver.",2000,10.1046/j.1365-2125.2000.00167.x,10759684,alcoholics,Disease,0.8610512018203735,2088,2098
-MED-10759684,"Paracetamol, alcohol and the liver.",2000,10.1046/j.1365-2125.2000.00167.x,10759684,alcohol,Chemical,0.9974316954612732,2146,2153
-MED-10759684,"Paracetamol, alcohol and the liver.",2000,10.1046/j.1365-2125.2000.00167.x,10759684,paracetamol,Chemical,0.9921728372573853,2197,2208
-MED-10759684,"Paracetamol, alcohol and the liver.",2000,10.1046/j.1365-2125.2000.00167.x,10759684,paracetamol,Chemical,0.9977265000343323,2285,2296
-MED-10759684,"Paracetamol, alcohol and the liver.",2000,10.1046/j.1365-2125.2000.00167.x,10759684,alcohol,Chemical,0.9971557855606079,2494,2501
-MED-10759684,"Paracetamol, alcohol and the liver.",2000,10.1046/j.1365-2125.2000.00167.x,10759684,paracetamol,Chemical,0.9937549829483032,2528,2539
-MED-10759684,"Paracetamol, alcohol and the liver.",2000,10.1046/j.1365-2125.2000.00167.x,10759684,hepatotoxicity,Disease,0.991854190826416,2540,2554
-MED-10759684,"Paracetamol, alcohol and the liver.",2000,10.1046/j.1365-2125.2000.00167.x,10759684,glutathione,Chemical,0.9831304550170898,2584,2595
-MED-34102027,A narrative review of paracetamol-induced hypotension: Keeping the patient safe.,2022,10.24953/sturkjped.2016.05.016,34102027,paracetamol,Chemical,0.9984070658683777,22,33
-MED-34102027,A narrative review of paracetamol-induced hypotension: Keeping the patient safe.,2022,10.24953/sturkjped.2016.05.016,34102027,hypotension,Disease,0.9964863061904907,42,53
-MED-34102027,A narrative review of paracetamol-induced hypotension: Keeping the patient safe.,2022,10.24953/sturkjped.2016.05.016,34102027,paracetamol,Chemical,0.9984495639801025,129,140
-MED-34102027,A narrative review of paracetamol-induced hypotension: Keeping the patient safe.,2022,10.24953/sturkjped.2016.05.016,34102027,hypotension,Disease,0.9961788654327393,149,160
-MED-34102027,A narrative review of paracetamol-induced hypotension: Keeping the patient safe.,2022,10.24953/sturkjped.2016.05.016,34102027,acetaminophen,Chemical,0.9984111785888672,386,399
-MED-34102027,A narrative review of paracetamol-induced hypotension: Keeping the patient safe.,2022,10.24953/sturkjped.2016.05.016,34102027,hypotension,Disease,0.9965234398841858,406,417
-MED-34102027,A narrative review of paracetamol-induced hypotension: Keeping the patient safe.,2022,10.24953/sturkjped.2016.05.016,34102027,paracetamol,Chemical,0.997965931892395,453,464
-MED-34102027,A narrative review of paracetamol-induced hypotension: Keeping the patient safe.,2022,10.24953/sturkjped.2016.05.016,34102027,propacetamol,Chemical,0.9973688125610352,468,480
-MED-34102027,A narrative review of paracetamol-induced hypotension: Keeping the patient safe.,2022,10.24953/sturkjped.2016.05.016,34102027,low blood pressure,Disease,0.9752695560455322,484,502
-MED-34102027,A narrative review of paracetamol-induced hypotension: Keeping the patient safe.,2022,10.24953/sturkjped.2016.05.016,34102027,fever,Disease,0.9954409599304199,506,511
-MED-34102027,A narrative review of paracetamol-induced hypotension: Keeping the patient safe.,2022,10.24953/sturkjped.2016.05.016,34102027,sepsis,Disease,0.9947898387908936,515,521
-MED-34102027,A narrative review of paracetamol-induced hypotension: Keeping the patient safe.,2022,10.24953/sturkjped.2016.05.016,34102027,shock,Disease,0.9951818585395813,529,534
-MED-34102027,A narrative review of paracetamol-induced hypotension: Keeping the patient safe.,2022,10.24953/sturkjped.2016.05.016,34102027,paracetamol,Chemical,0.9985175728797913,608,619
-MED-34102027,A narrative review of paracetamol-induced hypotension: Keeping the patient safe.,2022,10.24953/sturkjped.2016.05.016,34102027,paracetamol,Chemical,0.9984991550445557,715,726
-MED-34102027,A narrative review of paracetamol-induced hypotension: Keeping the patient safe.,2022,10.24953/sturkjped.2016.05.016,34102027,febrile,Disease,0.9520716667175293,883,890
-MED-34102027,A narrative review of paracetamol-induced hypotension: Keeping the patient safe.,2022,10.24953/sturkjped.2016.05.016,34102027,critically ill,Disease,0.9297870397567749,891,905
-MED-34102027,A narrative review of paracetamol-induced hypotension: Keeping the patient safe.,2022,10.24953/sturkjped.2016.05.016,34102027,paracetamol,Chemical,0.9984903335571289,939,950
-MED-12517240,Paracetamol and asthma.,2003,10.1517/14656566.4.1.13,12517240,paracetamol,Chemical,0.99843829870224,0,11
-MED-12517240,Paracetamol and asthma.,2003,10.1517/14656566.4.1.13,12517240,asthma,Disease,0.9329938888549805,16,22
-MED-12517240,Paracetamol and asthma.,2003,10.1517/14656566.4.1.13,12517240,paracetamol,Chemical,0.9980853796005249,23,34
-MED-12517240,Paracetamol and asthma.,2003,10.1517/14656566.4.1.13,12517240,acetaminophen,Chemical,0.9981226325035095,36,49
-MED-12517240,Paracetamol and asthma.,2003,10.1517/14656566.4.1.13,12517240,paracetamol,Chemical,0.9984859824180603,222,233
-MED-12517240,Paracetamol and asthma.,2003,10.1517/14656566.4.1.13,12517240,asthma,Disease,0.9925073981285095,238,244
-MED-12517240,Paracetamol and asthma.,2003,10.1517/14656566.4.1.13,12517240,paracetamol,Chemical,0.9981427192687988,247,258
-MED-12517240,Paracetamol and asthma.,2003,10.1517/14656566.4.1.13,12517240,bronchospasm,Disease,0.9943423271179199,282,294
-MED-12517240,Paracetamol and asthma.,2003,10.1517/14656566.4.1.13,12517240,asthma,Disease,0.9918072819709778,353,359
-MED-12517240,Paracetamol and asthma.,2003,10.1517/14656566.4.1.13,12517240,paracetamol,Chemical,0.9981404542922974,407,418
-MED-12517240,Paracetamol and asthma.,2003,10.1517/14656566.4.1.13,12517240,paracetamol,Chemical,0.9973326921463013,419,430
-MED-12517240,Paracetamol and asthma.,2003,10.1517/14656566.4.1.13,12517240,bronchospasm,Disease,0.9941747188568115,568,580
-MED-12517240,Paracetamol and asthma.,2003,10.1517/14656566.4.1.13,12517240,aspirin,Chemical,0.9976904392242432,586,593
-MED-12517240,Paracetamol and asthma.,2003,10.1517/14656566.4.1.13,12517240,paracetamol,Chemical,0.9982629418373108,680,691
-MED-12517240,Paracetamol and asthma.,2003,10.1517/14656566.4.1.13,12517240,aspirin,Chemical,0.9984222650527954,724,731
-MED-12517240,Paracetamol and asthma.,2003,10.1517/14656566.4.1.13,12517240,paracetamol,Chemical,0.9984422326087952,989,1000
-MED-12517240,Paracetamol and asthma.,2003,10.1517/14656566.4.1.13,12517240,asthma,Disease,0.9943550825119019,1046,1052
-MED-24374658,Paracetamol: a focus for the general pediatrician.,2014,10.1007/s00431-013-2239-5,24374658,paracetamol,Chemical,0.9983723759651184,0,11
-MED-24374658,Paracetamol: a focus for the general pediatrician.,2014,10.1007/s00431-013-2239-5,24374658,paracetamol,Chemical,0.9981473684310913,50,61
-MED-24374658,Paracetamol: a focus for the general pediatrician.,2014,10.1007/s00431-013-2239-5,24374658,acetaminophen,Chemical,0.9979494214057922,63,76
-MED-24374658,Paracetamol: a focus for the general pediatrician.,2014,10.1007/s00431-013-2239-5,24374658,pain,Disease,0.9944095015525818,148,152
-MED-24374658,Paracetamol: a focus for the general pediatrician.,2014,10.1007/s00431-013-2239-5,24374658,fever,Disease,0.9795528054237366,157,162
-MED-24374658,Paracetamol: a focus for the general pediatrician.,2014,10.1007/s00431-013-2239-5,24374658,paracetamol,Chemical,0.9981166124343872,341,352
-MED-24374658,Paracetamol: a focus for the general pediatrician.,2014,10.1007/s00431-013-2239-5,24374658,paracetamol,Chemical,0.9983313679695129,453,464
-MED-24374658,Paracetamol: a focus for the general pediatrician.,2014,10.1007/s00431-013-2239-5,24374658,pain,Disease,0.9944025874137878,494,498
-MED-24374658,Paracetamol: a focus for the general pediatrician.,2014,10.1007/s00431-013-2239-5,24374658,fever,Disease,0.987726628780365,502,507
-MED-24374658,Paracetamol: a focus for the general pediatrician.,2014,10.1007/s00431-013-2239-5,24374658,fever,Disease,0.9949712753295898,584,589
-MED-24374658,Paracetamol: a focus for the general pediatrician.,2014,10.1007/s00431-013-2239-5,24374658,pain,Disease,0.9890018701553345,612,616
-MED-24374658,Paracetamol: a focus for the general pediatrician.,2014,10.1007/s00431-013-2239-5,24374658,paracetamol,Chemical,0.9981799125671387,628,639
-MED-24374658,Paracetamol: a focus for the general pediatrician.,2014,10.1007/s00431-013-2239-5,24374658,paracetamol,Chemical,0.9978200197219849,774,785
-MED-24374658,Paracetamol: a focus for the general pediatrician.,2014,10.1007/s00431-013-2239-5,24374658,toxicity,Disease,0.9957711100578308,786,794
-MED-24374658,Paracetamol: a focus for the general pediatrician.,2014,10.1007/s00431-013-2239-5,24374658,overdose,Disease,0.9319345951080322,862,870
-MED-24374658,Paracetamol: a focus for the general pediatrician.,2014,10.1007/s00431-013-2239-5,24374658,paracetamol,Chemical,0.9971296191215515,926,937
-MED-24374658,Paracetamol: a focus for the general pediatrician.,2014,10.1007/s00431-013-2239-5,24374658,toxicity,Disease,0.9952895641326904,938,946
-MED-24374658,Paracetamol: a focus for the general pediatrician.,2014,10.1007/s00431-013-2239-5,24374658,n - acetyl - p - benzo - quinone imine,Chemical,0.9949887990951538,954,984
-MED-24374658,Paracetamol: a focus for the general pediatrician.,2014,10.1007/s00431-013-2239-5,24374658,napqi,Chemical,0.9974067211151123,986,991
-MED-24374658,Paracetamol: a focus for the general pediatrician.,2014,10.1007/s00431-013-2239-5,24374658,paracetamol,Chemical,0.998123824596405,1017,1028
-MED-24374658,Paracetamol: a focus for the general pediatrician.,2014,10.1007/s00431-013-2239-5,24374658,paracetamol,Chemical,0.9980111122131348,1094,1105
-MED-24374658,Paracetamol: a focus for the general pediatrician.,2014,10.1007/s00431-013-2239-5,24374658,toxicity,Disease,0.9949973821640015,1261,1269
-MED-24374658,Paracetamol: a focus for the general pediatrician.,2014,10.1007/s00431-013-2239-5,24374658,paracetamol,Chemical,0.9983855485916138,1393,1404
-MED-24374658,Paracetamol: a focus for the general pediatrician.,2014,10.1007/s00431-013-2239-5,24374658,toxicity,Disease,0.995137631893158,1552,1560
+42438802,A rare case of gliclazide-induced symptomatic bradycardia in type 2 diabetes mellitus.,2026-07-13,10.1210/jcemcr/luag161,42438802,gliclazide,Chemical,0.9981837868690491,15,25
+42438802,A rare case of gliclazide-induced symptomatic bradycardia in type 2 diabetes mellitus.,2026-07-13,10.1210/jcemcr/luag161,42438802,bradycardia,Disease,0.9946370720863342,46,57
+42438802,A rare case of gliclazide-induced symptomatic bradycardia in type 2 diabetes mellitus.,2026-07-13,10.1210/jcemcr/luag161,42438802,type 2 diabetes mellitus,Disease,0.9937179684638977,61,85
+42438802,A rare case of gliclazide-induced symptomatic bradycardia in type 2 diabetes mellitus.,2026-07-13,10.1210/jcemcr/luag161,42438802,gliclazide,Chemical,0.9982327818870544,86,96
+42438802,A rare case of gliclazide-induced symptomatic bradycardia in type 2 diabetes mellitus.,2026-07-13,10.1210/jcemcr/luag161,42438802,sulfonylurea,Chemical,0.9955959320068359,118,130
+42438802,A rare case of gliclazide-induced symptomatic bradycardia in type 2 diabetes mellitus.,2026-07-13,10.1210/jcemcr/luag161,42438802,type 2 diabetes mellitus,Disease,0.9941744804382324,182,206
+42438802,A rare case of gliclazide-induced symptomatic bradycardia in type 2 diabetes mellitus.,2026-07-13,10.1210/jcemcr/luag161,42438802,t2dm,Disease,0.9936245679855347,208,212
+42438802,A rare case of gliclazide-induced symptomatic bradycardia in type 2 diabetes mellitus.,2026-07-13,10.1210/jcemcr/luag161,42438802,hypoglycemia,Disease,0.9891594052314758,275,287
+42438802,A rare case of gliclazide-induced symptomatic bradycardia in type 2 diabetes mellitus.,2026-07-13,10.1210/jcemcr/luag161,42438802,sulfonylurea,Chemical,0.9960148334503174,293,305
+42438802,A rare case of gliclazide-induced symptomatic bradycardia in type 2 diabetes mellitus.,2026-07-13,10.1210/jcemcr/luag161,42438802,bradycardia,Disease,0.9947452545166016,314,325
+42438802,A rare case of gliclazide-induced symptomatic bradycardia in type 2 diabetes mellitus.,2026-07-13,10.1210/jcemcr/luag161,42438802,t2dm,Disease,0.9949591159820557,407,411
+42438802,A rare case of gliclazide-induced symptomatic bradycardia in type 2 diabetes mellitus.,2026-07-13,10.1210/jcemcr/luag161,42438802,hypertension,Disease,0.9949105381965637,416,428
+42438802,A rare case of gliclazide-induced symptomatic bradycardia in type 2 diabetes mellitus.,2026-07-13,10.1210/jcemcr/luag161,42438802,presyncope,Disease,0.9909049868583679,444,454
+42438802,A rare case of gliclazide-induced symptomatic bradycardia in type 2 diabetes mellitus.,2026-07-13,10.1210/jcemcr/luag161,42438802,lethargy,Disease,0.9818572998046875,456,464
+42438802,A rare case of gliclazide-induced symptomatic bradycardia in type 2 diabetes mellitus.,2026-07-13,10.1210/jcemcr/luag161,42438802,dizziness,Disease,0.9938716888427734,470,479
+42438802,A rare case of gliclazide-induced symptomatic bradycardia in type 2 diabetes mellitus.,2026-07-13,10.1210/jcemcr/luag161,42438802,gliclazide,Chemical,0.9982097148895264,533,543
+42438802,A rare case of gliclazide-induced symptomatic bradycardia in type 2 diabetes mellitus.,2026-07-13,10.1210/jcemcr/luag161,42438802,sinus bradycardia,Disease,0.893308699131012,919,936
+42438802,A rare case of gliclazide-induced symptomatic bradycardia in type 2 diabetes mellitus.,2026-07-13,10.1210/jcemcr/luag161,42438802,bradycardia,Disease,0.9793141484260559,1063,1074
+42438802,A rare case of gliclazide-induced symptomatic bradycardia in type 2 diabetes mellitus.,2026-07-13,10.1210/jcemcr/luag161,42438802,bradycardia,Disease,0.9946982860565186,1111,1122
+42438802,A rare case of gliclazide-induced symptomatic bradycardia in type 2 diabetes mellitus.,2026-07-13,10.1210/jcemcr/luag161,42438802,gliclazide,Chemical,0.9981799125671387,1134,1144
+42438802,A rare case of gliclazide-induced symptomatic bradycardia in type 2 diabetes mellitus.,2026-07-13,10.1210/jcemcr/luag161,42438802,gliclazide,Chemical,0.9981694221496582,1483,1493
+42357318,Green Approach to Enhance Dissolution of Gliclazide: Thermoresponsive Solid Dispersion Based on Poloxamer 188/Propylene Glycol/Labrasol Ternary System.,2026-06-08,10.3390/pharmaceutics18060702,42357318,gliclazide,Chemical,0.997840166091919,41,51
+42357318,Green Approach to Enhance Dissolution of Gliclazide: Thermoresponsive Solid Dispersion Based on Poloxamer 188/Propylene Glycol/Labrasol Ternary System.,2026-06-08,10.3390/pharmaceutics18060702,42357318,##oxamer,Chemical,0.7115401029586792,99,105
+42357318,Green Approach to Enhance Dissolution of Gliclazide: Thermoresponsive Solid Dispersion Based on Poloxamer 188/Propylene Glycol/Labrasol Ternary System.,2026-06-08,10.3390/pharmaceutics18060702,42357318,propylene glycol,Chemical,0.9943506121635437,110,126
+42357318,Green Approach to Enhance Dissolution of Gliclazide: Thermoresponsive Solid Dispersion Based on Poloxamer 188/Propylene Glycol/Labrasol Ternary System.,2026-06-08,10.3390/pharmaceutics18060702,42357318,labrasol,Chemical,0.9855433106422424,127,135
+42357318,Green Approach to Enhance Dissolution of Gliclazide: Thermoresponsive Solid Dispersion Based on Poloxamer 188/Propylene Glycol/Labrasol Ternary System.,2026-06-08,10.3390/pharmaceutics18060702,42357318,gliclazide,Chemical,0.9978495240211487,174,184
+42357318,Green Approach to Enhance Dissolution of Gliclazide: Thermoresponsive Solid Dispersion Based on Poloxamer 188/Propylene Glycol/Labrasol Ternary System.,2026-06-08,10.3390/pharmaceutics18060702,42357318,propylene glycol,Chemical,0.9944638609886169,440,456
+42357318,Green Approach to Enhance Dissolution of Gliclazide: Thermoresponsive Solid Dispersion Based on Poloxamer 188/Propylene Glycol/Labrasol Ternary System.,2026-06-08,10.3390/pharmaceutics18060702,42357318,propylene glycol,Chemical,0.9947192668914795,698,714
+42357318,Green Approach to Enhance Dissolution of Gliclazide: Thermoresponsive Solid Dispersion Based on Poloxamer 188/Propylene Glycol/Labrasol Ternary System.,2026-06-08,10.3390/pharmaceutics18060702,42357318,labrasol,Chemical,0.9872269630432129,720,728
+42357318,Green Approach to Enhance Dissolution of Gliclazide: Thermoresponsive Solid Dispersion Based on Poloxamer 188/Propylene Glycol/Labrasol Ternary System.,2026-06-08,10.3390/pharmaceutics18060702,42357318,gliclazide,Chemical,0.9978151321411133,899,909
+42357318,Green Approach to Enhance Dissolution of Gliclazide: Thermoresponsive Solid Dispersion Based on Poloxamer 188/Propylene Glycol/Labrasol Ternary System.,2026-06-08,10.3390/pharmaceutics18060702,42357318,labrasol,Chemical,0.9860672354698181,1014,1022
+42357318,Green Approach to Enhance Dissolution of Gliclazide: Thermoresponsive Solid Dispersion Based on Poloxamer 188/Propylene Glycol/Labrasol Ternary System.,2026-06-08,10.3390/pharmaceutics18060702,42357318,gliclazide,Chemical,0.9977140426635742,1081,1091
+42357318,Green Approach to Enhance Dissolution of Gliclazide: Thermoresponsive Solid Dispersion Based on Poloxamer 188/Propylene Glycol/Labrasol Ternary System.,2026-06-08,10.3390/pharmaceutics18060702,42357318,propylene glycol,Chemical,0.9944950938224792,1115,1131
+42357318,Green Approach to Enhance Dissolution of Gliclazide: Thermoresponsive Solid Dispersion Based on Poloxamer 188/Propylene Glycol/Labrasol Ternary System.,2026-06-08,10.3390/pharmaceutics18060702,42357318,propylene glycol,Chemical,0.9943549036979675,1214,1230
+42357318,Green Approach to Enhance Dissolution of Gliclazide: Thermoresponsive Solid Dispersion Based on Poloxamer 188/Propylene Glycol/Labrasol Ternary System.,2026-06-08,10.3390/pharmaceutics18060702,42357318,labrasol,Chemical,0.9854267239570618,1236,1244
+42357318,Green Approach to Enhance Dissolution of Gliclazide: Thermoresponsive Solid Dispersion Based on Poloxamer 188/Propylene Glycol/Labrasol Ternary System.,2026-06-08,10.3390/pharmaceutics18060702,42357318,gliclazide,Chemical,0.9977988600730896,1522,1532
+42283359,Tunable dissolution of poorly soluble gliclazide by surface coating via room-temperature atomic layer deposition.,2026-06-01,10.1063/5.0340896,42283359,gliclazide,Chemical,0.9981864094734192,38,48
+42283359,Tunable dissolution of poorly soluble gliclazide by surface coating via room-temperature atomic layer deposition.,2026-06-01,10.1063/5.0340896,42283359,gliclazide,Chemical,0.9981939792633057,113,123
+42283359,Tunable dissolution of poorly soluble gliclazide by surface coating via room-temperature atomic layer deposition.,2026-06-01,10.1063/5.0340896,42283359,glz,Chemical,0.9977749586105347,125,128
+42283359,Tunable dissolution of poorly soluble gliclazide by surface coating via room-temperature atomic layer deposition.,2026-06-01,10.1063/5.0340896,42283359,sulfonylurea,Chemical,0.9920865893363953,135,147
+42283359,Tunable dissolution of poorly soluble gliclazide by surface coating via room-temperature atomic layer deposition.,2026-06-01,10.1063/5.0340896,42283359,type 2 diabetes mellitus,Disease,0.9938408136367798,187,211
+42283359,Tunable dissolution of poorly soluble gliclazide by surface coating via room-temperature atomic layer deposition.,2026-06-01,10.1063/5.0340896,42283359,glz,Chemical,0.9974657893180847,518,521
+42283359,Tunable dissolution of poorly soluble gliclazide by surface coating via room-temperature atomic layer deposition.,2026-06-01,10.1063/5.0340896,42283359,glz,Chemical,0.9974633455276489,845,848
+41818607,Gliclazide Enhances Exercise Performance and Recovery of Muscle Strength in Healthy Trained Individuals: A Randomized Controlled Trial.,2026-04-01,10.1002/ejsc.70155,41818607,gliclazide,Chemical,0.9976822733879089,0,10
+41818607,Gliclazide Enhances Exercise Performance and Recovery of Muscle Strength in Healthy Trained Individuals: A Randomized Controlled Trial.,2026-04-01,10.1002/ejsc.70155,41818607,gliclazide,Chemical,0.9979185461997986,166,176
+41818607,Gliclazide Enhances Exercise Performance and Recovery of Muscle Strength in Healthy Trained Individuals: A Randomized Controlled Trial.,2026-04-01,10.1002/ejsc.70155,41818607,gliclazide,Chemical,0.997692346572876,392,402
+41818607,Gliclazide Enhances Exercise Performance and Recovery of Muscle Strength in Healthy Trained Individuals: A Randomized Controlled Trial.,2026-04-01,10.1002/ejsc.70155,41818607,insulin,Chemical,0.9600154161453247,704,711
+41818607,Gliclazide Enhances Exercise Performance and Recovery of Muscle Strength in Healthy Trained Individuals: A Randomized Controlled Trial.,2026-04-01,10.1002/ejsc.70155,41818607,glucose,Chemical,0.9861444234848022,716,723
+41818607,Gliclazide Enhances Exercise Performance and Recovery of Muscle Strength in Healthy Trained Individuals: A Randomized Controlled Trial.,2026-04-01,10.1002/ejsc.70155,41818607,lactate,Chemical,0.9180442094802856,760,767
+41818607,Gliclazide Enhances Exercise Performance and Recovery of Muscle Strength in Healthy Trained Individuals: A Randomized Controlled Trial.,2026-04-01,10.1002/ejsc.70155,41818607,muscle soreness,Disease,0.7672796249389648,885,900
+41818607,Gliclazide Enhances Exercise Performance and Recovery of Muscle Strength in Healthy Trained Individuals: A Randomized Controlled Trial.,2026-04-01,10.1002/ejsc.70155,41818607,gliclazide,Chemical,0.9968970417976379,921,931
+41818607,Gliclazide Enhances Exercise Performance and Recovery of Muscle Strength in Healthy Trained Individuals: A Randomized Controlled Trial.,2026-04-01,10.1002/ejsc.70155,41818607,muscle soreness,Disease,0.8058710098266602,1266,1281
+41818607,Gliclazide Enhances Exercise Performance and Recovery of Muscle Strength in Healthy Trained Individuals: A Randomized Controlled Trial.,2026-04-01,10.1002/ejsc.70155,41818607,hypoglycemia,Disease,0.9887897968292236,1350,1362
+41818607,Gliclazide Enhances Exercise Performance and Recovery of Muscle Strength in Healthy Trained Individuals: A Randomized Controlled Trial.,2026-04-01,10.1002/ejsc.70155,41818607,gliclazide,Chemical,0.997762143611908,1409,1419
+41818607,Gliclazide Enhances Exercise Performance and Recovery of Muscle Strength in Healthy Trained Individuals: A Randomized Controlled Trial.,2026-04-01,10.1002/ejsc.70155,41818607,gliclazide mr,Chemical,0.9665138721466064,1441,1454
+41818607,Gliclazide Enhances Exercise Performance and Recovery of Muscle Strength in Healthy Trained Individuals: A Randomized Controlled Trial.,2026-04-01,10.1002/ejsc.70155,41818607,hypoglycemia,Disease,0.9937123656272888,1571,1583
+42212674,RGD-Functionalized ZIF-8 Nanocarriers Enable Highly Selective Delivery of Repurposed Gliclazide in Breast Cancer.,2026-05-29,10.1021/acsabm.6c00092,42212674,gliclazide,Chemical,0.997943103313446,85,95
+42212674,RGD-Functionalized ZIF-8 Nanocarriers Enable Highly Selective Delivery of Repurposed Gliclazide in Breast Cancer.,2026-05-29,10.1021/acsabm.6c00092,42212674,breast cancer,Disease,0.9869239330291748,99,112
+42212674,RGD-Functionalized ZIF-8 Nanocarriers Enable Highly Selective Delivery of Repurposed Gliclazide in Breast Cancer.,2026-05-29,10.1021/acsabm.6c00092,42212674,breast cancer,Disease,0.982047438621521,209,222
+42212674,RGD-Functionalized ZIF-8 Nanocarriers Enable Highly Selective Delivery of Repurposed Gliclazide in Breast Cancer.,2026-05-29,10.1021/acsabm.6c00092,42212674,gliclazide,Chemical,0.9978011250495911,358,368
+42212674,RGD-Functionalized ZIF-8 Nanocarriers Enable Highly Selective Delivery of Repurposed Gliclazide in Breast Cancer.,2026-05-29,10.1021/acsabm.6c00092,42212674,gli,Chemical,0.9894114136695862,370,373
+42212674,RGD-Functionalized ZIF-8 Nanocarriers Enable Highly Selective Delivery of Repurposed Gliclazide in Breast Cancer.,2026-05-29,10.1021/acsabm.6c00092,42212674,##itic imidazolate,Chemical,0.8037451505661011,510,526
+42212674,RGD-Functionalized ZIF-8 Nanocarriers Enable Highly Selective Delivery of Repurposed Gliclazide in Breast Cancer.,2026-05-29,10.1021/acsabm.6c00092,42212674,arginylglycylaspartic acid,Chemical,0.9425154328346252,607,633
+42212674,RGD-Functionalized ZIF-8 Nanocarriers Enable Highly Selective Delivery of Repurposed Gliclazide in Breast Cancer.,2026-05-29,10.1021/acsabm.6c00092,42212674,gli,Chemical,0.9655461311340332,672,675
+42212674,RGD-Functionalized ZIF-8 Nanocarriers Enable Highly Selective Delivery of Repurposed Gliclazide in Breast Cancer.,2026-05-29,10.1021/acsabm.6c00092,42212674,gli,Chemical,0.9857674837112427,947,950
+42212674,RGD-Functionalized ZIF-8 Nanocarriers Enable Highly Selective Delivery of Repurposed Gliclazide in Breast Cancer.,2026-05-29,10.1021/acsabm.6c00092,42212674,gli,Chemical,0.9896159172058105,1317,1320
+42212674,RGD-Functionalized ZIF-8 Nanocarriers Enable Highly Selective Delivery of Repurposed Gliclazide in Breast Cancer.,2026-05-29,10.1021/acsabm.6c00092,42212674,gli,Chemical,0.9778979420661926,1590,1593
+42212674,RGD-Functionalized ZIF-8 Nanocarriers Enable Highly Selective Delivery of Repurposed Gliclazide in Breast Cancer.,2026-05-29,10.1021/acsabm.6c00092,42212674,breast cancer,Disease,0.8955804705619812,1626,1639
+42212674,RGD-Functionalized ZIF-8 Nanocarriers Enable Highly Selective Delivery of Repurposed Gliclazide in Breast Cancer.,2026-05-29,10.1021/acsabm.6c00092,42212674,breast cancer,Disease,0.9847021102905273,1961,1974
+41874052,Effects of Thickening Agents Used in Dysphagia on the In Vitro Dissolution of Gliclazide.,2026-03-04,10.3390/pharmacy14020044,41874052,dysphagia,Disease,0.9946277737617493,37,46
+41874052,Effects of Thickening Agents Used in Dysphagia on the In Vitro Dissolution of Gliclazide.,2026-03-04,10.3390/pharmacy14020044,41874052,gliclazide,Chemical,0.9979493618011475,78,88
+41874052,Effects of Thickening Agents Used in Dysphagia on the In Vitro Dissolution of Gliclazide.,2026-03-04,10.3390/pharmacy14020044,41874052,dysphagia,Disease,0.9902604222297668,89,98
+41874052,Effects of Thickening Agents Used in Dysphagia on the In Vitro Dissolution of Gliclazide.,2026-03-04,10.3390/pharmacy14020044,41874052,gliclazide,Chemical,0.9977788925170898,450,460
+41874052,Effects of Thickening Agents Used in Dysphagia on the In Vitro Dissolution of Gliclazide.,2026-03-04,10.3390/pharmacy14020044,41874052,gliclazide,Chemical,0.997666597366333,767,777
+41874052,Effects of Thickening Agents Used in Dysphagia on the In Vitro Dissolution of Gliclazide.,2026-03-04,10.3390/pharmacy14020044,41874052,gliclazide,Chemical,0.9977577328681946,1017,1027
+41874052,Effects of Thickening Agents Used in Dysphagia on the In Vitro Dissolution of Gliclazide.,2026-03-04,10.3390/pharmacy14020044,41874052,gliclazide,Chemical,0.9977591633796692,1146,1156
+42150265,A near-infrared multifunctional fluorescent probe for simultaneous tracking of mitochondrial viscosity/polarity and ONOO<sup/>.,2026-05-13,10.1016/j.talanta.2026.129959,42150265,onoo,Chemical,0.7941495180130005,116,120
+42150265,A near-infrared multifunctional fluorescent probe for simultaneous tracking of mitochondrial viscosity/polarity and ONOO<sup/>.,2026-05-13,10.1016/j.talanta.2026.129959,42150265,onoo -,Chemical,0.7250227928161621,198,204
+42150265,A near-infrared multifunctional fluorescent probe for simultaneous tracking of mitochondrial viscosity/polarity and ONOO<sup/>.,2026-05-13,10.1016/j.talanta.2026.129959,42150265,"n, n - dimethylamino and",Chemical,0.892396092414856,428,449
+42150265,A near-infrared multifunctional fluorescent probe for simultaneous tracking of mitochondrial viscosity/polarity and ONOO<sup/>.,2026-05-13,10.1016/j.talanta.2026.129959,42150265,pyridinium,Chemical,0.8252317309379578,450,460
+42150265,A near-infrared multifunctional fluorescent probe for simultaneous tracking of mitochondrial viscosity/polarity and ONOO<sup/>.,2026-05-13,10.1016/j.talanta.2026.129959,42150265,onoo -,Chemical,0.7372841238975525,762,768
+42150265,A near-infrared multifunctional fluorescent probe for simultaneous tracking of mitochondrial viscosity/polarity and ONOO<sup/>.,2026-05-13,10.1016/j.talanta.2026.129959,42150265,glucose,Chemical,0.9881142973899841,897,904
+42150265,A near-infrared multifunctional fluorescent probe for simultaneous tracking of mitochondrial viscosity/polarity and ONOO<sup/>.,2026-05-13,10.1016/j.talanta.2026.129959,42150265,gliclazide,Chemical,0.9978421330451965,970,980
+42150265,A near-infrared multifunctional fluorescent probe for simultaneous tracking of mitochondrial viscosity/polarity and ONOO<sup/>.,2026-05-13,10.1016/j.talanta.2026.129959,42150265,resveratrol,Chemical,0.9969397783279419,985,996
+42150265,A near-infrared multifunctional fluorescent probe for simultaneous tracking of mitochondrial viscosity/polarity and ONOO<sup/>.,2026-05-13,10.1016/j.talanta.2026.129959,42150265,diabetes,Disease,0.9940968751907349,1008,1016
+42150265,A near-infrared multifunctional fluorescent probe for simultaneous tracking of mitochondrial viscosity/polarity and ONOO<sup/>.,2026-05-13,10.1016/j.talanta.2026.129959,42150265,diabetic,Disease,0.9855572581291199,1182,1190
+41804642,Magnetic-aminopropyltriethoxysilane-sulfanilamide: a new functional sorbent for selective preconcentration of sulfonylurea antidiabetic drugs in biological samples.,2026-04-20,10.1039/d5an01377a,41804642,aminopropyltriethoxysilane,Chemical,0.9634518027305603,9,35
+41804642,Magnetic-aminopropyltriethoxysilane-sulfanilamide: a new functional sorbent for selective preconcentration of sulfonylurea antidiabetic drugs in biological samples.,2026-04-20,10.1039/d5an01377a,41804642,sulfanilamide,Chemical,0.9872800707817078,36,49
+41804642,Magnetic-aminopropyltriethoxysilane-sulfanilamide: a new functional sorbent for selective preconcentration of sulfonylurea antidiabetic drugs in biological samples.,2026-04-20,10.1039/d5an01377a,41804642,sulfonylurea,Chemical,0.9841983914375305,110,122
+41804642,Magnetic-aminopropyltriethoxysilane-sulfanilamide: a new functional sorbent for selective preconcentration of sulfonylurea antidiabetic drugs in biological samples.,2026-04-20,10.1039/d5an01377a,41804642,gliclazide,Chemical,0.9978470802307129,294,304
+41804642,Magnetic-aminopropyltriethoxysilane-sulfanilamide: a new functional sorbent for selective preconcentration of sulfonylurea antidiabetic drugs in biological samples.,2026-04-20,10.1039/d5an01377a,41804642,glz,Chemical,0.9974284172058105,306,309
+41804642,Magnetic-aminopropyltriethoxysilane-sulfanilamide: a new functional sorbent for selective preconcentration of sulfonylurea antidiabetic drugs in biological samples.,2026-04-20,10.1039/d5an01377a,41804642,glimepiride,Chemical,0.997845470905304,315,326
+41804642,Magnetic-aminopropyltriethoxysilane-sulfanilamide: a new functional sorbent for selective preconcentration of sulfonylurea antidiabetic drugs in biological samples.,2026-04-20,10.1039/d5an01377a,41804642,glm,Chemical,0.9952468276023865,328,331
+41804642,Magnetic-aminopropyltriethoxysilane-sulfanilamide: a new functional sorbent for selective preconcentration of sulfonylurea antidiabetic drugs in biological samples.,2026-04-20,10.1039/d5an01377a,41804642,aminopropyltriethoxysilane,Chemical,0.9366647005081177,531,557
+41804642,Magnetic-aminopropyltriethoxysilane-sulfanilamide: a new functional sorbent for selective preconcentration of sulfonylurea antidiabetic drugs in biological samples.,2026-04-20,10.1039/d5an01377a,41804642,sulfanilamide,Chemical,0.9896335601806641,558,571
+41804642,Magnetic-aminopropyltriethoxysilane-sulfanilamide: a new functional sorbent for selective preconcentration of sulfonylurea antidiabetic drugs in biological samples.,2026-04-20,10.1039/d5an01377a,41804642,##es,Chemical,0.9130107760429382,586,588
+41804642,Magnetic-aminopropyltriethoxysilane-sulfanilamide: a new functional sorbent for selective preconcentration of sulfonylurea antidiabetic drugs in biological samples.,2026-04-20,10.1039/d5an01377a,41804642,sulfanilamide,Chemical,0.9923484921455383,589,602
+41804642,Magnetic-aminopropyltriethoxysilane-sulfanilamide: a new functional sorbent for selective preconcentration of sulfonylurea antidiabetic drugs in biological samples.,2026-04-20,10.1039/d5an01377a,41804642,sulfanilamide,Chemical,0.9953672289848328,660,673
+41804642,Magnetic-aminopropyltriethoxysilane-sulfanilamide: a new functional sorbent for selective preconcentration of sulfonylurea antidiabetic drugs in biological samples.,2026-04-20,10.1039/d5an01377a,41804642,sulfanilamide,Chemical,0.9950265884399414,828,841
+41804642,Magnetic-aminopropyltriethoxysilane-sulfanilamide: a new functional sorbent for selective preconcentration of sulfonylurea antidiabetic drugs in biological samples.,2026-04-20,10.1039/d5an01377a,41804642,##ane,Chemical,0.834412693977356,860,863
+41804642,Magnetic-aminopropyltriethoxysilane-sulfanilamide: a new functional sorbent for selective preconcentration of sulfonylurea antidiabetic drugs in biological samples.,2026-04-20,10.1039/d5an01377a,41804642,sulfonylurea,Chemical,0.9890791177749634,911,923
+41804642,Magnetic-aminopropyltriethoxysilane-sulfanilamide: a new functional sorbent for selective preconcentration of sulfonylurea antidiabetic drugs in biological samples.,2026-04-20,10.1039/d5an01377a,41804642,##es,Chemical,0.9300232529640198,1944,1946
+41804642,Magnetic-aminopropyltriethoxysilane-sulfanilamide: a new functional sorbent for selective preconcentration of sulfonylurea antidiabetic drugs in biological samples.,2026-04-20,10.1039/d5an01377a,41804642,sulfanilamide,Chemical,0.9923956990242004,1947,1960
+41641865,Bioequivalence and Pharmacokinetic Evaluation of Gliclazide Modified-Release Tablets in Healthy Chinese Volunteers.,2026-02-01,10.1002/cpdd.70021,41641865,gliclazide,Chemical,0.9982435703277588,49,59
+41641865,Bioequivalence and Pharmacokinetic Evaluation of Gliclazide Modified-Release Tablets in Healthy Chinese Volunteers.,2026-02-01,10.1002/cpdd.70021,41641865,gliclazide,Chemical,0.9982510209083557,351,361
+41641865,Bioequivalence and Pharmacokinetic Evaluation of Gliclazide Modified-Release Tablets in Healthy Chinese Volunteers.,2026-02-01,10.1002/cpdd.70021,41641865,gliclazide,Chemical,0.9981594085693359,746,756
+41641865,Bioequivalence and Pharmacokinetic Evaluation of Gliclazide Modified-Release Tablets in Healthy Chinese Volunteers.,2026-02-01,10.1002/cpdd.70021,41641865,gliclazide,Chemical,0.9980983734130859,1101,1111
+41859618,"A Randomized, Multicenter Study Evaluating the Efficacy, Safety and Tolerability of Dapagliflozin + Gliclazide Fixed Dose Combination Over Dapagliflozin Monotherapy in Type 2 Diabetes Mellitus Patients Inadequately Controlled on Metformin Monotherapy.",2026-02-15,10.7759/cureus.103676,41859618,dapagliflozin,Chemical,0.9979647994041443,84,97
+41859618,"A Randomized, Multicenter Study Evaluating the Efficacy, Safety and Tolerability of Dapagliflozin + Gliclazide Fixed Dose Combination Over Dapagliflozin Monotherapy in Type 2 Diabetes Mellitus Patients Inadequately Controlled on Metformin Monotherapy.",2026-02-15,10.7759/cureus.103676,41859618,gliclazide,Chemical,0.9954662322998047,100,110
+41859618,"A Randomized, Multicenter Study Evaluating the Efficacy, Safety and Tolerability of Dapagliflozin + Gliclazide Fixed Dose Combination Over Dapagliflozin Monotherapy in Type 2 Diabetes Mellitus Patients Inadequately Controlled on Metformin Monotherapy.",2026-02-15,10.7759/cureus.103676,41859618,dapagliflozin,Chemical,0.9979418516159058,139,152
+41859618,"A Randomized, Multicenter Study Evaluating the Efficacy, Safety and Tolerability of Dapagliflozin + Gliclazide Fixed Dose Combination Over Dapagliflozin Monotherapy in Type 2 Diabetes Mellitus Patients Inadequately Controlled on Metformin Monotherapy.",2026-02-15,10.7759/cureus.103676,41859618,type 2 diabetes mellitus,Disease,0.9933116436004639,168,192
+41859618,"A Randomized, Multicenter Study Evaluating the Efficacy, Safety and Tolerability of Dapagliflozin + Gliclazide Fixed Dose Combination Over Dapagliflozin Monotherapy in Type 2 Diabetes Mellitus Patients Inadequately Controlled on Metformin Monotherapy.",2026-02-15,10.7759/cureus.103676,41859618,metformin,Chemical,0.9977735877037048,229,238
+41859618,"A Randomized, Multicenter Study Evaluating the Efficacy, Safety and Tolerability of Dapagliflozin + Gliclazide Fixed Dose Combination Over Dapagliflozin Monotherapy in Type 2 Diabetes Mellitus Patients Inadequately Controlled on Metformin Monotherapy.",2026-02-15,10.7759/cureus.103676,41859618,sodium glucose,Chemical,0.9168379306793213,262,276
+41859618,"A Randomized, Multicenter Study Evaluating the Efficacy, Safety and Tolerability of Dapagliflozin + Gliclazide Fixed Dose Combination Over Dapagliflozin Monotherapy in Type 2 Diabetes Mellitus Patients Inadequately Controlled on Metformin Monotherapy.",2026-02-15,10.7759/cureus.103676,41859618,sulfonylurea,Chemical,0.9946682453155518,315,327
+41859618,"A Randomized, Multicenter Study Evaluating the Efficacy, Safety and Tolerability of Dapagliflozin + Gliclazide Fixed Dose Combination Over Dapagliflozin Monotherapy in Type 2 Diabetes Mellitus Patients Inadequately Controlled on Metformin Monotherapy.",2026-02-15,10.7759/cureus.103676,41859618,su,Chemical,0.9034801125526428,329,331
+41859618,"A Randomized, Multicenter Study Evaluating the Efficacy, Safety and Tolerability of Dapagliflozin + Gliclazide Fixed Dose Combination Over Dapagliflozin Monotherapy in Type 2 Diabetes Mellitus Patients Inadequately Controlled on Metformin Monotherapy.",2026-02-15,10.7759/cureus.103676,41859618,metformin,Chemical,0.9975759387016296,449,458
+41859618,"A Randomized, Multicenter Study Evaluating the Efficacy, Safety and Tolerability of Dapagliflozin + Gliclazide Fixed Dose Combination Over Dapagliflozin Monotherapy in Type 2 Diabetes Mellitus Patients Inadequately Controlled on Metformin Monotherapy.",2026-02-15,10.7759/cureus.103676,41859618,dapagliflozin,Chemical,0.9977999925613403,552,565
+41859618,"A Randomized, Multicenter Study Evaluating the Efficacy, Safety and Tolerability of Dapagliflozin + Gliclazide Fixed Dose Combination Over Dapagliflozin Monotherapy in Type 2 Diabetes Mellitus Patients Inadequately Controlled on Metformin Monotherapy.",2026-02-15,10.7759/cureus.103676,41859618,gliclazide,Chemical,0.9976761341094971,570,580
+41859618,"A Randomized, Multicenter Study Evaluating the Efficacy, Safety and Tolerability of Dapagliflozin + Gliclazide Fixed Dose Combination Over Dapagliflozin Monotherapy in Type 2 Diabetes Mellitus Patients Inadequately Controlled on Metformin Monotherapy.",2026-02-15,10.7759/cureus.103676,41859618,type 2 diabetes mellitus,Disease,0.9937945604324341,621,645
+41859618,"A Randomized, Multicenter Study Evaluating the Efficacy, Safety and Tolerability of Dapagliflozin + Gliclazide Fixed Dose Combination Over Dapagliflozin Monotherapy in Type 2 Diabetes Mellitus Patients Inadequately Controlled on Metformin Monotherapy.",2026-02-15,10.7759/cureus.103676,41859618,t2dm,Disease,0.9897928237915039,647,651
+41859618,"A Randomized, Multicenter Study Evaluating the Efficacy, Safety and Tolerability of Dapagliflozin + Gliclazide Fixed Dose Combination Over Dapagliflozin Monotherapy in Type 2 Diabetes Mellitus Patients Inadequately Controlled on Metformin Monotherapy.",2026-02-15,10.7759/cureus.103676,41859618,metformin,Chemical,0.9974840879440308,676,685
+41859618,"A Randomized, Multicenter Study Evaluating the Efficacy, Safety and Tolerability of Dapagliflozin + Gliclazide Fixed Dose Combination Over Dapagliflozin Monotherapy in Type 2 Diabetes Mellitus Patients Inadequately Controlled on Metformin Monotherapy.",2026-02-15,10.7759/cureus.103676,41859618,t2dm,Disease,0.9928640127182007,864,868
+41859618,"A Randomized, Multicenter Study Evaluating the Efficacy, Safety and Tolerability of Dapagliflozin + Gliclazide Fixed Dose Combination Over Dapagliflozin Monotherapy in Type 2 Diabetes Mellitus Patients Inadequately Controlled on Metformin Monotherapy.",2026-02-15,10.7759/cureus.103676,41859618,dapagliflozin,Chemical,0.9972679615020752,927,940
+41859618,"A Randomized, Multicenter Study Evaluating the Efficacy, Safety and Tolerability of Dapagliflozin + Gliclazide Fixed Dose Combination Over Dapagliflozin Monotherapy in Type 2 Diabetes Mellitus Patients Inadequately Controlled on Metformin Monotherapy.",2026-02-15,10.7759/cureus.103676,41859618,gliclazide,Chemical,0.9974797368049622,949,959
+41859618,"A Randomized, Multicenter Study Evaluating the Efficacy, Safety and Tolerability of Dapagliflozin + Gliclazide Fixed Dose Combination Over Dapagliflozin Monotherapy in Type 2 Diabetes Mellitus Patients Inadequately Controlled on Metformin Monotherapy.",2026-02-15,10.7759/cureus.103676,41859618,dapagliflozin,Chemical,0.9972430467605591,983,996
+41859618,"A Randomized, Multicenter Study Evaluating the Efficacy, Safety and Tolerability of Dapagliflozin + Gliclazide Fixed Dose Combination Over Dapagliflozin Monotherapy in Type 2 Diabetes Mellitus Patients Inadequately Controlled on Metformin Monotherapy.",2026-02-15,10.7759/cureus.103676,41859618,dapagliflozin,Chemical,0.9977085590362549,1325,1338
+41859618,"A Randomized, Multicenter Study Evaluating the Efficacy, Safety and Tolerability of Dapagliflozin + Gliclazide Fixed Dose Combination Over Dapagliflozin Monotherapy in Type 2 Diabetes Mellitus Patients Inadequately Controlled on Metformin Monotherapy.",2026-02-15,10.7759/cureus.103676,41859618,gliclazide,Chemical,0.9896140098571777,1343,1353
+41859618,"A Randomized, Multicenter Study Evaluating the Efficacy, Safety and Tolerability of Dapagliflozin + Gliclazide Fixed Dose Combination Over Dapagliflozin Monotherapy in Type 2 Diabetes Mellitus Patients Inadequately Controlled on Metformin Monotherapy.",2026-02-15,10.7759/cureus.103676,41859618,dapagliflozin,Chemical,0.9975484609603882,1369,1382
+41859618,"A Randomized, Multicenter Study Evaluating the Efficacy, Safety and Tolerability of Dapagliflozin + Gliclazide Fixed Dose Combination Over Dapagliflozin Monotherapy in Type 2 Diabetes Mellitus Patients Inadequately Controlled on Metformin Monotherapy.",2026-02-15,10.7759/cureus.103676,41859618,dapagliflozin,Chemical,0.9979784488677979,1623,1636
+41859618,"A Randomized, Multicenter Study Evaluating the Efficacy, Safety and Tolerability of Dapagliflozin + Gliclazide Fixed Dose Combination Over Dapagliflozin Monotherapy in Type 2 Diabetes Mellitus Patients Inadequately Controlled on Metformin Monotherapy.",2026-02-15,10.7759/cureus.103676,41859618,gliclazide,Chemical,0.9978489279747009,1647,1657
+41859618,"A Randomized, Multicenter Study Evaluating the Efficacy, Safety and Tolerability of Dapagliflozin + Gliclazide Fixed Dose Combination Over Dapagliflozin Monotherapy in Type 2 Diabetes Mellitus Patients Inadequately Controlled on Metformin Monotherapy.",2026-02-15,10.7759/cureus.103676,41859618,t2dm,Disease,0.9925323128700256,1750,1754
+41859618,"A Randomized, Multicenter Study Evaluating the Efficacy, Safety and Tolerability of Dapagliflozin + Gliclazide Fixed Dose Combination Over Dapagliflozin Monotherapy in Type 2 Diabetes Mellitus Patients Inadequately Controlled on Metformin Monotherapy.",2026-02-15,10.7759/cureus.103676,41859618,metformin,Chemical,0.9976274371147156,1778,1787
+41859618,"A Randomized, Multicenter Study Evaluating the Efficacy, Safety and Tolerability of Dapagliflozin + Gliclazide Fixed Dose Combination Over Dapagliflozin Monotherapy in Type 2 Diabetes Mellitus Patients Inadequately Controlled on Metformin Monotherapy.",2026-02-15,10.7759/cureus.103676,41859618,dapagliflozin,Chemical,0.9978444576263428,1800,1813
+41619161,Henagliflozin enhances frontal neural activation and cognitive function versus gliclazide in type 2 diabetes patients with mild cognitive impairment: A 16-week randomized controlled trial.,2026-01-31,10.1007/s40618-025-02775-2,41619161,henagliflozin,Chemical,0.9981087446212769,0,13
+41619161,Henagliflozin enhances frontal neural activation and cognitive function versus gliclazide in type 2 diabetes patients with mild cognitive impairment: A 16-week randomized controlled trial.,2026-01-31,10.1007/s40618-025-02775-2,41619161,gliclazide,Chemical,0.9980316758155823,79,89
+41619161,Henagliflozin enhances frontal neural activation and cognitive function versus gliclazide in type 2 diabetes patients with mild cognitive impairment: A 16-week randomized controlled trial.,2026-01-31,10.1007/s40618-025-02775-2,41619161,type 2 diabetes,Disease,0.990140974521637,93,108
+41619161,Henagliflozin enhances frontal neural activation and cognitive function versus gliclazide in type 2 diabetes patients with mild cognitive impairment: A 16-week randomized controlled trial.,2026-01-31,10.1007/s40618-025-02775-2,41619161,mild cognitive impairment,Disease,0.9717531800270081,123,148
+41619161,Henagliflozin enhances frontal neural activation and cognitive function versus gliclazide in type 2 diabetes patients with mild cognitive impairment: A 16-week randomized controlled trial.,2026-01-31,10.1007/s40618-025-02775-2,41619161,type 2 diabetes,Disease,0.9895116686820984,292,307
+41619161,Henagliflozin enhances frontal neural activation and cognitive function versus gliclazide in type 2 diabetes patients with mild cognitive impairment: A 16-week randomized controlled trial.,2026-01-31,10.1007/s40618-025-02775-2,41619161,t2d,Disease,0.9876471757888794,309,312
+41619161,Henagliflozin enhances frontal neural activation and cognitive function versus gliclazide in type 2 diabetes patients with mild cognitive impairment: A 16-week randomized controlled trial.,2026-01-31,10.1007/s40618-025-02775-2,41619161,mild cognitive impairment,Disease,0.9740443825721741,328,353
+41619161,Henagliflozin enhances frontal neural activation and cognitive function versus gliclazide in type 2 diabetes patients with mild cognitive impairment: A 16-week randomized controlled trial.,2026-01-31,10.1007/s40618-025-02775-2,41619161,mci,Disease,0.9895768165588379,355,358
+41619161,Henagliflozin enhances frontal neural activation and cognitive function versus gliclazide in type 2 diabetes patients with mild cognitive impairment: A 16-week randomized controlled trial.,2026-01-31,10.1007/s40618-025-02775-2,41619161,henagliflozin,Chemical,0.9981580972671509,397,410
+41619161,Henagliflozin enhances frontal neural activation and cognitive function versus gliclazide in type 2 diabetes patients with mild cognitive impairment: A 16-week randomized controlled trial.,2026-01-31,10.1007/s40618-025-02775-2,41619161,gliclazide,Chemical,0.9978978633880615,414,424
+41619161,Henagliflozin enhances frontal neural activation and cognitive function versus gliclazide in type 2 diabetes patients with mild cognitive impairment: A 16-week randomized controlled trial.,2026-01-31,10.1007/s40618-025-02775-2,41619161,t2d,Disease,0.9902282953262329,532,535
+41619161,Henagliflozin enhances frontal neural activation and cognitive function versus gliclazide in type 2 diabetes patients with mild cognitive impairment: A 16-week randomized controlled trial.,2026-01-31,10.1007/s40618-025-02775-2,41619161,mci,Disease,0.9900537729263306,550,553
+41619161,Henagliflozin enhances frontal neural activation and cognitive function versus gliclazide in type 2 diabetes patients with mild cognitive impairment: A 16-week randomized controlled trial.,2026-01-31,10.1007/s40618-025-02775-2,41619161,henagliflozin,Chemical,0.9980432987213135,587,600
+41619161,Henagliflozin enhances frontal neural activation and cognitive function versus gliclazide in type 2 diabetes patients with mild cognitive impairment: A 16-week randomized controlled trial.,2026-01-31,10.1007/s40618-025-02775-2,41619161,gliclazide,Chemical,0.9978026747703552,604,614
+41619161,Henagliflozin enhances frontal neural activation and cognitive function versus gliclazide in type 2 diabetes patients with mild cognitive impairment: A 16-week randomized controlled trial.,2026-01-31,10.1007/s40618-025-02775-2,41619161,henagliflozin,Chemical,0.9981210231781006,966,979
+41619161,Henagliflozin enhances frontal neural activation and cognitive function versus gliclazide in type 2 diabetes patients with mild cognitive impairment: A 16-week randomized controlled trial.,2026-01-31,10.1007/s40618-025-02775-2,41619161,gliclazide,Chemical,0.9975087642669678,1122,1132
+41619161,Henagliflozin enhances frontal neural activation and cognitive function versus gliclazide in type 2 diabetes patients with mild cognitive impairment: A 16-week randomized controlled trial.,2026-01-31,10.1007/s40618-025-02775-2,41619161,henagliflozin,Chemical,0.9977470636367798,1510,1523
+41619161,Henagliflozin enhances frontal neural activation and cognitive function versus gliclazide in type 2 diabetes patients with mild cognitive impairment: A 16-week randomized controlled trial.,2026-01-31,10.1007/s40618-025-02775-2,41619161,gliclazide,Chemical,0.9974732995033264,1536,1546
+41619161,Henagliflozin enhances frontal neural activation and cognitive function versus gliclazide in type 2 diabetes patients with mild cognitive impairment: A 16-week randomized controlled trial.,2026-01-31,10.1007/s40618-025-02775-2,41619161,henagliflozin,Chemical,0.9981669187545776,1753,1766
+41619161,Henagliflozin enhances frontal neural activation and cognitive function versus gliclazide in type 2 diabetes patients with mild cognitive impairment: A 16-week randomized controlled trial.,2026-01-31,10.1007/s40618-025-02775-2,41619161,t2d,Disease,0.9894515872001648,1870,1873
+41619161,Henagliflozin enhances frontal neural activation and cognitive function versus gliclazide in type 2 diabetes patients with mild cognitive impairment: A 16-week randomized controlled trial.,2026-01-31,10.1007/s40618-025-02775-2,41619161,mci,Disease,0.9883651733398438,1888,1891
+41619161,Henagliflozin enhances frontal neural activation and cognitive function versus gliclazide in type 2 diabetes patients with mild cognitive impairment: A 16-week randomized controlled trial.,2026-01-31,10.1007/s40618-025-02775-2,41619161,gliclazide,Chemical,0.9975574612617493,1915,1925
+41619161,Henagliflozin enhances frontal neural activation and cognitive function versus gliclazide in type 2 diabetes patients with mild cognitive impairment: A 16-week randomized controlled trial.,2026-01-31,10.1007/s40618-025-02775-2,41619161,henagliflozin,Chemical,0.9981700778007507,1976,1989
+42362822,"Repurposing Non-oncologic Drugs via Targeted Nanocarriers for Cancer Therapy: Mechanisms, Synergistic Combinations, and Clinical Translation.",2026-06-26,10.1208/s12249-026-03491-7,42362822,cancer,Disease,0.8151918649673462,62,68
+42362822,"Repurposing Non-oncologic Drugs via Targeted Nanocarriers for Cancer Therapy: Mechanisms, Synergistic Combinations, and Clinical Translation.",2026-06-26,10.1208/s12249-026-03491-7,42362822,mesalamine,Chemical,0.998277485370636,358,368
+42362822,"Repurposing Non-oncologic Drugs via Targeted Nanocarriers for Cancer Therapy: Mechanisms, Synergistic Combinations, and Clinical Translation.",2026-06-26,10.1208/s12249-026-03491-7,42362822,celecoxib,Chemical,0.9980680346488953,370,379
+42362822,"Repurposing Non-oncologic Drugs via Targeted Nanocarriers for Cancer Therapy: Mechanisms, Synergistic Combinations, and Clinical Translation.",2026-06-26,10.1208/s12249-026-03491-7,42362822,gliclazide,Chemical,0.9981806874275208,381,391
+42362822,"Repurposing Non-oncologic Drugs via Targeted Nanocarriers for Cancer Therapy: Mechanisms, Synergistic Combinations, and Clinical Translation.",2026-06-26,10.1208/s12249-026-03491-7,42362822,metformin,Chemical,0.9983114004135132,393,402
+42362822,"Repurposing Non-oncologic Drugs via Targeted Nanocarriers for Cancer Therapy: Mechanisms, Synergistic Combinations, and Clinical Translation.",2026-06-26,10.1208/s12249-026-03491-7,42362822,itraconazole,Chemical,0.9982501864433289,404,416
+42362822,"Repurposing Non-oncologic Drugs via Targeted Nanocarriers for Cancer Therapy: Mechanisms, Synergistic Combinations, and Clinical Translation.",2026-06-26,10.1208/s12249-026-03491-7,42362822,doxycycline,Chemical,0.9983139038085938,422,433
+42362822,"Repurposing Non-oncologic Drugs via Targeted Nanocarriers for Cancer Therapy: Mechanisms, Synergistic Combinations, and Clinical Translation.",2026-06-26,10.1208/s12249-026-03491-7,42362822,toxicity,Disease,0.9600071907043457,642,650
+42362822,"Repurposing Non-oncologic Drugs via Targeted Nanocarriers for Cancer Therapy: Mechanisms, Synergistic Combinations, and Clinical Translation.",2026-06-26,10.1208/s12249-026-03491-7,42362822,cancer,Disease,0.7630922198295593,1173,1179
+42362822,"Repurposing Non-oncologic Drugs via Targeted Nanocarriers for Cancer Therapy: Mechanisms, Synergistic Combinations, and Clinical Translation.",2026-06-26,10.1208/s12249-026-03491-7,42362822,cancer,Disease,0.9399613738059998,1422,1428
+41377795,Gliclazide Challenge Testing as an Alternative Diagnostic Tool for Hepatocyte Nuclear Factor-1-Alpha Maturity Onset Diabetes of the Young.,2025-12-04,10.12890/2025_005892,41377795,gliclazide,Chemical,0.9977169036865234,0,10
+41377795,Gliclazide Challenge Testing as an Alternative Diagnostic Tool for Hepatocyte Nuclear Factor-1-Alpha Maturity Onset Diabetes of the Young.,2025-12-04,10.12890/2025_005892,41377795,maturity onset diabetes of the,Disease,0.8465224504470825,101,131
+41377795,Gliclazide Challenge Testing as an Alternative Diagnostic Tool for Hepatocyte Nuclear Factor-1-Alpha Maturity Onset Diabetes of the Young.,2025-12-04,10.12890/2025_005892,41377795,diabetes,Disease,0.8690389394760132,193,201
+41377795,Gliclazide Challenge Testing as an Alternative Diagnostic Tool for Hepatocyte Nuclear Factor-1-Alpha Maturity Onset Diabetes of the Young.,2025-12-04,10.12890/2025_005892,41377795,maturity - onset diabetes of the young type 3,Disease,0.8868680596351624,237,280
+41377795,Gliclazide Challenge Testing as an Alternative Diagnostic Tool for Hepatocyte Nuclear Factor-1-Alpha Maturity Onset Diabetes of the Young.,2025-12-04,10.12890/2025_005892,41377795,mody 3,Disease,0.9554792046546936,282,288
+41377795,Gliclazide Challenge Testing as an Alternative Diagnostic Tool for Hepatocyte Nuclear Factor-1-Alpha Maturity Onset Diabetes of the Young.,2025-12-04,10.12890/2025_005892,41377795,type 1,Disease,0.9304170608520508,316,322
+41377795,Gliclazide Challenge Testing as an Alternative Diagnostic Tool for Hepatocyte Nuclear Factor-1-Alpha Maturity Onset Diabetes of the Young.,2025-12-04,10.12890/2025_005892,41377795,type 2 diabetes,Disease,0.9381675124168396,326,341
+41377795,Gliclazide Challenge Testing as an Alternative Diagnostic Tool for Hepatocyte Nuclear Factor-1-Alpha Maturity Onset Diabetes of the Young.,2025-12-04,10.12890/2025_005892,41377795,type 1 diabetes,Disease,0.9666568636894226,497,512
+41377795,Gliclazide Challenge Testing as an Alternative Diagnostic Tool for Hepatocyte Nuclear Factor-1-Alpha Maturity Onset Diabetes of the Young.,2025-12-04,10.12890/2025_005892,41377795,hyperglycaemia,Disease,0.996178925037384,544,558
+41377795,Gliclazide Challenge Testing as an Alternative Diagnostic Tool for Hepatocyte Nuclear Factor-1-Alpha Maturity Onset Diabetes of the Young.,2025-12-04,10.12890/2025_005892,41377795,hypoglycaemia,Disease,0.9942716360092163,617,630
+41377795,Gliclazide Challenge Testing as an Alternative Diagnostic Tool for Hepatocyte Nuclear Factor-1-Alpha Maturity Onset Diabetes of the Young.,2025-12-04,10.12890/2025_005892,41377795,mody,Disease,0.9798218011856079,793,797
+41377795,Gliclazide Challenge Testing as an Alternative Diagnostic Tool for Hepatocyte Nuclear Factor-1-Alpha Maturity Onset Diabetes of the Young.,2025-12-04,10.12890/2025_005892,41377795,glicazide,Chemical,0.997731626033783,860,869
+41377795,Gliclazide Challenge Testing as an Alternative Diagnostic Tool for Hepatocyte Nuclear Factor-1-Alpha Maturity Onset Diabetes of the Young.,2025-12-04,10.12890/2025_005892,41377795,glucose,Chemical,0.9110276699066162,939,946
+41377795,Gliclazide Challenge Testing as an Alternative Diagnostic Tool for Hepatocyte Nuclear Factor-1-Alpha Maturity Onset Diabetes of the Young.,2025-12-04,10.12890/2025_005892,41377795,gliclazide,Chemical,0.9978463053703308,1066,1076
+41377795,Gliclazide Challenge Testing as an Alternative Diagnostic Tool for Hepatocyte Nuclear Factor-1-Alpha Maturity Onset Diabetes of the Young.,2025-12-04,10.12890/2025_005892,41377795,hypoglycaemia,Disease,0.9935019612312317,1119,1132
+41377795,Gliclazide Challenge Testing as an Alternative Diagnostic Tool for Hepatocyte Nuclear Factor-1-Alpha Maturity Onset Diabetes of the Young.,2025-12-04,10.12890/2025_005892,41377795,gliclazide,Chemical,0.9978436827659607,1171,1181
+41377795,Gliclazide Challenge Testing as an Alternative Diagnostic Tool for Hepatocyte Nuclear Factor-1-Alpha Maturity Onset Diabetes of the Young.,2025-12-04,10.12890/2025_005892,41377795,maturity - onset diabetes of the,Disease,0.9487215876579285,1272,1302
+41377795,Gliclazide Challenge Testing as an Alternative Diagnostic Tool for Hepatocyte Nuclear Factor-1-Alpha Maturity Onset Diabetes of the Young.,2025-12-04,10.12890/2025_005892,41377795,diabetes,Disease,0.9638793468475342,1386,1394
+41377795,Gliclazide Challenge Testing as an Alternative Diagnostic Tool for Hepatocyte Nuclear Factor-1-Alpha Maturity Onset Diabetes of the Young.,2025-12-04,10.12890/2025_005892,41377795,hypoglycaemia,Disease,0.9925838708877563,1452,1465
+41377795,Gliclazide Challenge Testing as an Alternative Diagnostic Tool for Hepatocyte Nuclear Factor-1-Alpha Maturity Onset Diabetes of the Young.,2025-12-04,10.12890/2025_005892,41377795,maturity - onset diabetes of the,Disease,0.9452743530273438,1544,1574
+41377795,Gliclazide Challenge Testing as an Alternative Diagnostic Tool for Hepatocyte Nuclear Factor-1-Alpha Maturity Onset Diabetes of the Young.,2025-12-04,10.12890/2025_005892,41377795,gliclazide,Chemical,0.9978103041648865,1638,1648
+41377795,Gliclazide Challenge Testing as an Alternative Diagnostic Tool for Hepatocyte Nuclear Factor-1-Alpha Maturity Onset Diabetes of the Young.,2025-12-04,10.12890/2025_005892,41377795,sulfonylurea,Chemical,0.9874497652053833,1745,1757
+41377795,Gliclazide Challenge Testing as an Alternative Diagnostic Tool for Hepatocyte Nuclear Factor-1-Alpha Maturity Onset Diabetes of the Young.,2025-12-04,10.12890/2025_005892,41377795,maturity - onset diabetes of the,Disease,0.9579494595527649,1799,1829
+41377795,Gliclazide Challenge Testing as an Alternative Diagnostic Tool for Hepatocyte Nuclear Factor-1-Alpha Maturity Onset Diabetes of the Young.,2025-12-04,10.12890/2025_005892,41377795,maturity - onset diabetes of the,Disease,0.9737882614135742,1913,1943
+41377795,Gliclazide Challenge Testing as an Alternative Diagnostic Tool for Hepatocyte Nuclear Factor-1-Alpha Maturity Onset Diabetes of the Young.,2025-12-04,10.12890/2025_005892,41377795,sulfonylureas,Chemical,0.9613764882087708,1989,2002
+41377795,Gliclazide Challenge Testing as an Alternative Diagnostic Tool for Hepatocyte Nuclear Factor-1-Alpha Maturity Onset Diabetes of the Young.,2025-12-04,10.12890/2025_005892,41377795,hypoglycaemic,Disease,0.984419584274292,2057,2070
+41985610,"Spatial occurrence and distribution of micropollutants (pharmaceuticals and personal care products) in the eThekwini catchment, South Africa.",2026-04-14,10.1016/j.envpol.2026.128139,41985610,benzophenone - 3,Chemical,0.988564670085907,1567,1581
+41985610,"Spatial occurrence and distribution of micropollutants (pharmaceuticals and personal care products) in the eThekwini catchment, South Africa.",2026-04-14,10.1016/j.envpol.2026.128139,41985610,metformin,Chemical,0.9974094033241272,1583,1592
+41985610,"Spatial occurrence and distribution of micropollutants (pharmaceuticals and personal care products) in the eThekwini catchment, South Africa.",2026-04-14,10.1016/j.envpol.2026.128139,41985610,gliclazide,Chemical,0.9973662495613098,1594,1604
+41985610,"Spatial occurrence and distribution of micropollutants (pharmaceuticals and personal care products) in the eThekwini catchment, South Africa.",2026-04-14,10.1016/j.envpol.2026.128139,41985610,atenolol,Chemical,0.9971178770065308,1606,1614
+41985610,"Spatial occurrence and distribution of micropollutants (pharmaceuticals and personal care products) in the eThekwini catchment, South Africa.",2026-04-14,10.1016/j.envpol.2026.128139,41985610,carbamazepine,Chemical,0.9977068901062012,1616,1629
+41985610,"Spatial occurrence and distribution of micropollutants (pharmaceuticals and personal care products) in the eThekwini catchment, South Africa.",2026-04-14,10.1016/j.envpol.2026.128139,41985610,"carbamazepine - 10, 11 - epoxide",Chemical,0.9611445665359497,1631,1658
+41985610,"Spatial occurrence and distribution of micropollutants (pharmaceuticals and personal care products) in the eThekwini catchment, South Africa.",2026-04-14,10.1016/j.envpol.2026.128139,41985610,"10, 11 - dihydro - 10 - hydroxycarbamazepine",Chemical,0.9897876977920532,1660,1697
+41985610,"Spatial occurrence and distribution of micropollutants (pharmaceuticals and personal care products) in the eThekwini catchment, South Africa.",2026-04-14,10.1016/j.envpol.2026.128139,41985610,nicotine,Chemical,0.9971264004707336,1699,1707
+41985610,"Spatial occurrence and distribution of micropollutants (pharmaceuticals and personal care products) in the eThekwini catchment, South Africa.",2026-04-14,10.1016/j.envpol.2026.128139,41985610,caffeine,Chemical,0.9972604513168335,1709,1717
+41985610,"Spatial occurrence and distribution of micropollutants (pharmaceuticals and personal care products) in the eThekwini catchment, South Africa.",2026-04-14,10.1016/j.envpol.2026.128139,41985610,"1, 7 - dimethylxanthine",Chemical,0.9915165305137634,1719,1739
+41985610,"Spatial occurrence and distribution of micropollutants (pharmaceuticals and personal care products) in the eThekwini catchment, South Africa.",2026-04-14,10.1016/j.envpol.2026.128139,41985610,n - desmethyltramadol,Chemical,0.9895396828651428,1741,1760
+41985610,"Spatial occurrence and distribution of micropollutants (pharmaceuticals and personal care products) in the eThekwini catchment, South Africa.",2026-04-14,10.1016/j.envpol.2026.128139,41985610,o - desmethyltramadol,Chemical,0.9870859384536743,1766,1785
+41985610,"Spatial occurrence and distribution of micropollutants (pharmaceuticals and personal care products) in the eThekwini catchment, South Africa.",2026-04-14,10.1016/j.envpol.2026.128139,41985610,citalopram,Chemical,0.997763991355896,1836,1846
+41985610,"Spatial occurrence and distribution of micropollutants (pharmaceuticals and personal care products) in the eThekwini catchment, South Africa.",2026-04-14,10.1016/j.envpol.2026.128139,41985610,"1, 7 - dimethylxanthine",Chemical,0.9918298721313477,1848,1868
+41985610,"Spatial occurrence and distribution of micropollutants (pharmaceuticals and personal care products) in the eThekwini catchment, South Africa.",2026-04-14,10.1016/j.envpol.2026.128139,41985610,nicotine,Chemical,0.9969831109046936,1870,1878
+41985610,"Spatial occurrence and distribution of micropollutants (pharmaceuticals and personal care products) in the eThekwini catchment, South Africa.",2026-04-14,10.1016/j.envpol.2026.128139,41985610,metformin,Chemical,0.997878909111023,1880,1889
+41985610,"Spatial occurrence and distribution of micropollutants (pharmaceuticals and personal care products) in the eThekwini catchment, South Africa.",2026-04-14,10.1016/j.envpol.2026.128139,41985610,atenolol,Chemical,0.997625470161438,1891,1899
+41985610,"Spatial occurrence and distribution of micropollutants (pharmaceuticals and personal care products) in the eThekwini catchment, South Africa.",2026-04-14,10.1016/j.envpol.2026.128139,41985610,cimetidine,Chemical,0.9978919625282288,1901,1911
+41985610,"Spatial occurrence and distribution of micropollutants (pharmaceuticals and personal care products) in the eThekwini catchment, South Africa.",2026-04-14,10.1016/j.envpol.2026.128139,41985610,benzophenone - 3,Chemical,0.9915103912353516,1913,1927
+41985610,"Spatial occurrence and distribution of micropollutants (pharmaceuticals and personal care products) in the eThekwini catchment, South Africa.",2026-04-14,10.1016/j.envpol.2026.128139,41985610,gliclazide,Chemical,0.9977092742919922,1929,1939
+41985610,"Spatial occurrence and distribution of micropollutants (pharmaceuticals and personal care products) in the eThekwini catchment, South Africa.",2026-04-14,10.1016/j.envpol.2026.128139,41985610,quetiapine,Chemical,0.9973810315132141,1941,1951
+41985610,"Spatial occurrence and distribution of micropollutants (pharmaceuticals and personal care products) in the eThekwini catchment, South Africa.",2026-04-14,10.1016/j.envpol.2026.128139,41985610,"10, 11 - dihydro - 10 - hydroxycarbamazepine",Chemical,0.9909191131591797,1957,1994
+41985610,"Spatial occurrence and distribution of micropollutants (pharmaceuticals and personal care products) in the eThekwini catchment, South Africa.",2026-04-14,10.1016/j.envpol.2026.128139,41985610,"1, 7 - dimethylxanthine",Chemical,0.9936957955360413,2208,2228
+41985610,"Spatial occurrence and distribution of micropollutants (pharmaceuticals and personal care products) in the eThekwini catchment, South Africa.",2026-04-14,10.1016/j.envpol.2026.128139,41985610,caffeine,Chemical,0.9969780445098877,2246,2254
+41985610,"Spatial occurrence and distribution of micropollutants (pharmaceuticals and personal care products) in the eThekwini catchment, South Africa.",2026-04-14,10.1016/j.envpol.2026.128139,41985610,acetaminophen,Chemical,0.9982707500457764,2386,2399
+41985610,"Spatial occurrence and distribution of micropollutants (pharmaceuticals and personal care products) in the eThekwini catchment, South Africa.",2026-04-14,10.1016/j.envpol.2026.128139,41985610,desvenlafaxine,Chemical,0.9976187944412231,2401,2415
+41985610,"Spatial occurrence and distribution of micropollutants (pharmaceuticals and personal care products) in the eThekwini catchment, South Africa.",2026-04-14,10.1016/j.envpol.2026.128139,41985610,"carbamazepine - 10, 11 - epoxide",Chemical,0.9898051023483276,2417,2444
+41985610,"Spatial occurrence and distribution of micropollutants (pharmaceuticals and personal care products) in the eThekwini catchment, South Africa.",2026-04-14,10.1016/j.envpol.2026.128139,41985610,nicotine,Chemical,0.9984933137893677,2446,2454
+41985610,"Spatial occurrence and distribution of micropollutants (pharmaceuticals and personal care products) in the eThekwini catchment, South Africa.",2026-04-14,10.1016/j.envpol.2026.128139,41985610,caffeine,Chemical,0.9985089898109436,2456,2464
+41985610,"Spatial occurrence and distribution of micropollutants (pharmaceuticals and personal care products) in the eThekwini catchment, South Africa.",2026-04-14,10.1016/j.envpol.2026.128139,41985610,"1, 7 - dimethylxanthine",Chemical,0.9952042698860168,2470,2490
+41442030,Correction to: Cost-Consequences of Adding Gliclazide Modified Release to Metformin in Patients with Uncontrolled Type 2 Diabetes in the United Arab Emirates.,2026-02-01,10.1007/s12325-025-03451-w,41442030,gliclazide,Chemical,0.9982773661613464,43,53
+41442030,Correction to: Cost-Consequences of Adding Gliclazide Modified Release to Metformin in Patients with Uncontrolled Type 2 Diabetes in the United Arab Emirates.,2026-02-01,10.1007/s12325-025-03451-w,41442030,metformin,Chemical,0.998102605342865,74,83
+41442030,Correction to: Cost-Consequences of Adding Gliclazide Modified Release to Metformin in Patients with Uncontrolled Type 2 Diabetes in the United Arab Emirates.,2026-02-01,10.1007/s12325-025-03451-w,41442030,type 2 diabetes,Disease,0.9933273792266846,114,129
+41442030,Correction to: Cost-Consequences of Adding Gliclazide Modified Release to Metformin in Patients with Uncontrolled Type 2 Diabetes in the United Arab Emirates.,2026-02-01,10.1007/s12325-025-03451-w,41442030,gliclazide,Chemical,0.9982195496559143,201,211
+41442030,Correction to: Cost-Consequences of Adding Gliclazide Modified Release to Metformin in Patients with Uncontrolled Type 2 Diabetes in the United Arab Emirates.,2026-02-01,10.1007/s12325-025-03451-w,41442030,metformin,Chemical,0.9981984496116638,232,241
+41442030,Correction to: Cost-Consequences of Adding Gliclazide Modified Release to Metformin in Patients with Uncontrolled Type 2 Diabetes in the United Arab Emirates.,2026-02-01,10.1007/s12325-025-03451-w,41442030,type 2 diabetes,Disease,0.9931378364562988,272,287
+41621217,Modulation of circulating extracellular vesicles by antihyperglycemic therapies: A pilot randomized controlled trial.,2026-01-27,10.1016/j.jdiacomp.2026.109273,41621217,vascular dysfunction,Disease,0.9322622418403625,190,210
+41621217,Modulation of circulating extracellular vesicles by antihyperglycemic therapies: A pilot randomized controlled trial.,2026-01-27,10.1016/j.jdiacomp.2026.109273,41621217,diabetes,Disease,0.9931094646453857,214,222
+41621217,Modulation of circulating extracellular vesicles by antihyperglycemic therapies: A pilot randomized controlled trial.,2026-01-27,10.1016/j.jdiacomp.2026.109273,41621217,type 2 diabetes,Disease,0.9913797974586487,320,335
+41621217,Modulation of circulating extracellular vesicles by antihyperglycemic therapies: A pilot randomized controlled trial.,2026-01-27,10.1016/j.jdiacomp.2026.109273,41621217,t2d,Disease,0.9924456477165222,337,340
+41621217,Modulation of circulating extracellular vesicles by antihyperglycemic therapies: A pilot randomized controlled trial.,2026-01-27,10.1016/j.jdiacomp.2026.109273,41621217,t2d,Disease,0.9926369190216064,452,455
+41621217,Modulation of circulating extracellular vesicles by antihyperglycemic therapies: A pilot randomized controlled trial.,2026-01-27,10.1016/j.jdiacomp.2026.109273,41621217,liraglutide,Chemical,0.9981005787849426,509,520
+41621217,Modulation of circulating extracellular vesicles by antihyperglycemic therapies: A pilot randomized controlled trial.,2026-01-27,10.1016/j.jdiacomp.2026.109273,41621217,empagliflozin,Chemical,0.9982225894927979,522,535
+41621217,Modulation of circulating extracellular vesicles by antihyperglycemic therapies: A pilot randomized controlled trial.,2026-01-27,10.1016/j.jdiacomp.2026.109273,41621217,gliclazide,Chemical,0.9982592463493347,541,551
+41621217,Modulation of circulating extracellular vesicles by antihyperglycemic therapies: A pilot randomized controlled trial.,2026-01-27,10.1016/j.jdiacomp.2026.109273,41621217,t2d,Disease,0.9930343627929688,651,654
+41621217,Modulation of circulating extracellular vesicles by antihyperglycemic therapies: A pilot randomized controlled trial.,2026-01-27,10.1016/j.jdiacomp.2026.109273,41621217,t2d,Disease,0.9932999610900879,899,902
+41621217,Modulation of circulating extracellular vesicles by antihyperglycemic therapies: A pilot randomized controlled trial.,2026-01-27,10.1016/j.jdiacomp.2026.109273,41621217,liraglutide,Chemical,0.9979541301727295,930,941
+41621217,Modulation of circulating extracellular vesicles by antihyperglycemic therapies: A pilot randomized controlled trial.,2026-01-27,10.1016/j.jdiacomp.2026.109273,41621217,empagliflozin,Chemical,0.9982476234436035,952,965
+41621217,Modulation of circulating extracellular vesicles by antihyperglycemic therapies: A pilot randomized controlled trial.,2026-01-27,10.1016/j.jdiacomp.2026.109273,41621217,gliclazide,Chemical,0.9982900619506836,979,989
+41621217,Modulation of circulating extracellular vesicles by antihyperglycemic therapies: A pilot randomized controlled trial.,2026-01-27,10.1016/j.jdiacomp.2026.109273,41621217,metformin,Chemical,0.9975847005844116,1013,1022
+41621217,Modulation of circulating extracellular vesicles by antihyperglycemic therapies: A pilot randomized controlled trial.,2026-01-27,10.1016/j.jdiacomp.2026.109273,41621217,t2d,Disease,0.9928455948829651,1214,1217
+41621217,Modulation of circulating extracellular vesicles by antihyperglycemic therapies: A pilot randomized controlled trial.,2026-01-27,10.1016/j.jdiacomp.2026.109273,41621217,t2d,Disease,0.9933164119720459,1400,1403
+41621217,Modulation of circulating extracellular vesicles by antihyperglycemic therapies: A pilot randomized controlled trial.,2026-01-27,10.1016/j.jdiacomp.2026.109273,41621217,vascular complications,Disease,0.8130598068237305,1433,1455
+41621217,Modulation of circulating extracellular vesicles by antihyperglycemic therapies: A pilot randomized controlled trial.,2026-01-27,10.1016/j.jdiacomp.2026.109273,41621217,liraglutide,Chemical,0.9979138374328613,1534,1545
+41621217,Modulation of circulating extracellular vesicles by antihyperglycemic therapies: A pilot randomized controlled trial.,2026-01-27,10.1016/j.jdiacomp.2026.109273,41621217,t2d,Disease,0.9932246804237366,1761,1764
+42437555,Sulfonylureas beyond diabetes: A comprehensive review on anticancer and off-target effects (1956-2025).,2026-06-06,10.1016/j.ejmech.2026.119009,42437555,sulfonylureas,Chemical,0.9664923548698425,0,13
+42437555,Sulfonylureas beyond diabetes: A comprehensive review on anticancer and off-target effects (1956-2025).,2026-06-06,10.1016/j.ejmech.2026.119009,42437555,diabetes,Disease,0.9854458570480347,21,29
+42437555,Sulfonylureas beyond diabetes: A comprehensive review on anticancer and off-target effects (1956-2025).,2026-06-06,10.1016/j.ejmech.2026.119009,42437555,sulfonylureas,Chemical,0.9935206770896912,103,116
+42437555,Sulfonylureas beyond diabetes: A comprehensive review on anticancer and off-target effects (1956-2025).,2026-06-06,10.1016/j.ejmech.2026.119009,42437555,type 2 diabetes,Disease,0.987832248210907,158,173
+42437555,Sulfonylureas beyond diabetes: A comprehensive review on anticancer and off-target effects (1956-2025).,2026-06-06,10.1016/j.ejmech.2026.119009,42437555,glibenclamide,Chemical,0.9976667165756226,1042,1055
+42437555,Sulfonylureas beyond diabetes: A comprehensive review on anticancer and off-target effects (1956-2025).,2026-06-06,10.1016/j.ejmech.2026.119009,42437555,gliclazide,Chemical,0.9980320930480957,1133,1143
+42437555,Sulfonylureas beyond diabetes: A comprehensive review on anticancer and off-target effects (1956-2025).,2026-06-06,10.1016/j.ejmech.2026.119009,42437555,glimepiride,Chemical,0.9977884292602539,1222,1233
+42437555,Sulfonylureas beyond diabetes: A comprehensive review on anticancer and off-target effects (1956-2025).,2026-06-06,10.1016/j.ejmech.2026.119009,42437555,tolbutamide,Chemical,0.9982425570487976,1311,1322
+42437555,Sulfonylureas beyond diabetes: A comprehensive review on anticancer and off-target effects (1956-2025).,2026-06-06,10.1016/j.ejmech.2026.119009,42437555,chlorpropamide,Chemical,0.9977348446846008,1397,1411
+42158779,Sustained Insulin Independence Following Lifestyle Intervention in a 78-Year-Old Patient With Long-Standing Type 2 Diabetes: A Six-Year Follow-Up Case Report.,2026-04-18,10.7759/cureus.107273,42158779,type 2 diabetes,Disease,0.9907469749450684,108,123
+42158779,Sustained Insulin Independence Following Lifestyle Intervention in a 78-Year-Old Patient With Long-Standing Type 2 Diabetes: A Six-Year Follow-Up Case Report.,2026-04-18,10.7759/cureus.107273,42158779,type 2 diabetes,Disease,0.9892387986183167,216,231
+42158779,Sustained Insulin Independence Following Lifestyle Intervention in a 78-Year-Old Patient With Long-Standing Type 2 Diabetes: A Six-Year Follow-Up Case Report.,2026-04-18,10.7759/cureus.107273,42158779,t2d,Disease,0.9900804162025452,233,236
+42158779,Sustained Insulin Independence Following Lifestyle Intervention in a 78-Year-Old Patient With Long-Standing Type 2 Diabetes: A Six-Year Follow-Up Case Report.,2026-04-18,10.7759/cureus.107273,42158779,t2d,Disease,0.9915643930435181,496,499
+42158779,Sustained Insulin Independence Following Lifestyle Intervention in a 78-Year-Old Patient With Long-Standing Type 2 Diabetes: A Six-Year Follow-Up Case Report.,2026-04-18,10.7759/cureus.107273,42158779,t2d,Disease,0.9922558069229126,582,585
+42158779,Sustained Insulin Independence Following Lifestyle Intervention in a 78-Year-Old Patient With Long-Standing Type 2 Diabetes: A Six-Year Follow-Up Case Report.,2026-04-18,10.7759/cureus.107273,42158779,diabetes,Disease,0.8754509687423706,910,918
+42158779,Sustained Insulin Independence Following Lifestyle Intervention in a 78-Year-Old Patient With Long-Standing Type 2 Diabetes: A Six-Year Follow-Up Case Report.,2026-04-18,10.7759/cureus.107273,42158779,gliclazide,Chemical,0.9978305697441101,1604,1614
+42158779,Sustained Insulin Independence Following Lifestyle Intervention in a 78-Year-Old Patient With Long-Standing Type 2 Diabetes: A Six-Year Follow-Up Case Report.,2026-04-18,10.7759/cureus.107273,42158779,t2d,Disease,0.9934273958206177,1847,1850
+42158779,Sustained Insulin Independence Following Lifestyle Intervention in a 78-Year-Old Patient With Long-Standing Type 2 Diabetes: A Six-Year Follow-Up Case Report.,2026-04-18,10.7759/cureus.107273,42158779,diabetes,Disease,0.7524577379226685,1996,2004
+41388954,Deoxycholic acid as a permeability enhancer of two antidiabetic drugs with distinctive biopharmaceutical properties through biological barriers.,2026-01-06,10.1080/03639045.2025.2604256,41388954,deoxycholic acid,Chemical,0.9969754219055176,0,16
+41388954,Deoxycholic acid as a permeability enhancer of two antidiabetic drugs with distinctive biopharmaceutical properties through biological barriers.,2026-01-06,10.1080/03639045.2025.2604256,41388954,gliclazide,Chemical,0.997829258441925,612,622
+41388954,Deoxycholic acid as a permeability enhancer of two antidiabetic drugs with distinctive biopharmaceutical properties through biological barriers.,2026-01-06,10.1080/03639045.2025.2604256,41388954,metformin,Chemical,0.9978771209716797,653,662
+41388954,Deoxycholic acid as a permeability enhancer of two antidiabetic drugs with distinctive biopharmaceutical properties through biological barriers.,2026-01-06,10.1080/03639045.2025.2604256,41388954,deoxycholic acid,Chemical,0.9969146847724915,908,924
+41388954,Deoxycholic acid as a permeability enhancer of two antidiabetic drugs with distinctive biopharmaceutical properties through biological barriers.,2026-01-06,10.1080/03639045.2025.2604256,41388954,diabetic,Disease,0.9887976050376892,1039,1047
+41388954,Deoxycholic acid as a permeability enhancer of two antidiabetic drugs with distinctive biopharmaceutical properties through biological barriers.,2026-01-06,10.1080/03639045.2025.2604256,41388954,metformin,Chemical,0.9975680708885193,1061,1070
+41388954,Deoxycholic acid as a permeability enhancer of two antidiabetic drugs with distinctive biopharmaceutical properties through biological barriers.,2026-01-06,10.1080/03639045.2025.2604256,41388954,dca,Chemical,0.9899835586547852,1120,1123
+41388954,Deoxycholic acid as a permeability enhancer of two antidiabetic drugs with distinctive biopharmaceutical properties through biological barriers.,2026-01-06,10.1080/03639045.2025.2604256,41388954,dca,Chemical,0.9880921840667725,1155,1158
+41388954,Deoxycholic acid as a permeability enhancer of two antidiabetic drugs with distinctive biopharmaceutical properties through biological barriers.,2026-01-06,10.1080/03639045.2025.2604256,41388954,dca,Chemical,0.9857847094535828,1262,1265
+41388954,Deoxycholic acid as a permeability enhancer of two antidiabetic drugs with distinctive biopharmaceutical properties through biological barriers.,2026-01-06,10.1080/03639045.2025.2604256,41388954,dca,Chemical,0.9837275743484497,1297,1300
+41388954,Deoxycholic acid as a permeability enhancer of two antidiabetic drugs with distinctive biopharmaceutical properties through biological barriers.,2026-01-06,10.1080/03639045.2025.2604256,41388954,gliclazide,Chemical,0.9977421760559082,1302,1312
+41388954,Deoxycholic acid as a permeability enhancer of two antidiabetic drugs with distinctive biopharmaceutical properties through biological barriers.,2026-01-06,10.1080/03639045.2025.2604256,41388954,dca,Chemical,0.986798107624054,1358,1361
+41388954,Deoxycholic acid as a permeability enhancer of two antidiabetic drugs with distinctive biopharmaceutical properties through biological barriers.,2026-01-06,10.1080/03639045.2025.2604256,41388954,dca,Chemical,0.9825145602226257,1383,1386
+41388954,Deoxycholic acid as a permeability enhancer of two antidiabetic drugs with distinctive biopharmaceutical properties through biological barriers.,2026-01-06,10.1080/03639045.2025.2604256,41388954,dca,Chemical,0.9796875715255737,1432,1435
+41388954,Deoxycholic acid as a permeability enhancer of two antidiabetic drugs with distinctive biopharmaceutical properties through biological barriers.,2026-01-06,10.1080/03639045.2025.2604256,41388954,dca,Chemical,0.9791856408119202,1456,1459
+PPR1185139,Improving Diabetes Management in Older Adults with Cancer: A Quality Improvement Project to Enhance Monitoring During Steroid-Based Systemic Anti-Cancer Therapy,2026-05-04,10.21203/rs.3.rs-8955982/v1,,diabetes,Disease,0.9730203747749329,10,18
+PPR1185139,Improving Diabetes Management in Older Adults with Cancer: A Quality Improvement Project to Enhance Monitoring During Steroid-Based Systemic Anti-Cancer Therapy,2026-05-04,10.21203/rs.3.rs-8955982/v1,,cancer,Disease,0.986905038356781,51,57
+PPR1185139,Improving Diabetes Management in Older Adults with Cancer: A Quality Improvement Project to Enhance Monitoring During Steroid-Based Systemic Anti-Cancer Therapy,2026-05-04,10.21203/rs.3.rs-8955982/v1,,steroid,Chemical,0.8493821024894714,118,125
+PPR1185139,Improving Diabetes Management in Older Adults with Cancer: A Quality Improvement Project to Enhance Monitoring During Steroid-Based Systemic Anti-Cancer Therapy,2026-05-04,10.21203/rs.3.rs-8955982/v1,,steroids,Chemical,0.9813917875289917,243,251
+PPR1185139,Improving Diabetes Management in Older Adults with Cancer: A Quality Improvement Project to Enhance Monitoring During Steroid-Based Systemic Anti-Cancer Therapy,2026-05-04,10.21203/rs.3.rs-8955982/v1,,hyperglycaemia,Disease,0.9856057167053223,299,313
+PPR1185139,Improving Diabetes Management in Older Adults with Cancer: A Quality Improvement Project to Enhance Monitoring During Steroid-Based Systemic Anti-Cancer Therapy,2026-05-04,10.21203/rs.3.rs-8955982/v1,,sih,Disease,0.9706938862800598,315,318
+PPR1185139,Improving Diabetes Management in Older Adults with Cancer: A Quality Improvement Project to Enhance Monitoring During Steroid-Based Systemic Anti-Cancer Therapy,2026-05-04,10.21203/rs.3.rs-8955982/v1,,sih,Disease,0.8140941858291626,575,578
+PPR1185139,Improving Diabetes Management in Older Adults with Cancer: A Quality Improvement Project to Enhance Monitoring During Steroid-Based Systemic Anti-Cancer Therapy,2026-05-04,10.21203/rs.3.rs-8955982/v1,,diabetes,Disease,0.7284942269325256,781,789
+PPR1185139,Improving Diabetes Management in Older Adults with Cancer: A Quality Improvement Project to Enhance Monitoring During Steroid-Based Systemic Anti-Cancer Therapy,2026-05-04,10.21203/rs.3.rs-8955982/v1,,diabetes,Disease,0.8597991466522217,979,987
+PPR1185139,Improving Diabetes Management in Older Adults with Cancer: A Quality Improvement Project to Enhance Monitoring During Steroid-Based Systemic Anti-Cancer Therapy,2026-05-04,10.21203/rs.3.rs-8955982/v1,,steroid,Chemical,0.9673296213150024,1063,1070
+PPR1185139,Improving Diabetes Management in Older Adults with Cancer: A Quality Improvement Project to Enhance Monitoring During Steroid-Based Systemic Anti-Cancer Therapy,2026-05-04,10.21203/rs.3.rs-8955982/v1,,diabetes,Disease,0.9911260008811951,1219,1227
+PPR1185139,Improving Diabetes Management in Older Adults with Cancer: A Quality Improvement Project to Enhance Monitoring During Steroid-Based Systemic Anti-Cancer Therapy,2026-05-04,10.21203/rs.3.rs-8955982/v1,,diabetes,Disease,0.8511128425598145,1243,1251
+PPR1185139,Improving Diabetes Management in Older Adults with Cancer: A Quality Improvement Project to Enhance Monitoring During Steroid-Based Systemic Anti-Cancer Therapy,2026-05-04,10.21203/rs.3.rs-8955982/v1,,gliclazide,Chemical,0.9971005320549011,1319,1329
+PPR1185139,Improving Diabetes Management in Older Adults with Cancer: A Quality Improvement Project to Enhance Monitoring During Steroid-Based Systemic Anti-Cancer Therapy,2026-05-04,10.21203/rs.3.rs-8955982/v1,,hypoglycaemic,Disease,0.9786215424537659,1354,1367
+PPR1185139,Improving Diabetes Management in Older Adults with Cancer: A Quality Improvement Project to Enhance Monitoring During Steroid-Based Systemic Anti-Cancer Therapy,2026-05-04,10.21203/rs.3.rs-8955982/v1,,steroid,Chemical,0.959250807762146,1384,1391
+PPR1185139,Improving Diabetes Management in Older Adults with Cancer: A Quality Improvement Project to Enhance Monitoring During Steroid-Based Systemic Anti-Cancer Therapy,2026-05-04,10.21203/rs.3.rs-8955982/v1,,sih,Disease,0.9055048823356628,1569,1572
+PPR1185139,Improving Diabetes Management in Older Adults with Cancer: A Quality Improvement Project to Enhance Monitoring During Steroid-Based Systemic Anti-Cancer Therapy,2026-05-04,10.21203/rs.3.rs-8955982/v1,,cancer,Disease,0.9871712327003479,1594,1600
+PPR1185139,Improving Diabetes Management in Older Adults with Cancer: A Quality Improvement Project to Enhance Monitoring During Steroid-Based Systemic Anti-Cancer Therapy,2026-05-04,10.21203/rs.3.rs-8955982/v1,,diabetes,Disease,0.914557933807373,1776,1784

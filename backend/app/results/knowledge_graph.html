@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BioGraph AI | Paracetamol</title>
+    <title>BioGraph AI | Gliclazide</title>
     
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -645,7 +645,7 @@
                 <h1>BioConnect <span class="badge">Engine 2.0</span></h1>
                 <p>
                     <i class="fa-solid fa-magnifying-glass" style="font-size:0.7rem;"></i> 
-                    Query: <span class="query-pill">Paracetamol</span>
+                    Query: <span class="query-pill">Gliclazide</span>
                 </p>
             </div>
         </div>
@@ -654,18 +654,18 @@
         <nav class="nav-tabs">
             <button class="nav-tab-btn active" onclick="switchTab('graph')">
                 <i class="fa-solid fa-circle-nodes"></i> Knowledge Map
-                <span class="tab-badge">9</span>
+                <span class="tab-badge">5</span>
             </button>
             <button class="nav-tab-btn" onclick="switchTab('opportunities')">
                 <i class="fa-solid fa-lightbulb"></i> Research Opportunities
-                <span class="tab-badge" id="navOppCount">2</span>
+                <span class="tab-badge" id="navOppCount">3</span>
             </button>
             <button class="nav-tab-btn" onclick="switchTab('drug')">
                 <i class="fa-solid fa-capsules"></i> Drug Profile
             </button>
             <button class="nav-tab-btn" onclick="switchTab('evidence')">
                 <i class="fa-solid fa-book-medical"></i> Evidence Matrix
-                <span class="tab-badge">8</span>
+                <span class="tab-badge">5</span>
             </button>
             <button class="nav-tab-btn" onclick="switchTab('analytics')">
                 <i class="fa-solid fa-chart-pie"></i> Analytics
@@ -733,7 +733,7 @@
                     </div>
                     <div style="display:flex; gap:12px; align-items:center;">
                         <div style="text-align:right;">
-                            <div style="font-size:1.3rem; font-weight:800; color:var(--accent-cyan); font-family:var(--font-mono);">2</div>
+                            <div style="font-size:1.3rem; font-weight:800; color:var(--accent-cyan); font-family:var(--font-mono);">3</div>
                             <div style="font-size:0.7rem; color:var(--text-muted); text-transform:uppercase;">Hypotheses</div>
                         </div>
                     </div>
@@ -753,19 +753,19 @@
                     <!-- Left: 2D Chemical Diagram -->
                     <div class="drug-structure-card">
                         <h3 style="font-size:1.1rem; font-weight:700;" id="drugCardName">Drug Molecule</h3>
-                        <img class="structure-img" id="drugStructureImg" src="https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/1983/PNG" alt="Chemical Structure">
+                        <img class="structure-img" id="drugStructureImg" src="https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/3475/PNG" alt="Chemical Structure">
                         <div style="display:flex; flex-direction:column; gap:6px; width:100%; font-size:0.8rem; text-align:left;">
                             <div style="display:flex; justify-content:space-between;">
                                 <span style="color:var(--text-muted);">PubChem CID:</span>
-                                <span style="font-family:var(--font-mono); font-weight:700;" id="drugCID">1983</span>
+                                <span style="font-family:var(--font-mono); font-weight:700;" id="drugCID">3475</span>
                             </div>
                             <div style="display:flex; justify-content:space-between;">
                                 <span style="color:var(--text-muted);">Formula:</span>
-                                <span style="font-family:var(--font-mono); font-weight:700;" id="drugFormula">C8H9NO2</span>
+                                <span style="font-family:var(--font-mono); font-weight:700;" id="drugFormula">C15H21N3O3S</span>
                             </div>
                             <div style="display:flex; justify-content:space-between;">
                                 <span style="color:var(--text-muted);">Mol Weight:</span>
-                                <span style="font-family:var(--font-mono); font-weight:700;" id="drugWeight">151.16 g/mol</span>
+                                <span style="font-family:var(--font-mono); font-weight:700;" id="drugWeight">323.40 g/mol</span>
                             </div>
                         </div>
                     </div>
@@ -774,7 +774,7 @@
                     <div class="drug-info-card">
                         <div>
                             <span style="font-size:0.75rem; color:var(--text-muted); text-transform:uppercase; font-weight:700;">Drug Class</span>
-                            <h2 style="font-size:1.3rem; font-weight:800; color:var(--primary-light); margin-top:2px;" id="drugClassText">Beta-Adrenergic Blocker</h2>
+                            <h2 style="font-size:1.3rem; font-weight:800; color:var(--primary-light); margin-top:2px;" id="drugClassText">Small Molecule Pharmaceutical</h2>
                         </div>
 
                         <div>
@@ -795,11 +795,11 @@
                         <div style="display:flex; gap:20px; background:var(--bg-tertiary); padding:14px; border-radius:var(--radius-md);">
                             <div>
                                 <div style="font-size:0.75rem; color:var(--text-muted);">Active Clinical Studies</div>
-                                <div style="font-size:1.2rem; font-weight:800; color:var(--accent-cyan); font-family:var(--font-mono);" id="drugStudyCount">450 Studies</div>
+                                <div style="font-size:1.2rem; font-weight:800; color:var(--accent-cyan); font-family:var(--font-mono);" id="drugStudyCount">35 Studies</div>
                             </div>
                             <div>
                                 <div style="font-size:0.75rem; color:var(--text-muted);">Research Activity</div>
-                                <div style="font-size:1rem; font-weight:700; color:var(--accent-emerald);" id="drugTrendText">Increasing (Last 6 months)</div>
+                                <div style="font-size:1rem; font-weight:700; color:var(--accent-emerald);" id="drugTrendText">Active</div>
                             </div>
                         </div>
                     </div>
@@ -887,13 +887,13 @@
 
     <!-- Application JavaScript Logic -->
     <script>
-        const RAW_NODES = [{"name": "paracetamol", "type": "Chemical"}, {"name": "attention deficit hyperactivity disorder", "type": "Disease"}, {"name": "overdose", "type": "Disease"}, {"name": "sjs", "type": "Disease"}, {"name": "ten", "type": "Disease"}, {"name": "agep", "type": "Disease"}, {"name": "dress", "type": "Disease"}, {"name": "low back pain", "type": "Disease"}, {"name": "hypotension", "type": "Disease"}];
-        const RAW_EDGES = [{"source": "paracetamol", "target": "attention deficit hyperactivity disorder", "relation": "causes", "confidence": 0.8145806789398193}, {"source": "paracetamol", "target": "overdose", "relation": "treats", "confidence": 0.7533189058303833}, {"source": "paracetamol", "target": "sjs", "relation": "causes", "confidence": 0.991732120513916}, {"source": "paracetamol", "target": "ten", "relation": "causes", "confidence": 0.9828348159790039}, {"source": "paracetamol", "target": "agep", "relation": "causes", "confidence": 0.9803395867347717}, {"source": "paracetamol", "target": "dress", "relation": "causes", "confidence": 0.61222904920578}, {"source": "paracetamol", "target": "low back pain", "relation": "treats", "confidence": 0.9942079782485962}, {"source": "paracetamol", "target": "hypotension", "relation": "causes", "confidence": 0.9952002763748169}];
-        const RAW_EVIDENCE = [{"subject": "paracetamol", "subject_type": "Chemical", "relation": "causes", "object": "attention deficit hyperactivity disorder", "object_type": "Disease", "relation_confidence": 0.8145806789398193, "paper_id": "MED-34681816", "title": "Paracetamol (Acetaminophen) and the Developing Brain.", "publication_date": "2021", "doi": "10.1007/s11356-021-14136-6", "pmid": "34681816", "evidence_text": "Paracetamol is commonly used to treat fever and pain in pregnant women, but there are growing concerns that this may cause attention deficit hyperactivity disorder and autism spectrum disorder in the offspring."}, {"subject": "paracetamol", "subject_type": "Chemical", "relation": "treats", "object": "overdose", "object_type": "Disease", "relation_confidence": 0.7533189058303833, "paper_id": "MED-29473717", "title": "Interventions for paracetamol (acetaminophen) overdose.", "publication_date": "2018", "doi": "10.1002/14651858.CD003328.pub2", "pmid": "29473717", "evidence_text": "Interventions for paracetamol (acetaminophen) overdose.."}, {"subject": "paracetamol", "subject_type": "Chemical", "relation": "causes", "object": "sjs", "object_type": "Disease", "relation_confidence": 0.991732120513916, "paper_id": "MED-37151075", "title": "Paracetamol (Acetaminophen)-associated SJS, TEN, AGEP, and DRESS Syndromes - A Narrative Review.", "publication_date": "2024", "doi": "10.2174/1574886318666230505144014", "pmid": "37151075", "evidence_text": "Paracetamol (Acetaminophen)-associated SJS, TEN, AGEP, and DRESS Syndromes - A Narrative Review.."}, {"subject": "paracetamol", "subject_type": "Chemical", "relation": "causes", "object": "ten", "object_type": "Disease", "relation_confidence": 0.9828348159790039, "paper_id": "MED-37151075", "title": "Paracetamol (Acetaminophen)-associated SJS, TEN, AGEP, and DRESS Syndromes - A Narrative Review.", "publication_date": "2024", "doi": "10.2174/1574886318666230505144014", "pmid": "37151075", "evidence_text": "Paracetamol (Acetaminophen)-associated SJS, TEN, AGEP, and DRESS Syndromes - A Narrative Review.."}, {"subject": "paracetamol", "subject_type": "Chemical", "relation": "causes", "object": "agep", "object_type": "Disease", "relation_confidence": 0.9803395867347717, "paper_id": "MED-37151075", "title": "Paracetamol (Acetaminophen)-associated SJS, TEN, AGEP, and DRESS Syndromes - A Narrative Review.", "publication_date": "2024", "doi": "10.2174/1574886318666230505144014", "pmid": "37151075", "evidence_text": "Paracetamol (Acetaminophen)-associated SJS, TEN, AGEP, and DRESS Syndromes - A Narrative Review.."}, {"subject": "paracetamol", "subject_type": "Chemical", "relation": "causes", "object": "dress", "object_type": "Disease", "relation_confidence": 0.61222904920578, "paper_id": "MED-37151075", "title": "Paracetamol (Acetaminophen)-associated SJS, TEN, AGEP, and DRESS Syndromes - A Narrative Review.", "publication_date": "2024", "doi": "10.2174/1574886318666230505144014", "pmid": "37151075", "evidence_text": "Paracetamol (Acetaminophen)-associated SJS, TEN, AGEP, and DRESS Syndromes - A Narrative Review.."}, {"subject": "paracetamol", "subject_type": "Chemical", "relation": "treats", "object": "low back pain", "object_type": "Disease", "relation_confidence": 0.9942079782485962, "paper_id": "MED-32878493", "title": "Paracetamol for low back pain: the state of the research field.", "publication_date": "2020", "doi": "10.1080/17512433.2020.1817738", "pmid": "32878493", "evidence_text": "Paracetamol for low back pain: the state of the research field.."}, {"subject": "paracetamol", "subject_type": "Chemical", "relation": "causes", "object": "hypotension", "object_type": "Disease", "relation_confidence": 0.9952002763748169, "paper_id": "MED-34102027", "title": "A narrative review of paracetamol-induced hypotension: Keeping the patient safe.", "publication_date": "2022", "doi": "10.24953/sturkjped.2016.05.016", "pmid": "34102027", "evidence_text": "A narrative review of paracetamol-induced hypotension: Keeping the patient safe.."}];
-        const RAW_STATS = {"query": "Paracetamol", "timestamp": "20260820_220813", "total_nodes": 9, "total_edges": 8, "unique_relations": 8, "nodes_by_type": {"Chemical": 1, "Disease": 8}, "relations_distribution": {"causes": 6, "treats": 2}};
-        const RAW_OPPORTUNITIES = [{"drug": "paracetamol", "disease": "low back pain", "signal_score": 72, "evidence_rating": 3, "novelty": "Known", "connection_type": "direct", "mechanistic_chain": [{"step": 1, "from_node": "paracetamol", "from_type": "Chemical", "relation": "treats", "to_node": "low back pain", "to_type": "Disease", "confidence": 0.994}], "score_breakdown": {"overall_score": 72, "mechanistic_evidence": 94, "clinical_evidence": 65, "literature_support": 74, "novelty": 45, "recent_activity": 85}, "summary": "paracetamol is documented in clinical literature to treat low back pain."}, {"drug": "paracetamol", "disease": "overdose", "signal_score": 71, "evidence_rating": 3, "novelty": "Known", "connection_type": "direct", "mechanistic_chain": [{"step": 1, "from_node": "paracetamol", "from_type": "Chemical", "relation": "treats", "to_node": "overdose", "to_type": "Disease", "confidence": 0.753}], "score_breakdown": {"overall_score": 71, "mechanistic_evidence": 90, "clinical_evidence": 65, "literature_support": 74, "novelty": 45, "recent_activity": 85}, "summary": "paracetamol is documented in clinical literature to treat overdose."}];
-        const RAW_DRUG_PROFILE = {"name": "Paracetamol", "pubchem_cid": 1983, "drug_class": "Beta-Adrenergic Blocker", "molecular_formula": "C8H9NO2", "molecular_weight": "151.16 g/mol", "canonical_smiles": "", "iupac_name": "N-(4-hydroxyphenyl)acetamide", "structure_image_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/1983/PNG", "current_uses": ["In general", "Those with allergic tendencies", "Acetaminophen", "Is a non-opioid analgesic", "Fever. numerous diseases", "Analgesics"], "mechanisms": ["Competitive receptor modulation"], "side_effects": ["Toxic epidermal necrolysis (ten)", "Rash", "Blisters", "Capsule", "Which can lead to liver failure", "Liver transplant"], "clinical_studies_count": 450, "research_trend": "Increasing (Last 6 months)", "trend_direction": "up"};
-        const QUERY_STRING = "Paracetamol";
+        const RAW_NODES = [{"name": "gliclazide", "type": "Chemical"}, {"name": "bradycardia", "type": "Disease"}, {"name": "breast cancer", "type": "Disease"}, {"name": "type 2 diabetes", "type": "Disease"}, {"name": "mild cognitive impairment", "type": "Disease"}];
+        const RAW_EDGES = [{"source": "gliclazide", "target": "bradycardia", "relation": "causes", "confidence": 0.9937764406204224}, {"source": "gliclazide", "target": "breast cancer", "relation": "treats", "confidence": 0.9885174036026001}, {"source": "gliclazide", "target": "type 2 diabetes", "relation": "treats", "confidence": 0.9858176112174988}, {"source": "gliclazide", "target": "type 2 diabetes", "relation": "treats", "confidence": 0.9201418161392212}, {"source": "gliclazide", "target": "mild cognitive impairment", "relation": "treats", "confidence": 0.7508137226104736}];
+        const RAW_EVIDENCE = [{"subject": "gliclazide", "subject_type": "Chemical", "relation": "causes", "object": "bradycardia", "object_type": "Disease", "relation_confidence": 0.9937764406204224, "paper_id": "42438802", "title": "A rare case of gliclazide-induced symptomatic bradycardia in type 2 diabetes mellitus.", "publication_date": "2026-07-13", "doi": "10.1210/jcemcr/luag161", "pmid": "42438802", "evidence_text": "A rare case of gliclazide-induced symptomatic bradycardia in type 2 diabetes mellitus.."}, {"subject": "gliclazide", "subject_type": "Chemical", "relation": "treats", "object": "breast cancer", "object_type": "Disease", "relation_confidence": 0.9885174036026001, "paper_id": "42212674", "title": "RGD-Functionalized ZIF-8 Nanocarriers Enable Highly Selective Delivery of Repurposed Gliclazide in Breast Cancer.", "publication_date": "2026-05-29", "doi": "10.1021/acsabm.6c00092", "pmid": "42212674", "evidence_text": "RGD-Functionalized ZIF-8 Nanocarriers Enable Highly Selective Delivery of Repurposed Gliclazide in Breast Cancer.."}, {"subject": "gliclazide", "subject_type": "Chemical", "relation": "treats", "object": "type 2 diabetes", "object_type": "Disease", "relation_confidence": 0.9858176112174988, "paper_id": "41619161", "title": "Henagliflozin enhances frontal neural activation and cognitive function versus gliclazide in type 2 diabetes patients with mild cognitive impairment: A 16-week randomized controlled trial.", "publication_date": "2026-01-31", "doi": "10.1007/s40618-025-02775-2", "pmid": "41619161", "evidence_text": "Henagliflozin enhances frontal neural activation and cognitive function versus gliclazide in type 2 diabetes patients with mild cognitive impairment: A 16-week randomized controlled trial.."}, {"subject": "gliclazide", "subject_type": "Chemical", "relation": "treats", "object": "mild cognitive impairment", "object_type": "Disease", "relation_confidence": 0.7508137226104736, "paper_id": "41619161", "title": "Henagliflozin enhances frontal neural activation and cognitive function versus gliclazide in type 2 diabetes patients with mild cognitive impairment: A 16-week randomized controlled trial.", "publication_date": "2026-01-31", "doi": "10.1007/s40618-025-02775-2", "pmid": "41619161", "evidence_text": "Henagliflozin enhances frontal neural activation and cognitive function versus gliclazide in type 2 diabetes patients with mild cognitive impairment: A 16-week randomized controlled trial.."}, {"subject": "gliclazide", "subject_type": "Chemical", "relation": "treats", "object": "type 2 diabetes", "object_type": "Disease", "relation_confidence": 0.9201418161392212, "paper_id": "41442030", "title": "Correction to: Cost-Consequences of Adding Gliclazide Modified Release to Metformin in Patients with Uncontrolled Type 2 Diabetes in the United Arab Emirates.", "publication_date": "2026-02-01", "doi": "10.1007/s12325-025-03451-w", "pmid": "41442030", "evidence_text": "Correction to: Cost-Consequences of Adding Gliclazide Modified Release to Metformin in Patients with Uncontrolled Type 2 Diabetes in the United Arab Emirates.."}];
+        const RAW_STATS = {"query": "Gliclazide", "timestamp": "20260820_231152", "total_nodes": 5, "total_edges": 5, "unique_relations": 4, "nodes_by_type": {"Chemical": 1, "Disease": 4}, "relations_distribution": {"causes": 1, "treats": 4}};
+        const RAW_OPPORTUNITIES = [{"drug": "gliclazide", "disease": "type 2 diabetes", "signal_score": 75, "evidence_rating": 4, "novelty": "Known", "connection_type": "direct", "mechanistic_chain": [{"step": 1, "from_node": "gliclazide", "from_type": "Chemical", "relation": "treats", "to_node": "type 2 diabetes", "to_type": "Disease", "confidence": 0.986}], "score_breakdown": {"overall_score": 75, "mechanistic_evidence": 94, "clinical_evidence": 70, "literature_support": 78, "novelty": 45, "recent_activity": 85}, "summary": "gliclazide is documented in clinical literature to treat type 2 diabetes."}, {"drug": "gliclazide", "disease": "breast cancer", "signal_score": 72, "evidence_rating": 3, "novelty": "Known", "connection_type": "direct", "mechanistic_chain": [{"step": 1, "from_node": "gliclazide", "from_type": "Chemical", "relation": "treats", "to_node": "breast cancer", "to_type": "Disease", "confidence": 0.989}], "score_breakdown": {"overall_score": 72, "mechanistic_evidence": 94, "clinical_evidence": 65, "literature_support": 74, "novelty": 45, "recent_activity": 85}, "summary": "gliclazide is documented in clinical literature to treat breast cancer."}, {"drug": "gliclazide", "disease": "mild cognitive impairment", "signal_score": 71, "evidence_rating": 3, "novelty": "Known", "connection_type": "direct", "mechanistic_chain": [{"step": 1, "from_node": "gliclazide", "from_type": "Chemical", "relation": "treats", "to_node": "mild cognitive impairment", "to_type": "Disease", "confidence": 0.751}], "score_breakdown": {"overall_score": 71, "mechanistic_evidence": 90, "clinical_evidence": 65, "literature_support": 74, "novelty": 45, "recent_activity": 85}, "summary": "gliclazide is documented in clinical literature to treat mild cognitive impairment."}];
+        const RAW_DRUG_PROFILE = {"name": "Gliclazide", "pubchem_cid": 3475, "drug_class": "Small Molecule Pharmaceutical", "molecular_formula": "C15H21N3O3S", "molecular_weight": "323.40 g/mol", "canonical_smiles": "", "iupac_name": "1-(3,3a,4,5,6,6a-hexahydro-1H-cyclopenta[c]pyrrol-2-yl)-3-(4-methylphenyl)sulfonylurea", "structure_image_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/3475/PNG", "current_uses": ["Exercise.", "Use (kg", "Approx.) in germany (2009): >10", "Consumption (g per capita", "Approx.) in germany (2009): 0.000122", "Calculated removal (%): 23.2"], "mechanisms": ["Competitive receptor modulation"], "side_effects": ["Nausea", "Fatigue", "Mild headache"], "clinical_studies_count": 35, "research_trend": "Active", "trend_direction": "up"};
+        const QUERY_STRING = "Gliclazide";
 
         let network = null;
         let visNodes = null;

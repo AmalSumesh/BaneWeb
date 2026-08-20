@@ -2,22 +2,22 @@
 DRUG REPURPOSING ENGINE - PIPELINE EXECUTION SUMMARY
 ================================================================================
 
-Query: Paracetamol
-Timestamp: 20260820_220813
+Query: Gliclazide
+Timestamp: 20260820_231152
 
 RESULTS:
 --------------------------------------------------------------------------------
-Total Biomedical Entities Extracted: 9
-Total Relationships Discovered: 8
-Unique Relation Types: 8
+Total Biomedical Entities Extracted: 5
+Total Relationships Discovered: 5
+Unique Relation Types: 4
 
 Nodes by Type:
   - Chemical: 1
-  - Disease: 8
+  - Disease: 4
 
 Relationships Distribution:
-  - causes: 6
-  - treats: 2
+  - causes: 1
+  - treats: 4
 
 ================================================================================
 OUTPUT FILES:

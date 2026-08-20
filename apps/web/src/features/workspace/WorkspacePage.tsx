@@ -85,12 +85,21 @@ export function WorkspacePage() {
       return <ScoreBreakdownView signalId={flowRoute.id} onNavigate={navigate} />;
     }
 
-    if (path === "/workspace/opportunities" || path === "/workspace/relations" || path === "/pipeline/relations") {
+    if (path === "/workspace/relations" || path === "/pipeline/relations") {
       return <PipelineRelationsView onNavigate={navigate} />;
     }
 
-    if (path === "/workspace/papers" || path === "/workspace/scope" || path.startsWith("/pipeline/repurposing")) {
+    if (
+      path === "/workspace/opportunities" ||
+      path === "/workspace/scope" ||
+      path === "/workspace/repurposing" ||
+      path.startsWith("/pipeline/repurposing")
+    ) {
       return <PipelineRepurposingView onNavigate={navigate} />;
+    }
+
+    if (path === "/workspace/papers" || path.startsWith("/workspace/evidence") || path.startsWith("/pipeline/evidence")) {
+      return <PipelineEvidenceView onNavigate={navigate} />;
     }
 
     if (path === "/workspace/monitor") {

@@ -1,90 +1,56 @@
 {
   "nodes": [
     {
-      "name": "paracetamol",
+      "name": "gliclazide",
       "type": "Chemical"
     },
     {
-      "name": "attention deficit hyperactivity disorder",
+      "name": "bradycardia",
       "type": "Disease"
     },
     {
-      "name": "overdose",
+      "name": "breast cancer",
       "type": "Disease"
     },
     {
-      "name": "sjs",
+      "name": "type 2 diabetes",
       "type": "Disease"
     },
     {
-      "name": "ten",
-      "type": "Disease"
-    },
-    {
-      "name": "agep",
-      "type": "Disease"
-    },
-    {
-      "name": "dress",
-      "type": "Disease"
-    },
-    {
-      "name": "low back pain",
-      "type": "Disease"
-    },
-    {
-      "name": "hypotension",
+      "name": "mild cognitive impairment",
       "type": "Disease"
     }
   ],
   "edges": [
     {
-      "source": "paracetamol",
-      "target": "attention deficit hyperactivity disorder",
+      "source": "gliclazide",
+      "target": "bradycardia",
       "relation": "causes",
-      "confidence": 0.8145806789398193
+      "confidence": 0.9937764406204224
     },
     {
-      "source": "paracetamol",
-      "target": "overdose",
+      "source": "gliclazide",
+      "target": "breast cancer",
       "relation": "treats",
-      "confidence": 0.7533189058303833
+      "confidence": 0.9885174036026001
     },
     {
-      "source": "paracetamol",
-      "target": "sjs",
-      "relation": "causes",
-      "confidence": 0.991732120513916
-    },
-    {
-      "source": "paracetamol",
-      "target": "ten",
-      "relation": "causes",
-      "confidence": 0.9828348159790039
-    },
-    {
-      "source": "paracetamol",
-      "target": "agep",
-      "relation": "causes",
-      "confidence": 0.9803395867347717
-    },
-    {
-      "source": "paracetamol",
-      "target": "dress",
-      "relation": "causes",
-      "confidence": 0.61222904920578
-    },
-    {
-      "source": "paracetamol",
-      "target": "low back pain",
+      "source": "gliclazide",
+      "target": "type 2 diabetes",
       "relation": "treats",
-      "confidence": 0.9942079782485962
+      "confidence": 0.9858176112174988
     },
     {
-      "source": "paracetamol",
-      "target": "hypotension",
-      "relation": "causes",
-      "confidence": 0.9952002763748169
+      "source": "gliclazide",
+      "target": "type 2 diabetes",
+      "relation": "treats",
+      "confidence": 0.9201418161392212
+    },
+    {
+      "source": "gliclazide",
+      "target": "mild cognitive impairment",
+      "relation": "treats",
+      "confidence": 0.7508137226104736
     }
   ]
 }

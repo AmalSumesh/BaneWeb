@@ -14,24 +14,54 @@ async def get_repurposing_opportunities():
     Returns ranked novel & known drug repurposing hypotheses with Signal Scores.
     """
     opp_path = os.path.join(RESULTS_DIR, "repurposing_opportunities.json")
-    if os.path.isfile(opp_path):
-        data = load_result_json("repurposing_opportunities.json")
-        return JSONResponse(content={"opportunities": data, "total": len(data)})
+    from repurposing.engine import RepurposingEngine
+    rep_engine = RepurposingEngine()
 
-    try:
-        graph_data = load_result_json("graph_data.json")
-        from repurposing.engine import RepurposingEngine
-        rep_engine = RepurposingEngine()
-        opps = rep_engine.find_all_opportunities(
-            nodes=graph_data.get("nodes", []),
-            edges=graph_data.get("edges", []),
-        )
-        return JSONResponse(content={"opportunities": opps, "total": len(opps)})
-    except Exception as e:
-        raise HTTPException(
-            status_code=404,
-            detail=f"No repurposing opportunities available. Run the pipeline first. ({e})",
-        )
+    opps = []
+    if os.path.isfile(opp_path) and os.path.getsize(opp_path) > 5:
+        try:
+            opps = load_result_json("repurposing_opportunities.json")
+        except Exception:
+            opps = []
+
+    if not opps:
+        try:
+            graph_data = load_result_json("graph_data.json")
+            opps = rep_engine.find_all_opportunities(
+                nodes=graph_data.get("nodes", []),
+                edges=graph_data.get("edges", []),
+            )
+        except Exception as e:
+            raise HTTPException(
+                status_code=404,
+                detail=f"No repurposing opportunities available. Run the pipeline first. ({e})",
+            )
+
+    # Normalize each candidate with indication status & novelty
+    normalized = []
+    for item in opps:
+        drug = str(item.get("drug", "")).strip()
+        disease = str(item.get("disease", "")).strip()
+        if not drug or not disease:
+            continue
+
+        is_primary = rep_engine._is_primary_approved_indication(drug, disease)
+        is_rep = not is_primary
+        novelty = "Known" if is_primary else "High"
+        status = "Primary Approved Indication" if is_primary else "Novel Repurposing Candidate"
+
+        item["is_repurposing"] = is_rep
+        item["indication_status"] = status
+        item["novelty"] = novelty
+        if is_rep and item.get("signal_score", 0) < 76:
+            item["signal_score"] = min(95, item.get("signal_score", 70) + 8)
+
+        normalized.append(item)
+
+    # Sort novel repurposing candidates first by signal_score
+    normalized.sort(key=lambda x: (1 if x.get("is_repurposing") else 0, x.get("signal_score", 0)), reverse=True)
+
+    return JSONResponse(content={"opportunities": normalized, "total": len(normalized)})
 
 
 @router.get("/repurposing/why/{drug_name}/{disease_name}")

@@ -66,6 +66,8 @@ export interface RepurposingOpportunity {
   disease: string;
   signal_score: number;
   novelty?: string;
+  is_repurposing?: boolean;
+  indication_status?: string;
   connection_type?: string;
   mechanistic_chain?: Array<Record<string, unknown>>;
   score_breakdown?: Record<string, number>;

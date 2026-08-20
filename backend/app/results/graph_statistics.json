@@ -1,15 +1,15 @@
 {
-  "query": "Paracetamol",
-  "timestamp": "20260820_220813",
-  "total_nodes": 9,
-  "total_edges": 8,
-  "unique_relations": 8,
+  "query": "Gliclazide",
+  "timestamp": "20260820_231152",
+  "total_nodes": 5,
+  "total_edges": 5,
+  "unique_relations": 4,
   "nodes_by_type": {
     "Chemical": 1,
-    "Disease": 8
+    "Disease": 4
   },
   "relations_distribution": {
-    "causes": 6,
-    "treats": 2
+    "causes": 1,
+    "treats": 4
   }
 }

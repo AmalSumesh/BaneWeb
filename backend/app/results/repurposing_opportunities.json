@@ -1,7 +1,35 @@
 [
   {
-    "drug": "paracetamol",
-    "disease": "low back pain",
+    "drug": "gliclazide",
+    "disease": "type 2 diabetes",
+    "signal_score": 75,
+    "evidence_rating": 4,
+    "novelty": "Known",
+    "connection_type": "direct",
+    "mechanistic_chain": [
+      {
+        "step": 1,
+        "from_node": "gliclazide",
+        "from_type": "Chemical",
+        "relation": "treats",
+        "to_node": "type 2 diabetes",
+        "to_type": "Disease",
+        "confidence": 0.986
+      }
+    ],
+    "score_breakdown": {
+      "overall_score": 75,
+      "mechanistic_evidence": 94,
+      "clinical_evidence": 70,
+      "literature_support": 78,
+      "novelty": 45,
+      "recent_activity": 85
+    },
+    "summary": "gliclazide is documented in clinical literature to treat type 2 diabetes."
+  },
+  {
+    "drug": "gliclazide",
+    "disease": "breast cancer",
     "signal_score": 72,
     "evidence_rating": 3,
     "novelty": "Known",
@@ -9,12 +37,12 @@
     "mechanistic_chain": [
       {
         "step": 1,
-        "from_node": "paracetamol",
+        "from_node": "gliclazide",
         "from_type": "Chemical",
         "relation": "treats",
-        "to_node": "low back pain",
+        "to_node": "breast cancer",
         "to_type": "Disease",
-        "confidence": 0.994
+        "confidence": 0.989
       }
     ],
     "score_breakdown": {
@@ -25,11 +53,11 @@
       "novelty": 45,
       "recent_activity": 85
     },
-    "summary": "paracetamol is documented in clinical literature to treat low back pain."
+    "summary": "gliclazide is documented in clinical literature to treat breast cancer."
   },
   {
-    "drug": "paracetamol",
-    "disease": "overdose",
+    "drug": "gliclazide",
+    "disease": "mild cognitive impairment",
     "signal_score": 71,
     "evidence_rating": 3,
     "novelty": "Known",
@@ -37,12 +65,12 @@
     "mechanistic_chain": [
       {
         "step": 1,
-        "from_node": "paracetamol",
+        "from_node": "gliclazide",
         "from_type": "Chemical",
         "relation": "treats",
-        "to_node": "overdose",
+        "to_node": "mild cognitive impairment",
         "to_type": "Disease",
-        "confidence": 0.753
+        "confidence": 0.751
       }
     ],
     "score_breakdown": {
@@ -53,6 +81,6 @@
       "novelty": 45,
       "recent_activity": 85
     },
-    "summary": "paracetamol is documented in clinical literature to treat overdose."
+    "summary": "gliclazide is documented in clinical literature to treat mild cognitive impairment."
   }
 ]
