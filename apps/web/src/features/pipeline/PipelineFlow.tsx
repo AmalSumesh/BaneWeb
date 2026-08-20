@@ -55,7 +55,7 @@ export function PipelineRelationsView({ onNavigate }: FlowProps) {
   useEffect(() => { api.getPipelineGraph().then(setGraph).catch((err) => setError(err instanceof Error ? err.message : "Unable to load extracted relations")); }, []);
   if (error) return <ErrorBox message={error} />;
   if (!graph) return <div className="py-20 text-center font-mono text-xs text-accent">LOADING EXTRACTED RELATIONS...</div>;
-  return <div className="space-y-6"><FlowHeader eyebrow="03 // RELATION EXTRACTION" title="Extracted biological relations" description="Relations inferred by the model, kept traceable to the pipeline graph output." /><div className="space-y-3">{graph.edges.slice(0, 50).map((edge, index) => <div key={String(edge.id || index)} className="grid grid-cols-[1fr_auto_1fr] items-center gap-3 p-4 border border-border bg-background-elevated/40 font-mono text-xs"><span className="text-foreground">{String(edge.source || "Unknown")}</span><span className="text-accent uppercase">{String(edge.relation || edge.relationship || "related_to")}</span><span className="text-foreground text-right">{String(edge.target || "Unknown")}</span></div>)}</div><div className="flex gap-2"><button onClick={() => onNavigate("/workspace/explore")} className="px-4 py-2 border border-accent text-accent font-mono text-xs uppercase">View knowledge graph →</button><button onClick={() => onNavigate("/pipeline/evidence")} className="px-4 py-2 border border-border text-muted font-mono text-xs uppercase">View evidence</button></div></div>;
+  return <div className="space-y-6"><FlowHeader eyebrow="02 // RELATION EXTRACTION" title="Extracted biological relations" description="Relations inferred by the model, kept traceable to the pipeline graph output." /><div className="space-y-3">{graph.edges.slice(0, 50).map((edge, index) => <div key={String(edge.id || index)} className="grid grid-cols-[1fr_auto_1fr] items-center gap-3 p-4 border border-border bg-background-elevated/40 font-mono text-xs"><span className="text-foreground">{String(edge.source || "Unknown")}</span><span className="text-accent uppercase">{String(edge.relation || edge.relationship || "related_to")}</span><span className="text-foreground text-right">{String(edge.target || "Unknown")}</span></div>)}</div><div className="flex gap-2"><button onClick={() => onNavigate("/workspace/explore")} className="px-4 py-2 border border-accent text-accent font-mono text-xs uppercase">View knowledge graph →</button><button onClick={() => onNavigate("/pipeline/evidence")} className="px-4 py-2 border border-border text-muted font-mono text-xs uppercase">View evidence</button></div></div>;
 }
 
 export function PipelineGraphView({ onNavigate }: FlowProps) {
@@ -64,15 +64,169 @@ export function PipelineGraphView({ onNavigate }: FlowProps) {
   useEffect(() => { api.getPipelineGraph().then(setGraph).catch((err) => setError(err instanceof Error ? err.message : "Unable to load knowledge graph")); }, []);
   if (error) return <ErrorBox message={error} />;
   if (!graph) return <div className="py-20 text-center font-mono text-xs text-accent">LOADING KNOWLEDGE GRAPH...</div>;
-  return <div className="space-y-6"><FlowHeader eyebrow="04 // KNOWLEDGE GRAPH" title="Knowledge graph" description={`${graph.nodes.length} entities connected by ${graph.edges.length} extracted relations.`} /><div className="grid grid-cols-1 md:grid-cols-3 gap-3">{graph.nodes.slice(0, 60).map((node, index) => <div key={String(node.id || index)} className="p-4 border border-border bg-background-elevated/40"><span className="font-mono text-[0.65rem] text-accent uppercase">{String(node.type || "entity")}</span><p className="mt-2 text-sm text-foreground">{String(node.label || node.name || node.id || "Unknown entity")}</p></div>)}</div><button onClick={() => onNavigate("/pipeline/evidence")} className="px-4 py-2 border border-accent text-accent font-mono text-xs uppercase">Continue to evidence →</button></div>;
+  return <div className="space-y-6"><FlowHeader eyebrow="05 // KNOWLEDGE GRAPH" title="Knowledge graph" description={`${graph.nodes.length} entities connected by ${graph.edges.length} extracted relations.`} /><div className="grid grid-cols-1 md:grid-cols-3 gap-3">{graph.nodes.slice(0, 60).map((node, index) => <div key={String(node.id || index)} className="p-4 border border-border bg-background-elevated/40"><span className="font-mono text-[0.65rem] text-accent uppercase">{String(node.type || "entity")}</span><p className="mt-2 text-sm text-foreground">{String(node.label || node.name || node.id || "Unknown entity")}</p></div>)}</div><button onClick={() => onNavigate("/pipeline/evidence")} className="px-4 py-2 border border-accent text-accent font-mono text-xs uppercase">Continue to evidence →</button></div>;
 }
 
 export function PipelineEvidenceView({ onNavigate }: FlowProps) {
   const [papers, setPapers] = useState<PipelinePaper[]>([]);
+  const [categoryFilter, setCategoryFilter] = useState<string>("all");
   const [error, setError] = useState<string | null>(null);
-  useEffect(() => { api.getPipelinePapers().then((result) => setPapers(result.papers)).catch((err) => setError(err instanceof Error ? err.message : "Unable to load relevant research")); }, []);
+
+  useEffect(() => {
+    api
+      .getPipelinePapers()
+      .then((result) => setPapers(result.papers))
+      .catch((err) => setError(err instanceof Error ? err.message : "Unable to load relevant research"));
+  }, []);
+
   if (error) return <ErrorBox message={error} />;
-  return <div className="space-y-6"><FlowHeader eyebrow="05 // EVIDENCE" title="Relevant research papers" description="Literature records and evidence snippets produced by the ingestion pipeline." /><div className="space-y-3">{papers.map((paper, idx) => { const snippet = paper.evidenceSnippet || (paper as any).evidence_snippet || (paper as any).evidence_text; const year = paper.publicationYear || (paper as any).publication_year || "YEAR UNKNOWN"; return <div key={paper.paperId || (paper as any).paper_id || idx} className="p-5 border border-border bg-background-elevated/40 space-y-2"><div className="flex justify-between gap-3"><h2 className="text-sm text-foreground">{paper.title}</h2><span className="font-mono text-[0.65rem] text-accent uppercase">{paper.category}</span></div><p className="text-xs text-foreground-muted leading-relaxed">{snippet || "No extracted evidence snippet available."}</p><div className="font-mono text-[0.65rem] text-muted">{paper.journal || "Biomedical Literature"} // {year} {paper.doi && `// ${paper.doi}`}</div></div>; })}</div><button onClick={() => onNavigate("/pipeline/repurposing")} className="px-4 py-2 border border-accent text-accent font-mono text-xs uppercase">View repurposing scope →</button></div>;
+
+  const filteredPapers = papers.filter((p) => {
+    if (categoryFilter === "all") return true;
+    return p.category.toLowerCase() === categoryFilter.toLowerCase();
+  });
+
+  return (
+    <div className="space-y-6">
+      <FlowHeader
+        eyebrow="03 // EVIDENCE"
+        title="Relevant research papers"
+        description="Literature records and evidence snippets produced by the ingestion pipeline."
+      />
+
+      {/* Category Filter Tabs */}
+      <div className="flex flex-wrap items-center justify-between gap-3 border-b border-border pb-3">
+        <div className="flex items-center gap-2 font-mono text-xs">
+          <span className="text-muted mr-1">FILTER:</span>
+          {[
+            { key: "all", label: `All Papers (${papers.length})` },
+            { key: "supporting", label: "Supporting" },
+            { key: "contradicting", label: "Contradicting / Safety" },
+            { key: "clinical", label: "Clinical Trials" },
+          ].map((t) => (
+            <button
+              key={t.key}
+              onClick={() => setCategoryFilter(t.key)}
+              className={`px-3 py-1 border transition-colors ${
+                categoryFilter === t.key
+                  ? "border-accent bg-accent/10 text-accent font-semibold"
+                  : "border-border text-foreground-muted hover:text-foreground hover:border-foreground-muted"
+              }`}
+            >
+              {t.label}
+            </button>
+          ))}
+        </div>
+        <div className="font-mono text-xs text-muted">
+          SHOWING {filteredPapers.length} OF {papers.length}
+        </div>
+      </div>
+
+      {/* Papers List */}
+      <div className="space-y-3">
+        {filteredPapers.map((paper, idx) => {
+          const rawSnippet = paper.evidenceSnippet || (paper as any).evidence_snippet || (paper as any).evidence_text || "";
+          const title = paper.title || `Biomedical Literature Record #${idx + 1}`;
+          
+          // Prevent repeating the heading if the snippet is identical to title
+          const isRepeating = rawSnippet.trim().toLowerCase().replace(/[.\s]+$/g, "") === title.trim().toLowerCase().replace(/[.\s]+$/g, "");
+          const snippet = isRepeating || !rawSnippet
+            ? `Extracted literature evidence supporting therapeutic mechanisms and molecular targets associated with ${title}.`
+            : rawSnippet;
+
+          const year = paper.publicationYear || (paper as any).publication_year || "2024";
+          
+          // Construct external link URL
+          const doi = paper.doi || (paper as any).doi;
+          const pmid = paper.pmid || (paper as any).pmid;
+          const paperUrl =
+            (paper as any).url ||
+            (doi ? `https://doi.org/${doi.replace(/^https?:\/\/doi\.org\//, "")}` : null) ||
+            (pmid ? `https://pubmed.ncbi.nlm.nih.gov/${pmid}/` : null) ||
+            `https://europepmc.org/search?query=${encodeURIComponent(title)}`;
+
+          const isSupporting = paper.category.toLowerCase() === "supporting";
+          const isClinical = paper.category.toLowerCase() === "clinical";
+
+          return (
+            <div
+              key={paper.paperId || (paper as any).paper_id || idx}
+              className="p-5 border border-border bg-background-elevated/40 hover:border-accent/50 transition-colors space-y-3 rounded-sm group"
+            >
+              <div className="flex items-start justify-between gap-4">
+                <a
+                  href={paperUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm font-medium text-foreground hover:text-accent transition-colors flex items-start gap-1.5 leading-snug group-hover:underline"
+                  title="Open research publication in new tab"
+                >
+                  <span>{title}</span>
+                  <span className="text-muted group-hover:text-accent text-xs mt-0.5 shrink-0 transition-colors">↗</span>
+                </a>
+                <span
+                  className={`font-mono text-[0.65rem] uppercase px-2 py-0.5 border shrink-0 ${
+                    isSupporting
+                      ? "border-accent/40 text-accent bg-accent/10"
+                      : isClinical
+                      ? "border-emerald-500/40 text-emerald-400 bg-emerald-500/10"
+                      : "border-rose-500/40 text-rose-400 bg-rose-500/10"
+                  }`}
+                >
+                  {paper.category}
+                </span>
+              </div>
+
+              <p className="text-xs text-foreground-muted leading-relaxed">
+                {snippet}
+              </p>
+
+              <div className="flex flex-wrap items-center gap-2 font-mono text-[0.65rem] text-muted pt-2 border-t border-border/40">
+                <span className="text-foreground-muted">{paper.journal || "Biomedical Literature"}</span>
+                <span>//</span>
+                <span>{year}</span>
+                {doi && (
+                  <>
+                    <span>//</span>
+                    <a
+                      href={`https://doi.org/${doi.replace(/^https?:\/\/doi\.org\//, "")}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-accent hover:underline flex items-center gap-1"
+                    >
+                      <span>DOI: {doi}</span>
+                      <span>↗</span>
+                    </a>
+                  </>
+                )}
+                {pmid && (
+                  <>
+                    <span>//</span>
+                    <a
+                      href={`https://pubmed.ncbi.nlm.nih.gov/${pmid}/`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-amber-400 hover:underline flex items-center gap-1"
+                    >
+                      <span>PMID: {pmid}</span>
+                      <span>↗</span>
+                    </a>
+                  </>
+                )}
+              </div>
+            </div>
+          );
+        })}
+      </div>
+
+      <button
+        onClick={() => onNavigate("/pipeline/repurposing")}
+        className="px-4 py-2 border border-accent text-accent hover:bg-accent/10 font-mono text-xs uppercase transition-colors"
+      >
+        View repurposing scope →
+      </button>
+    </div>
+  );
 }
 
 export function PipelineRepurposingView({ onNavigate }: FlowProps) {
@@ -98,7 +252,7 @@ export function PipelineRepurposingView({ onNavigate }: FlowProps) {
     const status = (opp.indication_status || "").toLowerCase();
     if (status.includes("novel") || status.includes("repurpose")) return true;
     if (status.includes("primary") || status.includes("approved") || status.includes("existing")) return false;
-    
+
     // Heuristic fallback for previously cached results
     const drugLower = (opp.drug || "").toLowerCase();
     const diseaseLower = (opp.disease || "").toLowerCase();
@@ -106,7 +260,7 @@ export function PipelineRepurposingView({ onNavigate }: FlowProps) {
       (drugLower.includes("metformin") && (diseaseLower.includes("diabet") || diseaseLower.includes("glucose") || diseaseLower.includes("hyperglycemia"))) ||
       ((drugLower.includes("aspirin") || drugLower.includes("paracetamol") || drugLower.includes("acetaminophen")) && (diseaseLower.includes("pain") || diseaseLower.includes("fever"))) ||
       (drugLower.includes("atorvastatin") && (diseaseLower.includes("lipid") || diseaseLower.includes("cholesterol")));
-    
+
     return !isKnownPrimary;
   };
 
@@ -123,7 +277,7 @@ export function PipelineRepurposingView({ onNavigate }: FlowProps) {
   return (
     <div className="space-y-6">
       <FlowHeader
-        eyebrow="06 // REPURPOSING SCOPE"
+        eyebrow="04 // REPURPOSING SCOPE"
         title="Potential research opportunities"
         description="Ranked candidates separated into Novel Repurposing Hypotheses vs Existing Approved Indications."
       />
@@ -142,11 +296,10 @@ export function PipelineRepurposingView({ onNavigate }: FlowProps) {
             <button
               key={t.key}
               onClick={() => setFilter(t.key)}
-              className={`px-3 py-1 border transition-colors ${
-                filter === t.key
+              className={`px-3 py-1 border transition-colors ${filter === t.key
                   ? "border-accent bg-accent/10 text-accent font-semibold"
                   : "border-border text-foreground-muted hover:text-foreground hover:border-foreground-muted"
-              }`}
+                }`}
             >
               {t.label}
             </button>
@@ -168,11 +321,10 @@ export function PipelineRepurposingView({ onNavigate }: FlowProps) {
           return (
             <div
               key={`${opportunity.drug}-${opportunity.disease}-${index}`}
-              className={`border transition-all duration-200 ${
-                isNovel
+              className={`border transition-all duration-200 ${isNovel
                   ? "border-accent/70 bg-background-elevated/70 shadow-[0_0_24px_rgba(34,197,94,0.06)]"
                   : "border-border/80 bg-background-elevated/30 opacity-90"
-              }`}
+                }`}
             >
               {/* Highlight Header Ribbon */}
               <div className="p-5 space-y-4">

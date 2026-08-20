@@ -24,12 +24,6 @@ export function WorkspaceShell({ currentPath, onNavigate, children }: WorkspaceS
     { label: "DISPENSARIES", path: "/workspace/dispensaries" },
   ];
 
-  const secondaryNavItems = [
-    { label: "MONITOR", path: "/workspace/monitor" },
-    { label: "ALERTS", path: "/workspace/alerts" },
-    { label: "SAVED", path: "/workspace/saved" },
-  ];
-
   const handleSelectSearchResult = (result: SearchResult) => {
     if (typeof window !== "undefined") {
       sessionStorage.setItem("active_drug_id", result.id);
@@ -171,9 +165,6 @@ export function WorkspaceShell({ currentPath, onNavigate, children }: WorkspaceS
 
           {/* Right Action Cluster */}
           <div className="flex items-center gap-3">
-            {/* Theme Toggle in Workspace */}
-            <ThemeToggle />
-
             {/* Search Trigger Button (Mobile) */}
             <button
               onClick={() => onNavigate("/pipeline")}
@@ -186,26 +177,10 @@ export function WorkspaceShell({ currentPath, onNavigate, children }: WorkspaceS
               <kbd className="text-[0.65rem] border border-border px-1">⌘K</kbd>
             </button>
 
-            {/* Secondary NavItems (Desktop) */}
-            <div className="hidden sm:flex items-center gap-2 font-mono text-[0.68rem]">
-              {secondaryNavItems.map((item) => {
-                const isActive = currentPath === item.path;
-                return (
-                  <button
-                    key={item.path}
-                    onClick={() => onNavigate(item.path)}
-                    className={`uppercase px-2.5 py-1 transition-colors border ${isActive
-                        ? "border-amber-500/60 text-amber-300 bg-amber-500/10"
-                        : "border-border text-muted hover:text-foreground hover:border-border"
-                      }`}
-                  >
-                    {item.label}
-                  </button>
-                );
-              })}
-            </div>
+            {/* Theme Toggle placed cleanly on the far right */}
+            <ThemeToggle />
 
-            {/* Mobile Hamburger toggle */}
+            {/* Mobile Menu Hamburger */}
             <button
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
               className="lg:hidden font-mono text-xs px-2.5 py-1.5 border border-border text-foreground-muted"
@@ -226,19 +201,6 @@ export function WorkspaceShell({ currentPath, onNavigate, children }: WorkspaceS
                   setIsMobileMenuOpen(false);
                 }}
                 className="text-left py-2 px-3 border border-border/40 hover:border-amber-500 text-foreground-muted hover:text-foreground"
-              >
-                {item.label}
-              </button>
-            ))}
-            <div className="my-1 border-t border-border-subtle" />
-            {secondaryNavItems.map((item) => (
-              <button
-                key={item.path}
-                onClick={() => {
-                  onNavigate(item.path);
-                  setIsMobileMenuOpen(false);
-                }}
-                className="text-left py-2 px-3 border border-border/40 text-muted hover:text-foreground"
               >
                 {item.label}
               </button>

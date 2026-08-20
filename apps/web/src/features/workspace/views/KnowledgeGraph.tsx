@@ -138,7 +138,7 @@ export function KnowledgeGraph({ onNavigate }: KnowledgeGraphProps) {
       <div className="border-b border-border pb-6 flex flex-col md:flex-row md:items-end justify-between gap-4">
         <div>
           <span className="font-mono text-[0.65rem] uppercase tracking-[0.2em] text-accent">
-            KNOWLEDGE_GRAPH // VISUALIZER
+            05 // KNOWLEDGE GRAPH • TOPOLOGY VISUALIZER
           </span>
           <h1 className="font-display text-3xl md:text-4xl text-foreground mt-1 font-normal">
             Biological Relationship Explorer

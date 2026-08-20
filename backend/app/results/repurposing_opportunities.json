@@ -1,86 +1,92 @@
 [
   {
-    "drug": "gliclazide",
-    "disease": "type 2 diabetes",
-    "signal_score": 75,
+    "drug": "paracetamol",
+    "disease": "plasmodium knowlesi malaria",
+    "signal_score": 80,
     "evidence_rating": 4,
-    "novelty": "Known",
+    "novelty": "High",
+    "is_repurposing": true,
+    "indication_status": "Novel Repurposing Candidate",
     "connection_type": "direct",
     "mechanistic_chain": [
       {
         "step": 1,
-        "from_node": "gliclazide",
+        "from_node": "paracetamol",
         "from_type": "Chemical",
         "relation": "treats",
-        "to_node": "type 2 diabetes",
+        "to_node": "plasmodium knowlesi malaria",
         "to_type": "Disease",
-        "confidence": 0.986
+        "confidence": 0.963
       }
     ],
     "score_breakdown": {
-      "overall_score": 75,
+      "overall_score": 80,
       "mechanistic_evidence": 94,
+      "clinical_evidence": 65,
+      "literature_support": 74,
+      "novelty": 84,
+      "recent_activity": 85
+    },
+    "summary": "paracetamol demonstrates significant novel repurposing efficacy against plasmodium knowlesi malaria documented in biomedical research (treats)."
+  },
+  {
+    "drug": "paracetamol",
+    "disease": "pain",
+    "signal_score": 73,
+    "evidence_rating": 3,
+    "novelty": "Known",
+    "is_repurposing": false,
+    "indication_status": "Primary Approved Indication",
+    "connection_type": "direct",
+    "mechanistic_chain": [
+      {
+        "step": 1,
+        "from_node": "paracetamol",
+        "from_type": "Chemical",
+        "relation": "treats",
+        "to_node": "pain",
+        "to_type": "Disease",
+        "confidence": 0.895
+      }
+    ],
+    "score_breakdown": {
+      "overall_score": 73,
+      "mechanistic_evidence": 92,
       "clinical_evidence": 70,
       "literature_support": 78,
-      "novelty": 45,
+      "novelty": 40,
       "recent_activity": 85
     },
-    "summary": "gliclazide is documented in clinical literature to treat type 2 diabetes."
+    "summary": "paracetamol is the standard approved treatment for pain."
   },
   {
-    "drug": "gliclazide",
-    "disease": "breast cancer",
-    "signal_score": 72,
+    "drug": "paracetamol",
+    "disease": "cancer pain",
+    "signal_score": 69,
     "evidence_rating": 3,
     "novelty": "Known",
+    "is_repurposing": false,
+    "indication_status": "Primary Approved Indication",
     "connection_type": "direct",
     "mechanistic_chain": [
       {
         "step": 1,
-        "from_node": "gliclazide",
+        "from_node": "paracetamol",
         "from_type": "Chemical",
         "relation": "treats",
-        "to_node": "breast cancer",
+        "to_node": "cancer pain",
         "to_type": "Disease",
-        "confidence": 0.989
+        "confidence": 0.698
       }
     ],
     "score_breakdown": {
-      "overall_score": 72,
-      "mechanistic_evidence": 94,
+      "overall_score": 69,
+      "mechanistic_evidence": 88,
       "clinical_evidence": 65,
       "literature_support": 74,
-      "novelty": 45,
+      "novelty": 40,
       "recent_activity": 85
     },
-    "summary": "gliclazide is documented in clinical literature to treat breast cancer."
-  },
-  {
-    "drug": "gliclazide",
-    "disease": "mild cognitive impairment",
-    "signal_score": 71,
-    "evidence_rating": 3,
-    "novelty": "Known",
-    "connection_type": "direct",
-    "mechanistic_chain": [
-      {
-        "step": 1,
-        "from_node": "gliclazide",
-        "from_type": "Chemical",
-        "relation": "treats",
-        "to_node": "mild cognitive impairment",
-        "to_type": "Disease",
-        "confidence": 0.751
-      }
-    ],
-    "score_breakdown": {
-      "overall_score": 71,
-      "mechanistic_evidence": 90,
-      "clinical_evidence": 65,
-      "literature_support": 74,
-      "novelty": 45,
-      "recent_activity": 85
-    },
-    "summary": "gliclazide is documented in clinical literature to treat mild cognitive impairment."
+    "summary": "paracetamol is the standard approved treatment for cancer pain."
   }
 ]

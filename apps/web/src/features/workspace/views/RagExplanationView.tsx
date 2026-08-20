@@ -284,9 +284,8 @@ export function RagExplanationView({ onNavigate, initialQuery, initialDrug }: Ra
       {/* Header */}
       <div className="border-b border-border pb-6 flex flex-col md:flex-row md:items-end justify-between gap-4">
         <div>
-          <span className="font-mono text-[0.65rem] uppercase tracking-[0.2em] text-amber-500 font-semibold flex items-center gap-2">
-            <span className="w-1.5 h-1.5 rounded-full bg-amber-400 animate-pulse" />
-            BIORAG INTELLIGENCE ENGINE // EVIDENCE SYNTHESIS
+          <span className="font-mono text-[0.65rem] uppercase tracking-[0.2em] text-accent">
+            06 // AI EXPLANATION • BIORAG COPILOT
           </span>
           <h1 className="font-display text-3xl md:text-4xl text-foreground mt-1 font-normal">
             Literature & Evidence Explanation

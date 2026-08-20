@@ -1,56 +1,90 @@
 {
   "nodes": [
     {
-      "name": "gliclazide",
+      "name": "paracetamol",
       "type": "Chemical"
     },
     {
-      "name": "bradycardia",
+      "name": "bronchopulmonary dysplasia",
       "type": "Disease"
     },
     {
-      "name": "breast cancer",
+      "name": "toxicity",
       "type": "Disease"
     },
     {
-      "name": "type 2 diabetes",
+      "name": "behavioral and structural brain defects",
       "type": "Disease"
     },
     {
-      "name": "mild cognitive impairment",
+      "name": "hepatic injury",
+      "type": "Disease"
+    },
+    {
+      "name": "plasmodium knowlesi malaria",
+      "type": "Disease"
+    },
+    {
+      "name": "anaphylaxis",
+      "type": "Disease"
+    },
+    {
+      "name": "pain",
+      "type": "Disease"
+    },
+    {
+      "name": "cancer pain",
       "type": "Disease"
     }
   ],
   "edges": [
     {
-      "source": "gliclazide",
-      "target": "bradycardia",
+      "source": "paracetamol",
+      "target": "bronchopulmonary dysplasia",
       "relation": "causes",
-      "confidence": 0.9937764406204224
+      "confidence": 0.7910727858543396
     },
     {
-      "source": "gliclazide",
-      "target": "breast cancer",
-      "relation": "treats",
-      "confidence": 0.9885174036026001
+      "source": "paracetamol",
+      "target": "toxicity",
+      "relation": "causes",
+      "confidence": 0.9437047839164734
     },
     {
-      "source": "gliclazide",
-      "target": "type 2 diabetes",
-      "relation": "treats",
-      "confidence": 0.9858176112174988
+      "source": "paracetamol",
+      "target": "behavioral and structural brain defects",
+      "relation": "causes",
+      "confidence": 0.9822772145271301
     },
     {
-      "source": "gliclazide",
-      "target": "type 2 diabetes",
-      "relation": "treats",
-      "confidence": 0.9201418161392212
+      "source": "paracetamol",
+      "target": "hepatic injury",
+      "relation": "causes",
+      "confidence": 0.9959022402763367
     },
     {
-      "source": "gliclazide",
-      "target": "mild cognitive impairment",
+      "source": "paracetamol",
+      "target": "plasmodium knowlesi malaria",
       "relation": "treats",
-      "confidence": 0.7508137226104736
+      "confidence": 0.9633403420448303
+    },
+    {
+      "source": "paracetamol",
+      "target": "anaphylaxis",
+      "relation": "causes",
+      "confidence": 0.9955710768699646
+    },
+    {
+      "source": "paracetamol",
+      "target": "pain",
+      "relation": "treats",
+      "confidence": 0.8953368663787842
+    },
+    {
+      "source": "paracetamol",
+      "target": "cancer pain",
+      "relation": "treats",
+      "confidence": 0.6981126070022583
     }
   ]
 }

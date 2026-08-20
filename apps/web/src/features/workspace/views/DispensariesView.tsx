@@ -133,10 +133,9 @@ export function DispensariesView({ onNavigate }: DispensariesViewProps) {
       {/* Top Header & Overview */}
       <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 border-b border-border/40 pb-4">
         <div>
-          <div className="flex items-center gap-2 text-[0.65rem] font-mono text-accent uppercase tracking-wider">
-            <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
-            GEOSPATIAL INTELLIGENCE // LOCAL PHARMACOLOGY NETWORK
-          </div>
+          <span className="font-mono text-[0.65rem] uppercase tracking-[0.2em] text-accent">
+            07 // CLINICAL DISPENSARIES • LOCAL PHARMACOLOGY NETWORK
+          </span>
           <h1 className="text-xl md:text-2xl font-bold font-sans text-foreground mt-1">
             Dispensaries & Biomedical Localities
           </h1>

@@ -53,7 +53,7 @@ export function DrugOverviewView({ drugId, onNavigate }: FlowProps & { drugId: s
   return (
     <div className="space-y-6">
       <FlowHeader
-        eyebrow={`DRUG PHARMACOLOGY // ${drug.id.toUpperCase()}`}
+        eyebrow={`01 // DRUG PHARMACOLOGY • ${drug.name.toUpperCase()}`}
         title={drug.name}
         description={drug.description || "Backend drug entity profile and related research activity."}
       />
