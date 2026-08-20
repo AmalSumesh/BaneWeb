@@ -1,0 +1,215 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Instrument+Serif:ital@0;1&display=swap");
+
+@font-face {
+  font-family: "Footlight MT Light";
+  src: url("/fonts/FootlightMTProLight.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Light mode — warm ivory, pharma-appropriate default */
+:root,
+[data-theme="light"] {
+  --color-background: #f7f4ef;
+  --color-background-elevated: #fffcf7;
+  --color-background-subtle: #f0ebe3;
+  --color-foreground: #1c1917;
+  --color-foreground-muted: #57534e;
+  --color-muted: #78716c;
+  --color-border: #e7e0d5;
+  --color-border-subtle: #ede8df;
+  --color-accent: #3d6b9e;
+  --color-accent-muted: #2d5078;
+  --color-accent-glow: rgba(61, 107, 158, 0.1);
+  --color-accent-rgb: 61, 107, 158;
+  --color-foreground-rgb: 28, 25, 23;
+  --color-signal: #4a8f7c;
+  --color-biological: #5a8778;
+  --color-positive: #3d7a5c;
+  --color-warning: #9a6b2f;
+  --color-danger: #a14f4f;
+  --color-overlay: rgba(28, 25, 23, 0.45);
+  --color-hero-glow: rgba(61, 107, 158, 0.08);
+  --color-grain-opacity: 0.018;
+  --font-sans: "Footlight MT Light", "IBM Plex Sans", system-ui, sans-serif;
+  --font-display: "Footlight MT Light", "Instrument Serif", Georgia, serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+}
+
+/* Dark mode — restrained scientific, not neon cyber */
+[data-theme="dark"] {
+  --color-background: #07070a;
+  --color-background-elevated: #0d0d11;
+  --color-background-subtle: #111116;
+  --color-foreground: #e8e8ec;
+  --color-foreground-muted: #a8a8b0;
+  --color-muted: #5c5c66;
+  --color-border: #1c1c22;
+  --color-border-subtle: #141418;
+  --color-accent: #5b8def;
+  --color-accent-muted: #3d5f99;
+  --color-accent-glow: rgba(91, 141, 239, 0.15);
+  --color-accent-rgb: 91, 141, 239;
+  --color-foreground-rgb: 232, 232, 236;
+  --color-signal: #7eb8a8;
+  --color-biological: #6b9e8f;
+  --color-positive: #6ee7b7;
+  --color-warning: #fbbf24;
+  --color-danger: #f87171;
+  --color-overlay: rgba(0, 0, 0, 0.75);
+  --color-hero-glow: rgba(91, 141, 239, 0.06);
+  --color-grain-opacity: 0.035;
+}
+
+@layer base {
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    color-scheme: light;
+  }
+
+  html[data-theme="dark"] {
+    color-scheme: dark;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    font-feature-settings: "kern" 1, "liga" 1;
+    transition:
+      background-color 0.35s ease,
+      color 0.35s ease;
+  }
+
+  ::selection {
+    background: color-mix(in srgb, var(--color-accent) 25%, transparent);
+    color: var(--color-foreground);
+  }
+}
+
+@layer components {
+  .font-display {
+    font-family: var(--font-display);
+  }
+
+  .section-container {
+    @apply mx-auto w-full max-w-wide px-6 md:px-10 lg:px-16;
+  }
+
+  .section-label {
+    @apply font-mono text-[0.65rem] uppercase tracking-[0.2em] text-muted;
+  }
+
+  .editorial-headline {
+    font-family: var(--font-display);
+    @apply font-normal leading-[1.05] tracking-tight text-foreground;
+    font-size: clamp(2.25rem, 5.5vw, 4.75rem);
+  }
+
+  .editorial-subhead {
+    @apply text-foreground-muted leading-relaxed;
+    font-size: clamp(1rem, 1.5vw, 1.2rem);
+    max-width: 42ch;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center px-6 py-3 text-sm tracking-wide text-foreground transition-colors duration-300;
+    border: 1px solid color-mix(in srgb, var(--color-foreground) 20%, transparent);
+    background: color-mix(in srgb, var(--color-foreground) 4%, transparent);
+    border-radius: 2px;
+  }
+
+  .btn-primary:hover {
+    border-color: color-mix(in srgb, var(--color-foreground) 35%, transparent);
+    background: color-mix(in srgb, var(--color-foreground) 8%, transparent);
+  }
+
+  .btn-ghost {
+    @apply inline-flex items-center justify-center px-6 py-3 text-sm tracking-wide text-foreground-muted transition-colors duration-300;
+    border-radius: 2px;
+  }
+
+  .btn-ghost:hover {
+    @apply text-foreground;
+  }
+
+  .scientific-line {
+    stroke: var(--color-border);
+    stroke-width: 1;
+    fill: none;
+  }
+
+  .section-breaker {
+    @apply w-full h-0.5 bg-amber-500/70 block border-none my-0;
+  }
+
+  [data-theme="dark"] .section-breaker {
+    display: none;
+  }
+
+  .grain-overlay {
+    pointer-events: none;
+    opacity: var(--color-grain-opacity);
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  }
+
+  .hero-glow {
+    background: radial-gradient(
+      ellipse at 50% 40%,
+      var(--color-hero-glow),
+      transparent 60%
+    );
+  }
+
+  .cta-glow {
+    background: radial-gradient(
+      ellipse at 50% 80%,
+      var(--color-hero-glow),
+      transparent 50%
+    );
+  }
+
+  .text-positive {
+    color: var(--color-positive);
+  }
+
+  .bg-positive {
+    background-color: var(--color-positive);
+  }
+
+  .text-warning {
+    color: var(--color-warning);
+  }
+
+  .text-danger {
+    color: var(--color-danger);
+  }
+
+  .overlay-backdrop {
+    background: var(--color-overlay);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
