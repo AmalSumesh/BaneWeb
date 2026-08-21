@@ -39,20 +39,41 @@ async def get_relevant_papers(
     if os.path.isfile(evidence_path) and os.path.getsize(evidence_path) > 5:
         try:
             df_ev = pd.read_csv(evidence_path).fillna("")
+            seen_paper_keys = set()
             if not df_ev.empty:
                 for idx, row in df_ev.iterrows():
-                    title = row.get("title", "")
+                    title = str(row.get("title", "")).strip()
                     pid = str(row.get("paper_id", f"P_{idx}")).strip()
                     meta = paper_meta.get(pid, {})
                     
                     if not title:
                         title = meta.get("title", f"Biomedical Research Document #{idx + 1}")
 
+                    # Deduplicate papers by paper_id or title
+                    dedup_key = pid if (pid and not pid.startswith("P_")) else title.lower().strip()
+                    if dedup_key in seen_paper_keys:
+                        continue
+                    seen_paper_keys.add(dedup_key)
+
+                    title_lower = title.lower()
                     rel = str(row.get("relation", "")).lower()
-                    if "inhibits" in rel or "causes" in rel or "adverse" in rel:
-                        cat = "contradicting"
-                    elif "clinical" in str(title).lower() or "trial" in str(title).lower():
+                    snippet = str(row.get("evidence_text", "")).strip()
+                    if not snippet:
+                        abstract = str(meta.get("abstract", "")).strip()
+                        snippet = abstract[:280] + "..." if len(abstract) > 280 else abstract
+                    if not snippet:
+                        snippet = f"Documented biomedical association with {title}."
+
+                    snippet_lower = snippet.lower()
+
+                    # Smart categorization:
+                    # 1. Clinical trial keywords in title or snippet
+                    # 2. Adverse / toxic / causative disease relations -> contradicting / safety
+                    # 3. Therapeutic / efficacy / biological target modulation -> supporting
+                    if any(k in title_lower or k in snippet_lower for k in ["clinical trial", "trial", "randomised", "randomized", "placebo-controlled", "phase 1", "phase 2", "phase 3", "phase i", "phase ii", "phase iii"]):
                         cat = "clinical"
+                    elif any(k in rel or k in title_lower for k in ["causes", "toxicity", "adverse", "injury", "poisoning", "anaphylaxis", "damage", "death"]):
+                        cat = "contradicting"
                     else:
                         cat = "supporting"
 
@@ -62,14 +83,6 @@ async def get_relevant_papers(
 
                     # Determine journal
                     journal = str(row.get("journal") or meta.get("journal") or "Biomedical Literature")
-
-                    # Determine snippet: relation sentence -> abstract -> fallback
-                    snippet = str(row.get("evidence_text", "")).strip()
-                    if not snippet:
-                        abstract = str(meta.get("abstract", "")).strip()
-                        snippet = abstract[:280] + "..." if len(abstract) > 280 else abstract
-                    if not snippet:
-                        snippet = f"Documented biomedical association with {title}."
 
                     doi = str(row.get("doi") or meta.get("doi") or "")
                     pmid = str(row.get("pmid") or meta.get("pmid") or "")

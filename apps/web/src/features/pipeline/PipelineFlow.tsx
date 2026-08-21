@@ -52,10 +52,105 @@ export function PipelineStatusView({ onNavigate }: FlowProps) {
 export function PipelineRelationsView({ onNavigate }: FlowProps) {
   const [graph, setGraph] = useState<{ nodes: Array<Record<string, unknown>>; edges: Array<Record<string, unknown>> } | null>(null);
   const [error, setError] = useState<string | null>(null);
-  useEffect(() => { api.getPipelineGraph().then(setGraph).catch((err) => setError(err instanceof Error ? err.message : "Unable to load extracted relations")); }, []);
+
+  useEffect(() => {
+    api
+      .getPipelineGraph()
+      .then(setGraph)
+      .catch((err) => setError(err instanceof Error ? err.message : "Unable to load extracted relations"));
+  }, []);
+
   if (error) return <ErrorBox message={error} />;
   if (!graph) return <div className="py-20 text-center font-mono text-xs text-accent">LOADING EXTRACTED RELATIONS...</div>;
-  return <div className="space-y-6"><FlowHeader eyebrow="02 // RELATION EXTRACTION" title="Extracted biological relations" description="Relations inferred by the model, kept traceable to the pipeline graph output." /><div className="space-y-3">{graph.edges.slice(0, 50).map((edge, index) => <div key={String(edge.id || index)} className="grid grid-cols-[1fr_auto_1fr] items-center gap-3 p-4 border border-border bg-background-elevated/40 font-mono text-xs"><span className="text-foreground">{String(edge.source || "Unknown")}</span><span className="text-accent uppercase">{String(edge.relation || edge.relationship || "related_to")}</span><span className="text-foreground text-right">{String(edge.target || "Unknown")}</span></div>)}</div><div className="flex gap-2"><button onClick={() => onNavigate("/workspace/explore")} className="px-4 py-2 border border-accent text-accent font-mono text-xs uppercase">View knowledge graph →</button><button onClick={() => onNavigate("/pipeline/evidence")} className="px-4 py-2 border border-border text-muted font-mono text-xs uppercase">View evidence</button></div></div>;
+
+  // Deduplicate relations based on unique source + relation + target
+  const uniqueEdgesMap = new Map<
+    string,
+    {
+      id: string;
+      source: string;
+      relation: string;
+      target: string;
+      confidence?: number;
+      count: number;
+    }
+  >();
+
+  for (const [index, edge] of graph.edges.entries()) {
+    const source = String(edge.source || "Unknown").trim();
+    const relation = String(edge.relation || edge.relationship || "related_to").trim();
+    const target = String(edge.target || "Unknown").trim();
+    const key = `${source.toLowerCase()}::${relation.toLowerCase()}::${target.toLowerCase()}`;
+
+    const conf = typeof edge.confidence === "number" ? edge.confidence : undefined;
+
+    if (uniqueEdgesMap.has(key)) {
+      const existing = uniqueEdgesMap.get(key)!;
+      existing.count += 1;
+      if (conf !== undefined && (existing.confidence === undefined || conf > existing.confidence)) {
+        existing.confidence = conf;
+      }
+    } else {
+      uniqueEdgesMap.set(key, {
+        id: String(edge.id || `edge-${index}`),
+        source,
+        relation,
+        target,
+        confidence: conf,
+        count: 1,
+      });
+    }
+  }
+
+  const uniqueEdges = Array.from(uniqueEdgesMap.values());
+
+  return (
+    <div className="space-y-6">
+      <FlowHeader
+        eyebrow="02 // RELATION EXTRACTION"
+        title="Extracted biological relations"
+        description={`Relations inferred by the model. Showing ${uniqueEdges.length} unique relation${uniqueEdges.length === 1 ? "" : "s"}${
+          graph.edges.length > uniqueEdges.length ? ` (deduplicated from ${graph.edges.length} total extractions)` : ""
+        }.`}
+      />
+      <div className="space-y-3">
+        {uniqueEdges.map((edge) => (
+          <div
+            key={edge.id}
+            className="grid grid-cols-[1fr_auto_1fr] items-center gap-3 p-4 border border-border bg-background-elevated/40 font-mono text-xs hover:border-border/80 transition-colors"
+          >
+            <span className="text-foreground">{edge.source}</span>
+            <div className="flex items-center justify-center gap-2">
+              <span className="text-accent uppercase font-medium">{edge.relation}</span>
+              {edge.count > 1 && (
+                <span
+                  className="px-1.5 py-0.5 rounded text-[0.65rem] bg-accent/10 border border-accent/30 text-accent font-mono"
+                  title={`Supported by ${edge.count} research records`}
+                >
+                  {edge.count}x papers
+                </span>
+              )}
+            </div>
+            <span className="text-foreground text-right">{edge.target}</span>
+          </div>
+        ))}
+      </div>
+      <div className="flex gap-2">
+        <button
+          onClick={() => onNavigate("/workspace/explore")}
+          className="px-4 py-2 border border-accent text-accent font-mono text-xs uppercase hover:bg-accent-glow"
+        >
+          View knowledge graph →
+        </button>
+        <button
+          onClick={() => onNavigate("/pipeline/evidence")}
+          className="px-4 py-2 border border-border text-muted font-mono text-xs uppercase hover:text-foreground"
+        >
+          View evidence
+        </button>
+      </div>
+    </div>
+  );
 }
 
 export function PipelineGraphView({ onNavigate }: FlowProps) {
@@ -75,11 +170,26 @@ export function PipelineEvidenceView({ onNavigate }: FlowProps) {
   useEffect(() => {
     api
       .getPipelinePapers()
-      .then((result) => setPapers(result.papers))
+      .then((result) => {
+        const seen = new Set<string>();
+        const uniqueList: PipelinePaper[] = [];
+        for (const p of result.papers || []) {
+          const key = (p.paperId && !p.paperId.startsWith("P_") ? p.paperId : p.title).trim().toLowerCase();
+          if (!seen.has(key)) {
+            seen.add(key);
+            uniqueList.push(p);
+          }
+        }
+        setPapers(uniqueList);
+      })
       .catch((err) => setError(err instanceof Error ? err.message : "Unable to load relevant research"));
   }, []);
 
   if (error) return <ErrorBox message={error} />;
+
+  const supportingCount = papers.filter((p) => p.category.toLowerCase() === "supporting").length;
+  const contradictingCount = papers.filter((p) => p.category.toLowerCase() === "contradicting").length;
+  const clinicalCount = papers.filter((p) => p.category.toLowerCase() === "clinical").length;
 
   const filteredPapers = papers.filter((p) => {
     if (categoryFilter === "all") return true;
@@ -100,9 +210,9 @@ export function PipelineEvidenceView({ onNavigate }: FlowProps) {
           <span className="text-muted mr-1">FILTER:</span>
           {[
             { key: "all", label: `All Papers (${papers.length})` },
-            { key: "supporting", label: "Supporting" },
-            { key: "contradicting", label: "Contradicting / Safety" },
-            { key: "clinical", label: "Clinical Trials" },
+            { key: "supporting", label: `Supporting (${supportingCount})` },
+            { key: "contradicting", label: `Contradicting / Safety (${contradictingCount})` },
+            { key: "clinical", label: `Clinical Trials (${clinicalCount})` },
           ].map((t) => (
             <button
               key={t.key}
@@ -123,7 +233,18 @@ export function PipelineEvidenceView({ onNavigate }: FlowProps) {
       </div>
 
       {/* Papers List */}
-      <div className="space-y-3">
+      {filteredPapers.length === 0 ? (
+        <div className="p-8 text-center border border-border bg-background-elevated/20 font-mono text-xs text-muted space-y-2">
+          <p>No research papers found under the "{categoryFilter}" category.</p>
+          <button
+            onClick={() => setCategoryFilter("all")}
+            className="text-accent underline hover:text-accent-glow"
+          >
+            Reset filter to show all papers ({papers.length})
+          </button>
+        </div>
+      ) : (
+        <div className="space-y-3">
         {filteredPapers.map((paper, idx) => {
           const rawSnippet = paper.evidenceSnippet || (paper as any).evidence_snippet || (paper as any).evidence_text || "";
           const title = paper.title || `Biomedical Literature Record #${idx + 1}`;
@@ -150,7 +271,7 @@ export function PipelineEvidenceView({ onNavigate }: FlowProps) {
 
           return (
             <div
-              key={paper.paperId || (paper as any).paper_id || idx}
+              key={`${paper.paperId || "paper"}-${categoryFilter}-${paper.category}-${idx}`}
               className="p-5 border border-border bg-background-elevated/40 hover:border-accent/50 transition-colors space-y-3 rounded-sm group"
             >
               <div className="flex items-start justify-between gap-4">
@@ -218,6 +339,7 @@ export function PipelineEvidenceView({ onNavigate }: FlowProps) {
           );
         })}
       </div>
+      )}
 
       <button
         onClick={() => onNavigate("/pipeline/repurposing")}
@@ -289,8 +411,8 @@ export function PipelineRepurposingView({ onNavigate }: FlowProps) {
           {(
             [
               { key: "ALL", label: `All Candidates (${opportunities.length})` },
-              { key: "NOVEL", label: `✨ Novel Repurposing Hypotheses (${novelCount})` },
-              { key: "EXISTING", label: `📋 Existing Approved Indications (${existingCount})` },
+              { key: "NOVEL", label: `Novel Repurposing Hypotheses (${novelCount})` },
+              { key: "EXISTING", label: `Existing Approved Indications (${existingCount})` },
             ] as const
           ).map((t) => (
             <button
@@ -335,8 +457,8 @@ export function PipelineRepurposingView({ onNavigate }: FlowProps) {
                         #{index + 1}
                       </span>
                       {isNovel ? (
-                        <span className="font-mono text-[0.65rem] px-2.5 py-0.5 border border-amber-500/50 bg-amber-950/40 text-amber-300 uppercase tracking-wide font-semibold flex items-center gap-1">
-                          <span>✨</span> NOVEL REPURPOSING TARGET
+                        <span className="font-mono text-[0.65rem] px-2.5 py-0.5 border border-amber-500/50 bg-amber-950/40 text-amber-300 uppercase tracking-wide font-semibold">
+                          NOVEL REPURPOSING TARGET
                         </span>
                       ) : (
                         <span className="font-mono text-[0.65rem] px-2.5 py-0.5 border border-slate-600/50 bg-slate-900/40 text-slate-400 uppercase tracking-wide">

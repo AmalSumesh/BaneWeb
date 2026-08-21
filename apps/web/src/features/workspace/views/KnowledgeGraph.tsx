@@ -39,21 +39,32 @@ export function KnowledgeGraph({ onNavigate }: KnowledgeGraphProps) {
             const isCenter = idx === 0;
             const angle = ((idx - 1) / Math.max(res.nodes.length - 1, 1)) * Math.PI * 2 - Math.PI / 2;
             return {
-            id: String(n.id ?? n.name ?? `node-${idx}`),
-            type,
-            label,
-            sublabel: n.sublabel ? String(n.sublabel) : undefined,
-            x: typeof n.x === "number" ? n.x : isCenter ? 500 : 500 + Math.cos(angle) * 275,
-            y: typeof n.y === "number" ? n.y : isCenter ? 250 : 250 + Math.sin(angle) * 165,
+              id: String(n.id ?? n.name ?? `node-${idx}`),
+              type,
+              label,
+              sublabel: n.sublabel ? String(n.sublabel) : undefined,
+              x: typeof n.x === "number" ? n.x : isCenter ? 500 : 500 + Math.cos(angle) * 275,
+              y: typeof n.y === "number" ? n.y : isCenter ? 250 : 250 + Math.sin(angle) * 165,
             };
           });
 
-          const mappedEdges: GraphEdge[] = res.edges.map((e, idx) => ({
-            id: String(e.id ?? `edge-${idx}`),
-            source: String(e.source),
-            target: String(e.target),
-            label: String(e.relationship ?? e.relation ?? "related_to"),
-          }));
+          const seenEdgeKeys = new Set<string>();
+          const mappedEdges: GraphEdge[] = [];
+          for (const [idx, e] of res.edges.entries()) {
+            const src = String(e.source ?? "").trim();
+            const tgt = String(e.target ?? "").trim();
+            const rel = String(e.relationship ?? e.relation ?? "related_to").trim();
+            const edgeKey = `${src.toLowerCase()}::${rel.toLowerCase()}::${tgt.toLowerCase()}`;
+            if (!seenEdgeKeys.has(edgeKey)) {
+              seenEdgeKeys.add(edgeKey);
+              mappedEdges.push({
+                id: String(e.id ?? `edge-${idx}`),
+                source: src,
+                target: tgt,
+                label: rel,
+              });
+            }
+          }
 
           setNodes(mappedNodes);
           setEdges(mappedEdges);
